@@ -1,0 +1,4 @@
+.banner-innerpage {
+    background-size: cover; /* ili druge odgovarajuće vrijednosti */
+    height: 65vh; /* Dodajte ovu liniju kako biste osigurali punu visinu */
+  }

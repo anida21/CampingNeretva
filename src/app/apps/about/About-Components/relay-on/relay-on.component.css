@@ -1,0 +1,38 @@
+.wrap-feature1-box {
+    height: 400px; /* Prilagodite visinu prema potrebi */
+    margin-bottom: 20px; /* Dodajte željeni razmak između svake kartice */
+  }
+  
+  .card {
+    height: 100%;
+  }
+  
+  .img-icon {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Umjesto "contain" koristite "cover" */
+    margin: auto;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; /* Centrirajte elemente unutar kartice */
+  }
+  
+  
+  /* Dodatni stilovi po potrebi */
+  
+  .display-5 {
+    margin-bottom: 10px;
+  }
+  
+  .font-medium {
+    margin-top: 10px;
+  }
+  
+  .m-t-20 {
+    margin-top: 20px;
+  }
+  

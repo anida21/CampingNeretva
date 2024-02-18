@@ -1,0 +1,19 @@
+.touchSlider {
+    width: 800px;
+    height: 500px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.text-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: justify; /* Justify text for a cleaner look */
+    font-size: 1.0em;
+    font-weight: bold;
+  }
+  .previous-div {
+    margin-bottom: 50px; /* Adjust the margin as needed */
+  }
+  

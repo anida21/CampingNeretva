@@ -1,0 +1,552 @@
+<!--<div class= "center-form">
+  
+    <link rel="stylesheet" href="https://cdn.formbold.com/formbold.css" />
+    <br />
+    <div class="formbold-builder-form themeOne">
+      <form
+        enctype="multipart/form-data"
+        ngNoForm [action]="url"
+        method="POST"
+        class="mx-auto w-full max-w-[570px] rounded-[10px] border border-stroke bg-white p-10 themeOne"
+        id="contactform" 
+        >
+        <!--<div [formGroup]="form">
+            <div>
+          <div class="mb-4">
+            <label class="mb-2.5 block text-base text-black">
+              <span>Name</span>
+              <span class="label-required pl-1 text-red-400">*</span>
+            </label>
+            <input
+              name="name" 
+              id="name"
+              formControlName="from_name"
+              type="text"
+              class="w-full rounded border border-stroke bg-white px-5 py-3 text-base text-black outline-none focus:border-primary"
+              placeholder="Name"
+              required
+            />
+          </div>
+  
+          <div class="mb-4">
+            <label class="mb-2.5 block text-base text-black">
+              <span>Subject</span>
+              <span class="label-required pl-1 text-red-400">*</span>
+            </label>
+            <input
+              formControlName="subject"
+              type="text"
+              id="subject"
+              name="subject"  
+              class="w-full rounded border border-stroke bg-white px-5 py-3 text-base text-black outline-none focus:border-primary"
+              placeholder="Subject"
+              required
+            />
+          </div>
+  
+          <div class="mb-4">
+            <label class="mb-2.5 block text-base text-black">
+              <span>Email</span>
+              <span class="label-required pl-1 text-red-400">*</span>
+            </label>
+            <input
+              formControlName="from_email"
+              type="text"
+              id="email"
+              name="email"  
+              class="w-full rounded border border-stroke bg-white px-5 py-3 text-base text-black outline-none focus:border-primary"
+              placeholder="Email"
+              required
+            />
+          </div>
+  
+          <div class="mb-4">
+            <label class="mb-2.5 block text-base text-black">
+              <span>Arrival Date</span>
+            </label>
+            <input
+              formControlName="arrival_date"
+              type="date"
+              id="arrival_date"
+              name="arrival_date" 
+              class="w-full rounded border border-stroke bg-white px-5 py-3 text-base text-black outline-none focus:border-primary"
+            />
+          </div>
+  
+          <div class="mb-4">
+            <label class="mb-2.5 block text-base text-black">
+              <span>Departure Date</span>
+            </label>
+            <input
+              formControlName="departure_date"
+              type="date"
+              id="departure_date"
+              name="departure_date"
+              class="w-full rounded border border-stroke bg-white px-5 py-3 text-base text-black outline-none focus:border-primary"
+            />
+          </div>
+  
+          <div class="mb-4">
+            <label class="mb-2.5 block text-base text-black">
+              <span>Message</span>
+            </label>
+            <textarea
+              formControlName="message"
+              id="message"  
+              name="message"
+              class="w-full rounded border border-stroke bg-white px-5 py-3 text-base text-black outline-none focus:border-primary"
+              placeholder="Message"
+            ></textarea>
+          </div>
+  
+          <div class="btn-toolbar flex items-center space-x-3">
+            <input
+              type="submit"
+              class="inline-flex cursor-pointer items-center justify-center rounded border border-primary bg-primary px-8 py-2 text-base font-medium text-white hover:bg-opacity-90"
+              value="Submit"
+            />
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+<!-- your-component.component.html 
+<div class="form">
+    <form action="https://formsubmit.co/didamujezin@gmail.com" method="POST">
+        <input type="text" name="name" required placeholder="Full Name">
+        <input type="email" name="email" required placeholder="Email">
+        <button type="submit">Send</button>
+    </form>
+</div>
+
+
+<div class="center-form">
+<div class="form">
+<form ngNoForm  [action]="url" method="POST" >
+<input type="text" name="name" required placeholder="Full Name">
+        <input type="email" name="email" required placeholder="Email">
+ <button type="submit">Sumbmit</button>
+</form>
+</div>
+</div>
+
+<div class="center-form">
+    <div class="form">
+<form id="contactform" ngNoForm  [action]="url" method="POST">
+    <input name="name" type="text" id="name">
+    <input name="email" type="email" id="email">
+    <textarea name="comment" id="comment" rows="3"></textarea>
+
+    <input name="_formsubmit_id" type="text" style="display:none">
+
+    <button  type="submit" 
+    class="button"
+    >Sumbmit</button>
+</form>
+    </div>
+</div>-->
+<div
+  class="banner-innerpage"
+  style="background-image: url(assets/images/innerpage/dronedark.JPG)"
+>
+  <div class="container">
+    <!-- Row  -->
+    <div class="row justify-content-center">
+      <!-- Column -->
+      <div class="col-lg-9 col-md-6 align-self-center text-center no-trans">
+        <h1 class="title2">RESERVATION</h1>
+      </div>
+      <!-- Column -->
+    </div>
+  </div>
+</div>
+<div class="main">
+<div class="container2">
+  <div class="signin-signup">
+    <form action="" class="sign-in-form" method="POST">
+      <h2 class="title">Camping site reservation</h2>
+      <div class="input-field">
+        <label for="name">Name:</label>
+        <input type="text" 
+          required=""
+          value=""
+          name="Name" 
+          [(ngModel)]="Name"
+          id="name">
+      </div>
+      <div class="input-field">
+        <label for="phoneNumber">Phone Number:</label>
+        <input type="text" 
+          required=""
+          value=""
+          name="PhoneNumber" 
+          [(ngModel)]="PhoneNumber"
+          id="phoneNumber">
+      </div>
+      <div class="input-field"> 
+        <label for="email">Email:</label>
+        <input type="text"
+          required=""
+          value=""
+          name="Email" 
+          [(ngModel)]="Email"
+          id="email">
+      </div>
+      <div class="input-field">
+        <label for="typeOfVehicle">Type Of Vehicle:</label>
+        <input type="text" 
+          required=""
+          value=""
+          name="TypeOfVehicle"
+          [(ngModel)]="TypeOfVehicle"
+          id="typeOfVehicle">
+      </div>
+      <div class="input-field">
+        <label for="checkIn">Check In:</label>
+        <input type="date" id="checkIn" name="checkOut" [(ngModel)]="CheckIn" placeholder="Check In">
+      </div>
+      <div class="input-field">
+        <label for="checkOut">Check Out:</label>
+        <input type="date" id="checkOut" name="checkOut" [(ngModel)]="CheckOut" placeholder="Check Out">
+      </div>
+      <div class="SortableItem fb-builder-item">
+        <div class="mb-4">
+          <label class="form-label mb-4 text-base text-black"
+            ><span>Additional Campsite Amenities</span></label
+          >
+      <div class="custom-control custom-checkbox mb-2.5 last:mb-0">
+        <input
+          id="fid_preview_checkboxes_option_2ED14DD9-4A0E-4FCD-BB4A-37759E6CC047"
+          class="custom-control-input fb-builder-checkbox sr-only"
+          name="option_checkboxes_option_2ED14DD9-4A0E-4FCD-BB4A-37759E6CC047"
+          type="checkbox"
+          value="place_holder_option_1"
+          [(ngModel)] = "CheckBox1"
+        /><label
+          class="custom-control-label relative flex cursor-pointer text-base text-black"
+          for="fid_preview_checkboxes_option_2ED14DD9-4A0E-4FCD-BB4A-37759E6CC047"
+          ><span
+            class="relative mr-2.5 mt-0.5 block h-[18px] w-[18px] rounded border border-stroke bg-white"
+            ><span
+              class="absolute left-0 top-0 flex h-full w-full items-center justify-center rounded opacity-0"
+              ></span></span
+          >Pets</label
+        >
+      </div>
+      <div class="custom-control custom-checkbox mb-2.5 last:mb-0">
+        <input
+          id="fid_preview_checkboxes_option_456E49C0-0296-40D6-9392-891ED69A2B04"
+          class="custom-control-input fb-builder-checkbox sr-only"
+          name="option_checkboxes_option_456E49C0-0296-40D6-9392-891ED69A2B04"
+          type="checkbox"
+          value="place_holder_option_2"
+          [(ngModel)] = "CheckBox2"
+        /><label
+          class="custom-control-label relative flex cursor-pointer text-base text-black"
+          for="fid_preview_checkboxes_option_456E49C0-0296-40D6-9392-891ED69A2B04"
+          ><span
+            class="relative mr-2.5 mt-0.5 block h-[18px] w-[18px] rounded border border-stroke bg-white"
+            ><span
+              class="absolute left-0 top-0 flex h-full w-full items-center justify-center rounded opacity-0"
+              ></span></span
+          >Electricity</label
+        >
+      </div>
+      </div>
+      </div>
+      <div class="input-field">
+        <label for="message">Message:</label>
+        <input type="text" id="message" name="message" [(ngModel)]="Message">
+      </div>
+      <input type="submit" value="SUBMIT" class="btn" (click)="saveEmail()">
+    </form>
+    <form action="" class="sign-up-form">
+    </form>
+  </div>
+  <div class="panels-container">
+    <div class="panel left-panel">
+      <div class="content">
+      </div>
+    </div>
+    <div class="panel right-panel">
+      <div class="content">
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<!--<div class= "center-form">
+    <link rel="stylesheet" href="https://cdn.formbold.com/formbold.css" />
+    <br />
+    <div class="formbold-builder-form themeOne">
+      <form
+        enctype="multipart/form-data"
+        action="https://formbold.com/s/91Edn"
+        method="POST"
+        class="mx-auto w-full max-w-[570px] rounded-[10px] border border-stroke bg-white p-10 themeOne"
+  
+      >
+        <div class="SortableItem fb-builder-item">
+          <h3
+            class="static !font-bold italic text-xl font-semibold leading-tight text-black sm:text-[28px]"
+          >
+            Camping site reservation
+          </h3>
+        </div>
+        <div class="SortableItem fb-builder-item">
+          <div class="mb-4">
+            <label class="mb-2.5 block text-base text-black"
+              ><span>Name</span
+              ><span class="label-required pl-1 text-red-400">*</span></label
+            ><input
+              type="text"
+              class="w-full rounded border border-stroke bg-white px-5 py-3 text-base text-black outline-none focus:border-primary"
+              name="text_input_956F5175-3990-4990-AA99-DEE54B6F8A0C"
+              placeholder="Name"
+              required=""
+              value=""
+              [(ngModel)] = "Name"
+            />
+          </div>
+        </div>
+        <div class="SortableItem fb-builder-item">
+          <div class="mb-4">
+            <label class="mb-2.5 block text-base text-black"
+              ><span>Phone Number</span
+              ><span class="label-required pl-1 text-red-400">*</span></label
+            ><input
+              type="tel"
+              class="w-full rounded border border-stroke bg-white px-5 py-3 text-base text-black outline-none focus:border-primary"
+              name="phone_input_C03C03CD-B6E5-4EC8-BA1C-081246AC263C"
+              placeholder="Phone Number"
+              required=""
+              value=""
+              [(ngModel)] = "PhoneNumber"
+            />
+          </div>
+        </div>
+        <div class="SortableItem fb-builder-item">
+          <div class="mb-4">
+            <label class="mb-2.5 block text-base text-black"
+              ><span>Email</span
+              ><span class="label-required pl-1 text-red-400">*</span></label
+            ><input
+              type="text"
+              class="w-full rounded border border-stroke bg-white px-5 py-3 text-base text-black outline-none focus:border-primary"
+              name="text_input_59F6BA78-E69D-49B9-8337-E74A8376062E"
+              placeholder="Email"
+              required=""
+              value=""
+              [(ngModel)] = "Email"
+            />
+          </div>
+        </div>
+        <div class="SortableItem fb-builder-item">
+          <div class="mb-4">
+            <label class="mb-2.5 block text-base text-black"
+              ><span>Type of vehicle</span
+              ><span class="label-required pl-1 text-red-400">*</span></label
+            ><input
+              type="text"
+              class="w-full rounded border border-stroke bg-white px-5 py-3 text-base text-black outline-none focus:border-primary"
+              name="text_input_402427EF-E3CB-4AA1-93DA-A2A368D52E78"
+              placeholder="Type of vehicle"
+              required=""
+              value=""
+              [(ngModel)] = "TypeOfVehicle"
+            />
+          </div>
+        </div>
+        <div class="SortableItem fb-builder-item">
+          <div class="mb-4">
+            <label class="form-label mb-4 text-base text-black"
+              ><span>Additional Campsite Amenities</span></label
+            >
+            <div class="custom-control custom-checkbox mb-2.5 last:mb-0">
+              <input
+                id="fid_preview_checkboxes_option_2ED14DD9-4A0E-4FCD-BB4A-37759E6CC047"
+                class="custom-control-input fb-builder-checkbox sr-only"
+                name="option_checkboxes_option_2ED14DD9-4A0E-4FCD-BB4A-37759E6CC047"
+                type="checkbox"
+                value="place_holder_option_1"
+                [(ngModel)] = "CheckBox1"
+              /><label
+                class="custom-control-label relative flex cursor-pointer text-base text-black"
+                for="fid_preview_checkboxes_option_2ED14DD9-4A0E-4FCD-BB4A-37759E6CC047"
+                ><span
+                  class="relative mr-2.5 mt-0.5 block h-[18px] w-[18px] rounded border border-stroke bg-white"
+                  ><span
+                    class="absolute left-0 top-0 flex h-full w-full items-center justify-center rounded opacity-0"
+                    ><svg
+                      width="14"
+                      height="14"
+                      viewBox="0 0 14 14"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g clip-path="url(#clip0_1981_8153)">
+                        <path
+                          d="M5.82952 8.85086L11.1915 3.48828L12.0169 4.31311L5.82952 10.5005L2.11719 6.7882L2.94202 5.96336L5.82952 8.85086Z"
+                          fill="white"
+                        ></path>
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_1981_8153">
+                          <rect width="14" height="14" fill="white"></rect>
+                        </clipPath>
+                      </defs></svg></span></span
+                >Pets</label
+              >
+            </div>
+            <div class="custom-control custom-checkbox mb-2.5 last:mb-0">
+              <input
+                id="fid_preview_checkboxes_option_456E49C0-0296-40D6-9392-891ED69A2B04"
+                class="custom-control-input fb-builder-checkbox sr-only"
+                name="option_checkboxes_option_456E49C0-0296-40D6-9392-891ED69A2B04"
+                type="checkbox"
+                value="place_holder_option_2"
+                [(ngModel)] = "CheckBox2"
+              /><label
+                class="custom-control-label relative flex cursor-pointer text-base text-black"
+                for="fid_preview_checkboxes_option_456E49C0-0296-40D6-9392-891ED69A2B04"
+                ><span
+                  class="relative mr-2.5 mt-0.5 block h-[18px] w-[18px] rounded border border-stroke bg-white"
+                  ><span
+                    class="absolute left-0 top-0 flex h-full w-full items-center justify-center rounded opacity-0"
+                    ><svg
+                      width="14"
+                      height="14"
+                      viewBox="0 0 14 14"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g clip-path="url(#clip0_1981_8153)">
+                        <path
+                          d="M5.82952 8.85086L11.1915 3.48828L12.0169 4.31311L5.82952 10.5005L2.11719 6.7882L2.94202 5.96336L5.82952 8.85086Z"
+                          fill="white"
+                        ></path>
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_1981_8153">
+                          <rect width="14" height="14" fill="white"></rect>
+                        </clipPath>
+                      </defs></svg></span></span
+                >Electricity</label
+              >
+            </div>
+            <div class="custom-control custom-checkbox mb-2.5 last:mb-0">
+              <input
+                id="fid_preview_checkboxes_option_5380956C-36A9-4D97-946B-ED72750FA9A8"
+                class="custom-control-input fb-builder-checkbox sr-only"
+                name="option_checkboxes_option_5380956C-36A9-4D97-946B-ED72750FA9A8"
+                type="checkbox"
+                value="place_holder_option_3"
+                [(ngModel)] = "CheckBox3"
+              /><label
+                class="custom-control-label relative flex cursor-pointer text-base text-black"
+                for="fid_preview_checkboxes_option_5380956C-36A9-4D97-946B-ED72750FA9A8"
+                ><span
+                  class="relative mr-2.5 mt-0.5 block h-[18px] w-[18px] rounded border border-stroke bg-white"
+                  ><span
+                    class="absolute left-0 top-0 flex h-full w-full items-center justify-center rounded opacity-0"
+                    ><svg
+                      width="14"
+                      height="14"
+                      viewBox="0 0 14 14"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g clip-path="url(#clip0_1981_8153)">
+                        <path
+                          d="M5.82952 8.85086L11.1915 3.48828L12.0169 4.31311L5.82952 10.5005L2.11719 6.7882L2.94202 5.96336L5.82952 8.85086Z"
+                          fill="white"
+                        ></path>
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_1981_8153">
+                          <rect width="14" height="14" fill="white"></rect>
+                        </clipPath>
+                      </defs></svg></span></span
+                >Wi-Fi</label
+              >
+            </div>
+          </div>
+        </div>
+        <div class="SortableItem fb-builder-item">
+          <div class="mb-4">
+            <label class="mb-2.5 block text-base text-black"
+              ><span>Number of guests</span
+              ><span class="label-required pl-1 text-red-400">*</span></label
+            ><input
+              type="text"
+              class="w-full rounded border border-stroke bg-white px-5 py-3 text-base text-black outline-none focus:border-primary"
+              name="text_input_F6C6C01E-FB7D-4D52-8E04-FCF8F60967A6"
+              placeholder="Number of guests"
+              required=""
+              value=""
+              [(ngModel)] = "NumberOfGuests"
+            />
+          </div>
+        </div>
+        <div class="SortableItem fb-builder-item">
+          <div class="mb-4">
+            <label class="mb-2.5 block text-base text-black"
+              ><span>Check In</span
+              ><span class="label-required pl-1 text-red-400">*</span></label
+            >
+            <div class="w-full">
+              <input
+                type="date"
+                name="date_picker_85A58CCA-5121-4181-9161-8F3B259CC5F7"
+                placeholder="mm/dd/yyyy"
+                class="block w-full rounded border border-stroke bg-white px-5 py-3 text-base text-body-color outline-none focus:border-primary"
+                value=""
+                [(ngModel)] = "CheckIn"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="SortableItem fb-builder-item">
+          <div class="mb-4">
+            <label class="mb-2.5 block text-base text-black"
+              ><span>Check Out</span
+              ><span class="label-required pl-1 text-red-400">*</span></label
+            >
+            <div class="w-full">
+              <input
+                type="date"
+                name="date_picker_125E3AAD-9827-4A42-9251-2FA28E488061"
+                placeholder="mm/dd/yyyy"
+                class="block w-full rounded border border-stroke bg-white px-5 py-3 text-base text-body-color outline-none focus:border-primary"
+                value=""
+                [(ngModel)] = "CheckOut"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="SortableItem fb-builder-item">
+          <div class="mb-4">
+            <label class="mb-2.5 block text-base text-black"
+              ><span>Message</span></label
+            ><textarea
+              class="w-full rounded border border-stroke bg-white px-5 py-3 text-base text-black outline-none focus:border-primary"
+              name="text_area_ED15CE3F-86A1-4853-AC33-099C75CCFB70"
+              placeholder="Special note"
+              [(ngModel)] = "Message"
+            ></textarea>
+          </div>
+        </div>
+        <div class="btn-toolbar flex items-center space-x-3">
+          <input
+            type="submit"
+            class="inline-flex cursor-pointer items-center justify-center rounded border border-primary bg-primary px-8 py-2 text-base font-medium text-white hover:bg-opacity-90"
+            value="Submit"
+            (click)="saveEmail()"
+          />
+        </div>
+      </form>
+    </div>
+  </div>-->

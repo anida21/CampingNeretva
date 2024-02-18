@@ -1,0 +1,6 @@
+.navbar-brand img {
+    width: 10rem; /* Set your desired width */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: -50px;
+  }
+  

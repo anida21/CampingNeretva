@@ -1,0 +1,15 @@
+.banner-innerpage {
+    background-size: cover; /* ili druge odgovarajuće vrijednosti */
+    height: 80vh; /* Dodajte ovu liniju kako biste osigurali punu visinu */
+    margin-bottom: 20px; /* Prilagodite ovu vrijednost prema vašim potrebama */
+  }
+
+  .content-with-image {
+    margin-bottom: 20px; /* Dodajte željeni razmak između blokova teksta sa slikom */
+  }
+  
+  .rounded-image {
+    border-radius: 10px; /* Prilagodite vrednost radi željenog zaobljenja */
+    overflow: hidden;   /* Ovo osigurava da slika bude zaobljena, čak i ako je dimenzija veća od okvira */
+  }
+  
