@@ -146,33 +146,33 @@
 </form>
     </div>
 </div>-->
-<div
-  class="banner-innerpage"
-  style="background-image: url(assets/images/innerpage/dronedark.JPG)"
->
-  <div class="container">
-    <!-- Row  -->
-    <div class="row justify-content-center">
-      <!-- Column -->
-      <div class="col-lg-9 col-md-6 align-self-center text-center no-trans">
-        <h1 class="title2">RESERVATION</h1>
+<div class="main">
+  <div class="static-slider-head" style="background-image: url(assets/images/innerpage/dronedark.JPG); position: relative; height: 60vh;">
+    <!-- Promijenjena visina slike na 60vh -->
+    <div class="container" style="position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); width: 100%;">
+      <!-- Stilovi za apsolutno pozicioniranje i centraliziranje -->
+      <!-- Row  -->
+      <div class="row justify-content-center">
+        <!-- Column -->
+        <div class="col-lg-9 col-md-6 align-self-center text-center no-trans">
+          <h1 class="title">RESERVATION</h1>
+        </div>
+        <!-- Column -->
       </div>
-      <!-- Column -->
     </div>
   </div>
 </div>
-<div class="main">
 <div class="container2">
   <div class="signin-signup">
     <form action="" class="sign-in-form" method="POST">
-      <h2 class="title">Camping site reservation</h2>
+      <h2 class="title2">Camping site reservation</h2>
       <div class="input-field">
         <label for="name">Name:</label>
         <input type="text" 
           required=""
           value=""
           name="Name" 
-          [(ngModel)]="Name"
+          [(ngModel)]="emailForm.formData.Name"
           id="name">
       </div>
       <div class="input-field">
@@ -181,7 +181,7 @@
           required=""
           value=""
           name="PhoneNumber" 
-          [(ngModel)]="PhoneNumber"
+          [(ngModel)]="emailForm.formData.PhoneNumber"
           id="phoneNumber">
       </div>
       <div class="input-field"> 
@@ -190,7 +190,7 @@
           required=""
           value=""
           name="Email" 
-          [(ngModel)]="Email"
+          [(ngModel)]="emailForm.formData.Email"
           id="email">
       </div>
       <div class="input-field">
@@ -199,21 +199,47 @@
           required=""
           value=""
           name="TypeOfVehicle"
-          [(ngModel)]="TypeOfVehicle"
+          [(ngModel)]="emailForm.formData.TypeOfVehicle"
           id="typeOfVehicle">
       </div>
       <div class="input-field">
+        <label for="typeOfCamping">Type of Camping:</label>
+        <select 
+          id="typeOfCamping" 
+          name="TypeOfCamping" 
+          class="styled-select w-full rounded border border-stroke bg-white px-5 py-3 text-base text-black outline-none focus:border-primary"
+          [(ngModel)]="emailForm.formData.TypeOfCamping" >
+          <option value="motohome">Motohome</option>
+          <option value="van">Van</option>
+          <option value="caravan">Caravan</option>
+          <option value="tent">Tent</option>
+          <option value="tent-car">Tent-Car</option>
+          <option value="bungalow">Bungalow</option>
+        </select>
+        <div class="select-arrow">&#9660;</div>
+      </div>
+      
+      <div class="input-field"> 
+        <label for="email">Number of guests:</label>
+        <input type="text"
+          required=""
+          value=""
+          name="NumberOfGuests" 
+          [(ngModel)]="emailForm.formData.NumberOfGuests"
+          id="numberOfGuests">
+      </div>
+      <div class="input-field">
         <label for="checkIn">Check In:</label>
-        <input type="date" id="checkIn" name="checkOut" [(ngModel)]="CheckIn" placeholder="Check In">
+        <input type="date" id="checkIn" name="checkOut" [(ngModel)]="emailForm.formData.CheckIn" placeholder="Check In">
       </div>
       <div class="input-field">
         <label for="checkOut">Check Out:</label>
-        <input type="date" id="checkOut" name="checkOut" [(ngModel)]="CheckOut" placeholder="Check Out">
+        <input type="date" id="checkOut" name="checkOut" [(ngModel)]="emailForm.formData.CheckOut" placeholder="Check Out">
       </div>
       <div class="SortableItem fb-builder-item">
         <div class="mb-4">
           <label class="form-label mb-4 text-base text-black"
-            ><span>Additional Campsite Amenities</span></label
+            ><span>Additional:</span></label
           >
       <div class="custom-control custom-checkbox mb-2.5 last:mb-0">
         <input
@@ -222,7 +248,7 @@
           name="option_checkboxes_option_2ED14DD9-4A0E-4FCD-BB4A-37759E6CC047"
           type="checkbox"
           value="place_holder_option_1"
-          [(ngModel)] = "CheckBox1"
+          [(ngModel)] = "emailForm.formData.CheckBox1"
         /><label
           class="custom-control-label relative flex cursor-pointer text-base text-black"
           for="fid_preview_checkboxes_option_2ED14DD9-4A0E-4FCD-BB4A-37759E6CC047"
@@ -241,7 +267,7 @@
           name="option_checkboxes_option_456E49C0-0296-40D6-9392-891ED69A2B04"
           type="checkbox"
           value="place_holder_option_2"
-          [(ngModel)] = "CheckBox2"
+          [(ngModel)] = "emailForm.formData.CheckBox2"
         /><label
           class="custom-control-label relative flex cursor-pointer text-base text-black"
           for="fid_preview_checkboxes_option_456E49C0-0296-40D6-9392-891ED69A2B04"
@@ -257,9 +283,9 @@
       </div>
       <div class="input-field">
         <label for="message">Message:</label>
-        <input type="text" id="message" name="message" [(ngModel)]="Message">
+        <input type="text" id="message" name="message" [(ngModel)]="emailForm.formData.Message">
       </div>
-      <input type="submit" value="SUBMIT" class="btn" (click)="saveEmail()">
+      <input type="submit" value="SUBMIT" class="btn" (click)="sendReservationEmail()">
     </form>
     <form action="" class="sign-up-form">
     </form>
@@ -274,7 +300,6 @@
       </div>
     </div>
   </div>
-</div>
 </div>
 
 

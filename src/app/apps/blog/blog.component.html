@@ -1,60 +1,27 @@
-<div class="main">
-<div
-  class="static-slider-head"
-  style="background-image: url(assets/images/landingpage/droneview.jpg)"
->
-  <div class="container">
-    <!-- Row  -->
-    <div class="row justify-content-center">
-      <!-- Column -->
-      <div class="col-lg-9 col-md-6 align-self-center text-center no-trans">
-        <h1 class="title">Camping Neretva</h1>
-        <h5 class="subtitle op-4">
-          Embark on a new adventure with our cutting-edge camping web app! Whether you're a seasoned outdoors enthusiast or a novice camper, our app is designed to elevate your camping experience.
-        </h5>
+<div class="main"> <div class="static-slider-head"> <video src="assets/images/innerpage/Camping Neretva.mp4" muted loop autoplay></video> </div>
 
-        <a
-          href="https://tourmkr.com/F159gWEeDm/41003333p&186.15h&77.67t"
-          class="btn btn-md m-t-30 btn-success-gradiant font-14"
-          target="blank"
-          >Drone view</a
-        >
-      </div>
-      <!-- Column -->
-    </div>
-  </div>
-</div>
+<!--
 <div class="row justify-content-center mt-3 mb-3">
   <h1 class="title">Discover Our Best Offer</h1>
 </div>
 
 <div class="touchSlider">
   <app-touch-slider [images]="images"></app-touch-slider>
-</div>
-<div class="previous-div"></div>
-<div class="text-content">
-  <p class="text-center">
-    At the heart of Mostar is Camping Neretva, your gateway to unforgettable adventures. The camp offers the perfect blend of comfort and direct contact with nature. Situated right along the banks of the Neretva, the camp provides spectacular views and access to a variety of water activities.
-  </p>
-  <p class="text-center">
-    Whether you enjoy camping under the open sky, exploring the surroundings on a bicycle, or relaxing to the sounds of the river, Camping Neretva promises a unique experience that will awaken your adventurous spirit. Visit us and experience the fusion of nature, culture, and excitement in the heart of this irresistible part of Bosnia and Herzegovina.
-  </p>
-</div>
 
-<app-video></app-video>
+-->
+
 
 <!-- Row  -->
 <div class="container spacer">
   <div class="row justify-content-center">
     <!-- Column -->
-    <div class="col-md-8 no-trans text-center">
-      <h2 class="title">Previous activities</h2>
-      <h6 class="subtitle">
-        Discover the highlights from our previous tours
+    <div class="col-md-8 no-trans text-center" style="background-color: #f8f9fa; padding: 20px;">
+      <h2 class="title" style="color: #343a40;">Discover Our Special Offers</h2>
+      <h6 class="subtitle" style="color: #6c757d;">
+        Special Offers Just for You
       </h6>
     </div>
-    <!-- Column -->
-  </div>
+    
   <div class="row m-t-40 justify-content-center">
     <!-- Column -->
     <div
@@ -64,7 +31,7 @@
       <div class="card" data-aos="flip-left" data-aos-duration="1200">
         <div class="row">
           <div class="col-md-2 no-trans">
-            <span class="text-dark font-medium">{{ bl.blogDate }}</span>
+            <img src="{{ bl.image }}" alt="{{ bl.heading }}" class="img-fluid img-thumbnail" />
             <h6 class="card-subtitle font-12 mt-1">Camping Neretva</h6>
           </div>
           <div class="col-md-7 no-trans">
@@ -89,5 +56,18 @@
   </div>
 
 </div>
+
+<div class="previous-div"></div>
+<div class="text-content">
+  <p class="text-center">
+    At the heart of Mostar is Camping Neretva, your gateway to unforgettable adventures. The camp offers the perfect blend of comfort and direct contact with nature. Situated right along the banks of the Neretva, the camp provides spectacular views and access to a variety of water activities.
+  </p>
+  <p class="text-center">
+    Whether you enjoy camping under the open sky, exploring the surroundings on a bicycle, or relaxing to the sounds of the river, Camping Neretva promises a unique experience that will awaken your adventurous spirit. Visit us and experience the fusion of nature, culture, and excitement in the heart of this irresistible part of Bosnia and Herzegovina.
+  </p>
+</div>
+
+<app-video></app-video>
+
 </div>
 <app-footer #footer></app-footer>

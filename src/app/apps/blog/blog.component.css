@@ -9,11 +9,144 @@
 .text-content {
     max-width: 800px;
     margin: 0 auto;
-    text-align: justify; /* Justify text for a cleaner look */
+    text-align: justify; 
     font-size: 1.0em;
     font-weight: bold;
   }
   .previous-div {
-    margin-bottom: 50px; /* Adjust the margin as needed */
+    margin-bottom: 50px;
   }
   
+  .video-container {
+    position: absolute;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111;
+  transition: 0.5s;
+  z-index: 2;
+  }
+  
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+#youtube-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  border: none;
+  overflow: hidden;
+  background-color: transparent; 
+}
+
+.video-container iframe {
+  width: 100%;
+  height: 100%;
+  transform: translateY(-25%); 
+}
+
+#youtube-player:hover .ytp-chrome-top,
+#youtube-player:hover .ytp-chrome-bottom {
+    display: none !important;
+}
+
+.static-slider-head {
+  position: relative;
+}
+
+.static-slider-head video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-bottom: 5%;
+  /* opacity */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #03a9f4;
+  mix-blend-mode: overlay;
+  z-index: 1; /* Set a higher z-index than other elements inside static-slider-head */
+}
+
+.row.justify-content-center.mt-3.mb-3,
+.touchSlider {
+  position: relative;
+  z-index: 2; /* Set a higher z-index than the overlay */
+}
+
+.overlay
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #03a9f4;
+  mix-blend-mode: overlay;
+}
+
+.container.spacer {
+  min-height: 900px; /* Prilagodite visinu prema vašim potrebama */
+  min-width: 1500px; /* Prilagodite širinu prema vašim potrebama */
+}
+
+@media (max-width: 767px) {
+  .container.spacer {
+    min-height: auto; /* Poništavanje visine na mobilnim uređajima, možete postaviti na auto ili drugu vrijednost */
+    min-width: auto;  /* Poništavanje širine na mobilnim uređajima, možete postaviti na auto ili drugu vrijednost */
+  }
+}
+
+/* Primjer prilagodbe veličine teksta na mobilnim uređajima */
+@media (max-width: 767px) {
+  .col-md-2 {
+    font-size: 12px;
+    margin-left: 2px; /* Prilagodite veličinu teksta prema potrebi */
+  }
+  
+  /* Dodatne prilagodbe prema potrebi */
+}
+
+
+/* Default stilovi koji se primjenjuju na sve veličine ekrana */
+.col-md-2 h6.card-subtitle {
+  white-space: nowrap; /* Sprječava prelazak teksta u novi red */
+  overflow: hidden; /* Sakriva eventualni višak teksta */
+  text-overflow: ellipsis; /* Dodaje "..." ako je tekst predug */
+}
+
+/* Stilovi za manje ekrane, poput mobilnih uređaja */
+/* Dodatni stilovi za poboljšanje vidljivosti teksta na mobilnim uređajima */
+/* Dodatni stilovi za poboljšanje vidljivosti teksta na mobilnim uređajima */
+@media (max-width: 767px) {
+  .col-md-2 {
+    text-align: center; /* Centriranje teksta na mobilnim uređajima */
+  }
+
+  .col-md-2 h6.card-subtitle {
+    margin: 0; /* Uklanjanje margina kako bi tekst bio bliže rubovima */
+    padding: 5px; /* Dodavanje dodatnog prostora oko teksta */
+    background-color: #f8f9fa; /* Dodavanje pozadinske boje kako bi tekst bio bolje vidljiv */
+    display: inline-block; /* Ovo može pomoći u rješavanju problema s prikazom na nekim uređajima */
+    max-width: 100%; /* Ovo ograničava širinu na maksimalnu dostupnu širinu roditeljskog elementa */
+  }
+}

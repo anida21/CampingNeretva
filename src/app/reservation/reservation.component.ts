@@ -12,50 +12,40 @@ import { EmailService } from './email.service';
   styleUrls: ['./reservation.component.css']
 })
 export class ReservationComponent {
-  // ... postojeća polja
+  emailForm: EmailForm = {
+    to: 'didamujezin@gmail.com',
+    formData: {
+      Name: '',
+      PhoneNumber: '',
+      Email: '',
+      TypeOfVehicle: '',
+      CheckBox1: false,
+      CheckBox2: false,
+      NumberOfGuests: '',
+      CheckIn: '',
+      CheckOut: '',
+      Message: '',
+      TypeOfCamping: ''
+    }
+  };
 
-  
-  Name: string = '';
-  PhoneNumber: string = '';
-  Email: string = '';
-  TypeOfVehicle: string = '';
-  CheckBox1: boolean = false;
-  CheckBox2: boolean = false;
-  NumberOfGuests: string = '';
-  CheckIn: string = '';
-  CheckOut: string = '';
-  Message: string = '';
-  
   constructor(private emailService: EmailService) {}
 
-  saveEmail(): void {
-    const emailForm: EmailForm = {
-      Name: this.Name,
-      PhoneNumber: this.PhoneNumber,
-      Email: this.Email,
-      TypeOfVehicle: this.TypeOfVehicle,
-      CheckBox1: this.CheckBox1,
-      CheckBox2: this.CheckBox2,
-      NumberOfGuests: this.NumberOfGuests,
-      CheckIn: this.CheckIn,
-      CheckOut: this.CheckOut,
-      Message: this.Message,
-    };
-  
-
-    console.log(emailForm);
-    this.emailService.sendEmail(emailForm).subscribe(
-      
-      (response) => {
-        console.log('Email sent successfully:', response);
-        // Dodajte kod za obradu uspešnog slanja emaila
+  sendReservationEmail() {
+    this.emailService.sendEmail(this.emailForm).subscribe(
+      response => {
+        console.log('Email sent successfully', response);
       },
-      (error) => {
+      error => {
         console.error('Error sending email:', error);
-        // Dodajte kod za obradu greške pri slanju emaila
       }
     );
   }
+
+  updateTypeOfCamping(event: any): void {
+    this.emailForm.formData.TypeOfCamping = event.target.value;
+  }
+  
   
 }
  /**  url: string = "https://formsubmit.io/send/anida.mujezin@outlook.com"; // 

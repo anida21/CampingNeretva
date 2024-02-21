@@ -18,14 +18,15 @@ body {
 .banner-innerpage {
     background-size: cover; /* ili druge odgovarajuće vrijednosti */
     height: 50vh; 
+    z-index: 900; /* ako bude sta zezalo obrisi ovo */
   }
   
 .gallery-lightbox-container {
     margin-top: 100px; /* Dodajte željeni margin vrhu galerije */
-
     position: relative;
     display: inline-block;
     padding: 25px;
+    z-index: 1000; 
 
     .gallery {
         line-height: 0;
@@ -69,9 +70,9 @@ body {
         }
 
         .close-btn {
-            position: absolute;
-            top: 0;
-            right: 0;
+            position: absolute; /* Change from fixed to absolute */
+            top: 10px;
+            right: 10px;
             padding: 0;
             color: #fff;
             background: 0 0;
@@ -80,11 +81,13 @@ body {
             width: 7%;
             height: 10%;
             z-index: 2;
-
+        
             .fa-times {
                 font-size: 25px;
             }
         }
+        
+        
 
         .btn-lightbox-carousel {
             position: absolute;

@@ -1,4 +1,6 @@
 export interface EmailForm {
+  to: string;
+  formData: {
     Name: string;
     PhoneNumber: string;
     Email: string;
@@ -9,4 +11,6 @@ export interface EmailForm {
     CheckIn: string;
     CheckOut: string;
     Message: string;
-  }
+    TypeOfCamping: string; // Dodano TypeOfCamping u formData
+  };
+}

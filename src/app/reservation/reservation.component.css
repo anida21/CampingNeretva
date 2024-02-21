@@ -2,8 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 body {
   display: flex;
   align-items: center;
@@ -11,64 +12,64 @@ body {
   min-height: 100vh;
   background: #000;
 }
+
 .banner-innerpage {
-  background-size: cover; /* ili druge odgovarajuće vrijednosti */
-  height: 50vh; 
+  background-size: cover;
+  height: 80vh;
   position: relative;
-  text-align: center;
-  color: white; 
+  margin-bottom: 20px;
 }
 
-.container2 {
+.container {
   position: absolute;
-  margin-top: 30%;
+  bottom: 0;
   left: 50%;
-  transform: translate(-50%, -50%);
-  width: 80vw;
-  height: 90vh;
+  transform: translateX(-50%);
+  width: 100%;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+
+.container2 {
+  position: relative;
+  margin-top: 10vh;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80vw; /* Change this to a larger value, e.g., 90% or 100% */
+  max-width: 600px; /* Adjust the max-width as needed */
+  height: auto;
   background: #fff;
   border-radius: 20px;
   box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
   overflow: hidden;
+  z-index: 1;
 }
 
 
 
-.container2::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: -50%;
-  width: 100%;
-  height: 100%;
-  background: url('../../assets/images/innerpage/campview.jpg') center/cover; /* Updated background property */
-  z-index: 6;
-  transform: translateX(100%);
-  transition: 1s ease-in-out;
-}
 .signin-signup {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
-  height: auto; /* Postavite na auto kako bi visina diva bila određena njegovim sadržajem */
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  z-index: 5;
-}
-
-
-form {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 40%;
-  min-width: 238px;
-  padding: 0 10px;
+  padding: 20px;
 }
+
+form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+
 form.sign-in-form {
   opacity: 1;
   transition: 0.5s ease-in-out;
@@ -79,29 +80,26 @@ form.sign-up-form {
   transition: 0.5s ease-in-out;
   transition-delay: 1s;
 }
-.title {
+.title2 {
   font-size: 35px;
   color: #05491f;
   margin-bottom: 10px;
 }
-.title2 {
-  font-size: 35px;
-  color: #ffffff;
-  margin-top: 25%;
-  margin-left: 25%;
-  text-align: center;
-  
-}
+
 .input-field {
+  position: relative;
   width: 100%;
-  height: 50px;
+  height: 60px; /* Prilagodite visinu prema potrebi */
+  margin-bottom: 10px;
   background: #f0f0f0;
   margin: 10px 0;
   border: 0.5px solid #4fdf4a;
   border-radius: 5px;
   display: flex;
   align-items: center;
+  pointer-events: auto; /* Dodajte ovo ili uklonite pointer-events */
 }
+
 .input-field label {
   margin-left: 10px;
 }
@@ -122,6 +120,7 @@ form.sign-up-form {
   font-size: 18px;
   font-weight: 600;
   color: #444;
+  z-index: 1;
 }
 .SortableItem { 
   height: 200px;
@@ -197,6 +196,10 @@ form.sign-up-form {
   border-radius: 50px;
   margin: 0 5px;
 }
+
+
+
+
 a {
   text-decoration: none;
 }
@@ -241,6 +244,7 @@ a {
   font-size: 15px;
   padding: 10px 0;
 }
+
 .image {
   width: 100%;
   transition: 1.1s ease-in-out;
@@ -286,6 +290,7 @@ a {
   .container {
       width: 100vw;
       height: 100vh;
+      position: relative;
   }
 }
 @media (max-width:635px) {
@@ -318,3 +323,128 @@ a {
       width: 90%;
   }
 }
+
+/* Larger screens */
+@media (min-width: 768px) {
+  .container2 {
+    width: 60vw;
+  }
+
+  form {
+    width: 80%;
+  }
+}
+
+/* Medium screens */
+@media (max-width: 767px) {
+  .container2 {
+    width: 80vw;
+  }
+
+  form {
+    width: 90%;
+  }
+}
+
+/* Small screens */
+@media (max-width: 480px) {
+  .container2 {
+    width: 90vw;
+  }
+
+  form {
+    width: 95%;
+  }
+}
+
+.input-field input[type="date"] {
+  width: 100%;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: #444;
+  padding: 10px; /* Add padding to make it easier to click */
+  box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+@media (max-width: 767px) {
+  
+
+  .static-slider-head .title
+  {
+    font-size:50px;
+  }
+
+  /* Dodajte ove stilove ispod postojećih stilova za .styled-select */
+
+
+}
+/* Dodajte ove stilove ispod postojećih stilova za .styled-select */
+/* Stilovi za .styled-select-container */
+.styled-select-container {
+  position: relative;
+  display: inline-block;
+  z-index: 2; /* Dodajte ovu liniju */
+  pointer-events: auto;
+}
+
+
+.styled-select option {
+  background-color: #fff;
+  color: #444;
+}
+
+.styled-select {
+  width: 100%;
+  padding: 0px;
+  font-size: 16px;
+  border-radius: 4px;
+  background-color: transparent !important;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  z-index: 2;
+  outline:none;
+   /* Postavljanje apsolutnog položaja kako bi se uklopilo unutar roditeljskog input fielda */
+  top: 0;
+  left: 0;
+
+}
+
+.styled-select::before {
+  content: '\25BC';
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  font-size: 14px;
+  color: #333;
+  pointer-events: none;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .styled-select {
+    background-color: transparent !important;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    padding: 8px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+  }
+
+  /* Dodatni stilovi za strelicu na mobilnom prikazu */
+  .styled-select-container {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+  }
+}
+

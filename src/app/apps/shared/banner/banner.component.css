@@ -1,6 +1,27 @@
 .navbar-brand img {
-    width: 10rem; /* Set your desired width */
-    height: auto; /* Maintain aspect ratio */
-    margin-left: -50px;
+  width: 10rem;
+  height: auto;
+}
+
+.po-relative {
+  position: absolute;
+}
+
+/* Dodajte sljedeće stilove za povećanje veličine slova i podebljavanje */
+.navbar-nav .nav-link {
+  font-size: 16px; /* Prilagodite veličinu slova prema potrebi */
+  font-weight: bold; /* Dodajte podebljavanje */
+  text-transform: uppercase; /* Opcionalno: Postavite tekst na velika slova */
+}
+
+
+@media (max-width: 768px) {
+  .navbar-nav {
+      flex-direction: column; /* Postavite smjer fleksibilnog kontejnera na red */
+      margin-right: 0; /* Resetirajte marginu s desne strane */
   }
-  
+
+  .navbar-nav .nav-item {
+      margin-right: 10px; /* Dodajte razmak između stavki izbornika */
+  }
+}

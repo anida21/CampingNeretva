@@ -57,6 +57,7 @@ export class GalleryLightboxComponent implements OnInit {
     this.previewImage = true;
     this.currentIndex = index;
     this.currentLightboxImage = this.galleryData[index];
+    
   }
 
   onAnimationEnd(event: AnimationEvent) {

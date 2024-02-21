@@ -2,3 +2,31 @@
     background-size: cover; /* ili druge odgovarajuće vrijednosti */
     height: 65vh; /* Dodajte ovu liniju kako biste osigurali punu visinu */
   }
+
+  .round-social {
+    margin-top: 30px; /* Prilagodite vrednost prema potrebama da biste eliminisali razmak */
+  }
+  
+  .footer4 {
+    font-size: 16px;
+    line-height: 1.5; /* Postavite željenu veličinu fonta */
+  }
+  
+
+  .round-social a i {
+    font-size: 24px; /* Postavite željenu veličinu fonta za ikone */
+  }
+
+  .round-social {
+    margin-bottom: 20px; /* Postavite željeni razmak ispod društvenih ikona */
+  }
+  
+  .footer4 p {
+    margin-bottom: 10px;
+    font-size: 16px;  /* Postavite željeni razmak ispod paragrafa */
+  }
+
+  .title{
+    margin-bottom: 0;
+  }
+  

@@ -36,3 +36,30 @@
     margin-top: 20px;
   }
   
+
+/* Dodajte sljedeće stilove za prilagodbu za mobilne uređaje */
+@media (max-width: 767px) {
+  .wrap-feature1-box {
+    height: auto; /* Postavite visinu na automatsko prilagođavanje sadržaju */
+    margin-bottom: 10px; /* Prilagodite razmak između svake kartice */
+  }
+
+  .card-body {
+    padding: 20px; /* Prilagodite potrebnu količinu unutarnjeg razmaka */
+  }
+
+  .img-icon {
+    height: 100%; /* Omogućite da slika zauzme cijelu visinu */
+    object-fit: contain; /* Promijenite na "contain" ako želite zadržati cijelu sliku */
+  }
+
+  .font-medium {
+    font-size: 1.5rem; /* Prilagodite veličinu slova prema potrebi */
+    margin-top: 10px; /* Prilagodite razmak iznad teksta prema potrebi */
+    margin-bottom: 5px; /* Prilagodite razmak ispod teksta prema potrebi */
+  }
+
+  .m-t-20 {
+    margin-top: 10px; /* Prilagodite razmak iznad paragrafa prema potrebi */
+  }
+}

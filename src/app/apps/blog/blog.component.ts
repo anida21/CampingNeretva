@@ -23,7 +23,42 @@ export class BlogComponent implements OnInit {
   ngOnInit(): void {
     if (this.service.Blogs.length === 0)
       this.service.getBlog().subscribe((d: any) => (this.service.Blogs = d));
+
+    // Učitajte YouTube API
+    const tag = document.createElement('script');
+    tag.src = 'https://www.youtube.com/iframe_api';
+    document.body.appendChild(tag);
+
+    // Callback funkcija nakon učitavanja YouTube API
+    (window as any).onYouTubeIframeAPIReady = () => {
+      // Kreirajte YouTube igrača
+      const player = new (window as any).YT.Player('youtube-player', {
+        videoId: '09pfnX0seH8', // Zamijenite sa svojim video ID
+    playerVars: {
+      autoplay: 1,
+      loop: 1,
+      controls: 0,
+      showinfo: 0,
+      rel: 0,
+      mute: 1,
+      modestbranding: 1, // Dodajte ovu liniju za uklanjanje YouTube loga
+      iv_load_policy: 3, // Dodajte ovu liniju za isključivanje anotacija
+    },
+    events: {
+      onReady: (event: any) => {
+        event.target.playVideo(); // Pokrenite video kada je spreman
+      },
+      onStateChange: (event: any) => {
+        if (event.data === (window as any).YT.PlayerState.ENDED) {
+          event.target.playVideo(); // Ponovno pokrenite video kada završi
+            }
+          }
+        }
+      });
+    };
   }
+
+  
 
   loginClick() {
     this.router.navigate(['/login']);
@@ -40,6 +75,7 @@ export class BlogComponent implements OnInit {
 
     this.router.navigate(['/blogDetail', id]);
   }
+
 
   images = [
     {

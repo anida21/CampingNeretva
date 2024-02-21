@@ -1,19 +1,23 @@
-
 <div class="topbar" id="top">
-    <div class="header6">
-        <div class="container po-relative">
-            <nav class="navbar navbar-expand-lg h6-nav-bar">
-                <a class="navbar-brand" routerLink="">
-                    <img src="assets/images/logos/logo.png" alt="wrapkit" href="https://www.facebook.com/p/Camping-Neretva-100063102887726/" />
-                </a>
-                
+  <div class="header6">
+    <div class="container po-relative">
+      <nav class="navbar navbar-expand-lg h6-nav-bar">
+        <div class="d-flex flex-grow-1 justify-content-between align-items-center"> <!-- Ažurirano: Koristite justify-content-between i align-items-center -->
+          <a class="navbar-brand" routerLink="">
+            <img src="assets/images/logos/logo.png" alt="campingNeretva" href="https://www.facebook.com/p/Camping-Neretva-100063102887726/" />
+          </a>
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#h6-info"
-                    aria-controls="h6-info" aria-expanded="false" aria-label="Toggle navigation" (click)="toggleNavbar()">
-                    <span class="ti-menu"></span>
-                </button>
-                <div class="collapse navbar-collapse" [ngbCollapse]="isNavbarCollapsed" id="h6-info">
-                   <ul class="navbar-nav ml-auto align-items-center">
+          
+        </div>
+        <div class="ml-auto order-md-2">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#h6-info"
+                  aria-controls="h6-info" aria-expanded="false" aria-label="Toggle navigation" (click)="toggleNavbar()">
+            <span class="ti-menu"></span>
+          </button>
+        </div>
+
+              <div class="collapse navbar-collapse" [ngbCollapse]="isNavbarCollapsed" id="h6-info">
+                  <ul class="navbar-nav ml-auto align-items-center">
             <li class="nav-item" [routerLinkActive]="['active']">
               <a class="nav-link" routerLink="/">
                 Home

@@ -9,15 +9,16 @@ import { EmailForm } from './email.model';
   providedIn: 'root',
 })
 export class EmailService {
-  private baseUrl = 'http://localhost:3010'; // Promenite na odgovarajući URL vašeg Node.js servera
+  private baseUrl = 'http://localhost:5000'; // Promenite na odgovarajući URL vašeg Node.js servera
 
   constructor(private http: HttpClient) {}
 
   sendEmail(emailForm: EmailForm): Observable<any> {
     const headers = new HttpHeaders({
-        'Content-Type': 'application/json',
-      });
-    return this.http.post<any>(`${this.baseUrl}/send-email`, emailForm,  { headers });
+      'Content-Type': 'application/json',
+    });
+
+    return this.http.post<any>(`${this.baseUrl}/api/sendEmail`, emailForm, { headers });
   }
   sendEmail1(data: any): Observable<any> {
     return this.http.post<any>(`${this.baseUrl}/send-email`, data);
