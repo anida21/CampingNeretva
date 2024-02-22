@@ -173,6 +173,7 @@ form.sign-up-form {
   margin: 10px 0;
   text-transform: uppercase;
   cursor: pointer;
+  z-index: 2;
 }
 .btn:hover {
   background: #659469;

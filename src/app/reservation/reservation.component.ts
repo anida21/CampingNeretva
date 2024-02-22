@@ -5,6 +5,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { MailChimpService } from '../mail-chimp.service';
 import { EmailForm } from './email.model';
 import { EmailService } from './email.service';
+import { Route, Router } from '@angular/router';
 
 @Component({
   selector: 'app-reservation',
@@ -29,18 +30,22 @@ export class ReservationComponent {
     }
   };
 
-  constructor(private emailService: EmailService) {}
+  constructor(private emailService: EmailService,
+    private router: Router) {}
 
-  sendReservationEmail() {
-    this.emailService.sendEmail(this.emailForm).subscribe(
-      response => {
-        console.log('Email sent successfully', response);
-      },
-      error => {
-        console.error('Error sending email:', error);
-      }
-    );
-  }
+    sendReservationEmail() {
+      this.emailService.sendEmail(this.emailForm).subscribe(
+        response => {
+          console.log('Email sent successfully', response);
+          // Nakon uspješnog slanja emaila, preusmjeri korisnika na drugu stranicu
+          this.router.navigate(['/successful-reservation']);
+        },
+        error => {
+          console.error('Error sending email:', error);
+        }
+      );
+    }
+    
 
   updateTypeOfCamping(event: any): void {
     this.emailForm.formData.TypeOfCamping = event.target.value;

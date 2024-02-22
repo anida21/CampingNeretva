@@ -1,0 +1,15 @@
+.title {
+    font-size: 3rem; /* Prilagodite veličinu naslova prema potrebi */
+    margin-bottom: 0; /* Postavite donji margin na 0 kako biste eliminirali razmak između riječi */
+    line-height: 1; /* Postavite line-height na 1 kako biste eliminirali razmak između redova */
+  }
+  
+  /* Stilovi za naslov na manjim ekranima */
+  @media (max-width: 767px) {
+    .title {
+      font-size: 2rem; /* Prilagodite veličinu naslova prema potrebi za manje ekrane */
+      margin-bottom: 0; /* Postavite donji margin na 0 kako biste eliminirali razmak između riječi */
+      line-height: 1; /* Postavite line-height na 1 kako biste eliminirali razmak između redova */
+    }
+  }
+  

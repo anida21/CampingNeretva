@@ -16,6 +16,7 @@ import { ContactComponent } from './apps/contact/contact.component';
 import { FooterComponent } from './apps/shared/footer/footer.component';
 import { GalleryLightboxComponent } from './gallery-lightbox/gallery-lightbox.component';
 import { GalleryTestComponent } from './gallery-test/gallery-test.component';
+import { SuccessfulBookingComponent } from './successful-booking/successful-booking.component';
 
 
 
@@ -26,7 +27,8 @@ import { GalleryTestComponent } from './gallery-test/gallery-test.component';
     ReservationComponent,
     ContactComponent,
     GalleryLightboxComponent,
-    GalleryTestComponent
+    GalleryTestComponent,
+    SuccessfulBookingComponent
   ],
   imports: [
     BrowserModule,
