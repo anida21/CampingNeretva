@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit, Renderer2 } from '@angular/core';
 import { Blog } from './blog-type';
 import { ServiceblogService } from './blog-service.service';
 import { Router } from '@angular/router';
@@ -12,15 +12,20 @@ import { HttpClient } from '@angular/common/http';
 export class BlogComponent implements OnInit {
   blogsDetail: Blog[] = [];
 
+  videoSource = 'assets/images/innerpage/Camping Neretva.mp4';
+
+
   constructor(
     public service: ServiceblogService,
     public router: Router,
-    public http: HttpClient
+    public http: HttpClient,
+    private renderer: Renderer2
   ) {
     this.service.showEdit = false;
   }
 
   ngOnInit(): void {
+    this.checkScreenSize();
     if (this.service.Blogs.length === 0)
       this.service.getBlog().subscribe((d: any) => (this.service.Blogs = d));
 
@@ -58,7 +63,18 @@ export class BlogComponent implements OnInit {
     };
   }
 
-  
+  @HostListener('window:resize', ['$event'])
+  onResize(event: any): void {
+    // Provjeri veličinu ekrana kada se prozor promijeni veličinu
+    this.checkScreenSize();
+  }
+
+  private checkScreenSize(): void {
+    const video = this.renderer.selectRootElement('#myVideo');
+
+    // Postavi autoplay na true samo ako je širina ekrana manja od 768 piksela
+    video.autoplay = window.innerWidth < 768;
+  }
 
   loginClick() {
     this.router.navigate(['/login']);
