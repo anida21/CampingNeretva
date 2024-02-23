@@ -13,3 +13,26 @@
     overflow: hidden;   /* Ovo osigurava da slika bude zaobljena, čak i ako je dimenzija veća od okvira */
   }
   
+  .main{
+    font-family: "Protest Riot", sans-serif;
+  }
+
+  .container{
+    font-family: "Protest Riot", sans-serif;
+  }
+ 
+  .spacer {
+    padding: 0px;
+  }
+
+  .title{
+    font-family: "Protest Riot", sans-serif;
+  }
+
+  .main{
+    font-family: "Protest Riot", sans-serif;
+  }
+
+  .subtitle{
+    font-family: "Protest Riot", sans-serif;
+  }

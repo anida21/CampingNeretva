@@ -1,8 +1,25 @@
-<div class="main"> <div class="static-slider-head"> 
-  <video id="myVideo" [src]="videoSource" muted loop autoplay></video>
+
+<div class="main">
+  <div class="static-slider-head" style="background-image: url(assets/images/landingpage/campview.jpg); position: relative; height: 60vh;">
+    <!-- Promijenjena visina slike na 60vh -->
+    <div class="container" style="position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); width: 100%;">
+      <!-- Stilovi za apsolutno pozicioniranje i centraliziranje -->
+      <!-- Row  -->
+      <div class="row justify-content-center">
+        <!-- Column -->
+        <div class="col-lg-9 col-md-6 align-self-center text-center no-trans">
+          
+        </div>
+        <!-- Column -->
+      </div>
+    </div>
+  </div>
 </div>
 
 <!--
+  <div class="main"> <div class="static-slider-head"> 
+  <video id="myVideo" [src]="videoSource"  muted loop autoplay loading="lazy"></video>
+</div>
 <div class="row justify-content-center mt-3 mb-3">
   <h1 class="title">Discover Our Best Offer</h1>
 </div>
@@ -11,8 +28,25 @@
   <app-touch-slider [images]="images"></app-touch-slider>
 
 -->
+<div class="container spacer2 text-center">
+  <h1 class="title">WELCOME TO CAMPING NERETVA</h1>
+  <div class="row justify-content-center">
+    <div class="col-md-4">
+      <img src="assets/images/landingpage/mount.png" class="img-fluid  icon-image">
+      <p class="icon-text">Explore Nearby Mountains</p>
+    </div>
+    <div class="col-md-4">
+      <img src="assets/images/landingpage/sun.png" class="img-fluid icon-image"> 
+      <p class="icon-text">Enjoy sunny days</p>
+    </div>
+    <div class="col-md-4">
+      <img src="assets/images/landingpage/river.png" class="img-fluid icon-image"> 
+      <p class="icon-text">Experience the beauty of the Neretva River</p>
+    </div>
+  </div>
+</div>
 
-
+<app-video></app-video>
 <!-- Row  -->
 <div class="container spacer">
   <div class="row justify-content-center">
@@ -27,30 +61,31 @@
   <div class="row m-t-40 justify-content-center">
     <!-- Column -->
     <div
-      class="col-md-8 no-trans border-bottom mb-4"
+      class="col-md-8 no-trans"
       *ngFor="let bl of service.Blogs"
     >
       <div class="card" data-aos="flip-left" data-aos-duration="1200">
         <div class="row">
-          <div class="col-md-2 no-trans">
-            <img src="{{ bl.image }}" alt="{{ bl.heading }}" class="img-fluid img-thumbnail" />
-            <h6 class="card-subtitle font-12 mt-1">Camping Neretva</h6>
+          <div class="col-md-2 no-trans blog-text">
+            <img
+            src="{{ bl.image }}"
+            alt="{{ bl.heading }}"
+            class="img-fluid img-thumbnail rounded-image blog-image"
+          />            
           </div>
-          <div class="col-md-7 no-trans">
-            <h5 class="font-medium cursor-pointer" (click)="viewDetail(bl.id)">
+          <div class="col-md-7 no-trans blog-text">
+            <h5 class="font-medium cursor-pointer blog-heading" (click)="viewDetail(bl.id)">
               {{ bl.heading.substring(0, 50) }}
             </h5>
-            <p class="m-t-20">
+            <p class="m-t-20 blog-subheading">
               {{ bl.subHeading }}
             </p>
           </div>
           <div class="col-md-3 no-trans">
-            <a
-              class="linking font-medium text-themecolor m-t-10 cursor-pointer"
-            >
-              <span (click)="viewDetail(bl.id)">Show Detail</span>
+            <button class="btn btn-success-gradiant btn-sm rounded" (click)="viewDetail(bl.id)">
+              Show Detail
               <i class="ti-arrow-right"></i>
-            </a>
+            </button>
           </div>
         </div>
       </div>
@@ -69,7 +104,6 @@
   </p>
 </div>
 
-<app-video></app-video>
 
 </div>
 <app-footer #footer></app-footer>

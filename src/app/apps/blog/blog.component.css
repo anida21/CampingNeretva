@@ -150,3 +150,96 @@
     max-width: 100%; /* Ovo ograničava širinu na maksimalnu dostupnu širinu roditeljskog elementa */
   }
 }
+
+/* CSS */
+@media (max-width: 767px) {
+  .blog-heading,
+  .blog-subheading {
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    max-width: 100%;
+  }
+}
+
+
+.title {
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 50;
+  font-style: normal;
+  font-size: xx-large;
+}
+
+
+.rounded-image {
+  border-radius: 10px; /* Prilagodite vrijednost prema vašim preferencama */
+}
+
+/* Dodajte ovo na dno vašeg CSS-a ili styles.scss fajla */
+
+/* Dodajte ovo u stilizaciju vaše Angular komponente */
+
+/* Dodajte ovo u vaš CSS stil ili styles.scss fajl */
+
+@media (max-width: 767px) {
+  .blog-text {
+    text-align: center;
+  }
+
+  .blog-text img {
+    max-width: 100%; /* Maksimalna širina slika će biti 100% širine roditeljskog elementa */
+    display: inline-block; /* Omogućuje centriranje slike */
+    margin: 0 auto; /* Automatsko centriranje slike */
+  }
+
+  .blog-heading,
+  .blog-subheading {
+    text-align: center;
+  }
+}
+
+.icon-image {
+  width: 100%;
+}
+
+.container-spacer2{
+  font-family: "Protest Riot", sans-serif;
+
+}
+
+@media (max-width: 767px) {
+  .icon-image {
+    width: 50%; /* Prilagodite veličinu slika prema vašim željama */
+    height: auto;
+  }
+}
+@media (max-width: 767px) {
+.blog-image {
+  height: 200px; /* Set the desired height for the images */
+  width: auto; /* Auto-adjust width to maintain aspect ratio */
+  border: none; /* Remove the border around the images */
+
+
+}
+.blog-heading {
+  font-size: 24px; 
+  font-family: "Protest Riot", sans-serif;/* Set the desired font size for the heading */
+}
+}
+
+.blog-heading {
+  font-family: "Protest Riot", sans-serif;/* Set the desired font size for the heading */
+}
+
+.blog-image {
+  border: none; /* Remove the border around the images */
+
+}
+
+.custom-rounded-button {
+  border-radius: 80px; /* Adjust the border-radius as needed */
+}
+
+.col-md-8.no-trans.border-bottom.mb-4 {
+  border-bottom: none;
+}

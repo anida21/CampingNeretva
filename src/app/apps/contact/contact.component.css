@@ -30,3 +30,12 @@
     margin-bottom: 0;
   }
   
+
+  @media (max-width: 767px) {
+    .static-slider-head {
+      height: 100vh;
+
+    }
+  }
+
+  

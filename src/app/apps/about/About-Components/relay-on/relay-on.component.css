@@ -63,3 +63,11 @@
     margin-top: 10px; /* Prilagodite razmak iznad paragrafa prema potrebi */
   }
 }
+/* Add this to your existing CSS styles or create a new stylesheet */
+
+/* For small screens (mobile devices) */
+@media (max-width: 576px) {
+  .card-body {
+    padding: 20px; /* Adjust the padding for mobile devices */
+  }
+}

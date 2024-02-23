@@ -2,7 +2,7 @@ import { Blog } from './blog-type';
 export const blogs: Blog[] = [
   {
     id: 1,
-    image: 'assets/images/innerpage/faft.jpg',
+    image: 'assets/images/landingpage/rafting.png',
     heading:
       'Raft tour',
     subHeading: 'Witness the breathtaking highlights from our exhilarating raft tours.',
@@ -10,7 +10,7 @@ export const blogs: Blog[] = [
     blogDetail: 'For those craving an added thrill, we provide the opportunity for quad biking or the rental of cross motorcycles. This presents an exhilarating way to venture through the camps environs with speed and dynamism, all while immersing yourself in the excitement of traversing natural trails and pathways.',
     },{
     id: 2,
-    image: 'assets/images/innerpage/quad.jpg',
+    image: 'assets/images/landingpage/quad.png',
     heading: 'Quad biking or renting cross motorcycles',
     subHeading:
       'Explore the Wild Side: Quad Biking and Cross Motorcycles Adventures Await!',
@@ -19,7 +19,7 @@ export const blogs: Blog[] = [
       'Tempor sint cupidatat cillum do ut. Ipsum exercitation est ex id. Sunt ut labore ad nulla.',
   },{
     id: 3,
-    image: 'assets/images/innerpage/mountain.jpg',
+    image: 'assets/images/landingpage/mountain.png',
     heading:
       'Tours in the Mountains',
     subHeading: 'Explore the surrounding mountainous areas.',

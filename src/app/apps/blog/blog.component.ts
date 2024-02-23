@@ -25,7 +25,7 @@ export class BlogComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.checkScreenSize();
+    //this.checkScreenSize();
     if (this.service.Blogs.length === 0)
       this.service.getBlog().subscribe((d: any) => (this.service.Blogs = d));
 
@@ -63,18 +63,19 @@ export class BlogComponent implements OnInit {
     };
   }
 
-  @HostListener('window:resize', ['$event'])
+  /*@HostListener('window:resize', ['$event'])
   onResize(event: any): void {
     // Provjeri veličinu ekrana kada se prozor promijeni veličinu
     this.checkScreenSize();
   }
 
-  private checkScreenSize(): void {
+  /*private checkScreenSize(): void {
     const video = this.renderer.selectRootElement('#myVideo');
 
     // Postavi autoplay na true samo ako je širina ekrana manja od 768 piksela
     video.autoplay = window.innerWidth < 768;
   }
+  */
 
   loginClick() {
     this.router.navigate(['/login']);
