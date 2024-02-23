@@ -3,3 +3,8 @@
     outline: 2px solid white; /* Promijenite debljinu linije po potrebi */
   }
 
+
+body {
+  font-family: "Caveat", cursive;
+
+}

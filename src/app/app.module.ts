@@ -2,7 +2,7 @@ import { BrowserModule, HammerModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbCollapseModule, NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
@@ -39,7 +39,8 @@ import { SuccessfulBookingComponent } from './successful-booking/successful-book
     ReactiveFormsModule,
     NoopAnimationsModule,
     HammerModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    NgbCollapseModule
   ],
   providers: [],
   bootstrap: [AppComponent]

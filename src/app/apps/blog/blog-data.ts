@@ -3,6 +3,8 @@ export const blogs: Blog[] = [
   {
     id: 1,
     image: 'assets/images/landingpage/rafting.png',
+    image2: 'assets/images/innerpage/faft.jpg',
+
     heading:
       'Raft tour',
     subHeading: 'Witness the breathtaking highlights from our exhilarating raft tours.',
@@ -11,6 +13,7 @@ export const blogs: Blog[] = [
     },{
     id: 2,
     image: 'assets/images/landingpage/quad.png',
+    image2: 'assets/images/innerpage/quad.jpg',
     heading: 'Quad biking or renting cross motorcycles',
     subHeading:
       'Explore the Wild Side: Quad Biking and Cross Motorcycles Adventures Await!',
@@ -20,10 +23,11 @@ export const blogs: Blog[] = [
   },{
     id: 3,
     image: 'assets/images/landingpage/mountain.png',
+    image2: 'assets/images/innerpage/mountain.jpg',
     heading:
       'Tours in the Mountains',
     subHeading: 'Explore the surrounding mountainous areas.',
-    blogDate: 'July 19, 2023',
+    blogDate: '',
     blogDetail:
 'Yet, the excitement extends beyond the river. Our camp offers diverse options to discover the nearby mountainous regions, encompassing the Prenj, Čvrsnica, and Velež mountains. Embark on a captivating hiking tour, guiding you through enchanting landscapes, featuring untouched nature, blooming wildflower meadows, and breathtaking viewpoints that provide memorable panoramas of the neighboring mountains and valleys.',  }
 ];

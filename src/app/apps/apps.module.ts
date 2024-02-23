@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbCollapseModule, NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppsRoutingModule } from './apps-routing.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
@@ -48,6 +48,7 @@ import { HammerModule } from '@angular/platform-browser';
     ReactiveFormsModule,
     HttpClientModule,
     HammerModule,
+    NgbCollapseModule
     
   ],
   providers: [ServiceblogService],

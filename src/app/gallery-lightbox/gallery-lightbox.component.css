@@ -8,7 +8,7 @@ html,
 body {
     padding: 0;
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Montserrat Alternates", sans-serif;
 }
 :host {
     display: block;
@@ -178,15 +178,15 @@ body {
 }
 
 .container{
-    font-family: "Protest Riot", sans-serif;
+    font-family: "Montserrat Alternates", sans-serif;
 }
 
 .title{
-    font-family: "Protest Riot", sans-serif;
+    font-family: "Montserrat Alternates", sans-serif;
 
 }
 
 .subtitle{
-    font-family: "Protest Riot", sans-serif;
+    font-family: "Montserrat Alternates", sans-serif;
 
 }

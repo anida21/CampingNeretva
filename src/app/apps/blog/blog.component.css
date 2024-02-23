@@ -11,7 +11,6 @@
     margin: 0 auto;
     text-align: justify; 
     font-size: 1.0em;
-    font-weight: bold;
   }
   .previous-div {
     margin-bottom: 50px;
@@ -164,7 +163,7 @@
 
 
 .title {
-  font-family: "Protest Riot", sans-serif;
+  font-family: 'BebasNeue-Bold', sans-serif;
   font-weight: 50;
   font-style: normal;
   font-size: xx-large;
@@ -203,7 +202,7 @@
 }
 
 .container-spacer2{
-  font-family: "Protest Riot", sans-serif;
+  font-family: 'BebasNeue-Bold', sans-serif;
 
 }
 
@@ -223,12 +222,12 @@
 }
 .blog-heading {
   font-size: 24px; 
-  font-family: "Protest Riot", sans-serif;/* Set the desired font size for the heading */
+  font-family: 'BebasNeue-Bold', sans-serif;
 }
 }
 
 .blog-heading {
-  font-family: "Protest Riot", sans-serif;/* Set the desired font size for the heading */
+  font-family: 'BebasNeue-Bold', sans-serif;
 }
 
 .blog-image {
@@ -240,6 +239,12 @@
   border-radius: 80px; /* Adjust the border-radius as needed */
 }
 
-.col-md-8.no-trans.border-bottom.mb-4 {
-  border-bottom: none;
+
+.blog-text{
+  font-family: "Montserrat Alternates", sans-serif;
+
+}
+
+.blog-heading {
+  font-family: "Montserrat Alternates", sans-serif !important;
 }

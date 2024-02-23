@@ -776,7 +776,7 @@ class RelayOnComponent {
             },
             {
                 image: '../assets/images/innerpage/beachhh.png',
-                field: 'Private beach, clean and drinkable water and place for fishing endemic trout',
+                field: 'Private beach, drinkable water and place for fishing endemic trout',
                 fieldText: ''
             }
         ];
