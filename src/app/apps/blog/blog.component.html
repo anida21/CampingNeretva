@@ -61,40 +61,30 @@
       </h6>
     </div>
     
-  <div class="row m-t-40 justify-content-center">
-    <!-- Column -->
-    <div
-      class="col-md-8 no-trans"
-      *ngFor="let bl of service.Blogs"
-    >
-      <div class="card" data-aos="flip-left" data-aos-duration="1200">
-        <div class="row">
-          <div class="col-md-2 no-trans blog-text">
-            <img
-            src="{{ bl.image }}"
-            alt="{{ bl.heading }}"
-            class="img-fluid img-thumbnail rounded-image blog-image"
-          />            
-          </div>
-          <div class="col-md-7 no-trans blog-text">
-            <h5 class="font-medium cursor-pointer blog-heading" (click)="viewDetail(bl.id)">
-              {{ bl.heading.substring(0, 50) }}
-            </h5>
-            <p class="m-t-20 blog-subheading">
-              {{ bl.subHeading }}
-            </p>
-          </div>
-          <div class="col-md-3 no-trans">
-            <button class="btn btn-success-gradiant btn-sm rounded" (click)="viewDetail(bl.id)">
-              Show Detail
-              <i class="ti-arrow-right"></i>
-            </button>
+    <div class="row m-t-40 justify-content-center">
+      <!-- Column -->
+      <div class="col-md-8 no-trans">
+        <div class="card" data-aos="flip-left" data-aos-duration="1200" *ngFor="let bl of service.Blogs">
+          <div class="row">
+            <div class="col-md-6 no-trans blog-text">
+              <img src="{{ bl.image }}" alt="{{ bl.heading }}" class="img-fluid img-thumbnail rounded-image blog-image" />
+            </div>
+            <div class="col-md-6 no-trans blog-text">
+              <h5 class="font-medium cursor-pointer blog-heading" (click)="viewDetail(bl.id)">
+                {{ bl.heading.substring(0, 50) }}
+              </h5>
+              <p class="m-t-20 blog-subheading">
+                {{ bl.subHeading }}
+              </p>
+              <button class="btn btn-success-gradiant btn-sm rounded" (click)="viewDetail(bl.id)">
+                Show Detail
+                <i class="ti-arrow-right"></i>
+              </button>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
 
 <div class="previous-div"></div>
   <div class="row justify-content-center">
@@ -109,4 +99,7 @@
 </div>
   </div>
 </div>
-<app-footer #footer></app-footer>
+</div>
+<app-footer #footer style="margin-bottom: 0;"></app-footer>
+
+
