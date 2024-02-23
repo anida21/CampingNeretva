@@ -69,6 +69,8 @@ body {
             margin-left: 5px;
         }
 
+      
+        
         .close-btn {
             position: absolute; /* Change from fixed to absolute */
             top: 10px;
@@ -189,4 +191,7 @@ body {
 .subtitle{
     font-family: "Montserrat Alternates", sans-serif;
 
+}
+.lightbox-img  {
+    width: 50%;
 }
