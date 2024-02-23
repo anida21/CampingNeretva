@@ -18,3 +18,9 @@
     margin-bottom: 10px;
   }
   
+  @media (max-width: 767px) {
+    .m-t-30, .m-b-30 {
+      font-size: 14px; /* Prilagodite veličinu teksta prema potrebi */
+    }
+  }
+  
