@@ -31,11 +31,15 @@
   }
   
 
-  @media (max-width: 767px) {
-    .static-slider-head {
-      height: 100vh;
-
+  @media screen and (max-width: 767px) {
+    .title {
+      font-size: 30px; /* Prilagodite veličinu naslova prema potrebi */
+    }
+  
+    /* Dodatni stilovi za centriranje naslova */
+    .static-slider-head .container {
+      position: static;
+      transform: none;
+      text-align: center;
     }
   }
-
-  
