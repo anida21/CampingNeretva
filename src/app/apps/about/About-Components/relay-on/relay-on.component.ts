@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 
 @Component({
   selector: 'app-relay-on',
@@ -56,9 +57,17 @@ export class RelayOnComponent implements OnInit {
     }
   ];
 
-  constructor() { }
-
   ngOnInit(): void {
   }
 
+
+
+  isSmallScreen = false;
+
+  constructor(private breakpointObserver: BreakpointObserver) {
+    this.breakpointObserver.observe([Breakpoints.Small])
+      .subscribe(result => {
+        this.isSmallScreen = result.matches;
+      });
+  }
 }
