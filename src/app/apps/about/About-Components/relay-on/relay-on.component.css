@@ -42,11 +42,10 @@
     .card-body {
       padding: 20px;
     }
-  
     .img-icon {
-      width: 100%;
-      height: 150px;
-      object-fit: cover;
+      width: auto;
+      max-height: 120px; /* Postavite maksimalnu visinu prema potrebi */
+      object-fit: contain; /* Promijenite na "cover" ili "contain" prema želji */
     }
     .font-medium {
       font-size: 1.5rem;
