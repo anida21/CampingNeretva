@@ -180,10 +180,10 @@ blogs: any;
 
   //ZA SLIDER
   items: SliderItem[] = [
-    { imageSrc: 'assets/images/innerpage/dronedrone.JPG', design: '', title: 'Camping Neretva', description: 'Lorem ipsum...' },
-    { imageSrc: 'assets/images/innerpage/camparking.jpg', design: '', title: 'Slider 01', description: 'Lorem ipsum...' },
-    { imageSrc: 'assets/images/innerpage/mostar.jpg', design: '', title: 'Mostar', description: 'Lorem ipsum...' },
-    { imageSrc: 'assets/images/innerpage/rafting.jpg', design: '', title: 'Rafting', description: 'Lorem ipsum...' },
+    { imageSrc: 'assets/images/innerpage/dronedrone.JPG', design: '', title: '', description: 'Lorem ipsum...' },
+    { imageSrc: 'assets/images/innerpage/camparking.jpg', design: '', title: '', description: 'Lorem ipsum...' },
+    { imageSrc: 'assets/images/innerpage/mostar.jpg', design: '', title: '', description: 'Lorem ipsum...' },
+    { imageSrc: 'assets/images/innerpage/rafting.jpg', design: '', title: '', description: 'Lorem ipsum...' },
 
   ];
 
@@ -223,6 +223,7 @@ blogs: any;
     this.itemActive = index;
     this.showSlider();
   }
+  
 
   private showSlider() {
     clearInterval(this.refreshInterval);
@@ -230,4 +231,7 @@ blogs: any;
       this.nextClick();
     }, 5000);
   }
+
+
+  
 }

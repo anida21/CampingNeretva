@@ -27,14 +27,9 @@
       </div>
     </div>
   </div>
-  <!-- button arrows -->
-  <div class="arrows">
-    <button (click)="prevClick()"><</button>
-    <button (click)="nextClick()">></button>
-  </div>
   <!-- thumbnail -->
   <div class="thumbnail">
-    <div class="item" *ngFor="let thumbnail of thumbnails; let i = index" [class.active]="i === itemActive">
+    <div class="item" *ngFor="let thumbnail of thumbnails; let i = index" [class.active]="i === itemActive" (click)="thumbnailClick(i)">
       <img [src]="thumbnail.imageSrc">
       <div class="content">
         {{ thumbnail.name }}
