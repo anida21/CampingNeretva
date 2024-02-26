@@ -287,7 +287,7 @@ header .menu{
 }
 /* css slider */
 .slider{
-  height: 90vh;
+  height: 95vh;
   margin-top: -50px;
   position: relative;
 }
@@ -317,7 +317,7 @@ header .menu{
 .slider .list .item .content{
   position: absolute;
   left: 10%;
-  top: 20%;
+  top: 80%;
   width: 500px;
   max-width: 80%;
   z-index: 1;
@@ -379,8 +379,8 @@ header .menu{
 
 
 .indicator {
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
   background-color: #ffffff; /* Set the default color */
   margin: 0 5px; /* Adjust the margin as needed */
@@ -432,8 +432,10 @@ header .menu{
   .thumbnail{
       justify-content: start;
   }
-  .slider .list .item .content h2{
-      font-size: 60px;
+  .slider .list .item .content h2 {
+    font-size: 24px; /* Adjust font size for better visibility */
+    display: block;
+    text-align: center; /* Center the text */
   }
   .arrows{
       top: 10%;

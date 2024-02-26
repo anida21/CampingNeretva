@@ -18,7 +18,6 @@
     <div class="item" *ngFor="let item of items; let i = index" [class.active]="i === itemActive">
       <img [src]="item.imageSrc">
       <div class="content">
-        <p>{{ item.design }}</p>
         <h2>{{ item.title }}</h2>
         <p>{{ item.description }}</p>
       </div>
