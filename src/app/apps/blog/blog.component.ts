@@ -180,20 +180,18 @@ blogs: any;
 
   //ZA SLIDER
   items: SliderItem[] = [
-    { imageSrc: 'assets/images/innerpage/dronedrone.JPG', design: '', title: 'CampingNeretva', description: '' },
+    { imageSrc: 'assets/images/innerpage/drone2.JPG', design: '', title: 'CampingNeretva', description: '' },
     { imageSrc: 'assets/images/innerpage/camparking.jpg', design: '', title: 'Our camp', description: '' },
     { imageSrc: 'assets/images/innerpage/mostar.jpg', design: '', title: 'Visit Old Bridge', description: '' },
     { imageSrc: 'assets/images/innerpage/rafting.jpg', design: '', title: 'Come with us on raft tours', description: '' },
-    { imageSrc: 'assets/images/innerpage/drone2.JPG', design: '', title: '', description: '' },
 
   ];
 
   thumbnails: ThumbnailItem[] = [
-    { imageSrc: 'assets/images/innerpage/dronedrone.JPG', name: '' },
+    { imageSrc: 'assets/images/innerpage/drone2.JPG', name: '' },
     { imageSrc: 'assets/images/innerpage/camparking.jpg', name: '' },
     { imageSrc: 'assets/images/innerpage/mostar.jpg', name: '' },
     { imageSrc: 'assets/images/innerpage/rafting.jpg', name: '' },
-    { imageSrc: 'assets/images/innerpage/drone2.JPG', name: '' },
 
 
     // Repeat for other items
