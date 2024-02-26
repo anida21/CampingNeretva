@@ -1,16 +1,43 @@
-
+<!--
 <div class="main">
   <div class="static-slider-head" style="background-image: url(assets/images/landingpage/campview.jpg); position: relative; height: 60vh;">
-    <!-- Promijenjena visina slike na 60vh -->
+
     <div class="container" style="position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); width: 100%;">
-      <!-- Stilovi za apsolutno pozicioniranje i centraliziranje -->
-      <!-- Row  -->
+     
       <div class="row justify-content-center">
-        <!-- Column -->
         <div class="col-lg-9 col-md-6 align-self-center text-center no-trans">
           
         </div>
-        <!-- Column -->
+      </div>
+    </div>
+  </div>
+</div> -->
+
+
+
+<div class="slider">
+  <!-- list Items -->
+  <div class="list">
+    <div class="item" *ngFor="let item of items; let i = index" [class.active]="i === itemActive">
+      <img [src]="item.imageSrc">
+      <div class="content">
+        <p>{{ item.design }}</p>
+        <h2>{{ item.title }}</h2>
+        <p>{{ item.description }}</p>
+      </div>
+    </div>
+  </div>
+  <!-- button arrows -->
+  <div class="arrows">
+    <button (click)="prevClick()"><</button>
+    <button (click)="nextClick()">></button>
+  </div>
+  <!-- thumbnail -->
+  <div class="thumbnail">
+    <div class="item" *ngFor="let thumbnail of thumbnails; let i = index" [class.active]="i === itemActive">
+      <img [src]="thumbnail.imageSrc">
+      <div class="content">
+        {{ thumbnail.name }}
       </div>
     </div>
   </div>

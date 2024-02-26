@@ -4,6 +4,19 @@ import { ServiceblogService } from './blog-service.service';
 import { Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 
+
+interface SliderItem {
+  imageSrc: string;
+  design: string;
+  title: string;
+  description: string;
+}
+
+interface ThumbnailItem {
+  imageSrc: string;
+  name: string;
+}
+
 @Component({
   selector: 'app-blog',
   templateUrl: './blog.component.html',
@@ -13,6 +26,9 @@ export class BlogComponent implements OnInit {
   blogsDetail: Blog[] = [];
 
   videoSource = 'assets/images/innerpage/Camping Neretva.mp4';
+blogs: any;
+
+
 
 
   constructor(
@@ -22,9 +38,12 @@ export class BlogComponent implements OnInit {
     private renderer: Renderer2
   ) {
     this.service.showEdit = false;
+    this.initSlider();
   }
 
   ngOnInit(): void {
+    this.initSlider();
+
     //this.checkScreenSize();
     if (this.service.Blogs.length === 0)
       this.service.getBlog().subscribe((d: any) => (this.service.Blogs = d));
@@ -156,4 +175,59 @@ export class BlogComponent implements OnInit {
       caption: ''
     }
   ]
+
+//////////////////
+
+  //ZA SLIDER
+  items: SliderItem[] = [
+    { imageSrc: 'assets/images/innerpage/dronedrone.JPG', design: '', title: 'Camping Neretva', description: 'Lorem ipsum...' },
+    { imageSrc: 'assets/images/innerpage/camparking.jpg', design: '', title: 'Slider 01', description: 'Lorem ipsum...' },
+    { imageSrc: 'assets/images/innerpage/mostar.jpg', design: '', title: 'Mostar', description: 'Lorem ipsum...' },
+    { imageSrc: 'assets/images/innerpage/rafting.jpg', design: '', title: 'Rafting', description: 'Lorem ipsum...' },
+
+  ];
+
+  thumbnails: ThumbnailItem[] = [
+    { imageSrc: 'assets/images/innerpage/dronedrone.JPG', name: '' },
+    { imageSrc: 'assets/images/innerpage/camparking.jpg', name: '' },
+    { imageSrc: 'assets/images/innerpage/mostar.jpg', name: '' },
+    { imageSrc: 'assets/images/innerpage/rafting.jpg', name: '' },
+
+
+    // Repeat for other items
+  ];
+  
+  itemActive = 0; // Make sure this property exists
+
+  private refreshInterval: any;
+
+ 
+
+  private initSlider() {
+    this.refreshInterval = setInterval(() => {
+      this.nextClick();
+    }, 5000);
+  }
+
+  nextClick() {
+    this.itemActive = (this.itemActive + 1) % this.items.length;
+    this.showSlider();
+  }
+
+  prevClick() {
+    this.itemActive = (this.itemActive - 1 + this.items.length) % this.items.length;
+    this.showSlider();
+  }
+
+  thumbnailClick(index: number) {
+    this.itemActive = index;
+    this.showSlider();
+  }
+
+  private showSlider() {
+    clearInterval(this.refreshInterval);
+    this.refreshInterval = setInterval(() => {
+      this.nextClick();
+    }, 5000);
+  }
 }
