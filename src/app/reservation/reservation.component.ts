@@ -38,7 +38,7 @@ export class ReservationComponent {
         response => {
           console.log('Email sent successfully', response);
           // Nakon uspješnog slanja emaila, preusmjeri korisnika na drugu stranicu
-          this.router.navigate(['/successful-reservation']);
+          this.router.navigateByUrl('/successful-reservation');
         },
         error => {
           console.error('Error sending email:', error);

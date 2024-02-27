@@ -4,7 +4,6 @@ export const blogs: Blog[] = [
     id: 1,
     image: 'assets/images/landingpage/rafting.png',
     image2: 'assets/images/innerpage/faft.jpg',
-
     heading:
       'Raft tour',
     subHeading: 'Witness the breathtaking highlights from our exhilarating raft tours.',

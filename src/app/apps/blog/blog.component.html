@@ -46,24 +46,37 @@
 
 -->
 <div class="container spacer2 text-center">
-  <h1 class="title" style="color: #343a40;    font-family: Montserrat Alternates, sans-serif; font-weight: bold;">WELCOME TO CAMPING NERETVA</h1>
+  <h1 class="title" style="color: #343a40; font-family: Montserrat Alternates, sans-serif; font-weight: bold;">WELCOME TO CAMPING NERETVA</h1>
+  <div class="previous-div"></div>
   <div class="row justify-content-center">
+    <!-- Povećajte širinu unutrašnjeg div-a na col-md-10 -->
+    <div class="col-md-10 no-trans text-center" style="background-color: #f8f9fa; padding: 30px; margin-bottom: 0px;">
+      <p class="text-justify" style="font-weight: bold; margin-bottom: 15px;">
+        At the heart of Mostar is Camping Neretva, your gateway to unforgettable adventures. The camp offers the perfect blend of comfort and direct contact with nature. Situated right along the banks of the Neretva, the camp provides spectacular views and access to a variety of water activities.
+      </p>
+      <p class="text-justify" style="font-weight: bold;">
+        Whether you enjoy camping under the open sky, exploring the surroundings on a bicycle, or relaxing to the sounds of the river, Camping Neretva promises a unique experience that will awaken your adventurous spirit. Visit us and experience the fusion of nature, culture, and excitement in the heart of this irresistible part of Bosnia and Herzegovina.
+      </p>
+    </div>
+  </div>
+  <div class="row justify-content-center text-center">
     <div class="col-md-4">
-      <img src="assets/images/landingpage/mount.png" class="img-fluid  icon-image">
-      <h6 class="icon-text" style="color: #343a40;    font-family: Montserrat Alternates, sans-serif; font-weight: bold;" >EXPLORE NEARBY MOUNTAINS</h6>
-      <p class="icon-text">Prenj, Čvrsnica, Velež </p>
+      <img src="assets/images/landingpage/mount.png" class="img-fluid icon-image mx-auto"> <!-- Dodane klase mx-auto -->
+      <h6 class="icon-text" style="color: #343a40; font-family: Montserrat Alternates, sans-serif; font-weight: bold;">EXPLORE NEARBY MOUNTAINS</h6>
+      <p class="icon-text">Prenj, Čvrsnica, Velež</p>
     </div>
     <div class="col-md-4">
-      <img src="assets/images/landingpage/sun.png" class="img-fluid icon-image"> 
-      <h6 class="icon-text" style="color: #343a40;    font-family: Montserrat Alternates, sans-serif; font-weight: bold;">ENJOY SUNNY DAYS</h6>
+      <img src="assets/images/landingpage/sun.png" class="img-fluid icon-image mx-auto"> <!-- Dodane klase mx-auto -->
+      <h6 class="icon-text" style="color: #343a40; font-family: Montserrat Alternates, sans-serif; font-weight: bold;">ENJOY SUNNY DAYS</h6>
       <p class="icon-text">Explore the beauty of Mostar and the Neretva River</p>
     </div>
     <div class="col-md-4">
-      <img src="assets/images/landingpage/river.png" class="img-fluid icon-image"> 
-      <h6 class="icon-text" style="color: #343a40;    font-family: Montserrat Alternates, sans-serif; font-weight: bold;">THE PERFECT LOCATION</h6>
+      <img src="assets/images/landingpage/river.png" class="img-fluid icon-image mx-auto"> <!-- Dodane klase mx-auto -->
+      <h6 class="icon-text" style="color: #343a40; font-family: Montserrat Alternates, sans-serif; font-weight: bold;">THE PERFECT LOCATION</h6>
       <p class="icon-text">Only 3km from Old Bridge</p>
     </div>
-  </div>
+</div>
+
 </div>
 
 <app-video></app-video>
@@ -77,44 +90,42 @@
         Special Offers Just for You
       </h6>
     </div>
-    
-    <div class="row m-t-40 justify-content-center">
-      <!-- Column -->
-      <div class="col-md-8 no-trans">
-        <div class="card" data-aos="flip-left" data-aos-duration="1200" *ngFor="let bl of service.Blogs">
-          <div class="row">
-            <div class="col-md-6 no-trans blog-text">
-              <img src="{{ bl.image }}" alt="{{ bl.heading }}" class="img-fluid img-thumbnail rounded-image blog-image" />
-            </div>
-            <div class="col-md-6 no-trans blog-text">
-              <h5 class="font-medium cursor-pointer blog-heading" (click)="viewDetail(bl.id)">
-                {{ bl.heading.substring(0, 50) }}
-              </h5>
-              <p class="m-t-20 blog-subheading">
-                {{ bl.subHeading }}
-              </p>
-              <button class="btn btn-success-gradiant btn-md rounded" (click)="viewDetail(bl.id)">
-                Show Details
-                <i class="ti-arrow-right"></i>
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
-<div class="previous-div"></div>
-  <div class="row justify-content-center">
-    <!-- Column -->
-<div class="col-md-8 no-trans text-center" style="background-color: #f8f9fa; padding: 30px; margin-bottom: 0px;">
-  <p class="text-justify">
-    At the heart of Mostar is Camping Neretva, your gateway to unforgettable adventures. The camp offers the perfect blend of comfort and direct contact with nature. Situated right along the banks of the Neretva, the camp provides spectacular views and access to a variety of water activities.
-  </p>
-  <p class="text-justify">
-    Whether you enjoy camping under the open sky, exploring the surroundings on a bicycle, or relaxing to the sounds of the river, Camping Neretva promises a unique experience that will awaken your adventurous spirit. Visit us and experience the fusion of nature, culture, and excitement in the heart of this irresistible part of Bosnia and Herzegovina.
-  </p>
-</div>
-  </div>
+    
+    <div class="container2">
+      <div class="card__container">
+         <article class="card__article">
+          <img src="assets/images/innerpage/rafting.jpg" alt="image" class="card__img">
+
+            <div class="card__data">
+               <span class="card__description">Witness the breathtaking highlights from our exhilarating raft tours.</span>
+               <h2 class="card__title">Raft tour</h2>
+               <a href="#" class="card__button">Read More</a>
+            </div>
+         </article>
+
+         <article class="card__article">
+          <img src="assets/images/innerpage/mountain.jpg" alt="image" class="card__img">
+
+            <div class="card__data">
+               <span class="card__description">Explore the surrounding mountainous areas</span>
+               <h2 class="card__title">Tours in the Mountains</h2>
+               <a href="#" class="card__button" (click)="viewDetail(2)">Read More</a>
+            </div>
+         </article>
+
+         <article class="card__article">
+          <img src="assets/images/innerpage/quad.jpg" alt="image" class="card__img">
+
+            <div class="card__data">
+               <span class="card__description">Explore the Wild Side</span>
+               <h2 class="card__title">Quad biking or renting cross motorcycles</h2>
+               <a href="#" class="card__button">Read More</a>
+            </div>
+         </article>
+      </div>
+   </div>
+
 </div>
 </div>
 <app-footer #footer style="margin-bottom: 0;"></app-footer>
