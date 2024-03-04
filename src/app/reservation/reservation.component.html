@@ -165,43 +165,55 @@
 </div>
 <div class="container2">
   <div class="signin-signup">
-    <form action="" class="sign-in-form" method="POST">
+    <form action="" class="sign-in-form flex-container" method="POST">
       <h2 class="title2"  style="font-family: Montserrat Alternates, sans-serif">Camping site reservation</h2>
       <div class="input-field">
         <label for="name">Name:</label>
         <input type="text" 
           required=""
-          value=""
-          name="Name" 
+          value="" 
+          name="Name"
           [(ngModel)]="emailForm.formData.Name"
-          id="name">
-      </div>
-      <div class="input-field">
-        <label for="phoneNumber">Phone Number:</label>
-        <input type="text" 
-          required=""
-          value=""
-          name="PhoneNumber" 
-          [(ngModel)]="emailForm.formData.PhoneNumber"
-          id="phoneNumber">
-      </div>
+          #name="ngModel"
+          [ngModelOptions]="{standalone: true}"
+          id="name"
+          class="ng-touched"
+        >
+        <div *ngIf="name?.invalid && (name?.dirty || name?.touched)">
+          <div *ngIf="name?.errors?.required" class="error-message">Enter your name</div>
+        </div>
+        </div>
+        <div class="input-field">
+          <label for="phoneNumber">Phone:</label>
+          <input
+            type="text"
+            required
+            name="PhoneNumber"
+            [(ngModel)]="emailForm.formData.PhoneNumber"
+            #phoneNumber="ngModel"
+            [ngModelOptions]="{standalone: true}"
+            id="phoneNumber"
+            class="ng-touched"
+          >
+          <div *ngIf="phoneNumber?.invalid && (phoneNumber?.dirty || phoneNumber?.touched)">
+            <div *ngIf="phoneNumber?.errors?.required" class="error-message">Enter phone number</div>
+          </div>
+        </div>
       <div class="input-field"> 
         <label for="email">Email:</label>
-        <input type="text"
-          required=""
-          value=""
-          name="Email" 
+        <input
+          type="text"
+          required
+          name="Email"
           [(ngModel)]="emailForm.formData.Email"
-          id="email">
-      </div>
-      <div class="input-field">
-        <label for="typeOfVehicle">Type Of Vehicle:</label>
-        <input type="text" 
-          required=""
-          value=""
-          name="TypeOfVehicle"
-          [(ngModel)]="emailForm.formData.TypeOfVehicle"
-          id="typeOfVehicle">
+          #email="ngModel"
+          [ngModelOptions]="{standalone: true}"
+          id="email"
+          class="ng-touched"
+        >
+        <div *ngIf="email?.invalid && (email?.dirty || email?.touched)">
+          <div *ngIf="email?.errors?.required" class="error-message">Enter your email</div>
+        </div>
       </div>
       <div class="input-field">
         <label for="typeOfCamping">Type of Camping:</label>
@@ -223,7 +235,6 @@
       <div class="input-field"> 
         <label for="email">Number of guests:</label>
         <input type="text"
-          required=""
           value=""
           name="NumberOfGuests" 
           [(ngModel)]="emailForm.formData.NumberOfGuests"

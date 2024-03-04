@@ -60,6 +60,16 @@ body {
   background: rgba(169, 169, 169, 0.5); 
 }
 
+/* Dodajte ove stilove u vaš CSS fajl */
+/* Dodajte ove stilove u vaš CSS fajl */
+.error-message {
+  color: red;
+  margin-right: 5px; 
+  font-size: small;/* Dodajte ovo ako želite malo razmaka između poruka */
+}
+
+
+
 form {
   width: 100%;
   display: flex;
@@ -93,8 +103,8 @@ form.sign-up-form {
   margin-bottom: 10px;
   background: #f0f0f0;
   margin: 10px 0;
-  border: 0.5px solid #4fdf4a;
-  border-radius: 5px;
+  border: 0.5px solid #888e88;
+  border-radius: 25px;
   display: flex;
   align-items: center;
   pointer-events: auto; /* Dodajte ovo ili uklonite pointer-events */
@@ -120,20 +130,28 @@ form.sign-up-form {
   border: none;
   outline: none;
   width: 100%;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 600;
   color: #444;
   z-index: 1;
   margin-left: 10px;
   font-family:  "Montserrat Alternates", sans-serif;
 }
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Prilagodite ovo prema vašim potrebama */
+}
+
+
 .SortableItem { 
   height: 200px;
   width: 100%;
   background: #f0f0f0;
   margin: 10px 0;
-  border: 0.5px solid #4fdf4a;
-  border-radius: 5px;
+  border: 0.5px solid #7b8a7b;
+  border-radius: 25px;
 }
 
 .SortableItem .mb-4 {
@@ -172,7 +190,7 @@ form.sign-up-form {
   height: 50px;
   border: none;
   border-radius: 50px;
-  background: #3e9e56;
+  background-image: linear-gradient(to bottom, #4CAF50, #353635);
   color: #fff;
   font-weight: 600;
   margin: 10px 0;

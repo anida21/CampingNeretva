@@ -36,3 +36,8 @@
   .subtitle{
     font-family: "Montserrat Alternates", sans-serif;
   }
+
+  .container h6 {
+    text-align: justify;
+    font-size: 12px; /* Justificirajte tekst za bolji raspored */
+  }
