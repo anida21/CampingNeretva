@@ -23,6 +23,10 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { VideoComponent } from '../video/video.component';
 import { TouchSliderComponent } from '../touch-slider/touch-slider.component';
 import { HammerModule } from '@angular/platform-browser';
+import { BsModalService } from 'ngx-bootstrap/modal';
+import { GooglereviewsComponent } from '../googlereviews/googlereviews.component';
+
+
 
 @NgModule({
   declarations: [
@@ -38,7 +42,9 @@ import { HammerModule } from '@angular/platform-browser';
     BannerComponent,
     // BannerContentComponent,
     BannerNavigationComponent,
-    FooterComponent
+    FooterComponent,
+    GooglereviewsComponent,
+    
   ],
   imports: [
     CommonModule,
@@ -48,9 +54,7 @@ import { HammerModule } from '@angular/platform-browser';
     ReactiveFormsModule,
     HttpClientModule,
     HammerModule,
-    NgbCollapseModule
-    
-  ],
-  providers: [ServiceblogService],
+    NgbCollapseModule  ],
+  providers: [ServiceblogService, BsModalService],
 })
 export class AppsModule {}

@@ -14,5 +14,6 @@ export class TopContentComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  redirectToLink(): void {
+    window.location.href = 'https://g.co/kgs/1TFBSGE' }
 }

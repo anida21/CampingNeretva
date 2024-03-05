@@ -14,11 +14,11 @@
   }
   
   .main{
-    font-family: "Montserrat Alternates", sans-serif;
+    font-family: "Kanit", sans-serif;
   }
 
   .container{
-    font-family: "Montserrat Alternates", sans-serif;
+    font-family: "Kanit", sans-serif;
   }
  
   .spacer {
@@ -26,18 +26,20 @@
   }
 
   .title{
-    font-family: "Montserrat Alternates", sans-serif;
+    font-family: "Kanit", sans-serif;
   }
 
   .main{
-    font-family: "Montserrat Alternates", sans-serif;
+    font-family: "Kanit", sans-serif;
   }
 
   .subtitle{
-    font-family: "Montserrat Alternates", sans-serif;
+    font-family: "Kanit", sans-serif;
   }
 
   .container h6 {
     text-align: justify;
     font-size: 12px; /* Justificirajte tekst za bolji raspored */
   }
+
+  

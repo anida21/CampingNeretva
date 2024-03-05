@@ -8,7 +8,7 @@ html,
 body {
     padding: 0;
     margin: 0;
-    font-family: "Montserrat Alternates", sans-serif;
+    font-family: "Kanit", sans-serif;
 }
 :host {
     display: block;
@@ -180,18 +180,50 @@ body {
 }
 
 .container{
-    font-family: "Montserrat Alternates", sans-serif;
+    font-family: "Kanit", sans-serif;
 }
 
 .title{
-    font-family: "Montserrat Alternates", sans-serif;
+    font-family: "Kanit", sans-serif;
 
 }
 
 .subtitle{
-    font-family: "Montserrat Alternates", sans-serif;
+    font-family: "Kanit", sans-serif;
 
 }
 .lightbox-img  {
     width: 50%;
+}
+
+.footer4{
+    margin-left: 0px;
+}
+
+.scroll-link {
+    scroll-behavior: smooth;
+  }
+  
+  .round-social .link {
+    display: grid;
+    align-items: center;
+  }
+
+  .round-social {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px; /* Opciono: Postavite željeni razmak između ikona */
+    margin-bottom: 20px; 
+    /* Postavite željeni razmak ispod društvenih ikona */
+  }
+
+  @media (max-width: 767px) {
+    .round-social {
+        display: inline-flex; /* Postavite da elementi idu jedan ispod drugoga na manjim ekranima */
+        align-items: center; /* Centriranje po vertikali */
+    }
+}
+
+img{
+    display: inline;
 }

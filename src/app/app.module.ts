@@ -13,9 +13,10 @@ import { BrowserAnimationsModule, NoopAnimationsModule } from '@angular/platform
 import { ScrollToFooterDirective } from './scroll-to-footer.directive';
 import { ReservationComponent } from './reservation/reservation.component';
 import { ContactComponent } from './apps/contact/contact.component';
-import { GalleryLightboxComponent } from './gallery-lightbox/gallery-lightbox.component';
-import { GalleryTestComponent } from './gallery-test/gallery-test.component';
+import { GalleryLightboxComponent } from './apps/gallery-lightbox/gallery-lightbox.component';
+import { GalleryTestComponent } from './apps/gallery-test/gallery-test.component';
 import { SuccessfulBookingComponent } from './successful-booking/successful-booking.component';
+import { ModalModule } from 'ngx-bootstrap/modal';
 
 
 
@@ -39,7 +40,8 @@ import { SuccessfulBookingComponent } from './successful-booking/successful-book
     NoopAnimationsModule,
     HammerModule,
     BrowserAnimationsModule,
-    NgbCollapseModule
+    NgbCollapseModule,
+    ModalModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

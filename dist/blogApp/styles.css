@@ -2021,7 +2021,7 @@ Global Styles
 }
 body {
   background: #ffffff;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Kanit", sans-serif;
   margin: 0;
   overflow-x: hidden;
   color: #8d97ad;
@@ -2070,7 +2070,7 @@ h4,
 h5,
 h6 {
   color: #3e4555;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Kanit", sans-serif;
 }
 h1 {
   line-height: 40px;

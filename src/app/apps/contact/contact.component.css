@@ -3,9 +3,7 @@
     height: 65vh; /* Dodajte ovu liniju kako biste osigurali punu visinu */
   }
 
-  .round-social {
-    margin-top: 30px; /* Prilagodite vrednost prema potrebama da biste eliminisali razmak */
-  }
+ 
   
   .footer4 {
     font-size: 16px;
@@ -18,8 +16,21 @@
   }
 
   .round-social {
-    margin-bottom: 20px; /* Postavite željeni razmak ispod društvenih ikona */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Opciono: Postavite željeni razmak između ikona */
+    margin-bottom: 20px; 
+    /* Postavite željeni razmak ispod društvenih ikona */
   }
+  
+  .round-social .link {
+    display: grid;
+    align-items: center;
+  }
+  
+ 
+  
   
   .footer4 p {
     margin-bottom: 10px;

@@ -6,3 +6,26 @@
     scroll-behavior: smooth;
   }
   
+  .round-social .link {
+    display: grid;
+    align-items: center;
+  }
+
+  .round-social {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px; /* Opciono: Postavite željeni razmak između ikona */
+    margin-bottom: 20px; 
+    /* Postavite željeni razmak ispod društvenih ikona */
+  }
+
+  @media (max-width: 767px) {
+    .round-social {
+        display: inline-flex; /* Postavite da elementi idu jedan ispod drugoga na manjim ekranima */
+        align-items: center; /* Centriranje po vertikali */
+    }
+}
+
+img{
+    display: inline;
+}

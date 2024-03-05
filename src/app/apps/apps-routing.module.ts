@@ -7,11 +7,9 @@ import { BlogDetailComponent } from './blog/blog-detail/blog-detail.component';
 
 
 import { FullComponent } from './layout/full/full.component';
-import { FooterComponent } from './shared/footer/footer.component';
 import { ReservationComponent } from '../reservation/reservation.component';
 import { ContactComponent } from './contact/contact.component';
-import { GalleryLightboxComponent } from '../gallery-lightbox/gallery-lightbox.component';
-import { GalleryTestComponent } from '../gallery-test/gallery-test.component';
+import { GalleryTestComponent } from './gallery-test/gallery-test.component';
 import { SuccessfulBookingComponent } from '../successful-booking/successful-booking.component';
 
 
@@ -27,6 +25,7 @@ const routes: Routes = [
       { path: 'gallery', component: GalleryTestComponent },
       { path: 'reservation', component: ReservationComponent },
       { path: 'successful-reservation', component: SuccessfulBookingComponent },
+
     ]
   }
 ];
