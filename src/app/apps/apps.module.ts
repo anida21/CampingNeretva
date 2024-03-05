@@ -24,7 +24,6 @@ import { VideoComponent } from '../video/video.component';
 import { TouchSliderComponent } from '../touch-slider/touch-slider.component';
 import { HammerModule } from '@angular/platform-browser';
 import { BsModalService } from 'ngx-bootstrap/modal';
-import { GooglereviewsComponent } from '../googlereviews/googlereviews.component';
 
 
 
@@ -42,8 +41,7 @@ import { GooglereviewsComponent } from '../googlereviews/googlereviews.component
     BannerComponent,
     // BannerContentComponent,
     BannerNavigationComponent,
-    FooterComponent,
-    GooglereviewsComponent,
+    FooterComponent
     
   ],
   imports: [
