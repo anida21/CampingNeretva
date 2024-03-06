@@ -1,0 +1,173 @@
+
+
+<div class="main">
+    <div class="static-slider-head" style="background-image: url(assets/images/landingpage/droneview.jpg); position: relative; height: 60vh;">
+      <!-- Promijenjena visina slike na 60vh -->
+      <div class="container" style="position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); width: 100%;">
+        <!-- Stilovi za apsolutno pozicioniranje i centraliziranje -->
+        <!-- Row  -->
+        <div class="row justify-content-center">
+          <!-- Column -->
+          <div class="col-lg-9 col-md-4 align-self-center text-center no-trans">
+            <h1 class="title">RESERVATION</h1>
+          </div>
+          <!-- Column -->
+        </div>
+      </div>
+    </div>
+<div class="main2">
+    <div class="container2">
+        <div class="row">
+            
+            <div class="col-md-6 col-sm-12 text-md-right">
+                <!-- Slika i sadržaj s desne strane -->
+                <div class="panel right-panel">
+                    <div class="content">
+                        <img src="assets/images/landingpage/prices.png" alt="Image 3" class="img-fluid rounded-image">
+                        <!-- Dodajte dodatni sadržaj prema potrebi -->
+                    </div>
+                </div>
+                    </div>
+            <div class="col-md-6 col-sm-12 text-md-left">
+                <div class="signin-signup">
+                    <form action="" class="sign-in-form" method="POST">
+                        <h2 class="title2"  style="font-family: Kanit, sans-serif">Camping site reservation</h2>
+                            <div class="input-field">
+                                <label for="name">Name:</label>
+                                <input type="text" 
+                                required=""
+                                value="" 
+                                name="Name"
+                                [(ngModel)]="emailForm.formData.Name"
+                                #name="ngModel"
+                                [ngModelOptions]="{standalone: true}"
+                                id="name"
+                                class="ng-touched"
+                                >
+              <div *ngIf="name?.invalid && (name?.dirty || name?.touched)">
+                <div *ngIf="name?.errors?.required" class="error-message">Enter your name</div>
+              </div>
+              </div>
+              <div class="input-field">
+                <label for="phoneNumber">Phone:</label>
+                <input
+                  type="text"
+                  required
+                  name="PhoneNumber"
+                  [(ngModel)]="emailForm.formData.PhoneNumber"
+                  #phoneNumber="ngModel"
+                  [ngModelOptions]="{standalone: true}"
+                  id="phoneNumber"
+                  class="ng-touched"
+                >
+                <div *ngIf="phoneNumber?.invalid && (phoneNumber?.dirty || phoneNumber?.touched)">
+                  <div *ngIf="phoneNumber?.errors?.required" class="error-message">Enter phone number</div>
+                </div>
+              </div>
+            <div class="input-field"> 
+              <label for="email">Email:</label>
+              <input
+                type="text"
+                required
+                name="Email"
+                [(ngModel)]="emailForm.formData.Email"
+                #email="ngModel"
+                [ngModelOptions]="{standalone: true}"
+                id="email"
+                class="ng-touched"
+              >
+              <div *ngIf="email?.invalid && (email?.dirty || email?.touched)">
+                <div *ngIf="email?.errors?.required" class="error-message">Enter your email</div>
+              </div>
+            </div>
+            <div class="input-field">
+              <label for="typeOfCamping">Type of Camping:</label>
+              <select 
+                id="typeOfCamping" 
+                name="TypeOfCamping" 
+                class="styled-select w-full rounded border border-stroke bg-white px-5 py-3 text-base text-black outline-none focus:border-primary"
+                [(ngModel)]="emailForm.formData.TypeOfCamping" >
+                <option value="motohome">Motohome</option>
+                <option value="van">Van</option>
+                <option value="caravan">Caravan</option>
+                <option value="tent">Tent</option>
+                <option value="tent-car">Tent-Car</option>
+                <option value="bungalow">Bungalow</option>
+              </select>
+            </div>
+            
+            <div class="input-field"> 
+              <label for="email">Number of guests:</label>
+              <input type="text"
+                value=""
+                name="NumberOfGuests" 
+                [(ngModel)]="emailForm.formData.NumberOfGuests"
+                id="numberOfGuests">
+            </div>
+            <div class="input-field">
+              <label for="checkIn">Check In:</label>
+              <input type="date" id="checkIn" name="checkOut" [(ngModel)]="emailForm.formData.CheckIn" placeholder="Check In">
+            </div>
+            <div class="input-field">
+              <label for="checkOut">Check Out:</label>
+              <input type="date" id="checkOut" name="checkOut" [(ngModel)]="emailForm.formData.CheckOut" placeholder="Check Out">
+            </div>
+            <div class="SortableItem fb-builder-item">
+              <div class="mb-4">
+                <label class="form-label mb-4 text-base text-black"
+                  ><span>Additional:</span></label
+                >
+            <div class="custom-control custom-checkbox mb-2.5 last:mb-0">
+              <input
+                id="fid_preview_checkboxes_option_2ED14DD9-4A0E-4FCD-BB4A-37759E6CC047"
+                class="custom-control-input fb-builder-checkbox sr-only"
+                name="option_checkboxes_option_2ED14DD9-4A0E-4FCD-BB4A-37759E6CC047"
+                type="checkbox"
+                value="place_holder_option_1"
+                [(ngModel)] = "emailForm.formData.CheckBox1"
+              /><label
+                class="custom-control-label relative flex cursor-pointer text-base text-black"
+                for="fid_preview_checkboxes_option_2ED14DD9-4A0E-4FCD-BB4A-37759E6CC047"
+                ><span
+                  class="relative mr-2.5 mt-0.5 block h-[18px] w-[18px] rounded border border-stroke bg-white"
+                  ><span
+                    class="absolute left-0 top-0 flex h-full w-full items-center justify-center rounded opacity-0"
+                    ></span></span
+                >Pets</label
+              >
+            </div>
+            <div class="custom-control custom-checkbox mb-2.5 last:mb-0">
+              <input
+                id="fid_preview_checkboxes_option_456E49C0-0296-40D6-9392-891ED69A2B04"
+                class="custom-control-input fb-builder-checkbox sr-only"
+                name="option_checkboxes_option_456E49C0-0296-40D6-9392-891ED69A2B04"
+                type="checkbox"
+                value="place_holder_option_2"
+                [(ngModel)] = "emailForm.formData.CheckBox2"
+              /><label
+                class="custom-control-label relative flex cursor-pointer text-base text-black"
+                for="fid_preview_checkboxes_option_456E49C0-0296-40D6-9392-891ED69A2B04"
+                ><span
+                  class="relative mr-2.5 mt-0.5 block h-[18px] w-[18px] rounded border border-stroke bg-white"
+                  ><span
+                    class="absolute left-0 top-0 flex h-full w-full items-center justify-center rounded opacity-0"
+                    ></span></span
+                >Electricity</label
+              >
+            </div>
+            </div>
+            </div>
+            <div class="input-field">
+              <label for="message">Message:</label>
+              <input type="text" id="message" name="message" [(ngModel)]="emailForm.formData.Message">
+            </div>
+            <input type="submit" value="SUBMIT" class="btn" (click)="sendReservationEmail()">
+                    </form>
+                </div>
+            </div>
+        
+        </div>
+    </div>  
+</div>
+<app-footer></app-footer>
+
