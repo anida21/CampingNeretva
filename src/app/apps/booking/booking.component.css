@@ -1,8 +1,4 @@
-.main2 {
-    background-color: aliceblue;
-    background-size: cover;
-    background-position: center;
-}
+
 
 .btn {
     background: linear-gradient(45deg, #458554, #959a96);
@@ -14,24 +10,25 @@
     margin-left: 10px;
 }
 
-/* Dodana nova pravila za prilagodbu container2 i row */
 .container2 {
-    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
     font-family: 'Kanit', sans-serif;
-    min-height: 150vh;
-    margin-bottom: 20px; /* Dodana margina na dnu container2 */
+    /*min-height: 150vh;*/
+    padding: 0rem;
+    margin-inline: 0rem;
+    margin-bottom: 20px; 
 }
 
 .row {
-    margin-bottom: 0; /* Postavljanje margine na dno reda na nulu */
+    margin-bottom: 0; 
 }
 
 
 .signin-signup {
     display: flex;
+    padding: 2rem;
     width: 100%;
 }
 
@@ -44,7 +41,6 @@
 
 input {
     border-radius: 10px;
-    margin-left: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
     width: 100%;
@@ -58,12 +54,10 @@ input {
     margin-bottom: 10px;
 }
 
-/* Dodano pravilo za checkboxeve na mobilnim ekranima */
 .custom-control.custom-checkbox {
     margin-bottom: 10px; /* Razmak između checkboxeva */
 }
 
-/* Dodano pravilo za margine oko labela */
 .custom-control-label {
     margin-left: 5px;
 }
@@ -84,20 +78,20 @@ input {
     }
 }
 
-/* Dodana nova pravila za poravnanje checkboxeva na lijevu stranu */
+
 @media screen and (max-width: 768px) {
     .custom-control.custom-checkbox {
         display: flex;
-        align-items: baseline; /* Poravnavanje checkboxeva s lijeve strane */
+        align-items: baseline; 
     }
 
     .custom-control-input {
-        margin-right: 5px; /* Razmak između checkboxa i teksta */
+        margin-right: 5px; 
     }
 
     .custom-control-label {
         flex: 1;
-        display: flex; /* Rastezanje labela kako bi zauzela preostali prostor */
+        display: flex; 
     }
 }
 
@@ -109,25 +103,52 @@ span{
     margin-top: 15px;
 }
 
-/* Dodana nova pravila za prilagodbu forme na većim ekranima */
 @media screen and (min-width: 769px) {
     .sign-in-form {
         max-width: 80%;
         max-height: 100%;
-        height: auto; /* Maksimalna širina forme postavljena na 80% na većim ekranima */
+        height: auto; 
     }
 
     .container2 {
-        min-height: 150vh;
-        align-items: flex-start; /* Poravnajte na vrh na većim ekranima */
-        margin-bottom: 20px; /* Dodajte dodatni prostor na dnu containera2 */
+        /*min-height: 150vh;*/
+        display: inline;
+        align-items: flex-start; 
+        margin-bottom: 20px; 
     }
 
     .row {
-        flex-direction: row; /* Održavanje horizontalnog rasporeda redova */
+        flex-direction: row; 
     }
 
     .col-md-6 {
-        margin-bottom: 20px; /* Dodajte dodatni prostor na dnu kolone */
+        margin-bottom: 20px; 
     }
 }
+
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    font-size: 20px;
+}
+
+.styled-select {
+    width: 100%;
+    height: 50px;
+    margin-left: 0rem!important;
+    border: 2px solid black !important;
+    border-radius: 10px!important;
+  }
+  
+
+  .custom-textarea {
+    border: 2px solid black !important;
+    border-radius: 10px!important;
+    width: 100%; 
+    height: 150px; 
+  }
+  
+  .input-message {
+    display: flex;
+    flex-direction: column; 
+  }
