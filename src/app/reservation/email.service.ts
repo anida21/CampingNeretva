@@ -10,6 +10,7 @@ import { EmailForm } from './email.model';
 })
 export class EmailService {
   private baseUrl = 'https://nodemailer-backend-zm19.onrender.com'; // Promenite na odgovarajući URL vašeg Node.js servera
+  private baseUrl1 = 'http://localhost:5000'; // Promenite na odgovarajući URL vašeg Node.js servera
 
   constructor(private http: HttpClient) {}
 
@@ -19,6 +20,13 @@ export class EmailService {
     });
 
     return this.http.post<any>(`${this.baseUrl}/api/sendEmail`, emailForm, { headers });
+  }
+  sendMessage(emailForm: EmailForm): Observable<any> {
+    const headers = new HttpHeaders({
+      'Content-Type': 'application/json',
+    });
+
+    return this.http.post<any>(`${this.baseUrl1}/api/sendMessage`, emailForm, { headers });
   }
   sendEmail1(data: any): Observable<any> {
     return this.http.post<any>(`${this.baseUrl}/send-email`, data);

@@ -32,14 +32,14 @@ constructor(private emailService: EmailService,
   private router: Router) {}
 
   sendMessage() {
-    this.emailService.sendEmail(this.emailForm).subscribe(
+    this.emailService.sendMessage(this.emailForm).subscribe(
       response => {
-        console.log('Email sent successfully', response);
+        console.log('Message sent successfully', response);
         // Nakon uspješnog slanja emaila, preusmjeri korisnika na drugu stranicu
         this.router.navigateByUrl('/successful-reservation');
       },
       error => {
-        console.error('Error sending email:', error);
+        console.error('Error sending message:', error);
       }
     );
   }
