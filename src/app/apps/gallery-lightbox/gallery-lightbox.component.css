@@ -16,7 +16,7 @@ body {
 }
 
 .banner-innerpage {
-    background-size: cover; /* ili druge odgovarajuće vrijednosti */
+    background-size: cover; 
     height: 50vh; 
     z-index: 900; /* ako bude sta zezalo obrisi ovo */
   }
