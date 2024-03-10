@@ -46,6 +46,8 @@ input {
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
+    border: 2px solid black !important;
+
 }
 
 .img-fluid {
@@ -130,6 +132,7 @@ label {
     display: inline-block;
     margin-bottom: 0.5rem;
     font-size: 20px;
+    margin-top: 0.5rem;
 }
 
 .styled-select {
@@ -138,8 +141,9 @@ label {
     margin-left: 0rem!important;
     border: 2px solid black !important;
     border-radius: 10px!important;
+    padding: 0px!important;
+
   }
-  
 
   .custom-textarea {
     border: 2px solid black !important;
@@ -151,4 +155,8 @@ label {
   .input-message {
     display: flex;
     flex-direction: column; 
+  }
+
+  .error-message{
+    color: #ca0000!important;
   }

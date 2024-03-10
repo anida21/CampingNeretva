@@ -80,6 +80,18 @@
                 <div *ngIf="email?.errors?.required" class="error-message">Enter your email</div>
               </div>
             </div>
+            <div class="input-field"> 
+                <label for="typeOfVehicle">Type of vehicle:</label>
+                <input
+                  type="text"
+                  required
+                  name="typeOfVehicle"
+                  [(ngModel)]="emailForm.formData.TypeOfVehicle"
+                  #typeOfVehicle="ngModel"
+                  [ngModelOptions]="{standalone: true}"
+                  id="typeOfVehicle"
+                  class="ng-touched"
+                ></div>
             <div class="input-field testKlasa">
               <label for="typeOfCamping">Type of Camping:</label>
               <select 
