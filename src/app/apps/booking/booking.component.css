@@ -145,6 +145,11 @@ label {
 
   }
 
+  .mb-4{
+    border: 2px solid black !important;
+    border-radius: 10px!important;
+  }
+
   .custom-textarea {
     border: 2px solid black !important;
     border-radius: 10px!important;
