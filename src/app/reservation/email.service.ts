@@ -26,7 +26,7 @@ export class EmailService {
       'Content-Type': 'application/json',
     });
 
-    return this.http.post<any>(`${this.baseUrl1}/api/sendMessage`, emailForm, { headers });
+    return this.http.post<any>(`${this.baseUrl}/api/sendMessage`, emailForm, { headers });
   }
   sendEmail1(data: any): Observable<any> {
     return this.http.post<any>(`${this.baseUrl}/send-email`, data);
