@@ -9,7 +9,7 @@ import { EmailForm } from './email.model';
   providedIn: 'root',
 })
 export class EmailService {
-  private baseUrl = 'https://nodemailer-backend-zm19.onrender.com'; // Promenite na odgovarajući URL vašeg Node.js servera
+  private baseUrl = 'https://campingneretvabackend2.vercel.app'; // Promenite na odgovarajući URL vašeg Node.js servera
   private baseUrl1 = 'http://localhost:5000'; // Promenite na odgovarajući URL vašeg Node.js servera
 
   constructor(private http: HttpClient) {}
