@@ -184,7 +184,7 @@ blogs: any;
     { imageSrc: 'assets/images/innerpage/camparking.jpg', design: '', title: 'Our camp', description: '' },
     { imageSrc: 'assets/images/innerpage/mostar.jpg', design: '', title: 'Visit Old Bridge', description: '' },
     { imageSrc: 'assets/images/innerpage/rafting.jpg', design: '', title: 'Come with us on raft tours', description: '' },
-    { imageSrc: 'assets/images/innerpage/motor.jpg', design: '', title: 'Explore cross motorcycle tours with us', description: '' },
+    { imageSrc: 'assets/images/innerpage/motor.jpg', design: '', title: 'Explore cross motorcycle tours', description: '' },
 
   ];
 

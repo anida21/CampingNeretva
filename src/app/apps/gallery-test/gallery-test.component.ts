@@ -31,15 +31,11 @@ export class GalleryTestComponent implements OnInit {
       imageAlt: '3'
     },
     {
-      imageSrc: 'assets/images/innerpage/nature.jpg',
-      imageAlt: '4'
-    },
-    {
-      imageSrc: 'assets/images/innerpage/last.jpg',
-      imageAlt: '5'
-    },
-    {
       imageSrc: 'assets/images/innerpage/nature1.jpg',
+      imageAlt: '6'
+    },
+    {
+      imageSrc: 'assets/images/innerpage/campraft.JPG',
       imageAlt: '6'
     },
     {

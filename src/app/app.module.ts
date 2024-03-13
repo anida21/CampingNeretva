@@ -17,6 +17,7 @@ import { GalleryLightboxComponent } from './apps/gallery-lightbox/gallery-lightb
 import { GalleryTestComponent } from './apps/gallery-test/gallery-test.component';
 import { SuccessfulBookingComponent } from './successful-booking/successful-booking.component';
 import { ModalModule } from 'ngx-bootstrap/modal';
+import { SuccesfulMessageComponent } from './succesful-message/succesful-message.component';
 
 
 
@@ -28,7 +29,8 @@ import { ModalModule } from 'ngx-bootstrap/modal';
     ContactComponent,
     GalleryLightboxComponent,
     GalleryTestComponent,
-    SuccessfulBookingComponent
+    SuccessfulBookingComponent,
+    SuccesfulMessageComponent
   ],
   imports: [
     BrowserModule,

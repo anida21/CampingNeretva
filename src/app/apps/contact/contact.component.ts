@@ -36,7 +36,7 @@ constructor(private emailService: EmailService,
       response => {
         console.log('Message sent successfully', response);
         // Nakon uspješnog slanja emaila, preusmjeri korisnika na drugu stranicu
-        this.router.navigateByUrl('/successful-reservation');
+        this.router.navigateByUrl('/successful-message');
       },
       error => {
         console.error('Error sending message:', error);

@@ -12,6 +12,7 @@ import { ContactComponent } from './contact/contact.component';
 import { GalleryTestComponent } from './gallery-test/gallery-test.component';
 import { SuccessfulBookingComponent } from '../successful-booking/successful-booking.component';
 import { BookingComponent } from './booking/booking.component';
+import { SuccesfulMessageComponent } from '../succesful-message/succesful-message.component';
 
 
 const routes: Routes = [
@@ -27,6 +28,8 @@ const routes: Routes = [
       { path: 'reservation', component: ReservationComponent },
       { path: 'successful-reservation', component: SuccessfulBookingComponent },
       { path: 'booking', component: BookingComponent },
+      { path: 'successful-message', component: SuccesfulMessageComponent },
+
 
 
     ]
