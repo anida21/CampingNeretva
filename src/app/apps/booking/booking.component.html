@@ -94,21 +94,6 @@
                   id="typeOfVehicle"
                   class="ng-touched"
                 ></div>
-            <div class="input-field testKlasa">
-              <label for="typeOfCamping">Type of Camping:</label>
-              <select 
-                id="typeOfCamping" 
-                name="TypeOfCamping" 
-                class="styled-select w-full rounded border border-stroke bg-white px-5 py-3 text-base text-black outline-none focus:border-primary"
-                [(ngModel)]="emailForm.formData.TypeOfCamping" >
-                <option value="motohome">Motohome</option>
-                <option value="van">Van</option>
-                <option value="caravan">Caravan</option>
-                <option value="tent">Tent</option>
-                <option value="tent-car">Tent-Car</option>
-                <option value="bungalow">Bungalow</option>
-              </select>
-            </div>
             
             <div class="input-field"> 
               <label for="email">Number of guests:</label>
@@ -166,6 +151,21 @@
             </div>
             </div>
             </div>
+            <div class="input-field">
+                <label for="typeOfCamping">Type of Camping:</label>
+                <select 
+                  id="typeOfCamping" 
+                  name="TypeOfCamping" 
+                  class="styled-select w-full rounded border border-stroke bg-white px-5 py-3 text-base text-black outline-none focus:border-primary"
+                  [(ngModel)]="emailForm.formData.TypeOfCamping" >
+                  <option value="motohome">Motohome</option>
+                  <option value="van">Van</option>
+                  <option value="caravan">Caravan</option>
+                  <option value="tent">Tent</option>
+                  <option value="tent-car">Tent-Car</option>
+                  <option value="bungalow">Bungalow</option>
+                </select>
+              </div>
             <div class="input-message">
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" [(ngModel)]="emailForm.formData.Message" class="custom-textarea"></textarea>

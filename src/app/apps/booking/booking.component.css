@@ -40,13 +40,17 @@
 }
 
 input {
-    border-radius: 10px;
     margin-top: 5px;
     margin-bottom: 5px;
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
-    border: 2px solid black !important;
+    /*border: 2px solid black !important;
+    border-radius: 10px;*/
+    background: none;
+     border: none;
+    outline: none;
+    border-bottom: 1px solid #bbb;
 
 }
 
@@ -139,20 +143,27 @@ label {
     width: 100%;
     height: 50px;
     margin-left: 0rem!important;
-    border: 2px solid black !important;
-    border-radius: 10px!important;
+    /*border: 2px solid black !important;
+    border-radius: 10px!important;*/
     padding: 0px!important;
-
+    background: none;
+    border: none;
+    outline: none;
+    border: 1px solid #bbb!important;
   }
 
-  .mb-4{
+ /*.mb-4{
     border: 2px solid black !important;
     border-radius: 10px!important;
-  }
+  }*/
 
   .custom-textarea {
-    border: 2px solid black !important;
-    border-radius: 10px!important;
+    /*border: 2px solid black !important;
+    border-radius: 10px!important;*/
+    background: none;
+  border: none;
+  outline: none;
+  border: 1px solid #bbb;
     width: 100%; 
     height: 150px; 
   }

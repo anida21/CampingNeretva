@@ -103,12 +103,15 @@ form.sign-up-form {
   margin-bottom: 10px;
   background: #f0f0f0;
   margin: 10px 0;
-  border: 0.5px solid #888e88;
-  border-radius: 25px;
+  /*border: 0.5px solid #888e88;*/
+  /*border-radius: 25px;*/
   display: flex;
   align-items: center;
   pointer-events: auto; /* Dodajte ovo ili uklonite pointer-events */
-  
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #bbb;
 }
 
 .input-field label {
