@@ -48,4 +48,19 @@ updateTypeOfCamping(event: any): void {
 }
 
 
+dateError: boolean = false;
+
+  checkDates() {
+    const checkInDate = new Date(this.emailForm.formData.CheckIn);
+    const checkOutDate = new Date(this.emailForm.formData.CheckOut);
+
+    // Provjera jesu li datumi ispravni
+    if (checkInDate > checkOutDate) {
+      this.dateError = true;
+    } else {
+      this.dateError = false;
+    }
+  }
+
+
 }

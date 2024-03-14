@@ -104,13 +104,14 @@
                 id="numberOfGuests">
             </div>
             <div class="input-field">
-              <label for="checkIn">Check In:</label>
-              <input type="date" id="checkIn" name="checkOut" [(ngModel)]="emailForm.formData.CheckIn" placeholder="Check In">
-            </div>
-            <div class="input-field">
-              <label for="checkOut">Check Out:</label>
-              <input type="date" id="checkOut" name="checkOut" [(ngModel)]="emailForm.formData.CheckOut" placeholder="Check Out">
-            </div>
+                <label for="checkIn">Check In:</label>
+                <input type="date" id="checkIn" name="checkIn" [(ngModel)]="emailForm.formData.CheckIn" (ngModelChange)="checkDates()" placeholder="Check In">
+                <div *ngIf="dateError" class="error-message">Check In date cannot be after Check Out date</div>
+              </div>
+              <div class="input-field">
+                <label for="checkOut">Check Out:</label>
+                <input type="date" id="checkOut" name="checkOut" [(ngModel)]="emailForm.formData.CheckOut" (ngModelChange)="checkDates()" placeholder="Check Out">
+              </div>              
             <div class="input-field">
                 <label for="additional">Additional</label>
               <div class="mb-4">
