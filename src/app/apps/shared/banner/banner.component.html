@@ -13,10 +13,9 @@
             <span class="ti-menu"></span>
           </button>
         </div>
-
               <div class="collapse navbar-collapse" [ngbCollapse]="isNavbarCollapsed" id="h6-info">
                   <ul class="navbar-nav ml-auto align-items-center">
-            <li class="nav-item" [routerLinkActive]="['active']">
+            <li class="nav-item" [class.active]="isHomePage()">
               <a class="nav-link" routerLink="/">
                 Home
               </a>

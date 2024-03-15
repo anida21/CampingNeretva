@@ -93,24 +93,58 @@
                   [ngModelOptions]="{standalone: true}"
                   id="typeOfVehicle"
                   class="ng-touched"
-                ></div>
+                >
+                <div *ngIf="typeOfVehicle?.invalid && (typeOfVehicle?.dirty || typeOfVehicle?.touched)">
+                    <div *ngIf="typeOfVehicle?.errors?.required" class="error-message">Enter your type of vehicle</div>
+                  </div>
+            </div>
             
             <div class="input-field"> 
-              <label for="email">Number of guests:</label>
+              <label for="numberOfGuests">Number of guests:</label>
               <input type="text"
-                value=""
+                required
                 name="NumberOfGuests" 
                 [(ngModel)]="emailForm.formData.NumberOfGuests"
-                id="numberOfGuests">
+                [ngModelOptions]="{standalone: true}"
+                #numberOfGuests="ngModel"
+                id="numberOfGuests"
+                class="ng-touched">
+                <div *ngIf="numberOfGuests?.invalid && (numberOfGuests?.dirty || numberOfGuests?.touched)">
+                    <div *ngIf="numberOfGuests?.errors?.required" class="error-message">Enter number of guests</div>
+                  </div>
             </div>
             <div class="input-field">
                 <label for="checkIn">Check In:</label>
-                <input type="date" id="checkIn" name="checkIn" [(ngModel)]="emailForm.formData.CheckIn" (ngModelChange)="checkDates()" placeholder="Check In">
+                <input type="date"
+                required
+                id="checkIn"
+                name="checkIn"
+                [(ngModel)]="emailForm.formData.CheckIn"
+                [ngModelOptions]="{standalone: true}"
+                (ngModelChange)="checkDates()" 
+                #checkIn="ngModel"
+                placeholder="Check In"
+                class="ng-touched">
+                <div *ngIf="checkIn?.invalid && (checkIn?.dirty || checkIn?.touched)">
+                    <div *ngIf="checkIn?.errors?.required" class="error-message">Enter check in date</div>
+                  </div>
                 <div *ngIf="dateError" class="error-message">Check In date cannot be after Check Out date</div>
               </div>
               <div class="input-field">
                 <label for="checkOut">Check Out:</label>
-                <input type="date" id="checkOut" name="checkOut" [(ngModel)]="emailForm.formData.CheckOut" (ngModelChange)="checkDates()" placeholder="Check Out">
+                <input type="date" 
+                required
+                id="checkOut" 
+                name="checkOut" 
+                [(ngModel)]="emailForm.formData.CheckOut" 
+                [ngModelOptions]="{standalone: true}"
+                (ngModelChange)="checkDates()" 
+                placeholder="Check Out"
+                class="ng-touched"
+                #checkOut="ngModel">
+                <div *ngIf="checkOut?.invalid && (checkOut?.dirty || checkOut?.touched)">
+                    <div *ngIf="checkOut?.errors?.required" class="error-message">Enter check out date</div>
+                  </div>
               </div>              
             <div class="input-field">
                 <label for="additional">Additional</label>
@@ -172,9 +206,17 @@
                 <textarea id="message" name="message" [(ngModel)]="emailForm.formData.Message" class="custom-textarea"></textarea>
               </div>
               
-            <input type="submit" value="SUBMIT" class="btn" (click)="sendReservationEmail()"  [disabled]="isSubmitDisabled()">
-            <div *ngIf="(name?.invalid && (name?.dirty || name?.touched)) || (email?.invalid && (email?.dirty || email?.touched)) || (phoneNumber?.invalid && (phoneNumber?.dirty || phoneNumber?.touched))">
-                <div *ngIf="(name?.errors?.required) || (email?.errors?.required) || (phoneNumber?.errors?.required)" class="error-message">
+            <input type="submit" value="SUBMIT" class="btn" (click)="submitForm()"  [disabled]="isSubmitDisabled()">
+            <div *ngIf="(name?.invalid && (name?.dirty || name?.touched))
+             || (email?.invalid && (email?.dirty || email?.touched))
+             || (phoneNumber?.invalid && (phoneNumber?.dirty || phoneNumber?.touched))
+             || (typeOfVehicle?.invalid && (typeOfVehicle?.dirty || typeOfVehicle?.touched))
+             || (numberOfGuests?.invalid && (numberOfGuests?.dirty || numberOfGuests?.touched))">
+                <div *ngIf="(name?.errors?.required)
+                 || (email?.errors?.required)
+                 || (phoneNumber?.errors?.required)
+                 || (typeOfVehicle?.errors?.required)
+                 || (numberOfGuests?.errors?.required) || (!formSubmitted && missingFields)" class="error-message">
                     Please fill in the required fields</div>
               </div>
                     </form>

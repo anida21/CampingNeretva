@@ -25,10 +25,20 @@ export class BookingComponent
     TypeOfCamping: ''
   }
 };
+missingFields: boolean = false;
 
 constructor(private emailService: EmailService,
   private router: Router) {}
 
+  
+dateError: boolean = false;
+formSubmitted: boolean = false;
+
+
+submitForm(): void {
+  this.formSubmitted = true;
+  this.sendReservationEmail(); // Ovdje možete pozvati funkciju koja šalje email
+}
   sendReservationEmail() {
     this.emailService.sendEmail(this.emailForm).subscribe(
       response => {
@@ -48,8 +58,6 @@ updateTypeOfCamping(event: any): void {
 }
 
 
-dateError: boolean = false;
-
   checkDates() {
     const checkInDate = new Date(this.emailForm.formData.CheckIn);
     const checkOutDate = new Date(this.emailForm.formData.CheckOut);
@@ -64,7 +72,27 @@ dateError: boolean = false;
 
 
   isSubmitDisabled(): boolean {
-    return (this.emailForm.formData.Name === '' || this.emailForm.formData.Email === '' || this.emailForm.formData.PhoneNumber === '');
+    return (this.emailForm.formData.Name === '' 
+    || this.emailForm.formData.Email === '' 
+    || this.emailForm.formData.PhoneNumber === ''
+    || this.emailForm.formData.TypeOfVehicle === ''
+    || this.emailForm.formData.NumberOfGuests === '');
   }
+  
+
+  checkFields(): void {
+    this.missingFields = !(
+      this.emailForm.formData.Name &&
+      this.emailForm.formData.PhoneNumber &&
+      this.emailForm.formData.Email &&
+      this.emailForm.formData.TypeOfVehicle &&
+      this.emailForm.formData.NumberOfGuests
+    );
+  }
+  
+  ngOnInit() {
+    this.checkFields();
+  }
+  
 
 }
