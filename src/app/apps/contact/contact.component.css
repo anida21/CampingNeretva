@@ -1,3 +1,7 @@
+html {
+  background: #ebf0ed;
+}
+
 .banner-innerpage {
     background-size: cover; /* ili druge odgovarajuće vrijednosti */
     height: 65vh; /* Dodajte ovu liniju kako biste osigurali punu visinu */
@@ -120,4 +124,10 @@ margin-top: 30px!important;
 
 .error-message{
   color: #ca0000!important;
+}
+
+@media (min-width: 1200px) {
+  .col-md-4 h4 {
+    word-wrap: normal; /* Spriječava prelazak riječi na novi red na velikim ekranima */
+  }
 }
