@@ -63,4 +63,8 @@ dateError: boolean = false;
   }
 
 
+  isSubmitDisabled(): boolean {
+    return (this.emailForm.formData.Name === '' || this.emailForm.formData.Email === '' || this.emailForm.formData.PhoneNumber === '');
+  }
+
 }

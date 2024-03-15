@@ -43,6 +43,10 @@ constructor(private emailService: EmailService,
       }
     );
   }
-  
+
+  isSubmitDisabled(): boolean {
+    return (this.emailForm.formData.Name === '' || this.emailForm.formData.Email === '');
+  }
+
 
 }

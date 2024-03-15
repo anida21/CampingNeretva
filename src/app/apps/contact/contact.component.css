@@ -115,3 +115,9 @@ margin-top: 30px!important;
     height: 300px; /* Podesite željenu visinu za manje ekrane */
   }
 }
+
+
+
+.error-message{
+  color: #ca0000!important;
+}
