@@ -236,5 +236,27 @@ blogs: any;
   }
 
 
+  @HostListener('window:scroll', ['$event'])
+  onScroll(event: any) {
+    const windowHeight = window.innerHeight;
+
+    // Pratite skrol za svaku sliku i tekst
+    this.handleScroll('img1', 'data1', windowHeight);
+    this.handleScroll('img2', 'data2', windowHeight);
+    this.handleScroll('img3', 'data3', windowHeight);
+    // Dodajte ostale slike i tekst prema potrebi
+  }
+
+  handleScroll(imageId: string, dataId: string, windowHeight: number) {
+    const img = document.getElementById(imageId);
+    const data = document.getElementById(dataId);
+    if (img && data) {
+      const imgPosition = img.getBoundingClientRect().top;
+      if (imgPosition < windowHeight) {
+        data.classList.add('show-text');
+      }
+    }
+  }
+  
   
 }
