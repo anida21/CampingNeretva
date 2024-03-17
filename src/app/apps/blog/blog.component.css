@@ -722,3 +722,39 @@ img {
   /* margin-right: -15px; */
   /* margin-left: -15px; */
 }
+
+
+/* Stilizacija overlay-a */
+.click-overlay {
+ position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer; /* Promenite kursor u pokazivač */
+}
+
+/* Stilizacija strelice */
+.click-overlay::after {
+  content: '';
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-top-color: #fff; /* Boja strelice */
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+/* CSS media upit za prikaz teksta samo na manjim ekranima */
+@media (min-width: 768px) {
+  .click-overlay {
+    display: none; /* Sakrijte tekst na većim ekranima */
+  }
+
+}

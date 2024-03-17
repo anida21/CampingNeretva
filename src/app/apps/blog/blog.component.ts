@@ -1,4 +1,4 @@
-import { Component, HostListener, OnInit, Renderer2 } from '@angular/core';
+import { Component, HostListener, OnInit, Renderer2, Directive, ElementRef, } from '@angular/core';
 import { Blog } from './blog-type';
 import { ServiceblogService } from './blog-service.service';
 import { Router } from '@angular/router';
@@ -17,6 +17,7 @@ interface ThumbnailItem {
   name: string;
 }
 
+
 @Component({
   selector: 'app-blog',
   templateUrl: './blog.component.html',
@@ -28,20 +29,19 @@ export class BlogComponent implements OnInit {
   videoSource = 'assets/images/innerpage/Camping Neretva.mp4';
 blogs: any;
 
-
-
-
   constructor(
     public service: ServiceblogService,
     public router: Router,
     public http: HttpClient,
-    private renderer: Renderer2
+    private renderer: Renderer2,
+    private elementRef: ElementRef
   ) {
     this.service.showEdit = false;
     this.initSlider();
   }
 
   ngOnInit(): void {
+    
     this.initSlider();
 
     //this.checkScreenSize();
@@ -80,6 +80,7 @@ blogs: any;
         }
       });
     };
+    
   }
 
   /*@HostListener('window:resize', ['$event'])
@@ -234,29 +235,5 @@ blogs: any;
       this.nextClick();
     }, 5000);
   }
-
-
-  @HostListener('window:scroll', ['$event'])
-  onScroll(event: any) {
-    const windowHeight = window.innerHeight;
-
-    // Pratite skrol za svaku sliku i tekst
-    this.handleScroll('img1', 'data1', windowHeight);
-    this.handleScroll('img2', 'data2', windowHeight);
-    this.handleScroll('img3', 'data3', windowHeight);
-    // Dodajte ostale slike i tekst prema potrebi
-  }
-
-  handleScroll(imageId: string, dataId: string, windowHeight: number) {
-    const img = document.getElementById(imageId);
-    const data = document.getElementById(dataId);
-    if (img && data) {
-      const imgPosition = img.getBoundingClientRect().top;
-      if (imgPosition < windowHeight) {
-        data.classList.add('show-text');
-      }
-    }
-  }
   
-  
-}
+  }
