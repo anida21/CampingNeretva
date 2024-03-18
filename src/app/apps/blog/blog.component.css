@@ -758,3 +758,47 @@ img {
   }
 
 }
+
+
+.bt-top2 {
+  position: fixed;
+  bottom: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 180px; /* Promijenite širinu prema potrebi */
+height: 100px; /* Promijenite visinu prema potrebi */
+border-radius: 20px; /* Promijenite radijus ivica prema potrebi */
+padding: 0; /* Uklonite unutarnji padding ako ga ima */
+z-index: -1; /* Postavite početnu vrijednost z-index-a na nisku vrijednost */
+
+}
+
+.bt-top2.show {
+  opacity: 1; /* Prikaži dugme kada je vidljivo */
+  z-index: 999; /* Postavite veću vrijednost z-index-a od drugih elemenata */
+
+}
+
+.slika {
+  width: 100%; /* Prilagodite širinu i visinu slike prema potrebi */
+  height: 100%;
+  border-radius: 20px;
+}
+
+.exit-icon {
+  position: absolute;
+  top: 8px; /* Promijenite položaj prema potrebi */
+  right: 8px; /* Promijenite položaj prema potrebi */
+  font-size: 20px; /* Promijenite veličinu ikone prema potrebi */
+  color: rgb(0, 0, 0); /* Promijenite boju ikone prema potrebi */
+  display:flex; /* Početno sakrijte ikonu */
+}
+
+.bt-top2:hover .exit-icon {
+  display: block; /* Prikažite ikonu kada korisnik pređe mišem preko buttona */
+}

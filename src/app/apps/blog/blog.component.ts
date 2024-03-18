@@ -33,15 +33,12 @@ blogs: any;
     public service: ServiceblogService,
     public router: Router,
     public http: HttpClient,
-    private renderer: Renderer2,
-    private elementRef: ElementRef
   ) {
     this.service.showEdit = false;
     this.initSlider();
   }
 
   ngOnInit(): void {
-    
     this.initSlider();
 
     //this.checkScreenSize();
@@ -80,7 +77,6 @@ blogs: any;
         }
       });
     };
-    
   }
 
   /*@HostListener('window:resize', ['$event'])
@@ -236,4 +232,35 @@ blogs: any;
     }, 5000);
   }
   
+  showImage = false;
+  hasScrolled = false;
+
+  hideImage() {
+    this.showImage = false;
+    this.hasScrolled = true; // Postavite hasScrolled na true kada korisnik scroll-a prvi put
+  }
+
+  @HostListener('window:scroll', [])
+onWindowScroll() {
+  const yOffset = window.pageYOffset;
+  const scrollThreshold = 200; // Promijenite ovu vrijednost prema potrebi
+  const scrollToTopButton = document.querySelector('.bt-top2');
+ if (!this.hasScrolled) {
+    // Prikaži sliku samo ako korisnik još nije scroll-ao
+    this.showImage = yOffset > scrollThreshold;
+  }
+  if (scrollToTopButton) {
+    if (yOffset > scrollThreshold) {
+      scrollToTopButton.classList.add('show');
+    } else {
+      scrollToTopButton.classList.remove('show');
+    }
+  }
+}
+
+
+redirectToLink(): void {
+  window.location.href = 'https://g.co/kgs/1TFBSGE' }
+
+
   }

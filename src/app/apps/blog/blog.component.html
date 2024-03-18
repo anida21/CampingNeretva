@@ -127,6 +127,14 @@
 
 </div>
 </div>
+<button class="bt-top2 btn btn-circle btn-lg btn-info" *ngIf="showImage">
+  <i class="fas fa-times exit-icon" (click)="hideImage()"></i>
+  <a href="https://g.co/kgs/1TFBSGE" target="_blank" (click)="redirectToLink()">
+  <img src="assets/images/innerpage/googler.png" alt="Google review" class="slika" *ngIf="showImage">
+  </a>
+</button>
+
+
 <app-footer #footer style="margin-bottom: 0;"></app-footer>
 
 
