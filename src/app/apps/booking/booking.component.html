@@ -53,35 +53,41 @@
               <div class="input-field">
                 <label for="phoneNumber">Phone:</label>
                 <input
-                  type="text"
-                  required
-                  name="PhoneNumber"
-                  [(ngModel)]="emailForm.formData.PhoneNumber"
-                  #phoneNumber="ngModel"
-                  [ngModelOptions]="{standalone: true}"
-                  id="phoneNumber"
-                  class="ng-touched"
+                    type="text"
+                    required
+                    pattern="(\+[0-9]+)|([0-9]+)"
+                    name="PhoneNumber"
+                    [(ngModel)]="emailForm.formData.PhoneNumber"
+                    #phoneNumber="ngModel"
+                    [ngModelOptions]="{standalone: true}"
+                    id="phoneNumber"
+                    class="ng-touched"
                 >
                 <div *ngIf="phoneNumber?.invalid && (phoneNumber?.dirty || phoneNumber?.touched)">
-                  <div *ngIf="phoneNumber?.errors?.required" class="error-message">Enter phone number</div>
+                    <div *ngIf="phoneNumber?.errors?.required" class="error-message">Enter phone number</div>
+                    <div *ngIf="phoneNumber?.errors?.pattern" class="error-message">Enter a valid phone number</div>
                 </div>
-              </div>
+            </div>
+            
             <div class="input-field"> 
               <label for="email">Email:</label>
               <input
-                type="text"
+                type="email"
                 required
+                pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
                 name="Email"
                 [(ngModel)]="emailForm.formData.Email"
                 #email="ngModel"
                 [ngModelOptions]="{standalone: true}"
                 id="email"
                 class="ng-touched"
-              >
-              <div *ngIf="email?.invalid && (email?.dirty || email?.touched)">
-                <div *ngIf="email?.errors?.required" class="error-message">Enter your email</div>
-              </div>
-            </div>
+    >
+    <div *ngIf="email?.invalid && (email?.dirty || email?.touched)">
+        <div *ngIf="email?.errors?.required" class="error-message">Enter your email</div>
+        <div *ngIf="email?.errors?.pattern" class="error-message">Enter a valid email</div>
+    </div>
+
+</div>
             <div class="input-field"> 
                 <label for="typeOfVehicle">Type of vehicle:</label>
                 <input
@@ -108,10 +114,12 @@
                 [ngModelOptions]="{standalone: true}"
                 #numberOfGuests="ngModel"
                 id="numberOfGuests"
-                class="ng-touched">
+                class="ng-touched"
+                pattern="\d+"> <!-- Dodajte pattern atribut sa regularnim izrazom \d+ koji proverava da li je unesen broj -->
                 <div *ngIf="numberOfGuests?.invalid && (numberOfGuests?.dirty || numberOfGuests?.touched)">
                     <div *ngIf="numberOfGuests?.errors?.required" class="error-message">Enter number of guests</div>
-                  </div>
+                    <div *ngIf="numberOfGuests?.errors?.pattern" class="error-message">Enter a valid number</div> <!-- Dodajte poruku o grešci za neispravan unos -->
+                </div>
             </div>
             <div class="input-field">
                 <label for="checkIn">Check In:</label>
@@ -206,7 +214,7 @@
                 <textarea id="message" name="message" [(ngModel)]="emailForm.formData.Message" class="custom-textarea"></textarea>
               </div>
               
-            <input type="submit" value="SUBMIT" class="btn" (click)="submitForm()"  [disabled]="isSubmitDisabled()">
+            <input type="submit" value="SUBMIT" class="btn" (click)="sendReservationEmail()"  [disabled]="isSubmitDisabled()">
             <div *ngIf="(name?.invalid && (name?.dirty || name?.touched))
              || (email?.invalid && (email?.dirty || email?.touched))
              || (phoneNumber?.invalid && (phoneNumber?.dirty || phoneNumber?.touched))
@@ -216,7 +224,7 @@
                  || (email?.errors?.required)
                  || (phoneNumber?.errors?.required)
                  || (typeOfVehicle?.errors?.required)
-                 || (numberOfGuests?.errors?.required) || (!formSubmitted && missingFields)" class="error-message">
+                 || (numberOfGuests?.errors?.required) " class="error-message">
                     Please fill in the required fields</div>
               </div>
                     </form>

@@ -11,4 +11,26 @@
 .blog-home2{
     font-family: "Kanit", sans-serif;
   }
+
+  .bt-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000; /* Ovo osigurava da je dugme iznad ostalog sadržaja */
+    background: linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    display: none; /* Inicijalno sakriveno */
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .bt-top.show {
+    display: flex;
+    visibility: visible; /* Prikaži dugme kada mu se doda klasa show */
+  }
   

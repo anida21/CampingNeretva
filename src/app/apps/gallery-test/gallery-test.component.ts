@@ -55,7 +55,7 @@ export class GalleryTestComponent implements OnInit {
       imageAlt: '10'
     },
     {
-      imageSrc: 'assets/images/innerpage/places.JPG',
+      imageSrc: 'assets/images/innerpage/places.jpg',
       imageAlt: '11'
     },
     {
@@ -84,32 +84,32 @@ export class GalleryTestComponent implements OnInit {
       imageAlt: '12'
     },
     {
-      imageSrc: 'assets/images/innerpage/ulaz.JPG',
+      imageSrc: 'assets/images/innerpage/ulaz.jpg',
       imageAlt: '12'
     },
     {
-      imageSrc: 'assets/images/innerpage/place.JPG',
+      imageSrc: 'assets/images/innerpage/place.jpg',
       imageAlt: '12'
     }
     ,
     {
-      imageSrc: 'assets/images/innerpage/car.JPG',
+      imageSrc: 'assets/images/innerpage/car.jpg',
       imageAlt: '12'
     },
     {
-      imageSrc: 'assets/images/innerpage/carr.JPG',
+      imageSrc: 'assets/images/innerpage/carr.jpg',
       imageAlt: '12'
     },
     {
-      imageSrc: 'assets/images/innerpage/dronedrone.JPG',
+      imageSrc: 'assets/images/innerpage/dronedrone.jpg',
       imageAlt: '12'
     },
     {
-      imageSrc: 'assets/images/innerpage/drone2.JPG',
+      imageSrc: 'assets/images/innerpage/drone2.jpg',
       imageAlt: '12'
     },
     {
-      imageSrc: 'assets/images/innerpage/car2.JPG',
+      imageSrc: 'assets/images/innerpage/car2.jpg',
       imageAlt: '12'
     },
     {

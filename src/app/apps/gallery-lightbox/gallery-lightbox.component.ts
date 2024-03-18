@@ -85,4 +85,8 @@ export class GalleryLightboxComponent implements OnInit {
     }
     this.currentLightboxImage = this.galleryData[this.currentIndex];
   }
+
+  scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
 }

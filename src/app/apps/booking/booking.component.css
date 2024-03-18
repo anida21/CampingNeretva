@@ -1,9 +1,33 @@
 
 
+
+
 .btn {
-    background: linear-gradient(45deg, #458554, #959a96);
+    background: linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%);
     margin-top: 10px;
-}
+    padding: 10px 20px; /* Dodajte padding kako bi dugme imalo određenu veličinu */
+    border: none; /* Uklonite ivice dugmeta */
+    color: white; /* Boja teksta */
+    font-weight: bold; /* Debljina teksta */
+    cursor: pointer; /* Promenite kursor u pokazivač */
+    transition: background 0.3s; /* Dodajte tranziciju za postepenu promenu boje pozadine */
+  }
+  
+  /* Promena boje pozadine i teksta kada se miš pređe preko dugmeta */
+  .btn:hover {
+    background: linear-gradient(to right, #2cb99b 0%, #1cb8cc 100%);
+  }
+  
+  /* Promena boje pozadine kada je dugme kliknuto */
+  .btn:active {
+    background: linear-gradient(to right, #1a8f6f 0%, #0f7d8b 100%);
+  
+  }
+  
+  .btn:not(:active) {
+    background: linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%);
+  }
+  
 
 .styled-select {
     margin-top: 10px;
