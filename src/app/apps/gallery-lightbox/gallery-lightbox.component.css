@@ -165,10 +165,7 @@ body {
             }
         }
     }
-    .lightbox-img img {
-        width: 100%;
-        border-radius: .35rem;
-    }
+    
 }
 
 @media screen and (max-width: 650px) {
@@ -187,8 +184,9 @@ body {
     font-family: "Kanit", sans-serif;
 }
 
-.title{
-    font-family: "Kanit", sans-serif;
+.titlegallery{
+    font-family: "Kanit", sans-serif!important;
+    color: white!important;
 
 }
 

@@ -13,6 +13,7 @@ import { GalleryTestComponent } from './gallery-test/gallery-test.component';
 import { SuccessfulBookingComponent } from '../successful-booking/successful-booking.component';
 import { BookingComponent } from './booking/booking.component';
 import { SuccesfulMessageComponent } from '../succesful-message/succesful-message.component';
+import { ActivitiesComponent } from './activities/activities.component';
 
 
 const routes: Routes = [
@@ -29,9 +30,7 @@ const routes: Routes = [
       { path: 'successful-reservation', component: SuccessfulBookingComponent },
       { path: 'booking', component: BookingComponent },
       { path: 'successful-message', component: SuccesfulMessageComponent },
-
-
-
+      { path: 'activities', component: ActivitiesComponent },
     ]
   }
 ];

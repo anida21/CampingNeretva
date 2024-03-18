@@ -1,0 +1,12 @@
+.banner-innerpage {
+    background-size: cover; /* ili druge odgovarajuće vrijednosti */
+    height: 80vh; /* Dodajte ovu liniju kako biste osigurali punu visinu */
+    margin-bottom: 20px; /* Prilagodite ovu vrijednost prema vašim potrebama */
+  }
+
+  .titleactivities {
+    font-family: "Kanit", sans-serif!important;
+    color: white!important;
+    
+  }
+  

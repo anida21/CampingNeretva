@@ -25,6 +25,7 @@ import { TouchSliderComponent } from '../touch-slider/touch-slider.component';
 import { HammerModule } from '@angular/platform-browser';
 import { BsModalService } from 'ngx-bootstrap/modal';
 import { BookingComponent } from './booking/booking.component';
+import { ActivitiesComponent } from './activities/activities.component';
 
 
 
@@ -43,7 +44,8 @@ import { BookingComponent } from './booking/booking.component';
     // BannerContentComponent,
     BannerNavigationComponent,
     FooterComponent,
-    BookingComponent
+    BookingComponent,
+    ActivitiesComponent
     
   ],
   imports: [

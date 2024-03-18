@@ -47,8 +47,10 @@ html {
     font-size: 16px;  /* Postavite željeni razmak ispod paragrafa */
   }
 
-  .title{
-    margin-bottom: 0;
+  .titlecontact{
+    font-family: "Kanit", sans-serif!important;
+    color: white!important;
+    
   }
   
 

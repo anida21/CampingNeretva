@@ -129,6 +129,10 @@ input {
     font-size: 40px;
 }
 
+.titlebooking{
+    font-family: "Kanit", sans-serif!important;
+    color: white!important;
+}
 span{
     margin-top: 15px;
 }
