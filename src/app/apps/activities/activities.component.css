@@ -3,16 +3,13 @@
 
 .banner-innerpage {
     background-size: cover; /* ili druge odgovarajuće vrijednosti */
-    height: 80vh; /* Dodajte ovu liniju kako biste osigurali punu visinu */
-    margin-bottom: 20px; /* Prilagodite ovu vrijednost prema vašim potrebama */
+    height: 65vh; /* Dodajte ovu liniju kako biste osigurali punu visinu */
   }
 
   .titleactivities {
     font-family: "Kanit", sans-serif!important;
     color: white!important;
-    
   }
-  
 
 
 *
@@ -24,7 +21,7 @@
 }
 
 body {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Kanit", sans-serif;
   display: grid;
   place-items: center;
   height: 100vh;
@@ -32,14 +29,16 @@ body {
   background: linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5);
 }
 
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  max-width: 1200px;
-  margin-block: 2rem;
-  gap: 2rem;
-}
+
+.containeractivities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 2rem auto; /* Centriranje po horizontali, uz margine na vrhu i dnu */
+    gap: 2rem;
+  }
+  
 
 img {
   max-width: 100%;
@@ -55,7 +54,7 @@ img {
   box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
   border-radius: 1em;
   background: #ECE9E6;
-background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+  background: linear-gradient(to right, #FFFFFF, #ECE9E6);
 
 }
 
