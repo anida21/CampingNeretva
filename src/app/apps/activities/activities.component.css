@@ -2,8 +2,8 @@
 
 
 .banner-innerpage {
-    background-size: cover; /* ili druge odgovarajuće vrijednosti */
-    height: 65vh; /* Dodajte ovu liniju kako biste osigurali punu visinu */
+    background-size: cover; 
+    height: 65vh;
   }
 
   .titleactivities {
@@ -35,7 +35,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     max-width: 1200px;
-    margin: 2rem auto; /* Centriranje po horizontali, uz margine na vrhu i dnu */
+    margin: 2rem auto;
     gap: 2rem;
   }
   
@@ -57,8 +57,6 @@ img {
   background: linear-gradient(to right, #FFFFFF, #ECE9E6);
 
 }
-
-
 
 .card__body {
   padding: 1rem;
