@@ -31,5 +31,5 @@
   
   .bt-top.show {
     display: flex;
-    visibility: visible; /* Prikaži dugme kada mu se doda klasa show */
+    visibility: visible; 
   }

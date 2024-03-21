@@ -10,6 +10,7 @@ body {
     margin: 0;
     font-family: "Kanit", sans-serif;
 }
+
 :host {
     display: block;
     text-align: center;
@@ -20,7 +21,7 @@ body {
     height: 50vh; 
     z-index: 900; /* ako bude sta zezalo obrisi ovo */
   }
-  
+
 .gallery-lightbox-container {
     margin-top: 100px; /* Dodajte željeni margin vrhu galerije */
     position: relative;
@@ -206,7 +207,7 @@ body {
     scroll-behavior: smooth;
   }
   
-  .round-social .link {
+.round-social .link {
     display: grid;
     align-items: center;
   }
@@ -219,20 +220,21 @@ body {
     /* Postavite željeni razmak ispod društvenih ikona */
   }
 
-  @media (max-width: 767px) {
-    .round-social {
-        display: inline-flex; /* Postavite da elementi idu jedan ispod drugoga na manjim ekranima */
-        align-items: center; /* Centriranje po vertikali */
-    }
-}
+
 
 img{
     display: inline;
 }
 
-@media only screen and (max-width: 767px) {
-  
-    .text-md-left {
-      margin-bottom: 20px;
+
+@media (max-width: 767px) {
+    .round-social {
+        display: inline-flex; /* Postavite da elementi idu jedan ispod drugoga na manjim ekranima */
+        align-items: center; /* Centriranje po vertikali */
     }
+
+    
+    .text-md-right {
+        margin-top: 50px!important;
+      }
 }
