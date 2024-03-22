@@ -20,7 +20,7 @@ module.exports = __webpack_require__(/*! C:\Users\amujezin\Downloads\CampingNere
 /***/ (function(module, exports) {
 
 /**
- * @license Angular v11.0.5
+ * @license Angular v11.0.9
  * (c) 2010-2020 Google LLC. https://angular.io/
  * License: MIT
  */

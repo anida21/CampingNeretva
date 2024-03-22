@@ -442,7 +442,7 @@ function dispatchNotification(state) {
 /*!***************************************************************************************!*\
   !*** ./node_modules/@ng-bootstrap/ng-bootstrap/__ivy_ngcc__/fesm2015/ng-bootstrap.js ***!
   \***************************************************************************************/
-/*! exports provided: ModalDismissReasons, NgbAccordion, NgbAccordionConfig, NgbAccordionModule, NgbActiveModal, NgbAlert, NgbAlertConfig, NgbAlertModule, NgbButtonLabel, NgbButtonsModule, NgbCalendar, NgbCalendarBuddhist, NgbCalendarGregorian, NgbCalendarHebrew, NgbCalendarIslamicCivil, NgbCalendarIslamicUmalqura, NgbCalendarPersian, NgbCarousel, NgbCarouselConfig, NgbCarouselModule, NgbCheckBox, NgbCollapse, NgbCollapseConfig, NgbCollapseModule, NgbConfig, NgbDate, NgbDateAdapter, NgbDateNativeAdapter, NgbDateNativeUTCAdapter, NgbDateParserFormatter, NgbDatepicker, NgbDatepickerConfig, NgbDatepickerContent, NgbDatepickerI18n, NgbDatepickerI18nDefault, NgbDatepickerI18nHebrew, NgbDatepickerKeyboardService, NgbDatepickerModule, NgbDatepickerMonth, NgbDropdown, NgbDropdownAnchor, NgbDropdownConfig, NgbDropdownItem, NgbDropdownMenu, NgbDropdownModule, NgbDropdownToggle, NgbHighlight, NgbInputDatepicker, NgbInputDatepickerConfig, NgbModal, NgbModalConfig, NgbModalModule, NgbModalRef, NgbModule, NgbNav, NgbNavConfig, NgbNavContent, NgbNavItem, NgbNavLink, NgbNavModule, NgbNavOutlet, NgbNavPane, NgbNavbar, NgbPagination, NgbPaginationConfig, NgbPaginationEllipsis, NgbPaginationFirst, NgbPaginationLast, NgbPaginationModule, NgbPaginationNext, NgbPaginationNumber, NgbPaginationPages, NgbPaginationPrevious, NgbPanel, NgbPanelContent, NgbPanelHeader, NgbPanelTitle, NgbPanelToggle, NgbPopover, NgbPopoverConfig, NgbPopoverModule, NgbProgressbar, NgbProgressbarConfig, NgbProgressbarModule, NgbRadio, NgbRadioGroup, NgbRating, NgbRatingConfig, NgbRatingModule, NgbSlide, NgbSlideEventDirection, NgbSlideEventSource, NgbTimeAdapter, NgbTimepicker, NgbTimepickerConfig, NgbTimepickerI18n, NgbTimepickerModule, NgbToast, NgbToastConfig, NgbToastHeader, NgbToastModule, NgbTooltip, NgbTooltipConfig, NgbTooltipModule, NgbTypeahead, NgbTypeaheadConfig, NgbTypeaheadModule, ɵa, ɵb, ɵba, ɵc, ɵd, ɵe, ɵf, ɵg, ɵh, ɵi, ɵj, ɵk, ɵl, ɵm, ɵn, ɵo, ɵp, ɵq, ɵr, ɵs, ɵt, ɵu, ɵv, ɵw, ɵx, ɵy, ɵz */
+/*! exports provided: ModalDismissReasons, NgbAccordion, NgbAccordionConfig, NgbAccordionModule, NgbActiveModal, NgbAlert, NgbAlertConfig, NgbAlertModule, NgbButtonLabel, NgbButtonsModule, NgbCalendar, NgbCalendarGregorian, NgbCalendarHebrew, NgbCalendarIslamicCivil, NgbCalendarIslamicUmalqura, NgbCalendarPersian, NgbCarousel, NgbCarouselConfig, NgbCarouselModule, NgbCheckBox, NgbCollapse, NgbCollapseConfig, NgbCollapseModule, NgbConfig, NgbDate, NgbDateAdapter, NgbDateNativeAdapter, NgbDateNativeUTCAdapter, NgbDateParserFormatter, NgbDatepicker, NgbDatepickerConfig, NgbDatepickerContent, NgbDatepickerI18n, NgbDatepickerI18nHebrew, NgbDatepickerKeyboardService, NgbDatepickerModule, NgbDatepickerMonth, NgbDropdown, NgbDropdownAnchor, NgbDropdownConfig, NgbDropdownItem, NgbDropdownMenu, NgbDropdownModule, NgbDropdownToggle, NgbHighlight, NgbInputDatepicker, NgbInputDatepickerConfig, NgbModal, NgbModalConfig, NgbModalModule, NgbModalRef, NgbModule, NgbNav, NgbNavConfig, NgbNavContent, NgbNavItem, NgbNavLink, NgbNavModule, NgbNavOutlet, NgbNavPane, NgbNavbar, NgbPagination, NgbPaginationConfig, NgbPaginationEllipsis, NgbPaginationFirst, NgbPaginationLast, NgbPaginationModule, NgbPaginationNext, NgbPaginationNumber, NgbPaginationPrevious, NgbPanel, NgbPanelContent, NgbPanelHeader, NgbPanelTitle, NgbPanelToggle, NgbPopover, NgbPopoverConfig, NgbPopoverModule, NgbProgressbar, NgbProgressbarConfig, NgbProgressbarModule, NgbRadio, NgbRadioGroup, NgbRating, NgbRatingConfig, NgbRatingModule, NgbSlide, NgbSlideEventDirection, NgbSlideEventSource, NgbTimeAdapter, NgbTimepicker, NgbTimepickerConfig, NgbTimepickerI18n, NgbTimepickerModule, NgbToast, NgbToastConfig, NgbToastHeader, NgbToastModule, NgbTooltip, NgbTooltipConfig, NgbTooltipModule, NgbTypeahead, NgbTypeaheadConfig, NgbTypeaheadModule, ɵa, ɵb, ɵba, ɵbb, ɵc, ɵd, ɵe, ɵf, ɵg, ɵh, ɵi, ɵj, ɵk, ɵl, ɵm, ɵn, ɵo, ɵp, ɵq, ɵr, ɵs, ɵt, ɵu, ɵv, ɵw, ɵx, ɵy, ɵz */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -458,7 +458,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NgbButtonLabel", function() { return NgbButtonLabel; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NgbButtonsModule", function() { return NgbButtonsModule; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NgbCalendar", function() { return NgbCalendar; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NgbCalendarBuddhist", function() { return NgbCalendarBuddhist; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NgbCalendarGregorian", function() { return NgbCalendarGregorian; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NgbCalendarHebrew", function() { return NgbCalendarHebrew; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NgbCalendarIslamicCivil", function() { return NgbCalendarIslamicCivil; });
@@ -481,7 +480,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NgbDatepickerConfig", function() { return NgbDatepickerConfig; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NgbDatepickerContent", function() { return NgbDatepickerContent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NgbDatepickerI18n", function() { return NgbDatepickerI18n; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NgbDatepickerI18nDefault", function() { return NgbDatepickerI18nDefault; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NgbDatepickerI18nHebrew", function() { return NgbDatepickerI18nHebrew; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NgbDatepickerKeyboardService", function() { return NgbDatepickerKeyboardService; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NgbDatepickerModule", function() { return NgbDatepickerModule; });
@@ -518,7 +516,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NgbPaginationModule", function() { return NgbPaginationModule; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NgbPaginationNext", function() { return NgbPaginationNext; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NgbPaginationNumber", function() { return NgbPaginationNumber; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NgbPaginationPages", function() { return NgbPaginationPages; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NgbPaginationPrevious", function() { return NgbPaginationPrevious; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NgbPanel", function() { return NgbPanel; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NgbPanelContent", function() { return NgbPanelContent; });
@@ -556,31 +553,32 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NgbTypeaheadModule", function() { return NgbTypeaheadModule; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵa", function() { return NGB_CAROUSEL_DIRECTIVES; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵb", function() { return NGB_DATEPICKER_CALENDAR_FACTORY; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵba", function() { return ContentRef; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵba", function() { return NgbCalendarHijri; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵbb", function() { return ContentRef; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵc", function() { return NgbDatepickerDayView; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵd", function() { return NgbDatepickerNavigation; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵe", function() { return NgbDatepickerNavigationSelect; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵf", function() { return NGB_DATEPICKER_18N_FACTORY; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵg", function() { return NGB_DATEPICKER_DATE_ADAPTER_FACTORY; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵh", function() { return NgbDateStructAdapter; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵi", function() { return NGB_DATEPICKER_PARSER_FORMATTER_FACTORY; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵj", function() { return NgbDateISOParserFormatter; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵk", function() { return NgbPopoverWindow; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵl", function() { return NGB_DATEPICKER_TIME_ADAPTER_FACTORY; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵm", function() { return NgbTimeStructAdapter; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵn", function() { return NGB_TIMEPICKER_I18N_FACTORY; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵo", function() { return NgbTimepickerI18nDefault; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵp", function() { return NgbTooltipWindow; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵq", function() { return NgbTypeaheadWindow; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵr", function() { return NgbDatepickerService; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵs", function() { return NgbModalBackdrop; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵt", function() { return NgbModalWindow; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵu", function() { return NgbModalStack; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵv", function() { return ScrollBar; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵw", function() { return ARIA_LIVE_DELAY; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵx", function() { return ARIA_LIVE_DELAY_FACTORY; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵy", function() { return Live; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵz", function() { return NgbCalendarHijri; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵg", function() { return NgbDatepickerI18nDefault; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵh", function() { return NGB_DATEPICKER_DATE_ADAPTER_FACTORY; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵi", function() { return NgbDateStructAdapter; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵj", function() { return NGB_DATEPICKER_PARSER_FORMATTER_FACTORY; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵk", function() { return NgbDateISOParserFormatter; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵl", function() { return NgbPopoverWindow; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵm", function() { return NGB_DATEPICKER_TIME_ADAPTER_FACTORY; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵn", function() { return NgbTimeStructAdapter; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵo", function() { return NGB_TIMEPICKER_I18N_FACTORY; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵp", function() { return NgbTimepickerI18nDefault; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵq", function() { return NgbTooltipWindow; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵr", function() { return NgbTypeaheadWindow; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵs", function() { return NgbDatepickerService; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵt", function() { return NgbModalBackdrop; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵu", function() { return NgbModalWindow; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵv", function() { return NgbModalStack; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵw", function() { return ScrollBar; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵx", function() { return ARIA_LIVE_DELAY; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵy", function() { return ARIA_LIVE_DELAY_FACTORY; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵz", function() { return Live; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ "ofXK");
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ "qCKp");
@@ -726,11 +724,11 @@ function NgbDatepicker_ng_template_2_div_0_div_1_Template(rf, ctx) { if (rf & 1)
     const month_r14 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
     const ctx_r16 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", ctx_r16.i18n.getMonthLabel(month_r14.firstDate), " ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate2"](" ", ctx_r16.i18n.getMonthFullName(month_r14.number, month_r14.year), " ", ctx_r16.i18n.getYearNumerals(month_r14.year), " ");
 } }
 function NgbDatepicker_ng_template_2_div_0_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 9);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, NgbDatepicker_ng_template_2_div_0_div_1_Template, 2, 1, "div", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, NgbDatepicker_ng_template_2_div_0_div_1_Template, 2, 2, "div", 10);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "ngb-datepicker-month", 11);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
@@ -759,26 +757,21 @@ function NgbDatepicker_ngb_datepicker_navigation_5_Template(rf, ctx) { if (rf & 
 function NgbDatepicker_ng_template_8_Template(rf, ctx) { }
 function NgbDatepicker_ng_template_9_Template(rf, ctx) { }
 function NgbDatepickerMonth_div_0_div_1_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 5);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-} if (rf & 2) {
-    const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx_r2.i18n.getWeekLabel());
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "div", 5);
 } }
 function NgbDatepickerMonth_div_0_div_2_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 6);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
-    const weekday_r4 = ctx.$implicit;
+    const w_r4 = ctx.$implicit;
+    const ctx_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](weekday_r4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", ctx_r3.i18n.getWeekdayShortName(w_r4), " ");
 } }
 function NgbDatepickerMonth_div_0_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, NgbDatepickerMonth_div_0_div_1_Template, 2, 1, "div", 3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, NgbDatepickerMonth_div_0_div_1_Template, 1, 0, "div", 3);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, NgbDatepickerMonth_div_0_div_2_Template, 2, 1, "div", 4);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
@@ -866,12 +859,12 @@ function NgbDatepickerNavigation_4_ng_template_0_Template(rf, ctx) { if (rf & 1)
     const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", i_r6 > 0);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", ctx_r4.i18n.getMonthLabel(month_r5.firstDate), " ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate2"](" ", ctx_r4.i18n.getMonthFullName(month_r5.number, month_r5.year), " ", ctx_r4.i18n.getYearNumerals(month_r5.year), " ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", i_r6 !== ctx_r4.months.length - 1);
 } }
 function NgbDatepickerNavigation_4_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, NgbDatepickerNavigation_4_ng_template_0_Template, 4, 3, "ng-template", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, NgbDatepickerNavigation_4_ng_template_0_Template, 4, 4, "ng-template", 8);
 } if (rf & 2) {
     const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r1.months);
@@ -925,175 +918,160 @@ function NgbNavOutlet_ng_template_0_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", item_r1.isPanelInDom() || ctx_r0.isPanelTransitioning(item_r1));
 } }
 function NgbPagination_ng_template_0_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span", 9);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵi18n"](1, 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵi18n"](1, 9);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } }
 function NgbPagination_ng_template_2_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span", 9);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵi18n"](1, 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵi18n"](1, 10);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } }
 function NgbPagination_ng_template_4_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span", 9);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵi18n"](1, 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵi18n"](1, 11);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } }
 function NgbPagination_ng_template_6_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span", 9);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵi18n"](1, 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵi18n"](1, 12);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } }
 function NgbPagination_ng_template_8_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](0, "...");
 } }
 function NgbPagination_ng_template_10_span_1_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span", 14);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "(current)");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } }
 function NgbPagination_ng_template_10_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, NgbPagination_ng_template_10_span_1_Template, 2, 0, "span", 14);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, NgbPagination_ng_template_10_span_1_Template, 2, 0, "span", 13);
 } if (rf & 2) {
-    const page_r19 = ctx.$implicit;
-    const currentPage_r20 = ctx.currentPage;
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", page_r19, " ");
+    const page_r17 = ctx.$implicit;
+    const currentPage_r18 = ctx.currentPage;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", page_r17, " ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", page_r19 === currentPage_r20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", page_r17 === currentPage_r18);
 } }
-function NgbPagination_ng_template_12_li_0_a_1_ng_template_1_Template(rf, ctx) { }
-const _c44 = function (a1) { return { disabled: true, currentPage: a1 }; };
-function NgbPagination_ng_template_12_li_0_a_1_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "a", 20);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, NgbPagination_ng_template_12_li_0_a_1_ng_template_1_Template, 0, 0, "ng-template", 8);
+function NgbPagination_li_13_ng_template_2_Template(rf, ctx) { }
+const _c46 = function (a0, a1) { return { disabled: a0, currentPage: a1 }; };
+function NgbPagination_li_13_Template(rf, ctx) { if (rf & 1) {
+    const _r22 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "li", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "a", 16);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function NgbPagination_li_13_Template_a_click_1_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r22); const ctx_r21 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); ctx_r21.selectPage(1); return $event.preventDefault(); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, NgbPagination_li_13_ng_template_2_Template, 0, 0, "ng-template", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
-    const page_r22 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2).$implicit;
-    const ctx_r27 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    const ctx_r12 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    const _r0 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵreference"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("disabled", ctx_r12.previousDisabled());
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵattribute"]("tabindex", ctx_r12.previousDisabled() ? "-1" : null)("aria-disabled", ctx_r12.previousDisabled() ? "true" : null);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngTemplateOutlet", (ctx_r12.tplFirst == null ? null : ctx_r12.tplFirst.templateRef) || _r0)("ngTemplateOutletContext", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction2"](6, _c46, ctx_r12.previousDisabled(), ctx_r12.page));
+} }
+function NgbPagination_li_14_ng_template_2_Template(rf, ctx) { }
+const _c49 = function (a0) { return { disabled: a0 }; };
+function NgbPagination_li_14_Template(rf, ctx) { if (rf & 1) {
+    const _r25 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "li", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "a", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function NgbPagination_li_14_Template_a_click_1_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r25); const ctx_r24 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); ctx_r24.selectPage(ctx_r24.page - 1); return $event.preventDefault(); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, NgbPagination_li_14_ng_template_2_Template, 0, 0, "ng-template", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r13 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    const _r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵreference"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("disabled", ctx_r13.previousDisabled());
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵattribute"]("tabindex", ctx_r13.previousDisabled() ? "-1" : null)("aria-disabled", ctx_r13.previousDisabled() ? "true" : null);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngTemplateOutlet", (ctx_r13.tplPrevious == null ? null : ctx_r13.tplPrevious.templateRef) || _r2)("ngTemplateOutletContext", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](6, _c49, ctx_r13.previousDisabled()));
+} }
+function NgbPagination_li_15_a_1_ng_template_1_Template(rf, ctx) { }
+const _c50 = function (a1) { return { disabled: true, currentPage: a1 }; };
+function NgbPagination_li_15_a_1_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "a", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, NgbPagination_li_15_a_1_ng_template_1_Template, 0, 0, "ng-template", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r27 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
     const _r8 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵreference"](9);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngTemplateOutlet", (ctx_r27.tplEllipsis == null ? null : ctx_r27.tplEllipsis.templateRef) || _r8)("ngTemplateOutletContext", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](2, _c44, page_r22));
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngTemplateOutlet", (ctx_r27.tplEllipsis == null ? null : ctx_r27.tplEllipsis.templateRef) || _r8)("ngTemplateOutletContext", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](2, _c50, ctx_r27.page));
 } }
-function NgbPagination_ng_template_12_li_0_a_2_ng_template_1_Template(rf, ctx) { }
-const _c45 = function (a0, a1, a2) { return { disabled: a0, $implicit: a1, currentPage: a2 }; };
-function NgbPagination_ng_template_12_li_0_a_2_Template(rf, ctx) { if (rf & 1) {
-    const _r34 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "a", 21);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function NgbPagination_ng_template_12_li_0_a_2_Template_a_click_0_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r34); const pageNumber_r26 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit; const ctx_r32 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2); ctx_r32.selectPage(pageNumber_r26); return $event.preventDefault(); });
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, NgbPagination_ng_template_12_li_0_a_2_ng_template_1_Template, 0, 0, "ng-template", 8);
+function NgbPagination_li_15_a_2_ng_template_1_Template(rf, ctx) { }
+const _c51 = function (a0, a1, a2) { return { disabled: a0, $implicit: a1, currentPage: a2 }; };
+function NgbPagination_li_15_a_2_Template(rf, ctx) { if (rf & 1) {
+    const _r33 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "a", 22);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function NgbPagination_li_15_a_2_Template_a_click_0_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r33); const pageNumber_r26 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit; const ctx_r31 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); ctx_r31.selectPage(pageNumber_r26); return $event.preventDefault(); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, NgbPagination_li_15_a_2_ng_template_1_Template, 0, 0, "ng-template", 17);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
     const pageNumber_r26 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
-    const ctx_r35 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
-    const disabled_r24 = ctx_r35.disabled;
-    const page_r22 = ctx_r35.$implicit;
     const ctx_r28 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
     const _r10 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵreference"](11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵattribute"]("tabindex", disabled_r24 ? "-1" : null)("aria-disabled", disabled_r24 ? "true" : null);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵattribute"]("tabindex", ctx_r28.disabled ? "-1" : null)("aria-disabled", ctx_r28.disabled ? "true" : null);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngTemplateOutlet", (ctx_r28.tplNumber == null ? null : ctx_r28.tplNumber.templateRef) || _r10)("ngTemplateOutletContext", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction3"](4, _c45, disabled_r24, pageNumber_r26, page_r22));
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngTemplateOutlet", (ctx_r28.tplNumber == null ? null : ctx_r28.tplNumber.templateRef) || _r10)("ngTemplateOutletContext", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction3"](4, _c51, ctx_r28.disabled, pageNumber_r26, ctx_r28.page));
 } }
-function NgbPagination_ng_template_12_li_0_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "li", 17);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, NgbPagination_ng_template_12_li_0_a_1_Template, 2, 4, "a", 18);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, NgbPagination_ng_template_12_li_0_a_2_Template, 2, 8, "a", 19);
+function NgbPagination_li_15_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "li", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, NgbPagination_li_15_a_1_Template, 2, 4, "a", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, NgbPagination_li_15_a_2_Template, 2, 8, "a", 20);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
     const pageNumber_r26 = ctx.$implicit;
-    const ctx_r37 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
-    const page_r22 = ctx_r37.$implicit;
-    const disabled_r24 = ctx_r37.disabled;
-    const ctx_r25 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("active", pageNumber_r26 === page_r22)("disabled", ctx_r25.isEllipsis(pageNumber_r26) || disabled_r24);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵattribute"]("aria-current", pageNumber_r26 === page_r22 ? "page" : null);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r25.isEllipsis(pageNumber_r26));
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", !ctx_r25.isEllipsis(pageNumber_r26));
-} }
-function NgbPagination_ng_template_12_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, NgbPagination_ng_template_12_li_0_Template, 3, 7, "li", 16);
-} if (rf & 2) {
-    const pages_r23 = ctx.pages;
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", pages_r23);
-} }
-function NgbPagination_li_15_ng_template_2_Template(rf, ctx) { }
-const _c48 = function (a0, a1) { return { disabled: a0, currentPage: a1 }; };
-function NgbPagination_li_15_Template(rf, ctx) { if (rf & 1) {
-    const _r40 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "li", 17);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "a", 22);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function NgbPagination_li_15_Template_a_click_1_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r40); const ctx_r39 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); ctx_r39.selectPage(1); return $event.preventDefault(); });
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, NgbPagination_li_15_ng_template_2_Template, 0, 0, "ng-template", 8);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-} if (rf & 2) {
     const ctx_r14 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
-    const _r0 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵreference"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("disabled", ctx_r14.previousDisabled());
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("active", pageNumber_r26 === ctx_r14.page)("disabled", ctx_r14.isEllipsis(pageNumber_r26) || ctx_r14.disabled);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵattribute"]("aria-current", pageNumber_r26 === ctx_r14.page ? "page" : null);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵattribute"]("tabindex", ctx_r14.previousDisabled() ? "-1" : null)("aria-disabled", ctx_r14.previousDisabled() ? "true" : null);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r14.isEllipsis(pageNumber_r26));
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngTemplateOutlet", (ctx_r14.tplFirst == null ? null : ctx_r14.tplFirst.templateRef) || _r0)("ngTemplateOutletContext", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction2"](6, _c48, ctx_r14.previousDisabled(), ctx_r14.page));
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", !ctx_r14.isEllipsis(pageNumber_r26));
 } }
 function NgbPagination_li_16_ng_template_2_Template(rf, ctx) { }
-const _c51 = function (a0) { return { disabled: a0 }; };
 function NgbPagination_li_16_Template(rf, ctx) { if (rf & 1) {
-    const _r43 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "li", 17);
+    const _r37 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "li", 15);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "a", 23);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function NgbPagination_li_16_Template_a_click_1_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r43); const ctx_r42 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); ctx_r42.selectPage(ctx_r42.page - 1); return $event.preventDefault(); });
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, NgbPagination_li_16_ng_template_2_Template, 0, 0, "ng-template", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function NgbPagination_li_16_Template_a_click_1_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r37); const ctx_r36 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); ctx_r36.selectPage(ctx_r36.page + 1); return $event.preventDefault(); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, NgbPagination_li_16_ng_template_2_Template, 0, 0, "ng-template", 17);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
     const ctx_r15 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
-    const _r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵreference"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("disabled", ctx_r15.previousDisabled());
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵattribute"]("tabindex", ctx_r15.previousDisabled() ? "-1" : null)("aria-disabled", ctx_r15.previousDisabled() ? "true" : null);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngTemplateOutlet", (ctx_r15.tplPrevious == null ? null : ctx_r15.tplPrevious.templateRef) || _r2)("ngTemplateOutletContext", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](6, _c51, ctx_r15.previousDisabled()));
-} }
-function NgbPagination_ng_template_17_Template(rf, ctx) { }
-function NgbPagination_li_18_ng_template_2_Template(rf, ctx) { }
-function NgbPagination_li_18_Template(rf, ctx) { if (rf & 1) {
-    const _r46 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "li", 17);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "a", 24);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function NgbPagination_li_18_Template_a_click_1_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r46); const ctx_r45 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); ctx_r45.selectPage(ctx_r45.page + 1); return $event.preventDefault(); });
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, NgbPagination_li_18_ng_template_2_Template, 0, 0, "ng-template", 8);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-} if (rf & 2) {
-    const ctx_r17 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
     const _r4 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵreference"](5);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("disabled", ctx_r17.nextDisabled());
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("disabled", ctx_r15.nextDisabled());
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵattribute"]("tabindex", ctx_r17.nextDisabled() ? "-1" : null)("aria-disabled", ctx_r17.nextDisabled() ? "true" : null);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵattribute"]("tabindex", ctx_r15.nextDisabled() ? "-1" : null)("aria-disabled", ctx_r15.nextDisabled() ? "true" : null);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngTemplateOutlet", (ctx_r17.tplNext == null ? null : ctx_r17.tplNext.templateRef) || _r4)("ngTemplateOutletContext", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction2"](6, _c48, ctx_r17.nextDisabled(), ctx_r17.page));
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngTemplateOutlet", (ctx_r15.tplNext == null ? null : ctx_r15.tplNext.templateRef) || _r4)("ngTemplateOutletContext", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction2"](6, _c46, ctx_r15.nextDisabled(), ctx_r15.page));
 } }
-function NgbPagination_li_19_ng_template_2_Template(rf, ctx) { }
-function NgbPagination_li_19_Template(rf, ctx) { if (rf & 1) {
-    const _r49 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "li", 17);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "a", 25);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function NgbPagination_li_19_Template_a_click_1_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r49); const ctx_r48 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); ctx_r48.selectPage(ctx_r48.pageCount); return $event.preventDefault(); });
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, NgbPagination_li_19_ng_template_2_Template, 0, 0, "ng-template", 8);
+function NgbPagination_li_17_ng_template_2_Template(rf, ctx) { }
+function NgbPagination_li_17_Template(rf, ctx) { if (rf & 1) {
+    const _r40 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "li", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "a", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function NgbPagination_li_17_Template_a_click_1_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r40); const ctx_r39 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); ctx_r39.selectPage(ctx_r39.pageCount); return $event.preventDefault(); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, NgbPagination_li_17_ng_template_2_Template, 0, 0, "ng-template", 17);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
-    const ctx_r18 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    const ctx_r16 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
     const _r6 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵreference"](7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("disabled", ctx_r18.nextDisabled());
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("disabled", ctx_r16.nextDisabled());
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵattribute"]("tabindex", ctx_r18.nextDisabled() ? "-1" : null)("aria-disabled", ctx_r18.nextDisabled() ? "true" : null);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵattribute"]("tabindex", ctx_r16.nextDisabled() ? "-1" : null)("aria-disabled", ctx_r16.nextDisabled() ? "true" : null);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngTemplateOutlet", (ctx_r18.tplLast == null ? null : ctx_r18.tplLast.templateRef) || _r6)("ngTemplateOutletContext", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction2"](6, _c48, ctx_r18.nextDisabled(), ctx_r18.page));
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngTemplateOutlet", (ctx_r16.tplLast == null ? null : ctx_r16.tplLast.templateRef) || _r6)("ngTemplateOutletContext", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction2"](6, _c46, ctx_r16.nextDisabled(), ctx_r16.page));
 } }
-const _c56 = function (a0, a1, a2) { return { $implicit: a0, pages: a1, disabled: a2 }; };
 function NgbPopoverWindow_h3_1_ng_template_1_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](0);
 } if (rf & 2) {
@@ -1244,7 +1222,7 @@ function NgbTimepicker_div_13_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 19);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, NgbTimepicker_div_13_button_1_Template, 4, 7, "button", 3);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "input", 20);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("change", function NgbTimepicker_div_13_Template_input_change_2_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r23); const ctx_r22 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r22.updateSecond($event.target.value); })("blur", function NgbTimepicker_div_13_Template_input_blur_2_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r23); const ctx_r24 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r24.handleBlur(); })("input", function NgbTimepicker_div_13_Template_input_input_2_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r23); const ctx_r25 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r25.formatInput($event.target); })("keydown.ArrowUp", function NgbTimepicker_div_13_Template_input_keydown_ArrowUp_2_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r23); const ctx_r26 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); ctx_r26.changeSecond(ctx_r26.secondStep); return $event.preventDefault(); })("keydown.ArrowDown", function NgbTimepicker_div_13_Template_input_keydown_ArrowDown_2_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r23); const ctx_r27 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); ctx_r27.changeSecond(-ctx_r27.secondStep); return $event.preventDefault(); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("change", function NgbTimepicker_div_13_Template_input_change_2_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r23); const ctx_r22 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r22.updateSecond($event.target.value); })("input", function NgbTimepicker_div_13_Template_input_input_2_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r23); const ctx_r24 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r24.formatInput($event.target); })("keydown.ArrowUp", function NgbTimepicker_div_13_Template_input_keydown_ArrowUp_2_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r23); const ctx_r25 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); ctx_r25.changeSecond(ctx_r25.secondStep); return $event.preventDefault(); })("keydown.ArrowDown", function NgbTimepicker_div_13_Template_input_keydown_ArrowDown_2_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r23); const ctx_r26 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); ctx_r26.changeSecond(-ctx_r26.secondStep); return $event.preventDefault(); });
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, NgbTimepicker_div_13_button_3_Template, 4, 7, "button", 3);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -1266,35 +1244,35 @@ function NgbTimepicker_div_15_ng_container_2_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵi18n"](1, 27);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
 } if (rf & 2) {
-    const ctx_r28 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+    const ctx_r27 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵi18nExp"](ctx_r28.i18n.getAfternoonPeriod());
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵi18nExp"](ctx_r27.i18n.getAfternoonPeriod());
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵi18nApply"](1);
 } }
 function NgbTimepicker_div_15_ng_template_3_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵi18n"](0, 28);
 } if (rf & 2) {
-    const ctx_r30 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵi18nExp"](ctx_r30.i18n.getMorningPeriod());
+    const ctx_r29 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵi18nExp"](ctx_r29.i18n.getMorningPeriod());
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵi18nApply"](0);
 } }
 function NgbTimepicker_div_15_Template(rf, ctx) { if (rf & 1) {
-    const _r32 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+    const _r31 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 23);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "button", 24);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function NgbTimepicker_div_15_Template_button_click_1_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r32); const ctx_r31 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r31.toggleMeridian(); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function NgbTimepicker_div_15_Template_button_click_1_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r31); const ctx_r30 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r30.toggleMeridian(); });
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, NgbTimepicker_div_15_ng_container_2_Template, 2, 1, "ng-container", 25);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, NgbTimepicker_div_15_ng_template_3_Template, 1, 1, "ng-template", null, 26, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplateRefExtractor"]);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
-    const _r29 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵreference"](4);
+    const _r28 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵreference"](4);
     const ctx_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("btn-sm", ctx_r7.isSmallSize)("btn-lg", ctx_r7.isLargeSize)("disabled", ctx_r7.disabled);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("disabled", ctx_r7.disabled);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r7.model && ctx_r7.model.hour >= 12)("ngIfElse", _r29);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r7.model && ctx_r7.model.hour >= 12)("ngIfElse", _r28);
 } }
 function NgbToast_ng_template_0_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "strong", 3);
@@ -1357,7 +1335,7 @@ function NgbTypeaheadWindow_ng_template_0_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("result", formatter_r5(result_r3))("term", term_r4);
 } }
 function NgbTypeaheadWindow_ng_template_2_ng_template_1_Template(rf, ctx) { }
-const _c89 = function (a0, a1, a2) { return { result: a0, term: a1, formatter: a2 }; };
+const _c88 = function (a0, a1, a2) { return { result: a0, term: a1, formatter: a2 }; };
 function NgbTypeaheadWindow_ng_template_2_Template(rf, ctx) { if (rf & 1) {
     const _r10 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "button", 3);
@@ -1372,7 +1350,7 @@ function NgbTypeaheadWindow_ng_template_2_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("active", idx_r7 === ctx_r2.activeIdx);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("id", ctx_r2.id + "-" + idx_r7);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngTemplateOutlet", ctx_r2.resultTemplate || _r0)("ngTemplateOutletContext", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction3"](5, _c89, result_r6, ctx_r2.term, ctx_r2.formatter));
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngTemplateOutlet", ctx_r2.resultTemplate || _r0)("ngTemplateOutletContext", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction3"](5, _c88, result_r6, ctx_r2.term, ctx_r2.formatter));
 } }
 function toInteger(value) {
     return parseInt(`${value}`, 10);
@@ -1453,7 +1431,7 @@ function closest(element, selector) {
  * @param element element where to apply the reflow
  */
 function reflow(element) {
-    return (element || document.body).getBoundingClientRect();
+    return (element || document.body).offsetHeight;
 }
 /**
  * Creates an observable where all callbacks are executed inside a given zone
@@ -1469,9 +1447,6 @@ function runInZone(zone) {
             return source.subscribe(onNext, onError, onComplete);
         });
     };
-}
-function removeAccents(str) {
-    return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 }
 
 const environment = {
@@ -2941,7 +2916,7 @@ NgbCarousel.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCompon
     } }, hostAttrs: ["tabIndex", "0", 1, "carousel", "slide"], hostVars: 3, hostBindings: function NgbCarousel_HostBindings(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("keydown.arrowLeft", function NgbCarousel_keydown_arrowLeft_HostBindingHandler() { return ctx.keyboard && ctx.arrowLeft(); })("keydown.arrowRight", function NgbCarousel_keydown_arrowRight_HostBindingHandler() { return ctx.keyboard && ctx.arrowRight(); })("mouseenter", function NgbCarousel_mouseenter_HostBindingHandler() { return ctx.mouseHover = true; })("mouseleave", function NgbCarousel_mouseleave_HostBindingHandler() { return ctx.mouseHover = false; })("focusin", function NgbCarousel_focusin_HostBindingHandler() { return ctx.focused = true; })("focusout", function NgbCarousel_focusout_HostBindingHandler() { return ctx.focused = false; });
     } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵattribute"]("aria-activedescendant", "slide-" + ctx.activeId);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵattribute"]("aria-activedescendant", ctx.activeId);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleProp"]("display", "block");
     } }, inputs: { animation: "animation", interval: "interval", wrap: "wrap", keyboard: "keyboard", pauseOnHover: "pauseOnHover", pauseOnFocus: "pauseOnFocus", showNavigationArrows: "showNavigationArrows", showNavigationIndicators: "showNavigationIndicators", activeId: "activeId" }, outputs: { slide: "slide", slid: "slid" }, exportAs: ["ngbCarousel"], decls: 6, vars: 6, consts: function () { let i18n_6; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
         /**
@@ -3022,7 +2997,7 @@ NgbCarousel.propDecorators = {
                     '(mouseleave)': 'mouseHover = false',
                     '(focusin)': 'focused = true',
                     '(focusout)': 'focused = false',
-                    '[attr.aria-activedescendant]': `'slide-' + activeId`
+                    '[attr.aria-activedescendant]': 'activeId'
                 },
                 template: `
     <ol class="carousel-indicators" [class.sr-only]="!showNavigationIndicators" role="tablist">
@@ -3500,7 +3475,7 @@ function buildMonths(calendar, date, state, i18n, force) {
     return months;
 }
 function buildMonth(calendar, date, state, i18n, month = {}) {
-    const { dayTemplateData, minDate, maxDate, firstDayOfWeek, markDisabled, outsideDays, weekdayWidth, weekdaysVisible } = state;
+    const { dayTemplateData, minDate, maxDate, firstDayOfWeek, markDisabled, outsideDays } = state;
     const calendarToday = calendar.getToday();
     month.firstDate = null;
     month.lastDate = null;
@@ -3509,10 +3484,6 @@ function buildMonth(calendar, date, state, i18n, month = {}) {
     month.weeks = month.weeks || [];
     month.weekdays = month.weekdays || [];
     date = getFirstViewDate(calendar, date, firstDayOfWeek);
-    // clearing weekdays, if not visible
-    if (!weekdaysVisible) {
-        month.weekdays.length = 0;
-    }
     // month has weeks
     for (let week = 0; week < calendar.getWeeksPerMonth(); week++) {
         let weekObject = month.weeks[week];
@@ -3522,8 +3493,8 @@ function buildMonth(calendar, date, state, i18n, month = {}) {
         const days = weekObject.days;
         // week has days
         for (let day = 0; day < calendar.getDaysPerWeek(); day++) {
-            if (week === 0 && weekdaysVisible) {
-                month.weekdays[day] = i18n.getWeekdayLabel(calendar.getWeekday(date), weekdayWidth);
+            if (week === 0) {
+                month.weekdays[day] = calendar.getWeekday(date);
             }
             const newDate = new NgbDate(date.year, date.month, date.day);
             const nextDate = calendar.getNext(newDate);
@@ -3596,20 +3567,6 @@ function NGB_DATEPICKER_18N_FACTORY(locale) {
  */
 class NgbDatepickerI18n {
     /**
-     * Returns the weekday label using specified width
-     *
-     * @since 9.1.0
-     */
-    getWeekdayLabel(weekday, width) { return this.getWeekdayShortName(weekday); }
-    /**
-     * Returns the text label to display above the day view.
-     *
-     * @since 9.1.0
-     */
-    getMonthLabel(date) {
-        return `${this.getMonthFullName(date.month, date.year)} ${this.getYearNumerals(date.year)}`;
-    }
-    /**
      * Returns the textual representation of a day that is rendered in a day cell.
      *
      * @since 3.0.0
@@ -3627,12 +3584,6 @@ class NgbDatepickerI18n {
      * @since 3.0.0
      */
     getYearNumerals(year) { return `${year}`; }
-    /**
-     * Returns the week label to display in the heading of the month view.
-     *
-     * @since 9.1.0
-     */
-    getWeekLabel() { return ''; }
 }
 NgbDatepickerI18n.ɵfac = function NgbDatepickerI18n_Factory(t) { return new (t || NgbDatepickerI18n)(); };
 NgbDatepickerI18n.ɵprov = Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"])({ factory: function NgbDatepickerI18n_Factory() { return NGB_DATEPICKER_18N_FACTORY(Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"])(_angular_core__WEBPACK_IMPORTED_MODULE_0__["LOCALE_ID"])); }, token: NgbDatepickerI18n, providedIn: "root" });
@@ -3640,25 +3591,16 @@ NgbDatepickerI18n.ɵprov = Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵ
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"],
         args: [{ providedIn: 'root', useFactory: NGB_DATEPICKER_18N_FACTORY, deps: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["LOCALE_ID"]] }]
     }], null, null); })();
-/**
- * A service providing default implementation for the datepicker i18n.
- * It can be used as a base implementation if necessary.
- *
- * @since 9.1.0
- */
 class NgbDatepickerI18nDefault extends NgbDatepickerI18n {
     constructor(_locale) {
         super();
         this._locale = _locale;
+        const weekdaysStartingOnSunday = Object(_angular_common__WEBPACK_IMPORTED_MODULE_1__["getLocaleDayNames"])(_locale, _angular_common__WEBPACK_IMPORTED_MODULE_1__["FormStyle"].Standalone, _angular_common__WEBPACK_IMPORTED_MODULE_1__["TranslationWidth"].Short);
+        this._weekdaysShort = weekdaysStartingOnSunday.map((day, index) => weekdaysStartingOnSunday[(index + 1) % 7]);
         this._monthsShort = Object(_angular_common__WEBPACK_IMPORTED_MODULE_1__["getLocaleMonthNames"])(_locale, _angular_common__WEBPACK_IMPORTED_MODULE_1__["FormStyle"].Standalone, _angular_common__WEBPACK_IMPORTED_MODULE_1__["TranslationWidth"].Abbreviated);
         this._monthsFull = Object(_angular_common__WEBPACK_IMPORTED_MODULE_1__["getLocaleMonthNames"])(_locale, _angular_common__WEBPACK_IMPORTED_MODULE_1__["FormStyle"].Standalone, _angular_common__WEBPACK_IMPORTED_MODULE_1__["TranslationWidth"].Wide);
     }
-    getWeekdayShortName(weekday) { return this.getWeekdayLabel(weekday, _angular_common__WEBPACK_IMPORTED_MODULE_1__["TranslationWidth"].Short); }
-    getWeekdayLabel(weekday, width) {
-        const weekdaysStartingOnSunday = Object(_angular_common__WEBPACK_IMPORTED_MODULE_1__["getLocaleDayNames"])(this._locale, _angular_common__WEBPACK_IMPORTED_MODULE_1__["FormStyle"].Standalone, width === undefined ? _angular_common__WEBPACK_IMPORTED_MODULE_1__["TranslationWidth"].Short : width);
-        const weekdays = weekdaysStartingOnSunday.map((day, index) => weekdaysStartingOnSunday[(index + 1) % 7]);
-        return weekdays[weekday - 1] || '';
-    }
+    getWeekdayShortName(weekday) { return this._weekdaysShort[weekday - 1] || ''; }
     getMonthShortName(month) { return this._monthsShort[month - 1] || ''; }
     getMonthFullName(month) { return this._monthsFull[month - 1] || ''; }
     getDayAriaLabel(date) {
@@ -3736,13 +3678,6 @@ class NgbDatepickerService {
                 if (this._state.outsideDays !== outsideDays) {
                     return { outsideDays };
                 }
-            },
-            weekdays: (weekdays) => {
-                const weekdayWidth = weekdays === true || weekdays === false ? _angular_common__WEBPACK_IMPORTED_MODULE_1__["TranslationWidth"].Short : weekdays;
-                const weekdaysVisible = weekdays === true || weekdays === false ? weekdays : true;
-                if (this._state.weekdayWidth !== weekdayWidth || this._state.weekdaysVisible !== weekdaysVisible) {
-                    return { weekdayWidth, weekdaysVisible };
-                }
             }
         };
         this._model$ = new rxjs__WEBPACK_IMPORTED_MODULE_2__["Subject"]();
@@ -3765,9 +3700,7 @@ class NgbDatepickerService {
             prevDisabled: false,
             nextDisabled: false,
             selectedDate: null,
-            selectBoxes: { years: [], months: [] },
-            weekdayWidth: _angular_common__WEBPACK_IMPORTED_MODULE_1__["TranslationWidth"].Short,
-            weekdaysVisible: true
+            selectBoxes: { years: [], months: [] }
         };
     }
     get model$() { return this._model$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["filter"])(model => model.months.length > 0)); }
@@ -3901,8 +3834,7 @@ class NgbDatepickerService {
         // rebuilding months
         if (startDate) {
             const forceRebuild = 'dayTemplateData' in patch || 'firstDayOfWeek' in patch || 'markDisabled' in patch ||
-                'minDate' in patch || 'maxDate' in patch || 'disabled' in patch || 'outsideDays' in patch ||
-                'weekdaysVisible' in patch;
+                'minDate' in patch || 'maxDate' in patch || 'disabled' in patch || 'outsideDays' in patch;
             const months = buildMonths(this._calendar, startDate, state, this._i18n, forceRebuild);
             // updating months and boundary dates
             state.months = months;
@@ -3976,7 +3908,6 @@ class NgbDatepickerConfig {
         this.outsideDays = 'visible';
         this.showWeekdays = true;
         this.showWeekNumbers = false;
-        this.weekdays = _angular_common__WEBPACK_IMPORTED_MODULE_1__["TranslationWidth"].Short;
     }
 }
 NgbDatepickerConfig.ɵfac = function NgbDatepickerConfig_Factory(t) { return new (t || NgbDatepickerConfig)(); };
@@ -4086,7 +4017,7 @@ class NgbDatepicker {
         this.onChange = (_) => { };
         this.onTouched = () => { };
         ['dayTemplate', 'dayTemplateData', 'displayMonths', 'firstDayOfWeek', 'footerTemplate', 'markDisabled', 'minDate',
-            'maxDate', 'navigation', 'outsideDays', 'showWeekdays', 'showWeekNumbers', 'startDate', 'weekdays']
+            'maxDate', 'navigation', 'outsideDays', 'showWeekdays', 'showWeekNumbers', 'startDate']
             .forEach(input => this[input] = config[input]);
         _service.dateSelect$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["takeUntil"])(this._destroyed$)).subscribe(date => { this.dateSelect.emit(date); });
         _service.model$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["takeUntil"])(this._destroyed$)).subscribe(model => {
@@ -4132,16 +4063,6 @@ class NgbDatepicker {
             cd.markForCheck();
         });
     }
-    /**
-     * If `true`, weekdays will be displayed.
-     *
-     * @deprecated 9.1.0, please use 'weekdays' instead
-     */
-    set showWeekdays(weekdays) {
-        this.weekdays = weekdays;
-        this._showWeekdays = weekdays;
-    }
-    get showWeekdays() { return this._showWeekdays; }
     /**
      *  Returns the readonly public state of the datepicker
      *
@@ -4199,7 +4120,7 @@ class NgbDatepicker {
         if (this.model === undefined) {
             const inputs = {};
             ['dayTemplateData', 'displayMonths', 'markDisabled', 'firstDayOfWeek', 'navigation', 'minDate', 'maxDate',
-                'outsideDays', 'weekdays']
+                'outsideDays']
                 .forEach(name => inputs[name] = this[name]);
             this._service.set(inputs);
             this.navigateTo(this.startDate);
@@ -4210,11 +4131,8 @@ class NgbDatepicker {
     }
     ngOnChanges(changes) {
         const inputs = {};
-        if (changes.showWeekdays) {
-            inputs['weekdays'] = this.weekdays;
-        }
         ['dayTemplateData', 'displayMonths', 'markDisabled', 'firstDayOfWeek', 'navigation', 'minDate', 'maxDate',
-            'outsideDays', 'weekdays']
+            'outsideDays']
             .filter(name => name in changes)
             .forEach(name => inputs[name] = this[name]);
         this._service.set(inputs);
@@ -4261,7 +4179,7 @@ NgbDatepicker.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         let _t;
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵloadQuery"]()) && (ctx._defaultDayTemplate = _t.first);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵloadQuery"]()) && (ctx._contentEl = _t.first);
-    } }, inputs: { showWeekdays: "showWeekdays", weekdays: "weekdays", dayTemplate: "dayTemplate", dayTemplateData: "dayTemplateData", displayMonths: "displayMonths", firstDayOfWeek: "firstDayOfWeek", footerTemplate: "footerTemplate", markDisabled: "markDisabled", maxDate: "maxDate", minDate: "minDate", navigation: "navigation", outsideDays: "outsideDays", showWeekNumbers: "showWeekNumbers", startDate: "startDate" }, outputs: { navigate: "navigate", dateSelect: "dateSelect" }, exportAs: ["ngbDatepicker"], features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵProvidersFeature"]([{ provide: _angular_forms__WEBPACK_IMPORTED_MODULE_4__["NG_VALUE_ACCESSOR"], useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["forwardRef"])(() => NgbDatepicker), multi: true }, NgbDatepickerService]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵNgOnChangesFeature"]], decls: 10, vars: 5, consts: [["defaultDayTemplate", ""], ["defaultContentTemplate", ""], [1, "ngb-dp-header"], [3, "date", "months", "disabled", "showSelect", "prevDisabled", "nextDisabled", "selectBoxes", "navigate", "select", 4, "ngIf"], [1, "ngb-dp-content"], ["content", ""], [3, "ngTemplateOutlet"], ["ngbDatepickerDayView", "", 3, "date", "currentMonth", "selected", "disabled", "focused"], ["class", "ngb-dp-month", 4, "ngFor", "ngForOf"], [1, "ngb-dp-month"], ["class", "ngb-dp-month-name", 4, "ngIf"], [3, "month"], [1, "ngb-dp-month-name"], [3, "date", "months", "disabled", "showSelect", "prevDisabled", "nextDisabled", "selectBoxes", "navigate", "select"]], template: function NgbDatepicker_Template(rf, ctx) { if (rf & 1) {
+    } }, inputs: { dayTemplate: "dayTemplate", dayTemplateData: "dayTemplateData", displayMonths: "displayMonths", firstDayOfWeek: "firstDayOfWeek", footerTemplate: "footerTemplate", markDisabled: "markDisabled", maxDate: "maxDate", minDate: "minDate", navigation: "navigation", outsideDays: "outsideDays", showWeekdays: "showWeekdays", showWeekNumbers: "showWeekNumbers", startDate: "startDate" }, outputs: { navigate: "navigate", dateSelect: "dateSelect" }, exportAs: ["ngbDatepicker"], features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵProvidersFeature"]([{ provide: _angular_forms__WEBPACK_IMPORTED_MODULE_4__["NG_VALUE_ACCESSOR"], useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["forwardRef"])(() => NgbDatepicker), multi: true }, NgbDatepickerService]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵNgOnChangesFeature"]], decls: 10, vars: 5, consts: [["defaultDayTemplate", ""], ["defaultContentTemplate", ""], [1, "ngb-dp-header"], [3, "date", "months", "disabled", "showSelect", "prevDisabled", "nextDisabled", "selectBoxes", "navigate", "select", 4, "ngIf"], [1, "ngb-dp-content"], ["content", ""], [3, "ngTemplateOutlet"], ["ngbDatepickerDayView", "", 3, "date", "currentMonth", "selected", "disabled", "focused"], ["class", "ngb-dp-month", 4, "ngFor", "ngForOf"], [1, "ngb-dp-month"], ["class", "ngb-dp-month-name", 4, "ngIf"], [3, "month"], [1, "ngb-dp-month-name"], [3, "date", "months", "disabled", "showSelect", "prevDisabled", "nextDisabled", "selectBoxes", "navigate", "select"]], template: function NgbDatepicker_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, NgbDatepicker_ng_template_0_Template, 1, 5, "ng-template", null, 0, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplateRefExtractor"]);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, NgbDatepicker_ng_template_2_Template, 1, 1, "ng-template", null, 1, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplateRefExtractor"]);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 2);
@@ -4281,7 +4199,7 @@ NgbDatepicker.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngTemplateOutlet", (ctx.contentTemplate == null ? null : ctx.contentTemplate.templateRef) || _r2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngTemplateOutlet", ctx.footerTemplate);
-    } }, directives: function () { return [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgIf"], _angular_common__WEBPACK_IMPORTED_MODULE_1__["NgTemplateOutlet"], NgbDatepickerDayView, _angular_common__WEBPACK_IMPORTED_MODULE_1__["NgForOf"], NgbDatepickerMonth, NgbDatepickerNavigation]; }, styles: ["ngb-datepicker{border:1px solid #dfdfdf;border-radius:.25rem;display:inline-block}ngb-datepicker-month{pointer-events:auto}ngb-datepicker.dropdown-menu{padding:0}.ngb-dp-body{z-index:1050}.ngb-dp-header{background-color:#f8f9fa;background-color:var(--light);border-bottom:0;border-radius:.25rem .25rem 0 0;padding-top:.25rem}.ngb-dp-months{display:flex}.ngb-dp-month{pointer-events:none}.ngb-dp-month-name{background-color:#f8f9fa;background-color:var(--light);font-size:larger;height:2rem;line-height:2rem;text-align:center}.ngb-dp-month+.ngb-dp-month .ngb-dp-month-name,.ngb-dp-month+.ngb-dp-month .ngb-dp-week{padding-left:1rem}.ngb-dp-month:last-child .ngb-dp-week{padding-right:.25rem}.ngb-dp-month:first-child .ngb-dp-week{padding-left:.25rem}.ngb-dp-month .ngb-dp-week:last-child{padding-bottom:.25rem}"], encapsulation: 2, changeDetection: 0 });
+    } }, directives: function () { return [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgIf"], _angular_common__WEBPACK_IMPORTED_MODULE_1__["NgTemplateOutlet"], NgbDatepickerDayView, _angular_common__WEBPACK_IMPORTED_MODULE_1__["NgForOf"], NgbDatepickerMonth, NgbDatepickerNavigation]; }, styles: ["ngb-datepicker{border:1px solid #dfdfdf;border-radius:.25rem;display:inline-block}ngb-datepicker-month{pointer-events:auto}ngb-datepicker.dropdown-menu{padding:0}.ngb-dp-body{z-index:1050}.ngb-dp-header{background-color:#f8f9fa;background-color:var(--light);border-bottom:0;border-radius:.25rem .25rem 0 0;padding-top:.25rem}.ngb-dp-months{display:-ms-flexbox;display:flex}.ngb-dp-month{pointer-events:none}.ngb-dp-month-name{background-color:#f8f9fa;background-color:var(--light);font-size:larger;height:2rem;line-height:2rem;text-align:center}.ngb-dp-month+.ngb-dp-month .ngb-dp-month-name,.ngb-dp-month+.ngb-dp-month .ngb-dp-week{padding-left:1rem}.ngb-dp-month:last-child .ngb-dp-week{padding-right:.25rem}.ngb-dp-month:first-child .ngb-dp-week{padding-left:.25rem}.ngb-dp-month .ngb-dp-week:last-child{padding-bottom:.25rem}"], encapsulation: 2, changeDetection: 0 });
 NgbDatepicker.ctorParameters = () => [
     { type: NgbDatepickerService },
     { type: NgbCalendar },
@@ -4309,7 +4227,6 @@ NgbDatepicker.propDecorators = {
     showWeekdays: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
     showWeekNumbers: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
     startDate: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
-    weekdays: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
     navigate: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"] }],
     dateSelect: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"] }]
 };
@@ -4335,7 +4252,7 @@ NgbDatepicker.propDecorators = {
     <ng-template #defaultContentTemplate>
       <div *ngFor="let month of model.months; let i = index;" class="ngb-dp-month">
         <div *ngIf="navigation === 'none' || (displayMonths > 1 && navigation === 'select')" class="ngb-dp-month-name">
-          {{ i18n.getMonthLabel(month.firstDate) }}
+          {{ i18n.getMonthFullName(month.number, month.year) }} {{ i18n.getYearNumerals(month.year) }}
         </div>
         <ngb-datepicker-month [month]="month.firstDate"></ngb-datepicker-month>
       </div>
@@ -4362,16 +4279,12 @@ NgbDatepicker.propDecorators = {
     <ng-template [ngTemplateOutlet]="footerTemplate"></ng-template>
   `,
                 providers: [{ provide: _angular_forms__WEBPACK_IMPORTED_MODULE_4__["NG_VALUE_ACCESSOR"], useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["forwardRef"])(() => NgbDatepicker), multi: true }, NgbDatepickerService],
-                styles: ["ngb-datepicker{border:1px solid #dfdfdf;border-radius:.25rem;display:inline-block}ngb-datepicker-month{pointer-events:auto}ngb-datepicker.dropdown-menu{padding:0}.ngb-dp-body{z-index:1050}.ngb-dp-header{background-color:#f8f9fa;background-color:var(--light);border-bottom:0;border-radius:.25rem .25rem 0 0;padding-top:.25rem}.ngb-dp-months{display:flex}.ngb-dp-month{pointer-events:none}.ngb-dp-month-name{background-color:#f8f9fa;background-color:var(--light);font-size:larger;height:2rem;line-height:2rem;text-align:center}.ngb-dp-month+.ngb-dp-month .ngb-dp-month-name,.ngb-dp-month+.ngb-dp-month .ngb-dp-week{padding-left:1rem}.ngb-dp-month:last-child .ngb-dp-week{padding-right:.25rem}.ngb-dp-month:first-child .ngb-dp-week{padding-left:.25rem}.ngb-dp-month .ngb-dp-week:last-child{padding-bottom:.25rem}"]
+                styles: ["ngb-datepicker{border:1px solid #dfdfdf;border-radius:.25rem;display:inline-block}ngb-datepicker-month{pointer-events:auto}ngb-datepicker.dropdown-menu{padding:0}.ngb-dp-body{z-index:1050}.ngb-dp-header{background-color:#f8f9fa;background-color:var(--light);border-bottom:0;border-radius:.25rem .25rem 0 0;padding-top:.25rem}.ngb-dp-months{display:-ms-flexbox;display:flex}.ngb-dp-month{pointer-events:none}.ngb-dp-month-name{background-color:#f8f9fa;background-color:var(--light);font-size:larger;height:2rem;line-height:2rem;text-align:center}.ngb-dp-month+.ngb-dp-month .ngb-dp-month-name,.ngb-dp-month+.ngb-dp-month .ngb-dp-week{padding-left:1rem}.ngb-dp-month:last-child .ngb-dp-week{padding-right:.25rem}.ngb-dp-month:first-child .ngb-dp-week{padding-left:.25rem}.ngb-dp-month .ngb-dp-week:last-child{padding-bottom:.25rem}"]
             }]
     }], function () { return [{ type: NgbDatepickerService }, { type: NgbCalendar }, { type: NgbDatepickerI18n }, { type: NgbDatepickerConfig }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] }, { type: NgbDateAdapter }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"] }]; }, { navigate: [{
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"]
         }], dateSelect: [{
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"]
-        }], showWeekdays: [{
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
-        }], weekdays: [{
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
         }], dayTemplate: [{
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
         }], _defaultDayTemplate: [{
@@ -4400,6 +4313,8 @@ NgbDatepicker.propDecorators = {
         }], navigation: [{
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
         }], outsideDays: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }], showWeekdays: [{
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
         }], showWeekNumbers: [{
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
@@ -4514,14 +4429,14 @@ class NgbDatepickerMonth {
 NgbDatepickerMonth.ɵfac = function NgbDatepickerMonth_Factory(t) { return new (t || NgbDatepickerMonth)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](NgbDatepickerI18n), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](NgbDatepicker), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](NgbDatepickerKeyboardService), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](NgbDatepickerService)); };
 NgbDatepickerMonth.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NgbDatepickerMonth, selectors: [["ngb-datepicker-month"]], hostAttrs: ["role", "grid"], hostBindings: function NgbDatepickerMonth_HostBindings(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("keydown", function NgbDatepickerMonth_keydown_HostBindingHandler($event) { return ctx.onKeyDown($event); });
-    } }, inputs: { month: "month" }, decls: 2, vars: 2, consts: [["class", "ngb-dp-week ngb-dp-weekdays", "role", "row", 4, "ngIf"], ["ngFor", "", 3, "ngForOf"], ["role", "row", 1, "ngb-dp-week", "ngb-dp-weekdays"], ["class", "ngb-dp-weekday ngb-dp-showweek small", 4, "ngIf"], ["class", "ngb-dp-weekday small", "role", "columnheader", 4, "ngFor", "ngForOf"], [1, "ngb-dp-weekday", "ngb-dp-showweek", "small"], ["role", "columnheader", 1, "ngb-dp-weekday", "small"], ["class", "ngb-dp-week", "role", "row", 4, "ngIf"], ["role", "row", 1, "ngb-dp-week"], ["class", "ngb-dp-week-number small text-muted", 4, "ngIf"], ["class", "ngb-dp-day", "role", "gridcell", 3, "disabled", "tabindex", "hidden", "ngb-dp-today", "click", 4, "ngFor", "ngForOf"], [1, "ngb-dp-week-number", "small", "text-muted"], ["role", "gridcell", 1, "ngb-dp-day", 3, "tabindex", "click"], [3, "ngIf"], [3, "ngTemplateOutlet", "ngTemplateOutletContext"]], template: function NgbDatepickerMonth_Template(rf, ctx) { if (rf & 1) {
+    } }, inputs: { month: "month" }, decls: 2, vars: 2, consts: [["class", "ngb-dp-week ngb-dp-weekdays", "role", "row", 4, "ngIf"], ["ngFor", "", 3, "ngForOf"], ["role", "row", 1, "ngb-dp-week", "ngb-dp-weekdays"], ["class", "ngb-dp-weekday ngb-dp-showweek", 4, "ngIf"], ["class", "ngb-dp-weekday small", "role", "columnheader", 4, "ngFor", "ngForOf"], [1, "ngb-dp-weekday", "ngb-dp-showweek"], ["role", "columnheader", 1, "ngb-dp-weekday", "small"], ["class", "ngb-dp-week", "role", "row", 4, "ngIf"], ["role", "row", 1, "ngb-dp-week"], ["class", "ngb-dp-week-number small text-muted", 4, "ngIf"], ["class", "ngb-dp-day", "role", "gridcell", 3, "disabled", "tabindex", "hidden", "ngb-dp-today", "click", 4, "ngFor", "ngForOf"], [1, "ngb-dp-week-number", "small", "text-muted"], ["role", "gridcell", 1, "ngb-dp-day", 3, "tabindex", "click"], [3, "ngIf"], [3, "ngTemplateOutlet", "ngTemplateOutletContext"]], template: function NgbDatepickerMonth_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, NgbDatepickerMonth_div_0_Template, 3, 2, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, NgbDatepickerMonth_ng_template_1_Template, 1, 1, "ng-template", 1);
     } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.viewModel.weekdays.length > 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.datepicker.showWeekdays);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.viewModel.weeks);
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgIf"], _angular_common__WEBPACK_IMPORTED_MODULE_1__["NgForOf"], _angular_common__WEBPACK_IMPORTED_MODULE_1__["NgTemplateOutlet"]], styles: ["ngb-datepicker-month{display:block}.ngb-dp-week-number,.ngb-dp-weekday{font-style:italic;line-height:2rem;text-align:center}.ngb-dp-weekday{color:#5bc0de;color:var(--info)}.ngb-dp-week{border-radius:.25rem;display:flex}.ngb-dp-weekdays{background-color:#f8f9fa;background-color:var(--light);border-bottom:1px solid rgba(0,0,0,.125);border-radius:0}.ngb-dp-day,.ngb-dp-week-number,.ngb-dp-weekday{height:2rem;width:2rem}.ngb-dp-day{cursor:pointer}.ngb-dp-day.disabled,.ngb-dp-day.hidden{cursor:default;pointer-events:none}.ngb-dp-day[tabindex=\"0\"]{z-index:1}"], encapsulation: 2 });
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgIf"], _angular_common__WEBPACK_IMPORTED_MODULE_1__["NgForOf"], _angular_common__WEBPACK_IMPORTED_MODULE_1__["NgTemplateOutlet"]], styles: ["ngb-datepicker-month{display:block}.ngb-dp-week-number,.ngb-dp-weekday{font-style:italic;line-height:2rem;text-align:center}.ngb-dp-weekday{color:#5bc0de;color:var(--info)}.ngb-dp-week{border-radius:.25rem;display:-ms-flexbox;display:flex}.ngb-dp-weekdays{background-color:#f8f9fa;background-color:var(--light);border-bottom:1px solid rgba(0,0,0,.125);border-radius:0}.ngb-dp-day,.ngb-dp-week-number,.ngb-dp-weekday{height:2rem;width:2rem}.ngb-dp-day{cursor:pointer}.ngb-dp-day.disabled,.ngb-dp-day.hidden{cursor:default;pointer-events:none}.ngb-dp-day[tabindex=\"0\"]{z-index:1}"], encapsulation: 2 });
 NgbDatepickerMonth.ctorParameters = () => [
     { type: NgbDatepickerI18n },
     { type: NgbDatepicker },
@@ -4538,19 +4453,21 @@ NgbDatepickerMonth.propDecorators = {
                 host: { 'role': 'grid', '(keydown)': 'onKeyDown($event)' },
                 encapsulation: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewEncapsulation"].None,
                 template: `
-    <div *ngIf="viewModel.weekdays.length > 0" class="ngb-dp-week ngb-dp-weekdays" role="row">
-      <div *ngIf="datepicker.showWeekNumbers" class="ngb-dp-weekday ngb-dp-showweek small">{{ i18n.getWeekLabel() }}</div>
-      <div *ngFor="let weekday of viewModel.weekdays" class="ngb-dp-weekday small" role="columnheader">{{ weekday }}</div>
+    <div *ngIf="datepicker.showWeekdays" class="ngb-dp-week ngb-dp-weekdays" role="row">
+      <div *ngIf="datepicker.showWeekNumbers" class="ngb-dp-weekday ngb-dp-showweek"></div>
+      <div *ngFor="let w of viewModel.weekdays" class="ngb-dp-weekday small" role="columnheader">
+        {{ i18n.getWeekdayShortName(w) }}
+      </div>
     </div>
     <ng-template ngFor let-week [ngForOf]="viewModel.weeks">
       <div *ngIf="!week.collapsed" class="ngb-dp-week" role="row">
         <div *ngIf="datepicker.showWeekNumbers" class="ngb-dp-week-number small text-muted">{{ i18n.getWeekNumerals(week.number) }}</div>
         <div *ngFor="let day of week.days" (click)="doSelect(day); $event.preventDefault()" class="ngb-dp-day" role="gridcell"
-             [class.disabled]="day.context.disabled"
-             [tabindex]="day.tabindex"
-             [class.hidden]="day.hidden"
-             [class.ngb-dp-today]="day.context.today"
-             [attr.aria-label]="day.ariaLabel">
+          [class.disabled]="day.context.disabled"
+          [tabindex]="day.tabindex"
+          [class.hidden]="day.hidden"
+          [class.ngb-dp-today]="day.context.today"
+          [attr.aria-label]="day.ariaLabel">
           <ng-template [ngIf]="!day.hidden">
             <ng-template [ngTemplateOutlet]="datepicker.dayTemplate" [ngTemplateOutletContext]="day.context"></ng-template>
           </ng-template>
@@ -4558,7 +4475,7 @@ NgbDatepickerMonth.propDecorators = {
       </div>
     </ng-template>
   `,
-                styles: ["ngb-datepicker-month{display:block}.ngb-dp-week-number,.ngb-dp-weekday{font-style:italic;line-height:2rem;text-align:center}.ngb-dp-weekday{color:#5bc0de;color:var(--info)}.ngb-dp-week{border-radius:.25rem;display:flex}.ngb-dp-weekdays{background-color:#f8f9fa;background-color:var(--light);border-bottom:1px solid rgba(0,0,0,.125);border-radius:0}.ngb-dp-day,.ngb-dp-week-number,.ngb-dp-weekday{height:2rem;width:2rem}.ngb-dp-day{cursor:pointer}.ngb-dp-day.disabled,.ngb-dp-day.hidden{cursor:default;pointer-events:none}.ngb-dp-day[tabindex=\"0\"]{z-index:1}"]
+                styles: ["ngb-datepicker-month{display:block}.ngb-dp-week-number,.ngb-dp-weekday{font-style:italic;line-height:2rem;text-align:center}.ngb-dp-weekday{color:#5bc0de;color:var(--info)}.ngb-dp-week{border-radius:.25rem;display:-ms-flexbox;display:flex}.ngb-dp-weekdays{background-color:#f8f9fa;background-color:var(--light);border-bottom:1px solid rgba(0,0,0,.125);border-radius:0}.ngb-dp-day,.ngb-dp-week-number,.ngb-dp-weekday{height:2rem;width:2rem}.ngb-dp-day{cursor:pointer}.ngb-dp-day.disabled,.ngb-dp-day.hidden{cursor:default;pointer-events:none}.ngb-dp-day[tabindex=\"0\"]{z-index:1}"]
             }]
     }], function () { return [{ type: NgbDatepickerI18n }, { type: NgbDatepicker }, { type: NgbDatepickerKeyboardService }, { type: NgbDatepickerService }]; }, { month: [{
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
@@ -4630,7 +4547,7 @@ NgbDatepickerNavigation.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵ
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", !ctx.showSelect);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("disabled", ctx.nextDisabled);
-    } }, directives: function () { return [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgIf"], NgbDatepickerNavigationSelect, _angular_common__WEBPACK_IMPORTED_MODULE_1__["NgForOf"]]; }, styles: ["ngb-datepicker-navigation{align-items:center;display:flex}.ngb-dp-navigation-chevron{border-style:solid;border-width:.2em .2em 0 0;display:inline-block;height:.75em;margin-left:.25em;margin-right:.15em;transform:rotate(-135deg);width:.75em}.ngb-dp-arrow{display:flex;flex:1 1 auto;height:2rem;margin:0;padding-left:0;padding-right:0;width:2rem}.ngb-dp-arrow.right{justify-content:flex-end}.ngb-dp-arrow.right .ngb-dp-navigation-chevron{margin-left:.15em;margin-right:.25em;transform:rotate(45deg)}.ngb-dp-arrow-btn{background-color:transparent;border:none;margin:0 .5rem;padding:0 .25rem;z-index:1}.ngb-dp-arrow-btn:focus{outline-style:auto;outline-width:1px}@media (-ms-high-contrast:active),(-ms-high-contrast:none){.ngb-dp-arrow-btn:focus{outline-style:solid}}.ngb-dp-month-name{font-size:larger;height:2rem;line-height:2rem;text-align:center}.ngb-dp-navigation-select{display:flex;flex:1 1 9rem}"], encapsulation: 2, changeDetection: 0 });
+    } }, directives: function () { return [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgIf"], NgbDatepickerNavigationSelect, _angular_common__WEBPACK_IMPORTED_MODULE_1__["NgForOf"]]; }, styles: ["ngb-datepicker-navigation{-ms-flex-align:center;align-items:center;display:-ms-flexbox;display:flex}.ngb-dp-navigation-chevron{-webkit-transform:rotate(-135deg);border-style:solid;border-width:.2em .2em 0 0;display:inline-block;height:.75em;margin-left:.25em;margin-right:.15em;transform:rotate(-135deg);width:.75em}.ngb-dp-arrow{-ms-flex:1 1 auto;display:-ms-flexbox;display:flex;flex:1 1 auto;height:2rem;margin:0;padding-left:0;padding-right:0;width:2rem}.ngb-dp-arrow.right{-ms-flex-pack:end;justify-content:flex-end}.ngb-dp-arrow.right .ngb-dp-navigation-chevron{-webkit-transform:rotate(45deg);margin-left:.15em;margin-right:.25em;transform:rotate(45deg)}.ngb-dp-arrow-btn{background-color:transparent;border:none;margin:0 .5rem;padding:0 .25rem;z-index:1}.ngb-dp-arrow-btn:focus{outline-style:auto;outline-width:1px}@media (-ms-high-contrast:active),(-ms-high-contrast:none){.ngb-dp-arrow-btn:focus{outline-style:solid}}.ngb-dp-month-name{font-size:larger;height:2rem;line-height:2rem;text-align:center}.ngb-dp-navigation-select{-ms-flex:1 1 9rem;display:-ms-flexbox;display:flex;flex:1 1 9rem}"], encapsulation: 2, changeDetection: 0 });
 NgbDatepickerNavigation.ctorParameters = () => [
     { type: NgbDatepickerI18n }
 ];
@@ -4670,7 +4587,7 @@ NgbDatepickerNavigation.propDecorators = {
     <ng-template *ngIf="!showSelect" ngFor let-month [ngForOf]="months" let-i="index">
       <div class="ngb-dp-arrow" *ngIf="i > 0"></div>
       <div class="ngb-dp-month-name">
-        {{ i18n.getMonthLabel(month.firstDate) }}
+        {{ i18n.getMonthFullName(month.number, month.year) }} {{ i18n.getYearNumerals(month.year) }}
       </div>
       <div class="ngb-dp-arrow" *ngIf="i !== months.length - 1"></div>
     </ng-template>
@@ -4682,7 +4599,7 @@ NgbDatepickerNavigation.propDecorators = {
       </button>
     </div>
     `,
-                styles: ["ngb-datepicker-navigation{align-items:center;display:flex}.ngb-dp-navigation-chevron{border-style:solid;border-width:.2em .2em 0 0;display:inline-block;height:.75em;margin-left:.25em;margin-right:.15em;transform:rotate(-135deg);width:.75em}.ngb-dp-arrow{display:flex;flex:1 1 auto;height:2rem;margin:0;padding-left:0;padding-right:0;width:2rem}.ngb-dp-arrow.right{justify-content:flex-end}.ngb-dp-arrow.right .ngb-dp-navigation-chevron{margin-left:.15em;margin-right:.25em;transform:rotate(45deg)}.ngb-dp-arrow-btn{background-color:transparent;border:none;margin:0 .5rem;padding:0 .25rem;z-index:1}.ngb-dp-arrow-btn:focus{outline-style:auto;outline-width:1px}@media (-ms-high-contrast:active),(-ms-high-contrast:none){.ngb-dp-arrow-btn:focus{outline-style:solid}}.ngb-dp-month-name{font-size:larger;height:2rem;line-height:2rem;text-align:center}.ngb-dp-navigation-select{display:flex;flex:1 1 9rem}"]
+                styles: ["ngb-datepicker-navigation{-ms-flex-align:center;align-items:center;display:-ms-flexbox;display:flex}.ngb-dp-navigation-chevron{-webkit-transform:rotate(-135deg);border-style:solid;border-width:.2em .2em 0 0;display:inline-block;height:.75em;margin-left:.25em;margin-right:.15em;transform:rotate(-135deg);width:.75em}.ngb-dp-arrow{-ms-flex:1 1 auto;display:-ms-flexbox;display:flex;flex:1 1 auto;height:2rem;margin:0;padding-left:0;padding-right:0;width:2rem}.ngb-dp-arrow.right{-ms-flex-pack:end;justify-content:flex-end}.ngb-dp-arrow.right .ngb-dp-navigation-chevron{-webkit-transform:rotate(45deg);margin-left:.15em;margin-right:.25em;transform:rotate(45deg)}.ngb-dp-arrow-btn{background-color:transparent;border:none;margin:0 .5rem;padding:0 .25rem;z-index:1}.ngb-dp-arrow-btn:focus{outline-style:auto;outline-width:1px}@media (-ms-high-contrast:active),(-ms-high-contrast:none){.ngb-dp-arrow-btn:focus{outline-style:solid}}.ngb-dp-month-name{font-size:larger;height:2rem;line-height:2rem;text-align:center}.ngb-dp-navigation-select{-ms-flex:1 1 9rem;display:-ms-flexbox;display:flex;flex:1 1 9rem}"]
             }]
     }], function () { return [{ type: NgbDatepickerI18n }]; }, { months: [{
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
@@ -5145,16 +5062,6 @@ class NgbInputDatepicker {
         ['autoClose', 'container', 'positionTarget', 'placement'].forEach(input => this[input] = config[input]);
         this._zoneSubscription = _ngZone.onStable.subscribe(() => this._updatePopupPosition());
     }
-    /**
-     * If `true`, weekdays will be displayed.
-     *
-     * @deprecated 9.1.0, please use 'weekdays' instead
-     */
-    set showWeekdays(weekdays) {
-        this.weekdays = weekdays;
-        this._showWeekdays = weekdays;
-    }
-    get showWeekdays() { return this._showWeekdays; }
     get disabled() {
         return this._disabled;
     }
@@ -5299,10 +5206,6 @@ class NgbInputDatepicker {
                 this._cRef.instance.ngOnChanges(changes);
             }
         }
-        if (changes['datepickerClass']) {
-            const { currentValue, previousValue } = changes['datepickerClass'];
-            this._applyPopupClass(currentValue, previousValue);
-        }
     }
     ngOnDestroy() {
         this.close();
@@ -5310,7 +5213,7 @@ class NgbInputDatepicker {
     }
     _applyDatepickerInputs(datepickerInstance) {
         ['dayTemplate', 'dayTemplateData', 'displayMonths', 'firstDayOfWeek', 'footerTemplate', 'markDisabled', 'minDate',
-            'maxDate', 'navigation', 'outsideDays', 'showNavigation', 'showWeekNumbers', 'weekdays']
+            'maxDate', 'navigation', 'outsideDays', 'showNavigation', 'showWeekdays', 'showWeekNumbers']
             .forEach((optionName) => {
             if (this[optionName] !== undefined) {
                 datepickerInstance[optionName] = this[optionName];
@@ -5318,25 +5221,12 @@ class NgbInputDatepicker {
         });
         datepickerInstance.startDate = this.startDate || this._model;
     }
-    _applyPopupClass(newClass, oldClass) {
-        var _a;
-        const popupEl = (_a = this._cRef) === null || _a === void 0 ? void 0 : _a.location.nativeElement;
-        if (popupEl) {
-            if (newClass) {
-                this._renderer.addClass(popupEl, newClass);
-            }
-            if (oldClass) {
-                this._renderer.removeClass(popupEl, oldClass);
-            }
-        }
-    }
     _applyPopupStyling(nativeElement) {
         this._renderer.addClass(nativeElement, 'dropdown-menu');
         this._renderer.addClass(nativeElement, 'show');
         if (this.container === 'body') {
             this._renderer.addClass(nativeElement, 'ngb-dp-body');
         }
-        this._applyPopupClass(this.datepickerClass);
     }
     _subscribeForDatepickerOutputs(datepickerInstance) {
         datepickerInstance.navigate.subscribe(navigateEvent => this.navigate.emit(navigateEvent));
@@ -5385,7 +5275,7 @@ NgbInputDatepicker.ɵdir = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefin
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("input", function NgbInputDatepicker_input_HostBindingHandler($event) { return ctx.manualDateChange($event.target.value); })("change", function NgbInputDatepicker_change_HostBindingHandler($event) { return ctx.manualDateChange($event.target.value, true); })("focus", function NgbInputDatepicker_focus_HostBindingHandler() { return ctx.onFocus(); })("blur", function NgbInputDatepicker_blur_HostBindingHandler() { return ctx.onBlur(); });
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵhostProperty"]("disabled", ctx.disabled);
-    } }, inputs: { showWeekdays: "showWeekdays", weekdays: "weekdays", disabled: "disabled", autoClose: "autoClose", datepickerClass: "datepickerClass", dayTemplate: "dayTemplate", dayTemplateData: "dayTemplateData", displayMonths: "displayMonths", firstDayOfWeek: "firstDayOfWeek", footerTemplate: "footerTemplate", markDisabled: "markDisabled", minDate: "minDate", maxDate: "maxDate", navigation: "navigation", outsideDays: "outsideDays", placement: "placement", restoreFocus: "restoreFocus", showWeekNumbers: "showWeekNumbers", startDate: "startDate", container: "container", positionTarget: "positionTarget" }, outputs: { dateSelect: "dateSelect", navigate: "navigate", closed: "closed" }, exportAs: ["ngbDatepicker"], features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵProvidersFeature"]([
+    } }, inputs: { disabled: "disabled", autoClose: "autoClose", dayTemplate: "dayTemplate", dayTemplateData: "dayTemplateData", displayMonths: "displayMonths", firstDayOfWeek: "firstDayOfWeek", footerTemplate: "footerTemplate", markDisabled: "markDisabled", minDate: "minDate", maxDate: "maxDate", navigation: "navigation", outsideDays: "outsideDays", placement: "placement", restoreFocus: "restoreFocus", showWeekdays: "showWeekdays", showWeekNumbers: "showWeekNumbers", startDate: "startDate", container: "container", positionTarget: "positionTarget" }, outputs: { dateSelect: "dateSelect", navigate: "navigate", closed: "closed" }, exportAs: ["ngbDatepicker"], features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵProvidersFeature"]([
             { provide: _angular_forms__WEBPACK_IMPORTED_MODULE_4__["NG_VALUE_ACCESSOR"], useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["forwardRef"])(() => NgbInputDatepicker), multi: true },
             { provide: _angular_forms__WEBPACK_IMPORTED_MODULE_4__["NG_VALIDATORS"], useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["forwardRef"])(() => NgbInputDatepicker), multi: true },
             { provide: NgbDatepickerConfig, useExisting: NgbInputDatepickerConfig }
@@ -5405,7 +5295,6 @@ NgbInputDatepicker.ctorParameters = () => [
 ];
 NgbInputDatepicker.propDecorators = {
     autoClose: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
-    datepickerClass: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
     dayTemplate: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
     dayTemplateData: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
     displayMonths: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
@@ -5423,7 +5312,6 @@ NgbInputDatepicker.propDecorators = {
     startDate: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
     container: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
     positionTarget: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
-    weekdays: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
     dateSelect: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"] }],
     navigate: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"] }],
     closed: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"] }],
@@ -5456,15 +5344,9 @@ NgbInputDatepicker.propDecorators = {
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"]
         }], closed: [{
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"]
-        }], showWeekdays: [{
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
-        }], weekdays: [{
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
         }], disabled: [{
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
         }], autoClose: [{
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
-        }], datepickerClass: [{
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
         }], dayTemplate: [{
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
@@ -5489,6 +5371,8 @@ NgbInputDatepicker.propDecorators = {
         }], placement: [{
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
         }], restoreFocus: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }], showWeekdays: [{
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
         }], showWeekNumbers: [{
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
@@ -5625,7 +5509,7 @@ NgbDatepickerNavigationSelect.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("disabled", ctx.disabled);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.years);
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgForOf"], _angular_forms__WEBPACK_IMPORTED_MODULE_4__["NgSelectOption"], _angular_forms__WEBPACK_IMPORTED_MODULE_4__["ɵangular_packages_forms_forms_x"]], styles: ["ngb-datepicker-navigation-select>.custom-select{flex:1 1 auto;font-size:.875rem;height:1.85rem;padding:0 .5rem}ngb-datepicker-navigation-select>.custom-select:focus{z-index:1}ngb-datepicker-navigation-select>.custom-select::-ms-value{background-color:transparent!important}"], encapsulation: 2, changeDetection: 0 });
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgForOf"], _angular_forms__WEBPACK_IMPORTED_MODULE_4__["NgSelectOption"], _angular_forms__WEBPACK_IMPORTED_MODULE_4__["ɵangular_packages_forms_forms_x"]], styles: ["ngb-datepicker-navigation-select>.custom-select{-ms-flex:1 1 auto;flex:1 1 auto;font-size:.875rem;height:1.85rem;padding:0 .5rem}ngb-datepicker-navigation-select>.custom-select:focus{z-index:1}ngb-datepicker-navigation-select>.custom-select::-ms-value{background-color:transparent!important}"], encapsulation: 2, changeDetection: 0 });
 NgbDatepickerNavigationSelect.ctorParameters = () => [
     { type: NgbDatepickerI18n },
     { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Renderer2"] }
@@ -5663,7 +5547,7 @@ NgbDatepickerNavigationSelect.propDecorators = {
         <option *ngFor="let y of years" [value]="y">{{ i18n.getYearNumerals(y) }}</option>
     </select>
   `,
-                styles: ["ngb-datepicker-navigation-select>.custom-select{flex:1 1 auto;font-size:.875rem;height:1.85rem;padding:0 .5rem}ngb-datepicker-navigation-select>.custom-select:focus{z-index:1}ngb-datepicker-navigation-select>.custom-select::-ms-value{background-color:transparent!important}"]
+                styles: ["ngb-datepicker-navigation-select>.custom-select{-ms-flex:1 1 auto;flex:1 1 auto;font-size:.875rem;height:1.85rem;padding:0 .5rem}ngb-datepicker-navigation-select>.custom-select:focus{z-index:1}ngb-datepicker-navigation-select>.custom-select::-ms-value{background-color:transparent!important}"]
             }]
     }], function () { return [{ type: NgbDatepickerI18n }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Renderer2"] }]; }, { select: [{
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"]
@@ -6752,98 +6636,6 @@ const ɵNgbDatepickerI18nHebrew_BaseFactory = /*@__PURE__*/ _angular_core__WEBPA
     }], null, null); })();
 
 /**
- * Returns the equivalent JS date value for a give input Buddhist date.
- * `date` is an Buddhist date to be converted to Gregorian.
- */
-function toGregorian$2(date) {
-    return new Date(date.year - 543, date.month - 1, date.day);
-}
-/**
- * Returns the equivalent Buddhist date value for a give input Gregorian date.
- * `gdate` is a JS Date to be converted to Buddhist.
- * utc to local
- */
-function fromGregorian$2(gdate) {
-    return new NgbDate(gdate.getFullYear() + 543, gdate.getMonth() + 1, gdate.getDate());
-}
-
-/**
- * @since 9.1.0
- */
-class NgbCalendarBuddhist extends NgbCalendarGregorian {
-    getToday() { return fromGregorian$2(new Date()); }
-    getNext(date, period = 'd', number = 1) {
-        let jsDate = toGregorian$2(date);
-        let checkMonth = true;
-        let expectedMonth = jsDate.getMonth();
-        switch (period) {
-            case 'y':
-                jsDate.setFullYear(jsDate.getFullYear() + number);
-                break;
-            case 'm':
-                expectedMonth += number;
-                jsDate.setMonth(expectedMonth);
-                expectedMonth = expectedMonth % 12;
-                if (expectedMonth < 0) {
-                    expectedMonth = expectedMonth + 12;
-                }
-                break;
-            case 'd':
-                jsDate.setDate(jsDate.getDate() + number);
-                checkMonth = false;
-                break;
-            default:
-                return date;
-        }
-        if (checkMonth && jsDate.getMonth() !== expectedMonth) {
-            // this means the destination month has less days than the initial month
-            // let's go back to the end of the previous month:
-            jsDate.setDate(0);
-        }
-        return fromGregorian$2(jsDate);
-    }
-    getPrev(date, period = 'd', number = 1) { return this.getNext(date, period, -number); }
-    getWeekday(date) {
-        let jsDate = toGregorian$2(date);
-        let day = jsDate.getDay();
-        // in JS Date Sun=0, in ISO 8601 Sun=7
-        return day === 0 ? 7 : day;
-    }
-    getWeekNumber(week, firstDayOfWeek) {
-        // in JS Date Sun=0, in ISO 8601 Sun=7
-        if (firstDayOfWeek === 7) {
-            firstDayOfWeek = 0;
-        }
-        const thursdayIndex = (4 + 7 - firstDayOfWeek) % 7;
-        let date = week[thursdayIndex];
-        const jsDate = toGregorian$2(date);
-        jsDate.setDate(jsDate.getDate() + 4 - (jsDate.getDay() || 7)); // Thursday
-        const time = jsDate.getTime();
-        jsDate.setMonth(0); // Compare with Jan 1
-        jsDate.setDate(1);
-        return Math.floor(Math.round((time - jsDate.getTime()) / 86400000) / 7) + 1;
-    }
-    isValid(date) {
-        if (!date || !isInteger(date.year) || !isInteger(date.month) || !isInteger(date.day)) {
-            return false;
-        }
-        // year 0 doesn't exist in Gregorian calendar
-        if (date.year === 0) {
-            return false;
-        }
-        const jsDate = toGregorian$2(date);
-        return !isNaN(jsDate.getTime()) && jsDate.getFullYear() === date.year - 543 &&
-            jsDate.getMonth() + 1 === date.month && jsDate.getDate() === date.day;
-    }
-}
-NgbCalendarBuddhist.ɵfac = function NgbCalendarBuddhist_Factory(t) { return ɵNgbCalendarBuddhist_BaseFactory(t || NgbCalendarBuddhist); };
-NgbCalendarBuddhist.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"]({ token: NgbCalendarBuddhist, factory: NgbCalendarBuddhist.ɵfac });
-const ɵNgbCalendarBuddhist_BaseFactory = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetInheritedFactory"](NgbCalendarBuddhist);
-/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](NgbCalendarBuddhist, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"]
-    }], null, null); })();
-
-/**
  * [`NgbDateAdapter`](#/components/datepicker/api#NgbDateAdapter) implementation that uses
  * native javascript dates as a user date model.
  */
@@ -7149,10 +6941,6 @@ class NgbDropdown {
         if (changes.placement && !changes.placement.isFirstChange) {
             this._applyPlacementClasses();
         }
-        if (changes.dropdownClass) {
-            const { currentValue, previousValue } = changes.dropdownClass;
-            this._applyCustomDropdownClass(currentValue, previousValue);
-        }
     }
     /**
      * Checks if the dropdown menu is open.
@@ -7342,24 +7130,12 @@ class NgbDropdown {
             const renderer = this._renderer;
             const dropdownMenuElement = this._menu.nativeElement;
             const bodyContainer = this._bodyContainer = this._bodyContainer || renderer.createElement('div');
-            // Override some styles to have the positioning working
+            // Override some styles to have the positionning working
             renderer.setStyle(bodyContainer, 'position', 'absolute');
             renderer.setStyle(dropdownMenuElement, 'position', 'static');
             renderer.setStyle(bodyContainer, 'z-index', '1050');
             renderer.appendChild(bodyContainer, dropdownMenuElement);
             renderer.appendChild(this._document.body, bodyContainer);
-        }
-        this._applyCustomDropdownClass(this.dropdownClass);
-    }
-    _applyCustomDropdownClass(newClass, oldClass) {
-        const targetElement = this.container === 'body' ? this._bodyContainer : this._elementRef.nativeElement;
-        if (targetElement) {
-            if (oldClass) {
-                this._renderer.removeClass(targetElement, oldClass);
-            }
-            if (newClass) {
-                this._renderer.addClass(targetElement, newClass);
-            }
         }
     }
     _applyPlacementClasses(placement) {
@@ -7399,7 +7175,7 @@ NgbDropdown.ɵdir = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineDirect
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵloadQuery"]()) && (ctx._anchor = _t.first);
     } }, hostVars: 2, hostBindings: function NgbDropdown_HostBindings(rf, ctx) { if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("show", ctx.isOpen());
-    } }, inputs: { _open: ["open", "_open"], placement: "placement", container: "container", autoClose: "autoClose", display: "display", dropdownClass: "dropdownClass" }, outputs: { openChange: "openChange" }, exportAs: ["ngbDropdown"], features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵNgOnChangesFeature"]] });
+    } }, inputs: { _open: ["open", "_open"], placement: "placement", container: "container", autoClose: "autoClose", display: "display" }, outputs: { openChange: "openChange" }, exportAs: ["ngbDropdown"], features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵNgOnChangesFeature"]] });
 NgbDropdown.ctorParameters = () => [
     { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"] },
     { type: NgbDropdownConfig },
@@ -7413,7 +7189,6 @@ NgbDropdown.propDecorators = {
     _menu: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ContentChild"], args: [NgbDropdownMenu, { static: false },] }],
     _anchor: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ContentChild"], args: [NgbDropdownAnchor, { static: false },] }],
     autoClose: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
-    dropdownClass: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
     _open: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"], args: ['open',] }],
     placement: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
     container: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
@@ -7447,8 +7222,6 @@ NgbDropdown.propDecorators = {
         }], _anchor: [{
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ContentChild"],
             args: [NgbDropdownAnchor, { static: false }]
-        }], dropdownClass: [{
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
         }] }); })();
 
 const NGB_DROPDOWN_DIRECTIVES = [NgbDropdown, NgbDropdownAnchor, NgbDropdownToggle, NgbDropdownMenu, NgbDropdownItem, NgbNavbar];
@@ -7857,10 +7630,8 @@ class NgbModalWindow {
         this.hidden = new rxjs__WEBPACK_IMPORTED_MODULE_2__["Subject"]();
     }
     dismiss(reason) { this.dismissEvent.emit(reason); }
-    ngOnInit() {
-        this._elWithFocus = this._document.activeElement;
-        this._zone.onStable.asObservable().pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["take"])(1)).subscribe(() => { this._show(); });
-    }
+    ngOnInit() { this._elWithFocus = this._document.activeElement; }
+    ngAfterViewInit() { this._show(); }
     ngOnDestroy() { this._disableEventHandling(); }
     hide() {
         const { nativeElement } = this._elRef;
@@ -7978,7 +7749,7 @@ NgbModalWindow.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCom
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵattribute"]("aria-modal", true)("aria-labelledby", ctx.ariaLabelledBy)("aria-describedby", ctx.ariaDescribedBy);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassMap"]("modal d-block" + (ctx.windowClass ? " " + ctx.windowClass : ""));
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("fade", ctx.animation);
-    } }, inputs: { backdrop: "backdrop", keyboard: "keyboard", animation: "animation", ariaLabelledBy: "ariaLabelledBy", ariaDescribedBy: "ariaDescribedBy", centered: "centered", scrollable: "scrollable", size: "size", windowClass: "windowClass", modalDialogClass: "modalDialogClass" }, outputs: { dismissEvent: "dismiss" }, ngContentSelectors: _c5, decls: 4, vars: 2, consts: [["role", "document"], ["dialog", ""], [1, "modal-content"]], template: function NgbModalWindow_Template(rf, ctx) { if (rf & 1) {
+    } }, inputs: { backdrop: "backdrop", keyboard: "keyboard", animation: "animation", ariaLabelledBy: "ariaLabelledBy", ariaDescribedBy: "ariaDescribedBy", centered: "centered", scrollable: "scrollable", size: "size", windowClass: "windowClass" }, outputs: { dismissEvent: "dismiss" }, ngContentSelectors: _c5, decls: 4, vars: 2, consts: [["role", "document"], ["dialog", ""], [1, "modal-content"]], template: function NgbModalWindow_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵprojectionDef"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0, 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -7986,8 +7757,8 @@ NgbModalWindow.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCom
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassMap"]("modal-dialog" + (ctx.size ? " modal-" + ctx.size : "") + (ctx.centered ? " modal-dialog-centered" : "") + (ctx.scrollable ? " modal-dialog-scrollable" : "") + (ctx.modalDialogClass ? " " + ctx.modalDialogClass : ""));
-    } }, styles: ["ngb-modal-window .component-host-scrollable{display:flex;flex-direction:column;overflow:hidden}"], encapsulation: 2 });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassMap"]("modal-dialog" + (ctx.size ? " modal-" + ctx.size : "") + (ctx.centered ? " modal-dialog-centered" : "") + (ctx.scrollable ? " modal-dialog-scrollable" : ""));
+    } }, styles: ["ngb-modal-window .component-host-scrollable{-ms-flex-direction:column;display:-ms-flexbox;display:flex;flex-direction:column;overflow:hidden}"], encapsulation: 2 });
 NgbModalWindow.ctorParameters = () => [
     { type: undefined, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"], args: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["DOCUMENT"],] }] },
     { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] },
@@ -8004,7 +7775,6 @@ NgbModalWindow.propDecorators = {
     scrollable: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
     size: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
     windowClass: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
-    modalDialogClass: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
     dismissEvent: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"], args: ['dismiss',] }]
 };
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](NgbModalWindow, [{
@@ -8022,12 +7792,12 @@ NgbModalWindow.propDecorators = {
                 },
                 template: `
     <div #dialog [class]="'modal-dialog' + (size ? ' modal-' + size : '') + (centered ? ' modal-dialog-centered' : '') +
-     (scrollable ? ' modal-dialog-scrollable' : '') + (modalDialogClass ? ' ' + modalDialogClass : '')" role="document">
+     (scrollable ? ' modal-dialog-scrollable' : '')" role="document">
         <div class="modal-content"><ng-content></ng-content></div>
     </div>
     `,
                 encapsulation: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewEncapsulation"].None,
-                styles: ["ngb-modal-window .component-host-scrollable{display:flex;flex-direction:column;overflow:hidden}"]
+                styles: ["ngb-modal-window .component-host-scrollable{-ms-flex-direction:column;display:-ms-flexbox;display:flex;flex-direction:column;overflow:hidden}"]
             }]
     }], function () { return [{ type: undefined, decorators: [{
                 type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"],
@@ -8056,8 +7826,6 @@ NgbModalWindow.propDecorators = {
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
         }], windowClass: [{
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
-        }], modalDialogClass: [{
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
         }] }); })();
 
 class NgbModalStack {
@@ -8074,7 +7842,7 @@ class NgbModalStack {
         this._modalRefs = [];
         this._windowAttributes = [
             'animation', 'ariaLabelledBy', 'ariaDescribedBy', 'backdrop', 'centered', 'keyboard', 'scrollable', 'size',
-            'windowClass', 'modalDialogClass'
+            'windowClass'
         ];
         this._windowCmpts = [];
         this._activeInstances = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
@@ -8120,9 +7888,7 @@ class NgbModalStack {
         }
         if (backdropCmptRef && backdropCmptRef.instance) {
             this._applyBackdropOptions(backdropCmptRef.instance, options);
-            backdropCmptRef.changeDetectorRef.detectChanges();
         }
-        windowCmptRef.changeDetectorRef.detectChanges();
         return ngbModalRef;
     }
     get activeInstances() { return this._activeInstances; }
@@ -9081,25 +8847,6 @@ NgbPaginationPrevious.ctorParameters = () => [
         args: [{ selector: 'ng-template[ngbPaginationPrevious]' }]
     }], function () { return [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["TemplateRef"] }]; }, null); })();
 /**
- * A directive to match the 'pages' whole content
- *
- * @since 9.1.0
- */
-class NgbPaginationPages {
-    constructor(templateRef) {
-        this.templateRef = templateRef;
-    }
-}
-NgbPaginationPages.ɵfac = function NgbPaginationPages_Factory(t) { return new (t || NgbPaginationPages)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["TemplateRef"])); };
-NgbPaginationPages.ɵdir = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineDirective"]({ type: NgbPaginationPages, selectors: [["ng-template", "ngbPaginationPages", ""]] });
-NgbPaginationPages.ctorParameters = () => [
-    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["TemplateRef"] }
-];
-/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](NgbPaginationPages, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"],
-        args: [{ selector: 'ng-template[ngbPaginationPages]' }]
-    }], function () { return [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["TemplateRef"] }]; }, null); })();
-/**
  * A component that displays page numbers and allows to customize them in several ways.
  */
 class NgbPagination {
@@ -9250,7 +8997,6 @@ NgbPagination.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵcontentQuery"](dirIndex, NgbPaginationNext, true);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵcontentQuery"](dirIndex, NgbPaginationNumber, true);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵcontentQuery"](dirIndex, NgbPaginationPrevious, true);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵcontentQuery"](dirIndex, NgbPaginationPages, true);
     } if (rf & 2) {
         let _t;
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵloadQuery"]()) && (ctx.tplEllipsis = _t.first);
@@ -9259,8 +9005,7 @@ NgbPagination.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵloadQuery"]()) && (ctx.tplNext = _t.first);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵloadQuery"]()) && (ctx.tplNumber = _t.first);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵloadQuery"]()) && (ctx.tplPrevious = _t.first);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵloadQuery"]()) && (ctx.tplPages = _t.first);
-    } }, hostAttrs: ["role", "navigation"], inputs: { page: "page", disabled: "disabled", boundaryLinks: "boundaryLinks", directionLinks: "directionLinks", ellipses: "ellipses", maxSize: "maxSize", pageSize: "pageSize", rotate: "rotate", size: "size", collectionSize: "collectionSize" }, outputs: { pageChange: "pageChange" }, features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵNgOnChangesFeature"]], decls: 20, vars: 12, consts: function () { let i18n_36; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
+    } }, hostAttrs: ["role", "navigation"], inputs: { page: "page", disabled: "disabled", boundaryLinks: "boundaryLinks", directionLinks: "directionLinks", ellipses: "ellipses", maxSize: "maxSize", pageSize: "pageSize", rotate: "rotate", size: "size", collectionSize: "collectionSize" }, outputs: { pageChange: "pageChange" }, features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵNgOnChangesFeature"]], decls: 18, vars: 7, consts: function () { let i18n_36; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
         const MSG_EXTERNAL_ngb_pagination_first$$FESM2015_NG_BOOTSTRAP_JS__37 = goog.getMsg("\u00AB\u00AB");
         i18n_36 = MSG_EXTERNAL_ngb_pagination_first$$FESM2015_NG_BOOTSTRAP_JS__37;
     }
@@ -9284,18 +9029,18 @@ NgbPagination.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
     }
     else {
         i18n_42 = $localize `:@@ngb.pagination.last␟49f27a460bc97e7e00be5b37098bfa79884fc7d9␟5277020320267646988:»»`;
-    } let i18n_46; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
-        const MSG_EXTERNAL_ngb_pagination_first_aria$$FESM2015_NG_BOOTSTRAP_JS__47 = goog.getMsg("First");
-        i18n_46 = MSG_EXTERNAL_ngb_pagination_first_aria$$FESM2015_NG_BOOTSTRAP_JS__47;
+    } let i18n_44; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
+        const MSG_EXTERNAL_ngb_pagination_first_aria$$FESM2015_NG_BOOTSTRAP_JS__45 = goog.getMsg("First");
+        i18n_44 = MSG_EXTERNAL_ngb_pagination_first_aria$$FESM2015_NG_BOOTSTRAP_JS__45;
     }
     else {
-        i18n_46 = $localize `:@@ngb.pagination.first-aria␟f2f852318759c6396b5d3d17031d53817d7b38cc␟2241508602425256033:First`;
-    } let i18n_49; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
-        const MSG_EXTERNAL_ngb_pagination_previous_aria$$FESM2015_NG_BOOTSTRAP_JS__50 = goog.getMsg("Previous");
-        i18n_49 = MSG_EXTERNAL_ngb_pagination_previous_aria$$FESM2015_NG_BOOTSTRAP_JS__50;
+        i18n_44 = $localize `:@@ngb.pagination.first-aria␟f2f852318759c6396b5d3d17031d53817d7b38cc␟2241508602425256033:First`;
+    } let i18n_47; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
+        const MSG_EXTERNAL_ngb_pagination_previous_aria$$FESM2015_NG_BOOTSTRAP_JS__48 = goog.getMsg("Previous");
+        i18n_47 = MSG_EXTERNAL_ngb_pagination_previous_aria$$FESM2015_NG_BOOTSTRAP_JS__48;
     }
     else {
-        i18n_49 = $localize `:@@ngb.pagination.previous-aria␟680d5c75b7fd8d37961083608b9fcdc4167b4c43␟4452427314943113135:Previous`;
+        i18n_47 = $localize `:@@ngb.pagination.previous-aria␟680d5c75b7fd8d37961083608b9fcdc4167b4c43␟4452427314943113135:Previous`;
     } let i18n_52; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
         const MSG_EXTERNAL_ngb_pagination_next_aria$$FESM2015_NG_BOOTSTRAP_JS__53 = goog.getMsg("Next");
         i18n_52 = MSG_EXTERNAL_ngb_pagination_next_aria$$FESM2015_NG_BOOTSTRAP_JS__53;
@@ -9308,36 +9053,34 @@ NgbPagination.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
     }
     else {
         i18n_54 = $localize `:@@ngb.pagination.last-aria␟5c729788ba138508aca1bec050b610f7bf81db3e␟4882268002141858767:Last`;
-    } return [["first", ""], ["previous", ""], ["next", ""], ["last", ""], ["ellipsis", ""], ["defaultNumber", ""], ["defaultPages", ""], ["class", "page-item", 3, "disabled", 4, "ngIf"], [3, "ngTemplateOutlet", "ngTemplateOutletContext"], ["aria-hidden", "true"], i18n_36, i18n_38, i18n_40, i18n_42, ["class", "sr-only", 4, "ngIf"], [1, "sr-only"], ["class", "page-item", 3, "active", "disabled", 4, "ngFor", "ngForOf"], [1, "page-item"], ["class", "page-link", "tabindex", "-1", "aria-disabled", "true", 4, "ngIf"], ["class", "page-link", "href", "", 3, "click", 4, "ngIf"], ["tabindex", "-1", "aria-disabled", "true", 1, "page-link"], ["href", "", 1, "page-link", 3, "click"], ["aria-label", i18n_46, "href", "", 1, "page-link", 3, "click"], ["aria-label", i18n_49, "href", "", 1, "page-link", 3, "click"], ["aria-label", i18n_52, "href", "", 1, "page-link", 3, "click"], ["aria-label", i18n_54, "href", "", 1, "page-link", 3, "click"]]; }, template: function NgbPagination_Template(rf, ctx) { if (rf & 1) {
+    } return [["first", ""], ["previous", ""], ["next", ""], ["last", ""], ["ellipsis", ""], ["defaultNumber", ""], ["class", "page-item", 3, "disabled", 4, "ngIf"], ["class", "page-item", 3, "active", "disabled", 4, "ngFor", "ngForOf"], ["aria-hidden", "true"], i18n_36, i18n_38, i18n_40, i18n_42, ["class", "sr-only", 4, "ngIf"], [1, "sr-only"], [1, "page-item"], ["aria-label", i18n_44, "href", "", 1, "page-link", 3, "click"], [3, "ngTemplateOutlet", "ngTemplateOutletContext"], ["aria-label", i18n_47, "href", "", 1, "page-link", 3, "click"], ["class", "page-link", "tabindex", "-1", "aria-disabled", "true", 4, "ngIf"], ["class", "page-link", "href", "", 3, "click", 4, "ngIf"], ["tabindex", "-1", "aria-disabled", "true", 1, "page-link"], ["href", "", 1, "page-link", 3, "click"], ["aria-label", i18n_52, "href", "", 1, "page-link", 3, "click"], ["aria-label", i18n_54, "href", "", 1, "page-link", 3, "click"]]; }, template: function NgbPagination_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, NgbPagination_ng_template_0_Template, 2, 0, "ng-template", null, 0, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplateRefExtractor"]);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, NgbPagination_ng_template_2_Template, 2, 0, "ng-template", null, 1, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplateRefExtractor"]);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, NgbPagination_ng_template_4_Template, 2, 0, "ng-template", null, 2, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplateRefExtractor"]);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](6, NgbPagination_ng_template_6_Template, 2, 0, "ng-template", null, 3, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplateRefExtractor"]);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](8, NgbPagination_ng_template_8_Template, 1, 0, "ng-template", null, 4, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplateRefExtractor"]);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](10, NgbPagination_ng_template_10_Template, 2, 2, "ng-template", null, 5, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplateRefExtractor"]);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](12, NgbPagination_ng_template_12_Template, 1, 1, "ng-template", null, 6, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplateRefExtractor"]);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "ul");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](15, NgbPagination_li_15_Template, 3, 9, "li", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](16, NgbPagination_li_16_Template, 3, 8, "li", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](17, NgbPagination_ng_template_17_Template, 0, 0, "ng-template", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](18, NgbPagination_li_18_Template, 3, 9, "li", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](19, NgbPagination_li_19_Template, 3, 9, "li", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "ul");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](13, NgbPagination_li_13_Template, 3, 9, "li", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](14, NgbPagination_li_14_Template, 3, 8, "li", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](15, NgbPagination_li_15_Template, 3, 7, "li", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](16, NgbPagination_li_16_Template, 3, 9, "li", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](17, NgbPagination_li_17_Template, 3, 9, "li", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
-        const _r12 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵreference"](13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](12);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassMap"]("pagination" + (ctx.size ? " pagination-" + ctx.size : ""));
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.boundaryLinks);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.directionLinks);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngTemplateOutlet", (ctx.tplPages == null ? null : ctx.tplPages.templateRef) || _r12)("ngTemplateOutletContext", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction3"](8, _c56, ctx.page, ctx.pages, ctx.disabled));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.pages);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.directionLinks);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.boundaryLinks);
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgIf"], _angular_common__WEBPACK_IMPORTED_MODULE_1__["NgTemplateOutlet"], _angular_common__WEBPACK_IMPORTED_MODULE_1__["NgForOf"]], encapsulation: 2, changeDetection: 0 });
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgIf"], _angular_common__WEBPACK_IMPORTED_MODULE_1__["NgForOf"], _angular_common__WEBPACK_IMPORTED_MODULE_1__["NgTemplateOutlet"]], encapsulation: 2, changeDetection: 0 });
 NgbPagination.ctorParameters = () => [
     { type: NgbPaginationConfig }
 ];
@@ -9348,7 +9091,6 @@ NgbPagination.propDecorators = {
     tplNext: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ContentChild"], args: [NgbPaginationNext, { static: false },] }],
     tplNumber: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ContentChild"], args: [NgbPaginationNumber, { static: false },] }],
     tplPrevious: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ContentChild"], args: [NgbPaginationPrevious, { static: false },] }],
-    tplPages: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ContentChild"], args: [NgbPaginationPages, { static: false },] }],
     disabled: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
     boundaryLinks: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
     directionLinks: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
@@ -9377,20 +9119,6 @@ NgbPagination.propDecorators = {
       {{ page }}
       <span *ngIf="page === currentPage" class="sr-only">(current)</span>
     </ng-template>
-    <ng-template #defaultPages let-page let-pages="pages" let-disabled="disabled">
-      <li *ngFor="let pageNumber of pages" class="page-item" [class.active]="pageNumber === page"
-        [class.disabled]="isEllipsis(pageNumber) || disabled" [attr.aria-current]="(pageNumber === page ? 'page' : null)">
-        <a *ngIf="isEllipsis(pageNumber)" class="page-link" tabindex="-1" aria-disabled="true">
-          <ng-template [ngTemplateOutlet]="tplEllipsis?.templateRef || ellipsis"
-                      [ngTemplateOutletContext]="{disabled: true, currentPage: page}"></ng-template>
-        </a>
-        <a *ngIf="!isEllipsis(pageNumber)" class="page-link" href (click)="selectPage(pageNumber); $event.preventDefault()"
-          [attr.tabindex]="disabled ? '-1' : null" [attr.aria-disabled]="disabled ? 'true' : null">
-          <ng-template [ngTemplateOutlet]="tplNumber?.templateRef || defaultNumber"
-                      [ngTemplateOutletContext]="{disabled: disabled, $implicit: pageNumber, currentPage: page}"></ng-template>
-        </a>
-      </li>
-    </ng-template>
     <ul [class]="'pagination' + (size ? ' pagination-' + size : '')">
       <li *ngIf="boundaryLinks" class="page-item"
         [class.disabled]="previousDisabled()">
@@ -9411,11 +9139,18 @@ NgbPagination.propDecorators = {
                        [ngTemplateOutletContext]="{disabled: previousDisabled()}"></ng-template>
         </a>
       </li>
-      <ng-template
-        [ngTemplateOutlet]="tplPages?.templateRef || defaultPages"
-        [ngTemplateOutletContext]="{ $implicit: page, pages: pages, disabled: disabled }"
-      >
-      </ng-template>
+      <li *ngFor="let pageNumber of pages" class="page-item" [class.active]="pageNumber === page"
+        [class.disabled]="isEllipsis(pageNumber) || disabled" [attr.aria-current]="(pageNumber === page ? 'page' : null)">
+        <a *ngIf="isEllipsis(pageNumber)" class="page-link" tabindex="-1" aria-disabled="true">
+          <ng-template [ngTemplateOutlet]="tplEllipsis?.templateRef || ellipsis"
+                       [ngTemplateOutletContext]="{disabled: true, currentPage: page}"></ng-template>
+        </a>
+        <a *ngIf="!isEllipsis(pageNumber)" class="page-link" href (click)="selectPage(pageNumber); $event.preventDefault()"
+          [attr.tabindex]="disabled ? '-1' : null" [attr.aria-disabled]="disabled ? 'true' : null">
+          <ng-template [ngTemplateOutlet]="tplNumber?.templateRef || defaultNumber"
+                       [ngTemplateOutletContext]="{disabled: disabled, $implicit: pageNumber, currentPage: page}"></ng-template>
+        </a>
+      </li>
       <li *ngIf="directionLinks" class="page-item" [class.disabled]="nextDisabled()">
         <a aria-label="Next" i18n-aria-label="@@ngb.pagination.next-aria" class="page-link" href
           (click)="selectPage(page+1); $event.preventDefault()" [attr.tabindex]="nextDisabled() ? '-1' : null"
@@ -9474,22 +9209,19 @@ NgbPagination.propDecorators = {
         }], tplPrevious: [{
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ContentChild"],
             args: [NgbPaginationPrevious, { static: false }]
-        }], tplPages: [{
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ContentChild"],
-            args: [NgbPaginationPages, { static: false }]
         }], collectionSize: [{
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
         }] }); })();
 
 const DIRECTIVES = [
     NgbPagination, NgbPaginationEllipsis, NgbPaginationFirst, NgbPaginationLast, NgbPaginationNext, NgbPaginationNumber,
-    NgbPaginationPrevious, NgbPaginationPages
+    NgbPaginationPrevious
 ];
 class NgbPaginationModule {
 }
 NgbPaginationModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineNgModule"]({ type: NgbPaginationModule });
 NgbPaginationModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjector"]({ factory: function NgbPaginationModule_Factory(t) { return new (t || NgbPaginationModule)(); }, imports: [[_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"]]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsetNgModuleScope"](NgbPaginationModule, { declarations: function () { return [NgbPagination, NgbPaginationEllipsis, NgbPaginationFirst, NgbPaginationLast, NgbPaginationNext, NgbPaginationNumber, NgbPaginationPrevious, NgbPaginationPages]; }, imports: function () { return [_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"]]; }, exports: function () { return [NgbPagination, NgbPaginationEllipsis, NgbPaginationFirst, NgbPaginationLast, NgbPaginationNext, NgbPaginationNumber, NgbPaginationPrevious, NgbPaginationPages]; } }); })();
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsetNgModuleScope"](NgbPaginationModule, { declarations: function () { return [NgbPagination, NgbPaginationEllipsis, NgbPaginationFirst, NgbPaginationLast, NgbPaginationNext, NgbPaginationNumber, NgbPaginationPrevious]; }, imports: function () { return [_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"]]; }, exports: function () { return [NgbPagination, NgbPaginationEllipsis, NgbPaginationFirst, NgbPaginationLast, NgbPaginationNext, NgbPaginationNumber, NgbPaginationPrevious]; } }); })();
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](NgbPaginationModule, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
         args: [{ declarations: DIRECTIVES, exports: DIRECTIVES, imports: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"]] }]
@@ -9939,13 +9671,13 @@ class NgbProgressbar {
 NgbProgressbar.ɵfac = function NgbProgressbar_Factory(t) { return new (t || NgbProgressbar)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](NgbProgressbarConfig)); };
 NgbProgressbar.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NgbProgressbar, selectors: [["ngb-progressbar"]], hostAttrs: [1, "progress"], hostVars: 2, hostBindings: function NgbProgressbar_HostBindings(rf, ctx) { if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleProp"]("height", ctx.height);
-    } }, inputs: { value: "value", max: "max", animated: "animated", striped: "striped", textType: "textType", type: "type", showValue: "showValue", height: "height" }, ngContentSelectors: _c5, decls: 3, vars: 11, consts: function () { let i18n_57; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
-        const MSG_EXTERNAL_ngb_progressbar_value$$FESM2015_NG_BOOTSTRAP_JS__58 = goog.getMsg("{$interpolation}", { "interpolation": "\uFFFD0\uFFFD" });
-        i18n_57 = MSG_EXTERNAL_ngb_progressbar_value$$FESM2015_NG_BOOTSTRAP_JS__58;
+    } }, inputs: { value: "value", max: "max", animated: "animated", striped: "striped", textType: "textType", type: "type", showValue: "showValue", height: "height" }, ngContentSelectors: _c5, decls: 3, vars: 11, consts: function () { let i18n_56; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
+        const MSG_EXTERNAL_ngb_progressbar_value$$FESM2015_NG_BOOTSTRAP_JS__57 = goog.getMsg("{$interpolation}", { "interpolation": "\uFFFD0\uFFFD" });
+        i18n_56 = MSG_EXTERNAL_ngb_progressbar_value$$FESM2015_NG_BOOTSTRAP_JS__57;
     }
     else {
-        i18n_57 = $localize `:@@ngb.progressbar.value␟f8e9a947b9db4252c0e9905765338712f2fd032f␟3720830768741091151:${"\uFFFD0\uFFFD"}:INTERPOLATION:`;
-    } return [["role", "progressbar", "aria-valuemin", "0"], [4, "ngIf"], i18n_57]; }, template: function NgbProgressbar_Template(rf, ctx) { if (rf & 1) {
+        i18n_56 = $localize `:@@ngb.progressbar.value␟f8e9a947b9db4252c0e9905765338712f2fd032f␟3720830768741091151:${"\uFFFD0\uFFFD"}:INTERPOLATION:`;
+    } return [["role", "progressbar", "aria-valuemin", "0"], [4, "ngIf"], i18n_56]; }, template: function NgbProgressbar_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵprojectionDef"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, NgbProgressbar_span_1_Template, 3, 3, "span", 1);
@@ -10495,7 +10227,6 @@ class NgbTimepicker {
         }
     }
     formatMinSec(value) { return padNumber(isNumber(value) ? value : NaN); }
-    handleBlur() { this.onTouched(); }
     get isSmallSize() { return this.size === 'small'; }
     get isLargeSize() { return this.size === 'large'; }
     ngOnChanges(changes) {
@@ -10517,97 +10248,97 @@ class NgbTimepicker {
     }
 }
 NgbTimepicker.ɵfac = function NgbTimepicker_Factory(t) { return new (t || NgbTimepicker)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](NgbTimepickerConfig), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](NgbTimeAdapter), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](NgbTimepickerI18n)); };
-NgbTimepicker.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NgbTimepicker, selectors: [["ngb-timepicker"]], inputs: { meridian: "meridian", spinners: "spinners", seconds: "seconds", hourStep: "hourStep", minuteStep: "minuteStep", secondStep: "secondStep", readonlyInputs: "readonlyInputs", size: "size" }, features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵProvidersFeature"]([{ provide: _angular_forms__WEBPACK_IMPORTED_MODULE_4__["NG_VALUE_ACCESSOR"], useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["forwardRef"])(() => NgbTimepicker), multi: true }]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵNgOnChangesFeature"]], decls: 16, vars: 25, consts: function () { let i18n_59; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
-        const MSG_EXTERNAL_ngb_timepicker_HH$$FESM2015_NG_BOOTSTRAP_JS_60 = goog.getMsg("HH");
-        i18n_59 = MSG_EXTERNAL_ngb_timepicker_HH$$FESM2015_NG_BOOTSTRAP_JS_60;
+NgbTimepicker.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NgbTimepicker, selectors: [["ngb-timepicker"]], inputs: { meridian: "meridian", spinners: "spinners", seconds: "seconds", hourStep: "hourStep", minuteStep: "minuteStep", secondStep: "secondStep", readonlyInputs: "readonlyInputs", size: "size" }, features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵProvidersFeature"]([{ provide: _angular_forms__WEBPACK_IMPORTED_MODULE_4__["NG_VALUE_ACCESSOR"], useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["forwardRef"])(() => NgbTimepicker), multi: true }]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵNgOnChangesFeature"]], decls: 16, vars: 25, consts: function () { let i18n_58; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
+        const MSG_EXTERNAL_ngb_timepicker_HH$$FESM2015_NG_BOOTSTRAP_JS_59 = goog.getMsg("HH");
+        i18n_58 = MSG_EXTERNAL_ngb_timepicker_HH$$FESM2015_NG_BOOTSTRAP_JS_59;
     }
     else {
-        i18n_59 = $localize `:@@ngb.timepicker.HH␟ce676ab1d6d98f85c836381cf100a4a91ef95a1f␟4043638465245303811:HH`;
-    } let i18n_61; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
-        const MSG_EXTERNAL_ngb_timepicker_hours$$FESM2015_NG_BOOTSTRAP_JS_62 = goog.getMsg("Hours");
-        i18n_61 = MSG_EXTERNAL_ngb_timepicker_hours$$FESM2015_NG_BOOTSTRAP_JS_62;
+        i18n_58 = $localize `:@@ngb.timepicker.HH␟ce676ab1d6d98f85c836381cf100a4a91ef95a1f␟4043638465245303811:HH`;
+    } let i18n_60; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
+        const MSG_EXTERNAL_ngb_timepicker_hours$$FESM2015_NG_BOOTSTRAP_JS_61 = goog.getMsg("Hours");
+        i18n_60 = MSG_EXTERNAL_ngb_timepicker_hours$$FESM2015_NG_BOOTSTRAP_JS_61;
     }
     else {
-        i18n_61 = $localize `:@@ngb.timepicker.hours␟3bbce5fef7e1151da052a4e529453edb340e3912␟8070396816726827304:Hours`;
-    } let i18n_63; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
-        const MSG_EXTERNAL_ngb_timepicker_MM$$FESM2015_NG_BOOTSTRAP_JS_64 = goog.getMsg("MM");
-        i18n_63 = MSG_EXTERNAL_ngb_timepicker_MM$$FESM2015_NG_BOOTSTRAP_JS_64;
+        i18n_60 = $localize `:@@ngb.timepicker.hours␟3bbce5fef7e1151da052a4e529453edb340e3912␟8070396816726827304:Hours`;
+    } let i18n_62; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
+        const MSG_EXTERNAL_ngb_timepicker_MM$$FESM2015_NG_BOOTSTRAP_JS_63 = goog.getMsg("MM");
+        i18n_62 = MSG_EXTERNAL_ngb_timepicker_MM$$FESM2015_NG_BOOTSTRAP_JS_63;
     }
     else {
-        i18n_63 = $localize `:@@ngb.timepicker.MM␟72c8edf6a50068a05bde70991e36b1e881f4ca54␟1647282246509919852:MM`;
-    } let i18n_65; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
-        const MSG_EXTERNAL_ngb_timepicker_minutes$$FESM2015_NG_BOOTSTRAP_JS_66 = goog.getMsg("Minutes");
-        i18n_65 = MSG_EXTERNAL_ngb_timepicker_minutes$$FESM2015_NG_BOOTSTRAP_JS_66;
+        i18n_62 = $localize `:@@ngb.timepicker.MM␟72c8edf6a50068a05bde70991e36b1e881f4ca54␟1647282246509919852:MM`;
+    } let i18n_64; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
+        const MSG_EXTERNAL_ngb_timepicker_minutes$$FESM2015_NG_BOOTSTRAP_JS_65 = goog.getMsg("Minutes");
+        i18n_64 = MSG_EXTERNAL_ngb_timepicker_minutes$$FESM2015_NG_BOOTSTRAP_JS_65;
     }
     else {
-        i18n_65 = $localize `:@@ngb.timepicker.minutes␟41e62daa962947c0d23ded0981975d1bddf0bf38␟5531237363767747080:Minutes`;
-    } let i18n_67; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
-        const MSG_EXTERNAL_ngb_timepicker_increment_hours$$FESM2015_NG_BOOTSTRAP_JS__68 = goog.getMsg("Increment hours");
-        i18n_67 = MSG_EXTERNAL_ngb_timepicker_increment_hours$$FESM2015_NG_BOOTSTRAP_JS__68;
+        i18n_64 = $localize `:@@ngb.timepicker.minutes␟41e62daa962947c0d23ded0981975d1bddf0bf38␟5531237363767747080:Minutes`;
+    } let i18n_66; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
+        const MSG_EXTERNAL_ngb_timepicker_increment_hours$$FESM2015_NG_BOOTSTRAP_JS__67 = goog.getMsg("Increment hours");
+        i18n_66 = MSG_EXTERNAL_ngb_timepicker_increment_hours$$FESM2015_NG_BOOTSTRAP_JS__67;
     }
     else {
-        i18n_67 = $localize `:@@ngb.timepicker.increment-hours␟cb74bc1d625a6c1742f0d7d47306cf495780c218␟5939278348542933629:Increment hours`;
-    } let i18n_69; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
-        const MSG_EXTERNAL_ngb_timepicker_decrement_hours$$FESM2015_NG_BOOTSTRAP_JS__70 = goog.getMsg("Decrement hours");
-        i18n_69 = MSG_EXTERNAL_ngb_timepicker_decrement_hours$$FESM2015_NG_BOOTSTRAP_JS__70;
+        i18n_66 = $localize `:@@ngb.timepicker.increment-hours␟cb74bc1d625a6c1742f0d7d47306cf495780c218␟5939278348542933629:Increment hours`;
+    } let i18n_68; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
+        const MSG_EXTERNAL_ngb_timepicker_decrement_hours$$FESM2015_NG_BOOTSTRAP_JS__69 = goog.getMsg("Decrement hours");
+        i18n_68 = MSG_EXTERNAL_ngb_timepicker_decrement_hours$$FESM2015_NG_BOOTSTRAP_JS__69;
     }
     else {
-        i18n_69 = $localize `:@@ngb.timepicker.decrement-hours␟147c7a19429da7d999e247d22e33fee370b1691b␟3651829882940481818:Decrement hours`;
-    } let i18n_71; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
-        const MSG_EXTERNAL_ngb_timepicker_increment_minutes$$FESM2015_NG_BOOTSTRAP_JS__72 = goog.getMsg("Increment minutes");
-        i18n_71 = MSG_EXTERNAL_ngb_timepicker_increment_minutes$$FESM2015_NG_BOOTSTRAP_JS__72;
+        i18n_68 = $localize `:@@ngb.timepicker.decrement-hours␟147c7a19429da7d999e247d22e33fee370b1691b␟3651829882940481818:Decrement hours`;
+    } let i18n_70; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
+        const MSG_EXTERNAL_ngb_timepicker_increment_minutes$$FESM2015_NG_BOOTSTRAP_JS__71 = goog.getMsg("Increment minutes");
+        i18n_70 = MSG_EXTERNAL_ngb_timepicker_increment_minutes$$FESM2015_NG_BOOTSTRAP_JS__71;
     }
     else {
-        i18n_71 = $localize `:@@ngb.timepicker.increment-minutes␟f5a4a3bc05e053f6732475d0e74875ec01c3a348␟180147720391025024:Increment minutes`;
-    } let i18n_73; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
-        const MSG_EXTERNAL_ngb_timepicker_decrement_minutes$$FESM2015_NG_BOOTSTRAP_JS__74 = goog.getMsg("Decrement minutes");
-        i18n_73 = MSG_EXTERNAL_ngb_timepicker_decrement_minutes$$FESM2015_NG_BOOTSTRAP_JS__74;
+        i18n_70 = $localize `:@@ngb.timepicker.increment-minutes␟f5a4a3bc05e053f6732475d0e74875ec01c3a348␟180147720391025024:Increment minutes`;
+    } let i18n_72; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
+        const MSG_EXTERNAL_ngb_timepicker_decrement_minutes$$FESM2015_NG_BOOTSTRAP_JS__73 = goog.getMsg("Decrement minutes");
+        i18n_72 = MSG_EXTERNAL_ngb_timepicker_decrement_minutes$$FESM2015_NG_BOOTSTRAP_JS__73;
     }
     else {
-        i18n_73 = $localize `:@@ngb.timepicker.decrement-minutes␟c1a6899e529c096da5b660385d4e77fe1f7ad271␟7447789825403243588:Decrement minutes`;
-    } let i18n_75; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
-        const MSG_EXTERNAL_ngb_timepicker_SS$$FESM2015_NG_BOOTSTRAP_JS__76 = goog.getMsg("SS");
-        i18n_75 = MSG_EXTERNAL_ngb_timepicker_SS$$FESM2015_NG_BOOTSTRAP_JS__76;
+        i18n_72 = $localize `:@@ngb.timepicker.decrement-minutes␟c1a6899e529c096da5b660385d4e77fe1f7ad271␟7447789825403243588:Decrement minutes`;
+    } let i18n_74; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
+        const MSG_EXTERNAL_ngb_timepicker_SS$$FESM2015_NG_BOOTSTRAP_JS__75 = goog.getMsg("SS");
+        i18n_74 = MSG_EXTERNAL_ngb_timepicker_SS$$FESM2015_NG_BOOTSTRAP_JS__75;
     }
     else {
-        i18n_75 = $localize `:@@ngb.timepicker.SS␟ebe38d36a40a2383c5fefa9b4608ffbda08bd4a3␟3628127143071124194:SS`;
-    } let i18n_77; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
-        const MSG_EXTERNAL_ngb_timepicker_seconds$$FESM2015_NG_BOOTSTRAP_JS__78 = goog.getMsg("Seconds");
-        i18n_77 = MSG_EXTERNAL_ngb_timepicker_seconds$$FESM2015_NG_BOOTSTRAP_JS__78;
+        i18n_74 = $localize `:@@ngb.timepicker.SS␟ebe38d36a40a2383c5fefa9b4608ffbda08bd4a3␟3628127143071124194:SS`;
+    } let i18n_76; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
+        const MSG_EXTERNAL_ngb_timepicker_seconds$$FESM2015_NG_BOOTSTRAP_JS__77 = goog.getMsg("Seconds");
+        i18n_76 = MSG_EXTERNAL_ngb_timepicker_seconds$$FESM2015_NG_BOOTSTRAP_JS__77;
     }
     else {
-        i18n_77 = $localize `:@@ngb.timepicker.seconds␟4f2ed9e71a7c981db3e50ae2fedb28aff2ec4e6c␟8874012390997067175:Seconds`;
-    } let i18n_79; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
-        const MSG_EXTERNAL_ngb_timepicker_increment_seconds$$FESM2015_NG_BOOTSTRAP_JS___80 = goog.getMsg("Increment seconds");
-        i18n_79 = MSG_EXTERNAL_ngb_timepicker_increment_seconds$$FESM2015_NG_BOOTSTRAP_JS___80;
+        i18n_76 = $localize `:@@ngb.timepicker.seconds␟4f2ed9e71a7c981db3e50ae2fedb28aff2ec4e6c␟8874012390997067175:Seconds`;
+    } let i18n_78; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
+        const MSG_EXTERNAL_ngb_timepicker_increment_seconds$$FESM2015_NG_BOOTSTRAP_JS___79 = goog.getMsg("Increment seconds");
+        i18n_78 = MSG_EXTERNAL_ngb_timepicker_increment_seconds$$FESM2015_NG_BOOTSTRAP_JS___79;
     }
     else {
-        i18n_79 = $localize `:@@ngb.timepicker.increment-seconds␟912322ecee7d659d04dcf494a70e22e49d334b26␟5364772110539092174:Increment seconds`;
-    } let i18n_81; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
-        const MSG_EXTERNAL_ngb_timepicker_decrement_seconds$$FESM2015_NG_BOOTSTRAP_JS___82 = goog.getMsg("Decrement seconds");
-        i18n_81 = MSG_EXTERNAL_ngb_timepicker_decrement_seconds$$FESM2015_NG_BOOTSTRAP_JS___82;
+        i18n_78 = $localize `:@@ngb.timepicker.increment-seconds␟912322ecee7d659d04dcf494a70e22e49d334b26␟5364772110539092174:Increment seconds`;
+    } let i18n_80; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
+        const MSG_EXTERNAL_ngb_timepicker_decrement_seconds$$FESM2015_NG_BOOTSTRAP_JS___81 = goog.getMsg("Decrement seconds");
+        i18n_80 = MSG_EXTERNAL_ngb_timepicker_decrement_seconds$$FESM2015_NG_BOOTSTRAP_JS___81;
     }
     else {
-        i18n_81 = $localize `:@@ngb.timepicker.decrement-seconds␟5db47ac104294243a70eb9124fbea9d0004ddf69␟753633511487974857:Decrement seconds`;
-    } let i18n_83; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
-        const MSG_EXTERNAL_ngb_timepicker_PM$$FESM2015_NG_BOOTSTRAP_JS___84 = goog.getMsg("{$interpolation}", { "interpolation": "\uFFFD0\uFFFD" });
-        i18n_83 = MSG_EXTERNAL_ngb_timepicker_PM$$FESM2015_NG_BOOTSTRAP_JS___84;
+        i18n_80 = $localize `:@@ngb.timepicker.decrement-seconds␟5db47ac104294243a70eb9124fbea9d0004ddf69␟753633511487974857:Decrement seconds`;
+    } let i18n_82; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
+        const MSG_EXTERNAL_ngb_timepicker_PM$$FESM2015_NG_BOOTSTRAP_JS___83 = goog.getMsg("{$interpolation}", { "interpolation": "\uFFFD0\uFFFD" });
+        i18n_82 = MSG_EXTERNAL_ngb_timepicker_PM$$FESM2015_NG_BOOTSTRAP_JS___83;
     }
     else {
-        i18n_83 = $localize `:@@ngb.timepicker.PM␟8d6e691e10306c1b34c6b26805151aaea320ef7f␟3564199131264287502:${"\uFFFD0\uFFFD"}:INTERPOLATION:`;
-    } let i18n_85; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
-        const MSG_EXTERNAL_ngb_timepicker_AM$$FESM2015_NG_BOOTSTRAP_JS___86 = goog.getMsg("{$interpolation}", { "interpolation": "\uFFFD0\uFFFD" });
-        i18n_85 = MSG_EXTERNAL_ngb_timepicker_AM$$FESM2015_NG_BOOTSTRAP_JS___86;
+        i18n_82 = $localize `:@@ngb.timepicker.PM␟8d6e691e10306c1b34c6b26805151aaea320ef7f␟3564199131264287502:${"\uFFFD0\uFFFD"}:INTERPOLATION:`;
+    } let i18n_84; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
+        const MSG_EXTERNAL_ngb_timepicker_AM$$FESM2015_NG_BOOTSTRAP_JS___85 = goog.getMsg("{$interpolation}", { "interpolation": "\uFFFD0\uFFFD" });
+        i18n_84 = MSG_EXTERNAL_ngb_timepicker_AM$$FESM2015_NG_BOOTSTRAP_JS___85;
     }
     else {
-        i18n_85 = $localize `:@@ngb.timepicker.AM␟69a1f176a93998876952adac57c3bc3863b6105e␟4592818992509942761:${"\uFFFD0\uFFFD"}:INTERPOLATION:`;
-    } return [[3, "disabled"], [1, "ngb-tp"], [1, "ngb-tp-input-container", "ngb-tp-hour"], ["tabindex", "-1", "type", "button", "class", "btn btn-link", 3, "btn-sm", "btn-lg", "disabled", "click", 4, "ngIf"], ["type", "text", "maxlength", "2", "inputmode", "numeric", "placeholder", i18n_59, "aria-label", i18n_61, 1, "ngb-tp-input", "form-control", 3, "value", "readOnly", "disabled", "change", "blur", "input", "keydown.ArrowUp", "keydown.ArrowDown"], [1, "ngb-tp-spacer"], [1, "ngb-tp-input-container", "ngb-tp-minute"], ["type", "text", "maxlength", "2", "inputmode", "numeric", "placeholder", i18n_63, "aria-label", i18n_65, 1, "ngb-tp-input", "form-control", 3, "value", "readOnly", "disabled", "change", "blur", "input", "keydown.ArrowUp", "keydown.ArrowDown"], ["class", "ngb-tp-spacer", 4, "ngIf"], ["class", "ngb-tp-input-container ngb-tp-second", 4, "ngIf"], ["class", "ngb-tp-meridian", 4, "ngIf"], ["tabindex", "-1", "type", "button", 1, "btn", "btn-link", 3, "disabled", "click"], [1, "chevron", "ngb-tp-chevron"], [1, "sr-only"], i18n_67, [1, "chevron", "ngb-tp-chevron", "bottom"], i18n_69, i18n_71, i18n_73, [1, "ngb-tp-input-container", "ngb-tp-second"], ["type", "text", "maxlength", "2", "inputmode", "numeric", "placeholder", i18n_75, "aria-label", i18n_77, 1, "ngb-tp-input", "form-control", 3, "value", "readOnly", "disabled", "change", "blur", "input", "keydown.ArrowUp", "keydown.ArrowDown"], i18n_79, i18n_81, [1, "ngb-tp-meridian"], ["type", "button", 1, "btn", "btn-outline-primary", 3, "disabled", "click"], [4, "ngIf", "ngIfElse"], ["am", ""], i18n_83, i18n_85]; }, template: function NgbTimepicker_Template(rf, ctx) { if (rf & 1) {
+        i18n_84 = $localize `:@@ngb.timepicker.AM␟69a1f176a93998876952adac57c3bc3863b6105e␟4592818992509942761:${"\uFFFD0\uFFFD"}:INTERPOLATION:`;
+    } return [[3, "disabled"], [1, "ngb-tp"], [1, "ngb-tp-input-container", "ngb-tp-hour"], ["tabindex", "-1", "type", "button", "class", "btn btn-link", 3, "btn-sm", "btn-lg", "disabled", "click", 4, "ngIf"], ["type", "text", "maxlength", "2", "inputmode", "numeric", "placeholder", i18n_58, "aria-label", i18n_60, 1, "ngb-tp-input", "form-control", 3, "value", "readOnly", "disabled", "change", "input", "keydown.ArrowUp", "keydown.ArrowDown"], [1, "ngb-tp-spacer"], [1, "ngb-tp-input-container", "ngb-tp-minute"], ["type", "text", "maxlength", "2", "inputmode", "numeric", "placeholder", i18n_62, "aria-label", i18n_64, 1, "ngb-tp-input", "form-control", 3, "value", "readOnly", "disabled", "change", "input", "keydown.ArrowUp", "keydown.ArrowDown"], ["class", "ngb-tp-spacer", 4, "ngIf"], ["class", "ngb-tp-input-container ngb-tp-second", 4, "ngIf"], ["class", "ngb-tp-meridian", 4, "ngIf"], ["tabindex", "-1", "type", "button", 1, "btn", "btn-link", 3, "disabled", "click"], [1, "chevron", "ngb-tp-chevron"], [1, "sr-only"], i18n_66, [1, "chevron", "ngb-tp-chevron", "bottom"], i18n_68, i18n_70, i18n_72, [1, "ngb-tp-input-container", "ngb-tp-second"], ["type", "text", "maxlength", "2", "inputmode", "numeric", "placeholder", i18n_74, "aria-label", i18n_76, 1, "ngb-tp-input", "form-control", 3, "value", "readOnly", "disabled", "change", "input", "keydown.ArrowUp", "keydown.ArrowDown"], i18n_78, i18n_80, [1, "ngb-tp-meridian"], ["type", "button", 1, "btn", "btn-outline-primary", 3, "disabled", "click"], [4, "ngIf", "ngIfElse"], ["am", ""], i18n_82, i18n_84]; }, template: function NgbTimepicker_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "fieldset", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, NgbTimepicker_button_3_Template, 4, 7, "button", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "input", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("change", function NgbTimepicker_Template_input_change_4_listener($event) { return ctx.updateHour($event.target.value); })("blur", function NgbTimepicker_Template_input_blur_4_listener() { return ctx.handleBlur(); })("input", function NgbTimepicker_Template_input_input_4_listener($event) { return ctx.formatInput($event.target); })("keydown.ArrowUp", function NgbTimepicker_Template_input_keydown_ArrowUp_4_listener($event) { ctx.changeHour(ctx.hourStep); return $event.preventDefault(); })("keydown.ArrowDown", function NgbTimepicker_Template_input_keydown_ArrowDown_4_listener($event) { ctx.changeHour(-ctx.hourStep); return $event.preventDefault(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("change", function NgbTimepicker_Template_input_change_4_listener($event) { return ctx.updateHour($event.target.value); })("input", function NgbTimepicker_Template_input_input_4_listener($event) { return ctx.formatInput($event.target); })("keydown.ArrowUp", function NgbTimepicker_Template_input_keydown_ArrowUp_4_listener($event) { ctx.changeHour(ctx.hourStep); return $event.preventDefault(); })("keydown.ArrowDown", function NgbTimepicker_Template_input_keydown_ArrowDown_4_listener($event) { ctx.changeHour(-ctx.hourStep); return $event.preventDefault(); });
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](5, NgbTimepicker_button_5_Template, 4, 7, "button", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -10617,7 +10348,7 @@ NgbTimepicker.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](9, NgbTimepicker_button_9_Template, 4, 7, "button", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "input", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("change", function NgbTimepicker_Template_input_change_10_listener($event) { return ctx.updateMinute($event.target.value); })("blur", function NgbTimepicker_Template_input_blur_10_listener() { return ctx.handleBlur(); })("input", function NgbTimepicker_Template_input_input_10_listener($event) { return ctx.formatInput($event.target); })("keydown.ArrowUp", function NgbTimepicker_Template_input_keydown_ArrowUp_10_listener($event) { ctx.changeMinute(ctx.minuteStep); return $event.preventDefault(); })("keydown.ArrowDown", function NgbTimepicker_Template_input_keydown_ArrowDown_10_listener($event) { ctx.changeMinute(-ctx.minuteStep); return $event.preventDefault(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("change", function NgbTimepicker_Template_input_change_10_listener($event) { return ctx.updateMinute($event.target.value); })("input", function NgbTimepicker_Template_input_input_10_listener($event) { return ctx.formatInput($event.target); })("keydown.ArrowUp", function NgbTimepicker_Template_input_keydown_ArrowUp_10_listener($event) { ctx.changeMinute(ctx.minuteStep); return $event.preventDefault(); })("keydown.ArrowDown", function NgbTimepicker_Template_input_keydown_ArrowDown_10_listener($event) { ctx.changeMinute(-ctx.minuteStep); return $event.preventDefault(); });
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](11, NgbTimepicker_button_11_Template, 4, 7, "button", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -10652,7 +10383,7 @@ NgbTimepicker.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.meridian);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.meridian);
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgIf"]], styles: ["ngb-timepicker{font-size:1rem}.ngb-tp{align-items:center;display:flex}.ngb-tp-input-container{width:4em}.ngb-tp-chevron:before{border-style:solid;border-width:.29em .29em 0 0;content:\"\";display:inline-block;height:.69em;left:.05em;position:relative;top:.15em;transform:rotate(-45deg);vertical-align:middle;width:.69em}.ngb-tp-chevron.bottom:before{top:-.3em;transform:rotate(135deg)}.ngb-tp-input{text-align:center}.ngb-tp-hour,.ngb-tp-meridian,.ngb-tp-minute,.ngb-tp-second{align-items:center;display:flex;flex-direction:column;justify-content:space-around}.ngb-tp-spacer{text-align:center;width:1em}"], encapsulation: 2 });
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgIf"]], styles: ["ngb-timepicker{font-size:1rem}.ngb-tp{-ms-flex-align:center;align-items:center;display:-ms-flexbox;display:flex}.ngb-tp-input-container{width:4em}.ngb-tp-chevron:before{-webkit-transform:rotate(-45deg);border-style:solid;border-width:.29em .29em 0 0;content:\"\";display:inline-block;height:.69em;left:.05em;position:relative;top:.15em;transform:rotate(-45deg);vertical-align:middle;width:.69em}.ngb-tp-chevron.bottom:before{-webkit-transform:rotate(135deg);top:-.3em;transform:rotate(135deg)}.ngb-tp-input{text-align:center}.ngb-tp-hour,.ngb-tp-meridian,.ngb-tp-minute,.ngb-tp-second{-ms-flex-align:center;-ms-flex-direction:column;-ms-flex-pack:distribute;align-items:center;display:-ms-flexbox;display:flex;flex-direction:column;justify-content:space-around}.ngb-tp-spacer{text-align:center;width:1em}"], encapsulation: 2 });
 NgbTimepicker.ctorParameters = () => [
     { type: NgbTimepickerConfig },
     { type: NgbTimeAdapter },
@@ -10689,7 +10420,6 @@ NgbTimepicker.propDecorators = {
             maxlength="2" inputmode="numeric" placeholder="HH" i18n-placeholder="@@ngb.timepicker.HH"
             [value]="formatHour(model?.hour)" (change)="updateHour($any($event).target.value)"
             [readOnly]="readonlyInputs" [disabled]="disabled" aria-label="Hours" i18n-aria-label="@@ngb.timepicker.hours"
-            (blur)="handleBlur()"
             (input)="formatInput($any($event).target)"
             (keydown.ArrowUp)="changeHour(hourStep); $event.preventDefault()"
             (keydown.ArrowDown)="changeHour(-hourStep); $event.preventDefault()">
@@ -10712,7 +10442,6 @@ NgbTimepicker.propDecorators = {
             maxlength="2" inputmode="numeric" placeholder="MM" i18n-placeholder="@@ngb.timepicker.MM"
             [value]="formatMinSec(model?.minute)" (change)="updateMinute($any($event).target.value)"
             [readOnly]="readonlyInputs" [disabled]="disabled" aria-label="Minutes" i18n-aria-label="@@ngb.timepicker.minutes"
-            (blur)="handleBlur()"
             (input)="formatInput($any($event).target)"
             (keydown.ArrowUp)="changeMinute(minuteStep); $event.preventDefault()"
             (keydown.ArrowDown)="changeMinute(-minuteStep); $event.preventDefault()">
@@ -10735,7 +10464,6 @@ NgbTimepicker.propDecorators = {
             maxlength="2" inputmode="numeric" placeholder="SS" i18n-placeholder="@@ngb.timepicker.SS"
             [value]="formatMinSec(model?.second)" (change)="updateSecond($any($event).target.value)"
             [readOnly]="readonlyInputs" [disabled]="disabled" aria-label="Seconds" i18n-aria-label="@@ngb.timepicker.seconds"
-            (blur)="handleBlur()"
             (input)="formatInput($any($event).target)"
             (keydown.ArrowUp)="changeSecond(secondStep); $event.preventDefault()"
             (keydown.ArrowDown)="changeSecond(-secondStep); $event.preventDefault()">
@@ -10760,7 +10488,7 @@ NgbTimepicker.propDecorators = {
     </fieldset>
   `,
                 providers: [{ provide: _angular_forms__WEBPACK_IMPORTED_MODULE_4__["NG_VALUE_ACCESSOR"], useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["forwardRef"])(() => NgbTimepicker), multi: true }],
-                styles: ["ngb-timepicker{font-size:1rem}.ngb-tp{align-items:center;display:flex}.ngb-tp-input-container{width:4em}.ngb-tp-chevron:before{border-style:solid;border-width:.29em .29em 0 0;content:\"\";display:inline-block;height:.69em;left:.05em;position:relative;top:.15em;transform:rotate(-45deg);vertical-align:middle;width:.69em}.ngb-tp-chevron.bottom:before{top:-.3em;transform:rotate(135deg)}.ngb-tp-input{text-align:center}.ngb-tp-hour,.ngb-tp-meridian,.ngb-tp-minute,.ngb-tp-second{align-items:center;display:flex;flex-direction:column;justify-content:space-around}.ngb-tp-spacer{text-align:center;width:1em}"]
+                styles: ["ngb-timepicker{font-size:1rem}.ngb-tp{-ms-flex-align:center;align-items:center;display:-ms-flexbox;display:flex}.ngb-tp-input-container{width:4em}.ngb-tp-chevron:before{-webkit-transform:rotate(-45deg);border-style:solid;border-width:.29em .29em 0 0;content:\"\";display:inline-block;height:.69em;left:.05em;position:relative;top:.15em;transform:rotate(-45deg);vertical-align:middle;width:.69em}.ngb-tp-chevron.bottom:before{-webkit-transform:rotate(135deg);top:-.3em;transform:rotate(135deg)}.ngb-tp-input{text-align:center}.ngb-tp-hour,.ngb-tp-meridian,.ngb-tp-minute,.ngb-tp-second{-ms-flex-align:center;-ms-flex-direction:column;-ms-flex-pack:distribute;align-items:center;display:-ms-flexbox;display:flex;flex-direction:column;justify-content:space-around}.ngb-tp-spacer{text-align:center;width:1em}"]
             }]
     }], function () { return [{ type: NgbTimepickerConfig }, { type: NgbTimeAdapter }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"] }, { type: NgbTimepickerI18n }]; }, { meridian: [{
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
@@ -10959,13 +10687,13 @@ NgbToast.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent
     } }, hostAttrs: ["role", "alert", "aria-atomic", "true", 1, "toast"], hostVars: 3, hostBindings: function NgbToast_HostBindings(rf, ctx) { if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵattribute"]("aria-live", ctx.ariaLive);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("fade", ctx.animation);
-    } }, inputs: { delay: "delay", autohide: "autohide", animation: "animation", header: "header" }, outputs: { shown: "shown", hidden: "hidden" }, exportAs: ["ngbToast"], features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵNgOnChangesFeature"]], ngContentSelectors: _c5, decls: 5, vars: 1, consts: function () { let i18n_87; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
-        const MSG_EXTERNAL_ngb_toast_close_aria$$FESM2015_NG_BOOTSTRAP_JS__88 = goog.getMsg("Close");
-        i18n_87 = MSG_EXTERNAL_ngb_toast_close_aria$$FESM2015_NG_BOOTSTRAP_JS__88;
+    } }, inputs: { delay: "delay", autohide: "autohide", animation: "animation", header: "header" }, outputs: { shown: "shown", hidden: "hidden" }, exportAs: ["ngbToast"], features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵNgOnChangesFeature"]], ngContentSelectors: _c5, decls: 5, vars: 1, consts: function () { let i18n_86; if (typeof ngI18nClosureMode !== "undefined" && ngI18nClosureMode) {
+        const MSG_EXTERNAL_ngb_toast_close_aria$$FESM2015_NG_BOOTSTRAP_JS__87 = goog.getMsg("Close");
+        i18n_86 = MSG_EXTERNAL_ngb_toast_close_aria$$FESM2015_NG_BOOTSTRAP_JS__87;
     }
     else {
-        i18n_87 = $localize `:@@ngb.toast.close-aria␟f4e529ae5ffd73001d1ff4bbdeeb0a72e342e5c8␟7819314041543176992:Close`;
-    } return [["headerTpl", ""], [3, "ngIf"], [1, "toast-body"], [1, "mr-auto"], [1, "toast-header"], [3, "ngTemplateOutlet"], ["type", "button", "aria-label", i18n_87, 1, "close", 3, "click"], ["aria-hidden", "true"]]; }, template: function NgbToast_Template(rf, ctx) { if (rf & 1) {
+        i18n_86 = $localize `:@@ngb.toast.close-aria␟f4e529ae5ffd73001d1ff4bbdeeb0a72e342e5c8␟7819314041543176992:Close`;
+    } return [["headerTpl", ""], [3, "ngIf"], [1, "toast-body"], [1, "mr-auto"], [1, "toast-header"], [3, "ngTemplateOutlet"], ["type", "button", "aria-label", i18n_86, 1, "close", 3, "click"], ["aria-hidden", "true"]]; }, template: function NgbToast_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵprojectionDef"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, NgbToast_ng_template_0_Template, 2, 1, "ng-template", null, 0, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplateRefExtractor"]);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, NgbToast_ng_template_2_Template, 5, 1, "ng-template", 1);
@@ -11095,7 +10823,7 @@ NgbTooltipWindow.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineC
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵprojection"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, styles: ["ngb-tooltip-window{pointer-events:none}ngb-tooltip-window .tooltip-inner{pointer-events:auto}ngb-tooltip-window.bs-tooltip-bottom .arrow,ngb-tooltip-window.bs-tooltip-top .arrow{left:calc(50% - .4rem)}ngb-tooltip-window.bs-tooltip-bottom-left .arrow,ngb-tooltip-window.bs-tooltip-top-left .arrow{left:1em}ngb-tooltip-window.bs-tooltip-bottom-right .arrow,ngb-tooltip-window.bs-tooltip-top-right .arrow{left:auto;right:.8rem}ngb-tooltip-window.bs-tooltip-left .arrow,ngb-tooltip-window.bs-tooltip-right .arrow{top:calc(50% - .4rem)}ngb-tooltip-window.bs-tooltip-left-top .arrow,ngb-tooltip-window.bs-tooltip-right-top .arrow{top:.4rem}ngb-tooltip-window.bs-tooltip-left-bottom .arrow,ngb-tooltip-window.bs-tooltip-right-bottom .arrow{bottom:.4rem;top:auto}"], encapsulation: 2, changeDetection: 0 });
+    } }, styles: ["ngb-tooltip-window.bs-tooltip-bottom .arrow,ngb-tooltip-window.bs-tooltip-top .arrow{left:calc(50% - .4rem)}ngb-tooltip-window.bs-tooltip-bottom-left .arrow,ngb-tooltip-window.bs-tooltip-top-left .arrow{left:1em}ngb-tooltip-window.bs-tooltip-bottom-right .arrow,ngb-tooltip-window.bs-tooltip-top-right .arrow{left:auto;right:.8rem}ngb-tooltip-window.bs-tooltip-left .arrow,ngb-tooltip-window.bs-tooltip-right .arrow{top:calc(50% - .4rem)}ngb-tooltip-window.bs-tooltip-left-top .arrow,ngb-tooltip-window.bs-tooltip-right-top .arrow{top:.4rem}ngb-tooltip-window.bs-tooltip-left-bottom .arrow,ngb-tooltip-window.bs-tooltip-right-bottom .arrow{bottom:.4rem;top:auto}"], encapsulation: 2, changeDetection: 0 });
 NgbTooltipWindow.propDecorators = {
     animation: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
     id: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
@@ -11114,7 +10842,7 @@ NgbTooltipWindow.propDecorators = {
                     '[id]': 'id'
                 },
                 template: `<div class="arrow"></div><div class="tooltip-inner"><ng-content></ng-content></div>`,
-                styles: ["ngb-tooltip-window{pointer-events:none}ngb-tooltip-window .tooltip-inner{pointer-events:auto}ngb-tooltip-window.bs-tooltip-bottom .arrow,ngb-tooltip-window.bs-tooltip-top .arrow{left:calc(50% - .4rem)}ngb-tooltip-window.bs-tooltip-bottom-left .arrow,ngb-tooltip-window.bs-tooltip-top-left .arrow{left:1em}ngb-tooltip-window.bs-tooltip-bottom-right .arrow,ngb-tooltip-window.bs-tooltip-top-right .arrow{left:auto;right:.8rem}ngb-tooltip-window.bs-tooltip-left .arrow,ngb-tooltip-window.bs-tooltip-right .arrow{top:calc(50% - .4rem)}ngb-tooltip-window.bs-tooltip-left-top .arrow,ngb-tooltip-window.bs-tooltip-right-top .arrow{top:.4rem}ngb-tooltip-window.bs-tooltip-left-bottom .arrow,ngb-tooltip-window.bs-tooltip-right-bottom .arrow{bottom:.4rem;top:auto}"]
+                styles: ["ngb-tooltip-window.bs-tooltip-bottom .arrow,ngb-tooltip-window.bs-tooltip-top .arrow{left:calc(50% - .4rem)}ngb-tooltip-window.bs-tooltip-bottom-left .arrow,ngb-tooltip-window.bs-tooltip-top-left .arrow{left:1em}ngb-tooltip-window.bs-tooltip-bottom-right .arrow,ngb-tooltip-window.bs-tooltip-top-right .arrow{left:auto;right:.8rem}ngb-tooltip-window.bs-tooltip-left .arrow,ngb-tooltip-window.bs-tooltip-right .arrow{top:calc(50% - .4rem)}ngb-tooltip-window.bs-tooltip-left-top .arrow,ngb-tooltip-window.bs-tooltip-right-top .arrow{top:.4rem}ngb-tooltip-window.bs-tooltip-left-bottom .arrow,ngb-tooltip-window.bs-tooltip-right-bottom .arrow{bottom:.4rem;top:auto}"]
             }]
     }], null, { animation: [{
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
@@ -11336,42 +11064,16 @@ class NgbHighlight {
          * The CSS class for `<span>` elements wrapping the `term` inside the `result`.
          */
         this.highlightClass = 'ngb-highlight';
-        /**
-         * Boolean option to determine if the highlighting should be sensitive to accents or not.
-         *
-         * This feature is only available for browsers that implement the `String.normalize` function
-         * (typically not Internet Explorer).
-         * If you want to use this feature in a browser that does not implement `String.normalize`,
-         * you will have to include a polyfill in your application (`unorm` for example).
-         *
-         * @since 9.1.0
-         */
-        this.accentSensitive = true;
     }
     ngOnChanges(changes) {
-        if (!this.accentSensitive && !String.prototype.normalize) {
-            console.warn('The `accentSensitive` input in `ngb-highlight` cannot be set to `false` in a browser ' +
-                'that does not implement the `String.normalize` function. ' +
-                'You will have to include a polyfill in your application to use this feature in the current browser.');
-            this.accentSensitive = true;
-        }
         const result = toString(this.result);
         const terms = Array.isArray(this.term) ? this.term : [this.term];
-        const prepareTerm = term => this.accentSensitive ? term : removeAccents(term);
-        const escapedTerms = terms.map(term => regExpEscape(prepareTerm(toString(term)))).filter(term => term);
-        const toSplit = this.accentSensitive ? result : removeAccents(result);
-        const parts = escapedTerms.length ? toSplit.split(new RegExp(`(${escapedTerms.join('|')})`, 'gmi')) : [result];
-        if (this.accentSensitive) {
-            this.parts = parts;
-        }
-        else {
-            let offset = 0;
-            this.parts = parts.map(part => result.substring(offset, offset += part.length));
-        }
+        const escapedTerms = terms.map(term => regExpEscape(toString(term))).filter(term => term);
+        this.parts = escapedTerms.length ? result.split(new RegExp(`(${escapedTerms.join('|')})`, 'gmi')) : [result];
     }
 }
 NgbHighlight.ɵfac = function NgbHighlight_Factory(t) { return new (t || NgbHighlight)(); };
-NgbHighlight.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NgbHighlight, selectors: [["ngb-highlight"]], inputs: { highlightClass: "highlightClass", accentSensitive: "accentSensitive", result: "result", term: "term" }, features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵNgOnChangesFeature"]], decls: 1, vars: 1, consts: [["ngFor", "", 3, "ngForOf"], [3, "class", 4, "ngIf", "ngIfElse"], ["even", ""]], template: function NgbHighlight_Template(rf, ctx) { if (rf & 1) {
+NgbHighlight.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NgbHighlight, selectors: [["ngb-highlight"]], inputs: { highlightClass: "highlightClass", result: "result", term: "term" }, features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵNgOnChangesFeature"]], decls: 1, vars: 1, consts: [["ngFor", "", 3, "ngForOf"], [3, "class", 4, "ngIf", "ngIfElse"], ["even", ""]], template: function NgbHighlight_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, NgbHighlight_ng_template_0_Template, 3, 2, "ng-template", 0);
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.parts);
@@ -11379,8 +11081,7 @@ NgbHighlight.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCompo
 NgbHighlight.propDecorators = {
     highlightClass: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
     result: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
-    term: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
-    accentSensitive: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }]
+    term: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }]
 };
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](NgbHighlight, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
@@ -11394,8 +11095,6 @@ NgbHighlight.propDecorators = {
                 styles: [".ngb-highlight{font-weight:700}"]
             }]
     }], function () { return []; }, { highlightClass: [{
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
-        }], accentSensitive: [{
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
         }], result: [{
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
@@ -11459,12 +11158,11 @@ class NgbTypeaheadWindow {
     }
 }
 NgbTypeaheadWindow.ɵfac = function NgbTypeaheadWindow_Factory(t) { return new (t || NgbTypeaheadWindow)(); };
-NgbTypeaheadWindow.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NgbTypeaheadWindow, selectors: [["ngb-typeahead-window"]], hostAttrs: ["role", "listbox"], hostVars: 3, hostBindings: function NgbTypeaheadWindow_HostBindings(rf, ctx) { if (rf & 1) {
+NgbTypeaheadWindow.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NgbTypeaheadWindow, selectors: [["ngb-typeahead-window"]], hostAttrs: ["role", "listbox", 1, "dropdown-menu", "show"], hostVars: 1, hostBindings: function NgbTypeaheadWindow_HostBindings(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("mousedown", function NgbTypeaheadWindow_mousedown_HostBindingHandler($event) { return $event.preventDefault(); });
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵhostProperty"]("id", ctx.id);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassMap"]("dropdown-menu show" + (ctx.popupClass ? " " + ctx.popupClass : ""));
-    } }, inputs: { focusFirst: "focusFirst", formatter: "formatter", id: "id", results: "results", term: "term", resultTemplate: "resultTemplate", popupClass: "popupClass" }, outputs: { selectEvent: "select", activeChangeEvent: "activeChange" }, exportAs: ["ngbTypeaheadWindow"], decls: 3, vars: 1, consts: [["rt", ""], ["ngFor", "", 3, "ngForOf"], [3, "result", "term"], ["type", "button", "role", "option", 1, "dropdown-item", 3, "id", "mouseenter", "click"], [3, "ngTemplateOutlet", "ngTemplateOutletContext"]], template: function NgbTypeaheadWindow_Template(rf, ctx) { if (rf & 1) {
+    } }, inputs: { focusFirst: "focusFirst", formatter: "formatter", id: "id", results: "results", term: "term", resultTemplate: "resultTemplate" }, outputs: { selectEvent: "select", activeChangeEvent: "activeChange" }, exportAs: ["ngbTypeaheadWindow"], decls: 3, vars: 1, consts: [["rt", ""], ["ngFor", "", 3, "ngForOf"], [3, "result", "term"], ["type", "button", "role", "option", 1, "dropdown-item", 3, "id", "mouseenter", "click"], [3, "ngTemplateOutlet", "ngTemplateOutletContext"]], template: function NgbTypeaheadWindow_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, NgbTypeaheadWindow_ng_template_0_Template, 1, 2, "ng-template", null, 0, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplateRefExtractor"]);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, NgbTypeaheadWindow_ng_template_2_Template, 2, 9, "ng-template", 1);
     } if (rf & 2) {
@@ -11478,7 +11176,6 @@ NgbTypeaheadWindow.propDecorators = {
     term: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
     formatter: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
     resultTemplate: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
-    popupClass: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
     selectEvent: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"], args: ['select',] }],
     activeChangeEvent: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"], args: ['activeChange',] }]
 };
@@ -11488,12 +11185,7 @@ NgbTypeaheadWindow.propDecorators = {
                 selector: 'ngb-typeahead-window',
                 exportAs: 'ngbTypeaheadWindow',
                 encapsulation: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewEncapsulation"].None,
-                host: {
-                    '(mousedown)': '$event.preventDefault()',
-                    '[class]': '"dropdown-menu show" + (popupClass ? " " + popupClass : "")',
-                    'role': 'listbox',
-                    '[id]': 'id'
-                },
+                host: { '(mousedown)': '$event.preventDefault()', 'class': 'dropdown-menu show', 'role': 'listbox', '[id]': 'id' },
                 template: `
     <ng-template #rt let-result="result" let-term="term" let-formatter="formatter">
       <ngb-highlight [result]="formatter(result)" [term]="term"></ngb-highlight>
@@ -11527,8 +11219,6 @@ NgbTypeaheadWindow.propDecorators = {
         }], term: [{
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
         }], resultTemplate: [{
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
-        }], popupClass: [{
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
         }] }); })();
 
@@ -11676,12 +11366,14 @@ class NgbTypeahead {
             }
         });
     }
-    ngOnInit() { this._subscribeToUserInput(); }
-    ngOnChanges({ ngbTypeahead }) {
-        if (ngbTypeahead && !ngbTypeahead.firstChange) {
-            this._unsubscribeFromUserInput();
-            this._subscribeToUserInput();
-        }
+    ngOnInit() {
+        const inputValues$ = this._valueChanges.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["tap"])(value => {
+            this._inputValueBackup = this.showHint ? value : null;
+            this._onChange(this.editable ? value : undefined);
+        }));
+        const results$ = inputValues$.pipe(this.ngbTypeahead);
+        const userInput$ = this._resubscribeTypeahead.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["switchMap"])(() => results$));
+        this._subscription = this._subscribeToUserInput(userInput$);
     }
     ngOnDestroy() {
         this._closePopup();
@@ -11756,7 +11448,6 @@ class NgbTypeahead {
             this._windowRef.instance.id = this.popupId;
             this._windowRef.instance.selectEvent.subscribe((result) => this._selectResultClosePopup(result));
             this._windowRef.instance.activeChangeEvent.subscribe((activeId) => this.activeDescendant = activeId);
-            this._windowRef.instance.popupClass = this.popupClass;
             if (this.container === 'body') {
                 this._document.querySelector(this.container).appendChild(this._windowRef.location.nativeElement);
             }
@@ -11804,12 +11495,8 @@ class NgbTypeahead {
     _writeInputValue(value) {
         this._renderer.setProperty(this._elementRef.nativeElement, 'value', toString(value));
     }
-    _subscribeToUserInput() {
-        const results$ = this._valueChanges.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["tap"])(value => {
-            this._inputValueBackup = this.showHint ? value : null;
-            this._onChange(this.editable ? value : undefined);
-        }), this.ngbTypeahead ? this.ngbTypeahead : () => Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["of"])([]));
-        this._subscription = this._resubscribeTypeahead.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["switchMap"])(() => results$)).subscribe(results => {
+    _subscribeToUserInput(userInput$) {
+        return userInput$.subscribe((results) => {
             if (!results || results.length === 0) {
                 this._closePopup();
             }
@@ -11850,7 +11537,7 @@ NgbTypeahead.ɵdir = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineDirec
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵhostProperty"]("autocomplete", ctx.autocomplete);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵattribute"]("aria-autocomplete", ctx.showHint ? "both" : "list")("aria-activedescendant", ctx.activeDescendant)("aria-owns", ctx.isPopupOpen() ? ctx.popupId : null)("aria-expanded", ctx.isPopupOpen());
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("open", ctx.isPopupOpen());
-    } }, inputs: { autocomplete: "autocomplete", placement: "placement", container: "container", editable: "editable", focusFirst: "focusFirst", showHint: "showHint", inputFormatter: "inputFormatter", ngbTypeahead: "ngbTypeahead", resultFormatter: "resultFormatter", resultTemplate: "resultTemplate", popupClass: "popupClass" }, outputs: { selectItem: "selectItem" }, exportAs: ["ngbTypeahead"], features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵProvidersFeature"]([{ provide: _angular_forms__WEBPACK_IMPORTED_MODULE_4__["NG_VALUE_ACCESSOR"], useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["forwardRef"])(() => NgbTypeahead), multi: true }]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵNgOnChangesFeature"]] });
+    } }, inputs: { autocomplete: "autocomplete", placement: "placement", container: "container", editable: "editable", focusFirst: "focusFirst", showHint: "showHint", inputFormatter: "inputFormatter", ngbTypeahead: "ngbTypeahead", resultFormatter: "resultFormatter", resultTemplate: "resultTemplate" }, outputs: { selectItem: "selectItem" }, exportAs: ["ngbTypeahead"], features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵProvidersFeature"]([{ provide: _angular_forms__WEBPACK_IMPORTED_MODULE_4__["NG_VALUE_ACCESSOR"], useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["forwardRef"])(() => NgbTypeahead), multi: true }])] });
 NgbTypeahead.ctorParameters = () => [
     { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] },
     { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewContainerRef"] },
@@ -11876,7 +11563,6 @@ NgbTypeahead.propDecorators = {
     resultTemplate: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
     showHint: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
     placement: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
-    popupClass: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
     selectItem: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"] }]
 };
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](NgbTypeahead, [{
@@ -11924,8 +11610,6 @@ NgbTypeahead.propDecorators = {
         }], resultFormatter: [{
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
         }], resultTemplate: [{
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
-        }], popupClass: [{
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
         }] }); })();
 
@@ -12648,7 +12332,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ "qCKp");
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs/operators */ "kU1M");
 /**
- * @license Angular v11.0.5
+ * @license Angular v11.0.9
  * (c) 2010-2020 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -13207,7 +12891,7 @@ class Validators {
      * ```
      *
      * @returns A validator function that returns an error map with the
-     * `minlength` if the validation check fails, otherwise `null`.
+     * `minlength` property if the validation check fails, otherwise `null`.
      *
      * @see `updateValueAndValidity()`
      *
@@ -13821,25 +13505,32 @@ class AbstractControlStatus {
         this._cd = cd;
     }
     get ngClassUntouched() {
-        return this._cd.control ? this._cd.control.untouched : false;
+        var _a, _b, _c;
+        return (_c = (_b = (_a = this._cd) === null || _a === void 0 ? void 0 : _a.control) === null || _b === void 0 ? void 0 : _b.untouched) !== null && _c !== void 0 ? _c : false;
     }
     get ngClassTouched() {
-        return this._cd.control ? this._cd.control.touched : false;
+        var _a, _b, _c;
+        return (_c = (_b = (_a = this._cd) === null || _a === void 0 ? void 0 : _a.control) === null || _b === void 0 ? void 0 : _b.touched) !== null && _c !== void 0 ? _c : false;
     }
     get ngClassPristine() {
-        return this._cd.control ? this._cd.control.pristine : false;
+        var _a, _b, _c;
+        return (_c = (_b = (_a = this._cd) === null || _a === void 0 ? void 0 : _a.control) === null || _b === void 0 ? void 0 : _b.pristine) !== null && _c !== void 0 ? _c : false;
     }
     get ngClassDirty() {
-        return this._cd.control ? this._cd.control.dirty : false;
+        var _a, _b, _c;
+        return (_c = (_b = (_a = this._cd) === null || _a === void 0 ? void 0 : _a.control) === null || _b === void 0 ? void 0 : _b.dirty) !== null && _c !== void 0 ? _c : false;
     }
     get ngClassValid() {
-        return this._cd.control ? this._cd.control.valid : false;
+        var _a, _b, _c;
+        return (_c = (_b = (_a = this._cd) === null || _a === void 0 ? void 0 : _a.control) === null || _b === void 0 ? void 0 : _b.valid) !== null && _c !== void 0 ? _c : false;
     }
     get ngClassInvalid() {
-        return this._cd.control ? this._cd.control.invalid : false;
+        var _a, _b, _c;
+        return (_c = (_b = (_a = this._cd) === null || _a === void 0 ? void 0 : _a.control) === null || _b === void 0 ? void 0 : _b.invalid) !== null && _c !== void 0 ? _c : false;
     }
     get ngClassPending() {
-        return this._cd.control ? this._cd.control.pending : false;
+        var _a, _b, _c;
+        return (_c = (_b = (_a = this._cd) === null || _a === void 0 ? void 0 : _a.control) === null || _b === void 0 ? void 0 : _b.pending) !== null && _c !== void 0 ? _c : false;
     }
 }
 const ngControlStatusHost = {
@@ -13908,12 +13599,12 @@ class NgControlStatusGroup extends AbstractControlStatus {
         super(cd);
     }
 }
-NgControlStatusGroup.ɵfac = function NgControlStatusGroup_Factory(t) { return new (t || NgControlStatusGroup)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](ControlContainer, 2)); };
+NgControlStatusGroup.ɵfac = function NgControlStatusGroup_Factory(t) { return new (t || NgControlStatusGroup)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](ControlContainer, 10)); };
 NgControlStatusGroup.ɵdir = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineDirective"]({ type: NgControlStatusGroup, selectors: [["", "formGroupName", ""], ["", "formArrayName", ""], ["", "ngModelGroup", ""], ["", "formGroup", ""], ["form", 3, "ngNoForm", ""], ["", "ngForm", ""]], hostVars: 14, hostBindings: function NgControlStatusGroup_HostBindings(rf, ctx) { if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("ng-untouched", ctx.ngClassUntouched)("ng-touched", ctx.ngClassTouched)("ng-pristine", ctx.ngClassPristine)("ng-dirty", ctx.ngClassDirty)("ng-valid", ctx.ngClassValid)("ng-invalid", ctx.ngClassInvalid)("ng-pending", ctx.ngClassPending);
     } }, features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵInheritDefinitionFeature"]] });
 NgControlStatusGroup.ctorParameters = () => [
-    { type: ControlContainer, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Self"] }] }
+    { type: ControlContainer, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Optional"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Self"] }] }
 ];
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](NgControlStatusGroup, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"],
@@ -13922,6 +13613,8 @@ NgControlStatusGroup.ctorParameters = () => [
                 host: ngControlStatusHost
             }]
     }], function () { return [{ type: ControlContainer, decorators: [{
+                type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Optional"]
+            }, {
                 type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Self"]
             }] }]; }, null); })();
 
@@ -19515,7 +19208,7 @@ FormBuilder.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjec
 /**
  * @publicApi
  */
-const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["Version"]('11.0.5');
+const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["Version"]('11.0.9');
 
 /**
  * @license
@@ -19640,6 +19333,373 @@ function auditTime(duration, scheduler = _scheduler_async__WEBPACK_IMPORTED_MODU
     return Object(_audit__WEBPACK_IMPORTED_MODULE_1__["audit"])(() => Object(_observable_timer__WEBPACK_IMPORTED_MODULE_2__["timer"])(duration, scheduler));
 }
 //# sourceMappingURL=auditTime.js.map
+
+/***/ }),
+
+/***/ "3XJ7":
+/*!*************************************************************************************************************!*\
+  !*** ./node_modules/ngx-bootstrap/__ivy_ngcc__/component-loader/fesm2015/ngx-bootstrap-component-loader.js ***!
+  \*************************************************************************************************************/
+/*! exports provided: BsComponentRef, ComponentLoader, ComponentLoaderFactory, ContentRef */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BsComponentRef", function() { return BsComponentRef; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ComponentLoader", function() { return ComponentLoader; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ComponentLoaderFactory", function() { return ComponentLoaderFactory; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ContentRef", function() { return ContentRef; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+/* harmony import */ var ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ngx-bootstrap/utils */ "lUod");
+/* harmony import */ var ngx_bootstrap_positioning__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ngx-bootstrap/positioning */ "WyaX");
+
+
+
+
+
+
+class BsComponentRef {
+}
+
+/**
+ * @copyright Valor Software
+ * @copyright Angular ng-bootstrap team
+ */
+class ContentRef {
+    constructor(
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    nodes, viewRef, 
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    componentRef) {
+        this.nodes = nodes;
+        this.viewRef = viewRef;
+        this.componentRef = componentRef;
+    }
+}
+
+// todo: add delay support
+class ComponentLoader {
+    /**
+     * Do not use this directly, it should be instanced via
+     * `ComponentLoadFactory.attach`
+     * @internal
+     */
+    constructor(_viewContainerRef, _renderer, _elementRef, _injector, _componentFactoryResolver, _ngZone, _applicationRef, _posService) {
+        this._viewContainerRef = _viewContainerRef;
+        this._renderer = _renderer;
+        this._elementRef = _elementRef;
+        this._injector = _injector;
+        this._componentFactoryResolver = _componentFactoryResolver;
+        this._ngZone = _ngZone;
+        this._applicationRef = _applicationRef;
+        this._posService = _posService;
+        this.onBeforeShow = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
+        this.onShown = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
+        this.onBeforeHide = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
+        this.onHidden = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
+        this._providers = [];
+        this._isHiding = false;
+        /**
+         * A selector used if container element was not found
+         */
+        this.containerDefaultSelector = 'body';
+        this._listenOpts = {};
+        this._globalListener = Function.prototype;
+    }
+    get isShown() {
+        if (this._isHiding) {
+            return false;
+        }
+        return !!this._componentRef;
+    }
+    attach(compType) {
+        this._componentFactory = this._componentFactoryResolver
+            .resolveComponentFactory(compType);
+        return this;
+    }
+    // todo: add behaviour: to target element, `body`, custom element
+    to(container) {
+        this.container = container || this.container;
+        return this;
+    }
+    position(opts) {
+        if (!opts) {
+            return this;
+        }
+        this.attachment = opts.attachment || this.attachment;
+        this._elementRef = opts.target || this._elementRef;
+        return this;
+    }
+    provide(provider) {
+        this._providers.push(provider);
+        return this;
+    }
+    // todo: appendChild to element or document.querySelector(this.container)
+    show(opts = {}) {
+        this._subscribePositioning();
+        this._innerComponent = void 0;
+        if (!this._componentRef) {
+            this.onBeforeShow.emit();
+            this._contentRef = this._getContentRef(opts.content, opts.context, opts.initialState);
+            const injector = _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injector"].create({
+                providers: this._providers,
+                parent: this._injector
+            });
+            if (!this._componentFactory) {
+                return;
+            }
+            this._componentRef = this._componentFactory.create(injector, this._contentRef.nodes);
+            this._applicationRef.attachView(this._componentRef.hostView);
+            // this._componentRef = this._viewContainerRef
+            //   .createComponent(this._componentFactory, 0, injector, this._contentRef.nodes);
+            this.instance = this._componentRef.instance;
+            Object.assign(this._componentRef.instance, opts);
+            if (this.container instanceof _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"]) {
+                this.container.nativeElement.appendChild(this._componentRef.location.nativeElement);
+            }
+            if (typeof this.container === 'string' && typeof document !== 'undefined') {
+                const selectedElement = document.querySelector(this.container) ||
+                    document.querySelector(this.containerDefaultSelector);
+                if (!selectedElement) {
+                    return;
+                }
+                selectedElement.appendChild(this._componentRef.location.nativeElement);
+            }
+            if (!this.container &&
+                this._elementRef &&
+                this._elementRef.nativeElement.parentElement) {
+                this._elementRef.nativeElement.parentElement.appendChild(this._componentRef.location.nativeElement);
+            }
+            // we need to manually invoke change detection since events registered
+            // via
+            // Renderer::listen() are not picked up by change detection with the
+            // OnPush strategy
+            if (this._contentRef.componentRef) {
+                this._innerComponent = this._contentRef.componentRef.instance;
+                this._contentRef.componentRef.changeDetectorRef.markForCheck();
+                this._contentRef.componentRef.changeDetectorRef.detectChanges();
+            }
+            this._componentRef.changeDetectorRef.markForCheck();
+            this._componentRef.changeDetectorRef.detectChanges();
+            this.onShown.emit(opts.id ? { id: opts.id } : this._componentRef.instance);
+        }
+        this._registerOutsideClick();
+        return this._componentRef;
+    }
+    hide(id) {
+        var _a, _b, _c;
+        if (!this._componentRef) {
+            return this;
+        }
+        this._posService.deletePositionElement(this._componentRef.location);
+        this.onBeforeHide.emit(this._componentRef.instance);
+        const componentEl = this._componentRef.location.nativeElement;
+        componentEl.parentNode.removeChild(componentEl);
+        if ((_a = this._contentRef) === null || _a === void 0 ? void 0 : _a.componentRef) {
+            this._contentRef.componentRef.destroy();
+        }
+        if (this._viewContainerRef && ((_b = this._contentRef) === null || _b === void 0 ? void 0 : _b.viewRef)) {
+            this._viewContainerRef.remove(this._viewContainerRef.indexOf(this._contentRef.viewRef));
+        }
+        if ((_c = this._contentRef) === null || _c === void 0 ? void 0 : _c.viewRef) {
+            this._contentRef.viewRef.destroy();
+        }
+        this._contentRef = void 0;
+        this._componentRef = void 0;
+        this._removeGlobalListener();
+        this.onHidden.emit(id ? { id } : null);
+        return this;
+    }
+    toggle() {
+        if (this.isShown) {
+            this.hide();
+            return;
+        }
+        this.show();
+    }
+    dispose() {
+        if (this.isShown) {
+            this.hide();
+        }
+        this._unsubscribePositioning();
+        if (this._unregisterListenersFn) {
+            this._unregisterListenersFn();
+        }
+    }
+    listen(listenOpts) {
+        var _a;
+        this.triggers = listenOpts.triggers || this.triggers;
+        this._listenOpts.outsideClick = listenOpts.outsideClick;
+        this._listenOpts.outsideEsc = listenOpts.outsideEsc;
+        listenOpts.target = listenOpts.target || ((_a = this._elementRef) === null || _a === void 0 ? void 0 : _a.nativeElement);
+        const hide = (this._listenOpts.hide = () => listenOpts.hide ? listenOpts.hide() : void this.hide());
+        const show = (this._listenOpts.show = (registerHide) => {
+            listenOpts.show ? listenOpts.show(registerHide) : this.show(registerHide);
+            registerHide();
+        });
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        const toggle = (registerHide) => {
+            this.isShown ? hide() : show(registerHide);
+        };
+        if (this._renderer) {
+            this._unregisterListenersFn = Object(ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_1__["listenToTriggersV2"])(this._renderer, {
+                target: listenOpts.target,
+                triggers: listenOpts.triggers,
+                show,
+                hide,
+                toggle
+            });
+        }
+        return this;
+    }
+    _removeGlobalListener() {
+        if (this._globalListener) {
+            this._globalListener();
+            this._globalListener = Function.prototype;
+        }
+    }
+    attachInline(vRef, 
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    template) {
+        if (vRef && template) {
+            this._inlineViewRef = vRef.createEmbeddedView(template);
+        }
+        return this;
+    }
+    _registerOutsideClick() {
+        if (!this._componentRef || !this._componentRef.location) {
+            return;
+        }
+        // why: should run after first event bubble
+        if (this._listenOpts.outsideClick) {
+            const target = this._componentRef.location.nativeElement;
+            setTimeout(() => {
+                if (this._renderer && this._elementRef) {
+                    this._globalListener = Object(ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_1__["registerOutsideClick"])(this._renderer, {
+                        targets: [target, this._elementRef.nativeElement],
+                        outsideClick: this._listenOpts.outsideClick,
+                        hide: () => this._listenOpts.hide && this._listenOpts.hide()
+                    });
+                }
+            });
+        }
+        if (this._listenOpts.outsideEsc && this._renderer && this._elementRef) {
+            const target = this._componentRef.location.nativeElement;
+            this._globalListener = Object(ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_1__["registerEscClick"])(this._renderer, {
+                targets: [target, this._elementRef.nativeElement],
+                outsideEsc: this._listenOpts.outsideEsc,
+                hide: () => this._listenOpts.hide && this._listenOpts.hide()
+            });
+        }
+    }
+    getInnerComponent() {
+        return this._innerComponent;
+    }
+    _subscribePositioning() {
+        if (this._zoneSubscription || !this.attachment) {
+            return;
+        }
+        this.onShown.subscribe(() => {
+            var _a;
+            this._posService.position({
+                element: (_a = this._componentRef) === null || _a === void 0 ? void 0 : _a.location,
+                target: this._elementRef,
+                attachment: this.attachment,
+                appendToBody: this.container === 'body'
+            });
+        });
+        this._zoneSubscription = this._ngZone.onStable.subscribe(() => {
+            if (!this._componentRef) {
+                return;
+            }
+            this._posService.calcPosition();
+        });
+    }
+    _unsubscribePositioning() {
+        if (!this._zoneSubscription) {
+            return;
+        }
+        this._zoneSubscription.unsubscribe();
+        this._zoneSubscription = void 0;
+    }
+    _getContentRef(
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    content, 
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    context, 
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    initialState) {
+        if (!content) {
+            return new ContentRef([]);
+        }
+        if (content instanceof _angular_core__WEBPACK_IMPORTED_MODULE_0__["TemplateRef"]) {
+            if (this._viewContainerRef) {
+                const _viewRef = this._viewContainerRef
+                    .createEmbeddedView(content, context);
+                _viewRef.markForCheck();
+                return new ContentRef([_viewRef.rootNodes], _viewRef);
+            }
+            const viewRef = content.createEmbeddedView({});
+            this._applicationRef.attachView(viewRef);
+            return new ContentRef([viewRef.rootNodes], viewRef);
+        }
+        if (typeof content === 'function') {
+            const contentCmptFactory = this._componentFactoryResolver.resolveComponentFactory(content);
+            const modalContentInjector = _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injector"].create({
+                providers: this._providers,
+                parent: this._injector
+            });
+            const componentRef = contentCmptFactory.create(modalContentInjector);
+            Object.assign(componentRef.instance, initialState);
+            this._applicationRef.attachView(componentRef.hostView);
+            return new ContentRef([[componentRef.location.nativeElement]], componentRef.hostView, componentRef);
+        }
+        const nodes = this._renderer
+            ? [this._renderer.createText(`${content}`)]
+            : [];
+        return new ContentRef([nodes]);
+    }
+}
+
+class ComponentLoaderFactory {
+    constructor(_componentFactoryResolver, _ngZone, _injector, _posService, _applicationRef) {
+        this._componentFactoryResolver = _componentFactoryResolver;
+        this._ngZone = _ngZone;
+        this._injector = _injector;
+        this._posService = _posService;
+        this._applicationRef = _applicationRef;
+    }
+    /**
+     *
+     * @param _elementRef
+     * @param _viewContainerRef
+     * @param _renderer
+     */
+    createLoader(_elementRef, _viewContainerRef, _renderer) {
+        return new ComponentLoader(_viewContainerRef, _renderer, _elementRef, this._injector, this._componentFactoryResolver, this._ngZone, this._applicationRef, this._posService);
+    }
+}
+ComponentLoaderFactory.ɵfac = function ComponentLoaderFactory_Factory(t) { return new (t || ComponentLoaderFactory)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ComponentFactoryResolver"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injector"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](ngx_bootstrap_positioning__WEBPACK_IMPORTED_MODULE_2__["PositioningService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ApplicationRef"])); };
+ComponentLoaderFactory.ɵprov = Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"])({ factory: function ComponentLoaderFactory_Factory() { return new ComponentLoaderFactory(Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"])(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ComponentFactoryResolver"]), Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"])(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"]), Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"])(_angular_core__WEBPACK_IMPORTED_MODULE_0__["INJECTOR"]), Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"])(ngx_bootstrap_positioning__WEBPACK_IMPORTED_MODULE_2__["PositioningService"]), Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"])(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ApplicationRef"])); }, token: ComponentLoaderFactory, providedIn: "root" });
+ComponentLoaderFactory.ctorParameters = () => [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ComponentFactoryResolver"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injector"] },
+    { type: ngx_bootstrap_positioning__WEBPACK_IMPORTED_MODULE_2__["PositioningService"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ApplicationRef"] }
+];
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](ComponentLoaderFactory, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"],
+        args: [{ providedIn: 'root' }]
+    }], function () { return [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ComponentFactoryResolver"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injector"] }, { type: ngx_bootstrap_positioning__WEBPACK_IMPORTED_MODULE_2__["PositioningService"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ApplicationRef"] }]; }, null); })();
+
+/**
+ * Generated bundle index. Do not edit.
+ */
+
+
+
+//# sourceMappingURL=ngx-bootstrap-component-loader.js.map
 
 /***/ }),
 
@@ -22275,6 +22335,965 @@ function zipAll(project) {
 
 /***/ }),
 
+/***/ "K3ix":
+/*!***************************************************************************************!*\
+  !*** ./node_modules/ngx-bootstrap/__ivy_ngcc__/modal/fesm2015/ngx-bootstrap-modal.js ***!
+  \***************************************************************************************/
+/*! exports provided: BsModalRef, BsModalService, MODAL_CONFIG_DEFAULT_OVERRIDE, ModalBackdropComponent, ModalBackdropOptions, ModalContainerComponent, ModalDirective, ModalModule, ModalOptions, ɵa */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BsModalRef", function() { return BsModalRef; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BsModalService", function() { return BsModalService; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MODAL_CONFIG_DEFAULT_OVERRIDE", function() { return MODAL_CONFIG_DEFAULT_OVERRIDE; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ModalBackdropComponent", function() { return ModalBackdropComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ModalBackdropOptions", function() { return ModalBackdropOptions; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ModalContainerComponent", function() { return ModalContainerComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ModalDirective", function() { return ModalDirective; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ModalModule", function() { return ModalModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ModalOptions", function() { return ModalOptions; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵa", function() { return CLASS_NAME; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+/* harmony import */ var ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ngx-bootstrap/utils */ "lUod");
+/* harmony import */ var ngx_bootstrap_component_loader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ngx-bootstrap/component-loader */ "3XJ7");
+/* harmony import */ var ngx_bootstrap_positioning__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ngx-bootstrap/positioning */ "WyaX");
+/* harmony import */ var ngx_bootstrap_focus_trap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ngx-bootstrap/focus-trap */ "Wk+q");
+
+
+
+
+
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+
+
+
+
+const _c0 = ["*"];
+class BsModalRef {
+    constructor() {
+        /**
+         * Hides the modal
+         */
+        this.hide = () => void 0;
+        /**
+         * Sets new class to modal window
+         */
+        this.setClass = () => void 0;
+    }
+}
+BsModalRef.ɵfac = function BsModalRef_Factory(t) { return new (t || BsModalRef)(); };
+BsModalRef.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"]({ token: BsModalRef, factory: BsModalRef.ɵfac });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](BsModalRef, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"]
+    }], function () { return []; }, null); })();
+
+class ModalBackdropOptions {
+    constructor(options) {
+        this.animate = true;
+        Object.assign(this, options);
+    }
+}
+
+class ModalOptions {
+}
+ModalOptions.ɵfac = function ModalOptions_Factory(t) { return new (t || ModalOptions)(); };
+ModalOptions.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"]({ token: ModalOptions, factory: ModalOptions.ɵfac });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](ModalOptions, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"]
+    }], null, null); })();
+const modalConfigDefaults = {
+    backdrop: true,
+    keyboard: true,
+    focus: true,
+    show: false,
+    ignoreBackdropClick: false,
+    class: '',
+    animated: true,
+    initialState: {},
+    closeInterceptor: void 0
+};
+const MODAL_CONFIG_DEFAULT_OVERRIDE = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["InjectionToken"]('override-default-config');
+const CLASS_NAME = {
+    SCROLLBAR_MEASURER: 'modal-scrollbar-measure',
+    BACKDROP: 'modal-backdrop',
+    OPEN: 'modal-open',
+    FADE: 'fade',
+    IN: 'in',
+    SHOW: 'show' // bs4
+};
+const SELECTOR = {
+    DIALOG: '.modal-dialog',
+    DATA_TOGGLE: '[data-toggle="modal"]',
+    DATA_DISMISS: '[data-dismiss="modal"]',
+    FIXED_CONTENT: '.navbar-fixed-top, .navbar-fixed-bottom, .is-fixed'
+};
+const TRANSITION_DURATIONS = {
+    MODAL: 300,
+    BACKDROP: 150
+};
+const DISMISS_REASONS = {
+    BACKRDOP: 'backdrop-click',
+    ESC: 'esc',
+    BACK: 'browser-back-navigation-clicked'
+};
+
+class ModalContainerComponent {
+    constructor(options, _element, _renderer) {
+        this._element = _element;
+        this._renderer = _renderer;
+        this.isShown = false;
+        this.isAnimated = false;
+        this.isModalHiding = false;
+        this.clickStartedInContent = false;
+        this.config = Object.assign({}, options);
+    }
+    ngOnInit() {
+        if (this.isAnimated) {
+            this._renderer.addClass(this._element.nativeElement, CLASS_NAME.FADE);
+        }
+        this._renderer.setStyle(this._element.nativeElement, 'display', 'block');
+        setTimeout(() => {
+            this.isShown = true;
+            this._renderer.addClass(this._element.nativeElement, Object(ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_1__["isBs3"])() ? CLASS_NAME.IN : CLASS_NAME.SHOW);
+        }, this.isAnimated ? TRANSITION_DURATIONS.BACKDROP : 0);
+        if (document && document.body) {
+            if (this.bsModalService && this.bsModalService.getModalsCount() === 1) {
+                this.bsModalService.checkScrollbar();
+                this.bsModalService.setScrollbar();
+            }
+            this._renderer.addClass(document.body, CLASS_NAME.OPEN);
+            this._renderer.setStyle(document.body, 'overflow-y', 'hidden');
+        }
+        if (this._element.nativeElement) {
+            this._element.nativeElement.focus();
+        }
+    }
+    onClickStarted(event) {
+        this.clickStartedInContent = event.target !== this._element.nativeElement;
+    }
+    onClickStop(event) {
+        var _a;
+        const clickedInBackdrop = event.target === this._element.nativeElement && !this.clickStartedInContent;
+        if (this.config.ignoreBackdropClick ||
+            this.config.backdrop === 'static' ||
+            !clickedInBackdrop) {
+            this.clickStartedInContent = false;
+            return;
+        }
+        (_a = this.bsModalService) === null || _a === void 0 ? void 0 : _a.setDismissReason(DISMISS_REASONS.BACKRDOP);
+        this.hide();
+    }
+    onPopState() {
+        var _a;
+        (_a = this.bsModalService) === null || _a === void 0 ? void 0 : _a.setDismissReason(DISMISS_REASONS.BACK);
+        this.hide();
+    }
+    onEsc(event) {
+        var _a, _b;
+        if (!this.isShown) {
+            return;
+        }
+        if (event.keyCode === 27 || event.key === 'Escape') {
+            event.preventDefault();
+        }
+        if (this.config.keyboard &&
+            this.level === ((_a = this.bsModalService) === null || _a === void 0 ? void 0 : _a.getModalsCount())) {
+            (_b = this.bsModalService) === null || _b === void 0 ? void 0 : _b.setDismissReason(DISMISS_REASONS.ESC);
+            this.hide();
+        }
+    }
+    ngOnDestroy() {
+        if (this.isShown) {
+            this._hide();
+        }
+    }
+    hide() {
+        if (this.isModalHiding || !this.isShown) {
+            return;
+        }
+        if (this.config.closeInterceptor) {
+            this.config.closeInterceptor().then(() => this._hide(), () => undefined);
+            return;
+        }
+        this._hide();
+    }
+    _hide() {
+        this.isModalHiding = true;
+        this._renderer.removeClass(this._element.nativeElement, Object(ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_1__["isBs3"])() ? CLASS_NAME.IN : CLASS_NAME.SHOW);
+        setTimeout(() => {
+            var _a, _b;
+            this.isShown = false;
+            if (document &&
+                document.body &&
+                ((_a = this.bsModalService) === null || _a === void 0 ? void 0 : _a.getModalsCount()) === 1) {
+                this._renderer.removeClass(document.body, CLASS_NAME.OPEN);
+                this._renderer.setStyle(document.body, 'overflow-y', '');
+            }
+            (_b = this.bsModalService) === null || _b === void 0 ? void 0 : _b.hide(this.config.id);
+            this.isModalHiding = false;
+        }, this.isAnimated ? TRANSITION_DURATIONS.MODAL : 0);
+    }
+}
+ModalContainerComponent.ɵfac = function ModalContainerComponent_Factory(t) { return new (t || ModalContainerComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](ModalOptions), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["Renderer2"])); };
+ModalContainerComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ModalContainerComponent, selectors: [["modal-container"]], hostAttrs: ["role", "dialog", "tabindex", "-1", 1, "modal"], hostVars: 3, hostBindings: function ModalContainerComponent_HostBindings(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("mousedown", function ModalContainerComponent_mousedown_HostBindingHandler($event) { return ctx.onClickStarted($event); })("click", function ModalContainerComponent_click_HostBindingHandler($event) { return ctx.onClickStop($event); })("popstate", function ModalContainerComponent_popstate_HostBindingHandler() { return ctx.onPopState(); }, false, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵresolveWindow"])("keydown.esc", function ModalContainerComponent_keydown_esc_HostBindingHandler($event) { return ctx.onEsc($event); }, false, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵresolveWindow"]);
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵattribute"]("aria-modal", true)("aria-labelledby", ctx.config.ariaLabelledBy)("aria-describedby", ctx.config.ariaDescribedby);
+    } }, ngContentSelectors: _c0, decls: 3, vars: 2, consts: [["role", "document", "focusTrap", ""], [1, "modal-content"]], template: function ModalContainerComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵprojectionDef"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵprojection"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassMap"]("modal-dialog" + (ctx.config.class ? " " + ctx.config.class : ""));
+    } }, directives: [ngx_bootstrap_focus_trap__WEBPACK_IMPORTED_MODULE_4__["FocusTrapDirective"]], encapsulation: 2 });
+ModalContainerComponent.ctorParameters = () => [
+    { type: ModalOptions },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Renderer2"] }
+];
+ModalContainerComponent.propDecorators = {
+    onClickStarted: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["HostListener"], args: ['mousedown', ['$event'],] }],
+    onClickStop: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["HostListener"], args: ['click', ['$event'],] }],
+    onPopState: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["HostListener"], args: ['window:popstate',] }],
+    onEsc: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["HostListener"], args: ['window:keydown.esc', ['$event'],] }]
+};
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](ModalContainerComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                selector: 'modal-container',
+                template: `
+    <div [class]="'modal-dialog' + (config.class ? ' ' + config.class : '')"
+         role="document"
+         focusTrap>
+      <div class="modal-content">
+        <ng-content></ng-content>
+      </div>
+    </div>
+  `,
+                // eslint-disable-next-line @angular-eslint/no-host-metadata-property
+                host: {
+                    class: 'modal',
+                    role: 'dialog',
+                    tabindex: '-1',
+                    '[attr.aria-modal]': 'true',
+                    '[attr.aria-labelledby]': 'config.ariaLabelledBy',
+                    '[attr.aria-describedby]': 'config.ariaDescribedby'
+                }
+            }]
+    }], function () { return [{ type: ModalOptions }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Renderer2"] }]; }, { onClickStarted: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["HostListener"],
+            args: ['mousedown', ['$event']]
+        }], onClickStop: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["HostListener"],
+            args: ['click', ['$event']]
+        }], onPopState: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["HostListener"],
+            args: ['window:popstate']
+        }], onEsc: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["HostListener"],
+            args: ['window:keydown.esc', ['$event']]
+        }] }); })();
+
+/** This component will be added as background layout for modals if enabled */
+class ModalBackdropComponent {
+    constructor(element, renderer) {
+        this._isAnimated = false;
+        this._isShown = false;
+        this.element = element;
+        this.renderer = renderer;
+    }
+    get isAnimated() {
+        return this._isAnimated;
+    }
+    set isAnimated(value) {
+        this._isAnimated = value;
+    }
+    get isShown() {
+        return this._isShown;
+    }
+    set isShown(value) {
+        this._isShown = value;
+        if (value) {
+            this.renderer.addClass(this.element.nativeElement, `${CLASS_NAME.IN}`);
+        }
+        else {
+            this.renderer.removeClass(this.element.nativeElement, `${CLASS_NAME.IN}`);
+        }
+        if (!Object(ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_1__["isBs3"])()) {
+            if (value) {
+                this.renderer.addClass(this.element.nativeElement, `${CLASS_NAME.SHOW}`);
+            }
+            else {
+                this.renderer.removeClass(this.element.nativeElement, `${CLASS_NAME.SHOW}`);
+            }
+        }
+    }
+    ngOnInit() {
+        if (this.isAnimated) {
+            this.renderer.addClass(this.element.nativeElement, `${CLASS_NAME.FADE}`);
+            ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_1__["Utils"].reflow(this.element.nativeElement);
+        }
+        this.isShown = true;
+    }
+}
+ModalBackdropComponent.ɵfac = function ModalBackdropComponent_Factory(t) { return new (t || ModalBackdropComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["Renderer2"])); };
+ModalBackdropComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ModalBackdropComponent, selectors: [["bs-modal-backdrop"]], hostAttrs: [1, "modal-backdrop"], decls: 0, vars: 0, template: function ModalBackdropComponent_Template(rf, ctx) { }, encapsulation: 2 });
+ModalBackdropComponent.ctorParameters = () => [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Renderer2"] }
+];
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](ModalBackdropComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                selector: 'bs-modal-backdrop',
+                template: ' ',
+                // eslint-disable-next-line @angular-eslint/no-host-metadata-property
+                host: { class: CLASS_NAME.BACKDROP }
+            }]
+    }], function () { return [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Renderer2"] }]; }, null); })();
+
+// todo: should we support enforce focus in?
+const TRANSITION_DURATION = 300;
+const BACKDROP_TRANSITION_DURATION = 150;
+/** Mark any code with directive to show it's content in modal */
+class ModalDirective {
+    constructor(_element, _viewContainerRef, _renderer, clf, modalDefaultOption) {
+        this._element = _element;
+        this._renderer = _renderer;
+        /** This event fires immediately when the `show` instance method is called. */
+        this.onShow = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
+        /** This event is fired when the modal has been made visible to the user
+         * (will wait for CSS transitions to complete)
+         */
+        this.onShown = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
+        /** This event is fired immediately when
+         * the hide instance method has been called.
+         */
+        this.onHide = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
+        /** This event is fired when the modal has finished being
+         * hidden from the user (will wait for CSS transitions to complete).
+         */
+        this.onHidden = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
+        this._isShown = false;
+        this.isBodyOverflowing = false;
+        this.originalBodyPadding = 0;
+        this.scrollbarWidth = 0;
+        this.timerHideModal = 0;
+        this.timerRmBackDrop = 0;
+        this.isNested = false;
+        this.clickStartedInContent = false;
+        this._backdrop = clf.createLoader(_element, _viewContainerRef, _renderer);
+        this._config = modalDefaultOption || modalConfigDefaults;
+    }
+    /** allows to set modal configuration via element property */
+    set config(conf) {
+        this._config = this.getConfig(conf);
+    }
+    get config() {
+        return this._config;
+    }
+    get isShown() {
+        return this._isShown;
+    }
+    onClickStarted(event) {
+        this.clickStartedInContent = event.target !== this._element.nativeElement;
+    }
+    onClickStop(event) {
+        const clickedInBackdrop = event.target === this._element.nativeElement && !this.clickStartedInContent;
+        if (this.config.ignoreBackdropClick ||
+            this.config.backdrop === 'static' ||
+            !clickedInBackdrop) {
+            this.clickStartedInContent = false;
+            return;
+        }
+        this.dismissReason = DISMISS_REASONS.BACKRDOP;
+        this.hide(event);
+    }
+    // todo: consider preventing default and stopping propagation
+    onEsc(event) {
+        if (!this._isShown) {
+            return;
+        }
+        if (event.keyCode === 27 || event.key === 'Escape') {
+            event.preventDefault();
+        }
+        if (this.config.keyboard) {
+            this.dismissReason = DISMISS_REASONS.ESC;
+            this.hide();
+        }
+    }
+    ngOnDestroy() {
+        if (this._isShown) {
+            this._isShown = false;
+            this.hideModal();
+            this._backdrop.dispose();
+        }
+    }
+    ngOnInit() {
+        this._config = this._config || this.getConfig();
+        setTimeout(() => {
+            if (this._config.show) {
+                this.show();
+            }
+        }, 0);
+    }
+    /* Public methods */
+    /** Allows to manually toggle modal visibility */
+    toggle() {
+        return this._isShown ? this.hide() : this.show();
+    }
+    /** Allows to manually open modal */
+    show() {
+        this.dismissReason = void 0;
+        this.onShow.emit(this);
+        if (this._isShown) {
+            return;
+        }
+        clearTimeout(this.timerHideModal);
+        clearTimeout(this.timerRmBackDrop);
+        this._isShown = true;
+        this.checkScrollbar();
+        this.setScrollbar();
+        if (ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_1__["document"] && ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_1__["document"].body) {
+            if (ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_1__["document"].body.classList.contains(CLASS_NAME.OPEN)) {
+                this.isNested = true;
+            }
+            else {
+                this._renderer.addClass(ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_1__["document"].body, CLASS_NAME.OPEN);
+                this._renderer.setStyle(ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_1__["document"].body, 'overflow-y', 'hidden');
+            }
+        }
+        this.showBackdrop(() => {
+            this.showElement();
+        });
+    }
+    /** Check if we can close the modal */
+    hide(event) {
+        if (!this._isShown) {
+            return;
+        }
+        if (event) {
+            event.preventDefault();
+        }
+        if (this.config.closeInterceptor) {
+            this.config.closeInterceptor().then(() => this._hide(), () => undefined);
+            return;
+        }
+        this._hide();
+    }
+    /** Private methods @internal */
+    /**
+     *  Manually close modal
+     *  @internal
+     */
+    _hide() {
+        this.onHide.emit(this);
+        ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_1__["window"].clearTimeout(this.timerHideModal);
+        ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_1__["window"].clearTimeout(this.timerRmBackDrop);
+        this._isShown = false;
+        this._renderer.removeClass(this._element.nativeElement, CLASS_NAME.IN);
+        if (!Object(ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_1__["isBs3"])()) {
+            this._renderer.removeClass(this._element.nativeElement, CLASS_NAME.SHOW);
+        }
+        // this._addClassIn = false;
+        if (this._config.animated) {
+            this.timerHideModal = ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_1__["window"].setTimeout(() => this.hideModal(), TRANSITION_DURATION);
+        }
+        else {
+            this.hideModal();
+        }
+    }
+    getConfig(config) {
+        return Object.assign({}, this._config, config);
+    }
+    /**
+     *  Show dialog
+     *  @internal
+     */
+    showElement() {
+        // todo: replace this with component loader usage
+        if (!this._element.nativeElement.parentNode ||
+            this._element.nativeElement.parentNode.nodeType !== Node.ELEMENT_NODE) {
+            // don't move modals dom position
+            if (ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_1__["document"] && ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_1__["document"].body) {
+                ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_1__["document"].body.appendChild(this._element.nativeElement);
+            }
+        }
+        this._renderer.setAttribute(this._element.nativeElement, 'aria-hidden', 'false');
+        this._renderer.setAttribute(this._element.nativeElement, 'aria-modal', 'true');
+        this._renderer.setStyle(this._element.nativeElement, 'display', 'block');
+        this._renderer.setProperty(this._element.nativeElement, 'scrollTop', 0);
+        if (this._config.animated) {
+            ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_1__["Utils"].reflow(this._element.nativeElement);
+        }
+        // this._addClassIn = true;
+        this._renderer.addClass(this._element.nativeElement, CLASS_NAME.IN);
+        if (!Object(ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_1__["isBs3"])()) {
+            this._renderer.addClass(this._element.nativeElement, CLASS_NAME.SHOW);
+        }
+        const transitionComplete = () => {
+            if (this._config.focus) {
+                this._element.nativeElement.focus();
+            }
+            this.onShown.emit(this);
+        };
+        if (this._config.animated) {
+            setTimeout(transitionComplete, TRANSITION_DURATION);
+        }
+        else {
+            transitionComplete();
+        }
+    }
+    /** @internal */
+    hideModal() {
+        this._renderer.setAttribute(this._element.nativeElement, 'aria-hidden', 'true');
+        this._renderer.setStyle(this._element.nativeElement, 'display', 'none');
+        this.showBackdrop(() => {
+            if (!this.isNested) {
+                if (ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_1__["document"] && ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_1__["document"].body) {
+                    this._renderer.removeClass(ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_1__["document"].body, CLASS_NAME.OPEN);
+                    this._renderer.setStyle(ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_1__["document"].body, 'overflow-y', '');
+                }
+                this.resetScrollbar();
+            }
+            this.resetAdjustments();
+            this.focusOtherModal();
+            this.onHidden.emit(this);
+        });
+    }
+    // todo: original show was calling a callback when done, but we can use
+    // promise
+    /** @internal */
+    showBackdrop(callback) {
+        if (this._isShown &&
+            this.config.backdrop &&
+            (!this.backdrop || !this.backdrop.instance.isShown)) {
+            this.removeBackdrop();
+            this._backdrop
+                .attach(ModalBackdropComponent)
+                .to('body')
+                .show({ isAnimated: this._config.animated });
+            this.backdrop = this._backdrop._componentRef;
+            if (!callback) {
+                return;
+            }
+            if (!this._config.animated) {
+                callback();
+                return;
+            }
+            setTimeout(callback, BACKDROP_TRANSITION_DURATION);
+        }
+        else if (!this._isShown && this.backdrop) {
+            this.backdrop.instance.isShown = false;
+            const callbackRemove = () => {
+                this.removeBackdrop();
+                if (callback) {
+                    callback();
+                }
+            };
+            if (this.backdrop.instance.isAnimated) {
+                this.timerRmBackDrop = ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_1__["window"].setTimeout(callbackRemove, BACKDROP_TRANSITION_DURATION);
+            }
+            else {
+                callbackRemove();
+            }
+        }
+        else if (callback) {
+            callback();
+        }
+    }
+    /** @internal */
+    removeBackdrop() {
+        this._backdrop.hide();
+    }
+    /** Events tricks */
+    // no need for it
+    // protected setEscapeEvent():void {
+    //   if (this._isShown && this._config.keyboard) {
+    //     $(this._element).on(Event.KEYDOWN_DISMISS, (event) => {
+    //       if (event.which === 27) {
+    //         this.hide()
+    //       }
+    //     })
+    //
+    //   } else if (!this._isShown) {
+    //     $(this._element).off(Event.KEYDOWN_DISMISS)
+    //   }
+    // }
+    // protected setResizeEvent():void {
+    // console.log(this.renderer.listenGlobal('', Event.RESIZE));
+    // if (this._isShown) {
+    //   $(window).on(Event.RESIZE, $.proxy(this._handleUpdate, this))
+    // } else {
+    //   $(window).off(Event.RESIZE)
+    // }
+    // }
+    focusOtherModal() {
+        if (this._element.nativeElement.parentElement == null) {
+            return;
+        }
+        const otherOpenedModals = this._element.nativeElement.parentElement.querySelectorAll('.in[bsModal]');
+        if (!otherOpenedModals.length) {
+            return;
+        }
+        otherOpenedModals[otherOpenedModals.length - 1].focus();
+    }
+    /** @internal */
+    resetAdjustments() {
+        this._renderer.setStyle(this._element.nativeElement, 'paddingLeft', '');
+        this._renderer.setStyle(this._element.nativeElement, 'paddingRight', '');
+    }
+    /** Scroll bar tricks */
+    /** @internal */
+    checkScrollbar() {
+        this.isBodyOverflowing = ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_1__["document"].body.clientWidth < ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_1__["window"].innerWidth;
+        this.scrollbarWidth = this.getScrollbarWidth();
+    }
+    setScrollbar() {
+        if (!ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_1__["document"]) {
+            return;
+        }
+        this.originalBodyPadding = parseInt(ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_1__["window"]
+            .getComputedStyle(ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_1__["document"].body)
+            .getPropertyValue('padding-right') || 0, 10);
+        if (this.isBodyOverflowing) {
+            ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_1__["document"].body.style.paddingRight = `${this.originalBodyPadding +
+                this.scrollbarWidth}px`;
+        }
+    }
+    resetScrollbar() {
+        ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_1__["document"].body.style.paddingRight = `${this.originalBodyPadding}px`;
+    }
+    // thx d.walsh
+    getScrollbarWidth() {
+        const scrollDiv = this._renderer.createElement('div');
+        this._renderer.addClass(scrollDiv, CLASS_NAME.SCROLLBAR_MEASURER);
+        this._renderer.appendChild(ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_1__["document"].body, scrollDiv);
+        const scrollbarWidth = scrollDiv.offsetWidth - scrollDiv.clientWidth;
+        this._renderer.removeChild(ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_1__["document"].body, scrollDiv);
+        return scrollbarWidth;
+    }
+}
+ModalDirective.ɵfac = function ModalDirective_Factory(t) { return new (t || ModalDirective)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewContainerRef"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["Renderer2"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](ngx_bootstrap_component_loader__WEBPACK_IMPORTED_MODULE_2__["ComponentLoaderFactory"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](MODAL_CONFIG_DEFAULT_OVERRIDE, 8)); };
+ModalDirective.ɵdir = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineDirective"]({ type: ModalDirective, selectors: [["", "bsModal", ""]], hostBindings: function ModalDirective_HostBindings(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("mousedown", function ModalDirective_mousedown_HostBindingHandler($event) { return ctx.onClickStarted($event); })("mouseup", function ModalDirective_mouseup_HostBindingHandler($event) { return ctx.onClickStop($event); })("keydown.esc", function ModalDirective_keydown_esc_HostBindingHandler($event) { return ctx.onEsc($event); });
+    } }, inputs: { config: "config", closeInterceptor: "closeInterceptor" }, outputs: { onShow: "onShow", onShown: "onShown", onHide: "onHide", onHidden: "onHidden" }, exportAs: ["bs-modal"] });
+ModalDirective.ctorParameters = () => [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewContainerRef"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Renderer2"] },
+    { type: ngx_bootstrap_component_loader__WEBPACK_IMPORTED_MODULE_2__["ComponentLoaderFactory"] },
+    { type: ModalOptions, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Optional"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"], args: [MODAL_CONFIG_DEFAULT_OVERRIDE,] }] }
+];
+ModalDirective.propDecorators = {
+    config: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
+    closeInterceptor: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"] }],
+    onShow: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"] }],
+    onShown: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"] }],
+    onHide: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"] }],
+    onHidden: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"] }],
+    onClickStarted: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["HostListener"], args: ['mousedown', ['$event'],] }],
+    onClickStop: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["HostListener"], args: ['mouseup', ['$event'],] }],
+    onEsc: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["HostListener"], args: ['keydown.esc', ['$event'],] }]
+};
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](ModalDirective, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"],
+        args: [{
+                selector: '[bsModal]',
+                exportAs: 'bs-modal'
+            }]
+    }], function () { return [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewContainerRef"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Renderer2"] }, { type: ngx_bootstrap_component_loader__WEBPACK_IMPORTED_MODULE_2__["ComponentLoaderFactory"] }, { type: ModalOptions, decorators: [{
+                type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Optional"]
+            }, {
+                type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"],
+                args: [MODAL_CONFIG_DEFAULT_OVERRIDE]
+            }] }]; }, { onShow: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"]
+        }], onShown: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"]
+        }], onHide: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"]
+        }], onHidden: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"]
+        }], config: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }], onClickStarted: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["HostListener"],
+            args: ['mousedown', ['$event']]
+        }], onClickStop: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["HostListener"],
+            args: ['mouseup', ['$event']]
+        }], 
+    // todo: consider preventing default and stopping propagation
+    onEsc: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["HostListener"],
+            args: ['keydown.esc', ['$event']]
+        }], closeInterceptor: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }] }); })();
+
+let currentId = 1;
+class BsModalService {
+    constructor(rendererFactory, clf, modalDefaultOption) {
+        this.clf = clf;
+        this.modalDefaultOption = modalDefaultOption;
+        this.onShow = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
+        this.onShown = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
+        this.onHide = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
+        this.onHidden = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
+        this.isBodyOverflowing = false;
+        this.originalBodyPadding = 0;
+        this.scrollbarWidth = 0;
+        this.modalsCount = 0;
+        this.loaders = [];
+        this._backdropLoader = this.clf.createLoader();
+        this._renderer = rendererFactory.createRenderer(null, null);
+        this.config = modalDefaultOption ?
+            (Object.assign({}, modalConfigDefaults, modalDefaultOption)) :
+            modalConfigDefaults;
+    }
+    /** Shows a modal */
+    show(
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    content, config) {
+        this.modalsCount++;
+        this._createLoaders();
+        // must be different per every show() call
+        const id = (config === null || config === void 0 ? void 0 : config.id) || currentId++;
+        this.config = this.modalDefaultOption ?
+            Object.assign({}, modalConfigDefaults, this.modalDefaultOption, config) :
+            Object.assign({}, modalConfigDefaults, config);
+        this.config.id = id;
+        this._showBackdrop();
+        this.lastDismissReason = void 0;
+        return this._showModal(content);
+    }
+    hide(id) {
+        if (this.modalsCount === 1 || id == null) {
+            this._hideBackdrop();
+            this.resetScrollbar();
+        }
+        this.modalsCount = this.modalsCount >= 1 && id != null ? this.modalsCount - 1 : 0;
+        setTimeout(() => {
+            this._hideModal(id);
+            this.removeLoaders(id);
+        }, this.config.animated ? TRANSITION_DURATIONS.BACKDROP : 0);
+    }
+    _showBackdrop() {
+        const isBackdropEnabled = this.config.backdrop === true || this.config.backdrop === 'static';
+        const isBackdropInDOM = !this.backdropRef || !this.backdropRef.instance.isShown;
+        if (this.modalsCount === 1) {
+            this.removeBackdrop();
+            if (isBackdropEnabled && isBackdropInDOM) {
+                this._backdropLoader
+                    .attach(ModalBackdropComponent)
+                    .to('body')
+                    .show({ isAnimated: this.config.animated });
+                this.backdropRef = this._backdropLoader._componentRef;
+            }
+        }
+    }
+    _hideBackdrop() {
+        if (!this.backdropRef) {
+            return;
+        }
+        this.backdropRef.instance.isShown = false;
+        const duration = this.config.animated ? TRANSITION_DURATIONS.BACKDROP : 0;
+        setTimeout(() => this.removeBackdrop(), duration);
+    }
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    _showModal(content) {
+        var _a;
+        const modalLoader = this.loaders[this.loaders.length - 1];
+        if (this.config && this.config.providers) {
+            for (const provider of this.config.providers) {
+                modalLoader.provide(provider);
+            }
+        }
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        const bsModalRef = new BsModalRef();
+        const modalContainerRef = modalLoader
+            .provide({ provide: ModalOptions, useValue: this.config })
+            .provide({ provide: BsModalRef, useValue: bsModalRef })
+            .attach(ModalContainerComponent)
+            .to('body');
+        bsModalRef.hide = () => { var _a; return (_a = modalContainerRef.instance) === null || _a === void 0 ? void 0 : _a.hide(); };
+        bsModalRef.setClass = (newClass) => {
+            if (modalContainerRef.instance) {
+                modalContainerRef.instance.config.class = newClass;
+            }
+        };
+        bsModalRef.onHidden = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
+        bsModalRef.onHide = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
+        this.copyEvent(modalLoader.onBeforeHide, bsModalRef.onHide);
+        this.copyEvent(modalLoader.onHidden, bsModalRef.onHidden);
+        // call 'show' method after assign setClass in bsModalRef.
+        // it makes modal component's bsModalRef available to call setClass method
+        modalContainerRef.show({
+            content,
+            isAnimated: this.config.animated,
+            initialState: this.config.initialState,
+            bsModalService: this,
+            id: this.config.id
+        });
+        if (modalContainerRef.instance) {
+            modalContainerRef.instance.level = this.getModalsCount();
+            bsModalRef.content = modalLoader.getInnerComponent();
+            bsModalRef.id = (_a = modalContainerRef.instance.config) === null || _a === void 0 ? void 0 : _a.id;
+        }
+        return bsModalRef;
+    }
+    _hideModal(id) {
+        if (id != null) {
+            const indexToRemove = this.loaders.findIndex(loader => { var _a; return ((_a = loader.instance) === null || _a === void 0 ? void 0 : _a.config.id) === id; });
+            const modalLoader = this.loaders[indexToRemove];
+            if (modalLoader) {
+                modalLoader.hide(id);
+            }
+        }
+        else {
+            this.loaders.forEach((loader) => {
+                if (loader.instance) {
+                    loader.hide(loader.instance.config.id);
+                }
+            });
+        }
+    }
+    getModalsCount() {
+        return this.modalsCount;
+    }
+    setDismissReason(reason) {
+        this.lastDismissReason = reason;
+    }
+    removeBackdrop() {
+        this._renderer.removeClass(document.body, CLASS_NAME.OPEN);
+        this._renderer.setStyle(document.body, 'overflow-y', '');
+        this._backdropLoader.hide();
+        this.backdropRef = void 0;
+    }
+    /** Checks if the body is overflowing and sets scrollbar width */
+    /** @internal */
+    checkScrollbar() {
+        this.isBodyOverflowing = document.body.clientWidth < window.innerWidth;
+        this.scrollbarWidth = this.getScrollbarWidth();
+    }
+    setScrollbar() {
+        if (!document) {
+            return;
+        }
+        this.originalBodyPadding = parseInt(window
+            .getComputedStyle(document.body)
+            .getPropertyValue('padding-right') || '0', 10);
+        if (this.isBodyOverflowing) {
+            document.body.style.paddingRight = `${this.originalBodyPadding +
+                this.scrollbarWidth}px`;
+        }
+    }
+    resetScrollbar() {
+        document.body.style.paddingRight = `${this.originalBodyPadding}px`;
+    }
+    // thx d.walsh
+    getScrollbarWidth() {
+        const scrollDiv = this._renderer.createElement('div');
+        this._renderer.addClass(scrollDiv, CLASS_NAME.SCROLLBAR_MEASURER);
+        this._renderer.appendChild(document.body, scrollDiv);
+        const scrollbarWidth = scrollDiv.offsetWidth - scrollDiv.clientWidth;
+        this._renderer.removeChild(document.body, scrollDiv);
+        return scrollbarWidth;
+    }
+    _createLoaders() {
+        const loader = this.clf.createLoader();
+        this.copyEvent(loader.onBeforeShow, this.onShow);
+        this.copyEvent(loader.onShown, this.onShown);
+        this.copyEvent(loader.onBeforeHide, this.onHide);
+        this.copyEvent(loader.onHidden, this.onHidden);
+        this.loaders.push(loader);
+    }
+    removeLoaders(id) {
+        if (id != null) {
+            const indexToRemove = this.loaders.findIndex(loader => { var _a; return ((_a = loader.instance) === null || _a === void 0 ? void 0 : _a.config.id) === id; });
+            if (indexToRemove >= 0) {
+                this.loaders.splice(indexToRemove, 1);
+                this.loaders.forEach((loader, i) => {
+                    if (loader.instance) {
+                        loader.instance.level = i + 1;
+                    }
+                });
+            }
+        }
+        else {
+            this.loaders.splice(0, this.loaders.length);
+        }
+    }
+    copyEvent(from, to) {
+        from.subscribe((data) => {
+            to.emit(this.lastDismissReason || data);
+        });
+    }
+}
+BsModalService.ɵfac = function BsModalService_Factory(t) { return new (t || BsModalService)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["RendererFactory2"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](ngx_bootstrap_component_loader__WEBPACK_IMPORTED_MODULE_2__["ComponentLoaderFactory"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](MODAL_CONFIG_DEFAULT_OVERRIDE, 8)); };
+BsModalService.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"]({ token: BsModalService, factory: BsModalService.ɵfac });
+BsModalService.ctorParameters = () => [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["RendererFactory2"] },
+    { type: ngx_bootstrap_component_loader__WEBPACK_IMPORTED_MODULE_2__["ComponentLoaderFactory"] },
+    { type: ModalOptions, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Optional"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"], args: [MODAL_CONFIG_DEFAULT_OVERRIDE,] }] }
+];
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](BsModalService, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"]
+    }], function () { return [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["RendererFactory2"] }, { type: ngx_bootstrap_component_loader__WEBPACK_IMPORTED_MODULE_2__["ComponentLoaderFactory"] }, { type: ModalOptions, decorators: [{
+                type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Optional"]
+            }, {
+                type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"],
+                args: [MODAL_CONFIG_DEFAULT_OVERRIDE]
+            }] }]; }, null); })();
+
+const focusTrapModule = ngx_bootstrap_focus_trap__WEBPACK_IMPORTED_MODULE_4__["FocusTrapModule"].forRoot();
+class ModalModule {
+    static forRoot() {
+        return {
+            ngModule: ModalModule,
+            providers: [BsModalService, ngx_bootstrap_component_loader__WEBPACK_IMPORTED_MODULE_2__["ComponentLoaderFactory"], ngx_bootstrap_positioning__WEBPACK_IMPORTED_MODULE_3__["PositioningService"]]
+        };
+    }
+    static forChild() {
+        return {
+            ngModule: ModalModule,
+            providers: [BsModalService, ngx_bootstrap_component_loader__WEBPACK_IMPORTED_MODULE_2__["ComponentLoaderFactory"], ngx_bootstrap_positioning__WEBPACK_IMPORTED_MODULE_3__["PositioningService"]]
+        };
+    }
+}
+ModalModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineNgModule"]({ type: ModalModule });
+ModalModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjector"]({ factory: function ModalModule_Factory(t) { return new (t || ModalModule)(); }, imports: [[ngx_bootstrap_focus_trap__WEBPACK_IMPORTED_MODULE_4__["FocusTrapModule"]]] });
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsetNgModuleScope"](ModalModule, { declarations: function () { return [ModalBackdropComponent, ModalDirective, ModalContainerComponent]; }, imports: function () { return [ngx_bootstrap_focus_trap__WEBPACK_IMPORTED_MODULE_4__["FocusTrapModule"]]; }, exports: function () { return [ModalBackdropComponent, ModalDirective]; } }); })();
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](ModalModule, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
+        args: [{
+                imports: [ngx_bootstrap_focus_trap__WEBPACK_IMPORTED_MODULE_4__["FocusTrapModule"]],
+                declarations: [
+                    ModalBackdropComponent,
+                    ModalDirective,
+                    ModalContainerComponent
+                ],
+                exports: [ModalBackdropComponent, ModalDirective],
+                entryComponents: [ModalBackdropComponent, ModalContainerComponent]
+            }]
+    }], null, null); })();
+
+/**
+ * Generated bundle index. Do not edit.
+ */
+
+
+
+//# sourceMappingURL=ngx-bootstrap-modal.js.map
+
+/***/ }),
+
 /***/ "K7De":
 /*!********************************************************************!*\
   !*** ./node_modules/rxjs/_esm2015/internal/operators/findIndex.js ***!
@@ -23744,7 +24763,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵAnimationGroupPlayer", function() { return AnimationGroupPlayer; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵPRE_STYLE", function() { return ɵPRE_STYLE; });
 /**
- * @license Angular v11.0.5
+ * @license Angular v11.0.9
  * (c) 2010-2020 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -24978,7 +25997,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_animations_browser__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/animations/browser */ "t9l1");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common */ "ofXK");
 /**
- * @license Angular v11.0.5
+ * @license Angular v11.0.9
  * (c) 2010-2020 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -25859,12 +26878,12 @@ function shareReplay(configOrBufferSize, windowTime, scheduler) {
             bufferSize: configOrBufferSize,
             windowTime,
             refCount: false,
-            scheduler
+            scheduler,
         };
     }
     return (source) => source.lift(shareReplayOperator(config));
 }
-function shareReplayOperator({ bufferSize = Number.POSITIVE_INFINITY, windowTime = Number.POSITIVE_INFINITY, refCount: useRefCount, scheduler }) {
+function shareReplayOperator({ bufferSize = Number.POSITIVE_INFINITY, windowTime = Number.POSITIVE_INFINITY, refCount: useRefCount, scheduler, }) {
     let subject;
     let refCount = 0;
     let subscription;
@@ -25878,7 +26897,9 @@ function shareReplayOperator({ bufferSize = Number.POSITIVE_INFINITY, windowTime
             subject = new _ReplaySubject__WEBPACK_IMPORTED_MODULE_0__["ReplaySubject"](bufferSize, windowTime, scheduler);
             innerSub = subject.subscribe(this);
             subscription = source.subscribe({
-                next(value) { subject.next(value); },
+                next(value) {
+                    subject.next(value);
+                },
                 error(err) {
                     hasError = true;
                     subject.error(err);
@@ -25889,6 +26910,9 @@ function shareReplayOperator({ bufferSize = Number.POSITIVE_INFINITY, windowTime
                     subject.complete();
                 },
             });
+            if (isComplete) {
+                subscription = undefined;
+            }
         }
         else {
             innerSub = subject.subscribe(this);
@@ -25896,6 +26920,7 @@ function shareReplayOperator({ bufferSize = Number.POSITIVE_INFINITY, windowTime
         this.add(() => {
             refCount--;
             innerSub.unsubscribe();
+            innerSub = undefined;
             if (subscription && !isComplete && useRefCount && refCount === 0) {
                 subscription.unsubscribe();
                 subscription = undefined;
@@ -26218,6 +27243,850 @@ function dispatch(state) {
 
 /***/ }),
 
+/***/ "Wk+q":
+/*!*************************************************************************************************!*\
+  !*** ./node_modules/ngx-bootstrap/__ivy_ngcc__/focus-trap/fesm2015/ngx-bootstrap-focus-trap.js ***!
+  \*************************************************************************************************/
+/*! exports provided: FocusTrap, FocusTrapDirective, FocusTrapModule, ɵa, ɵb, ɵc, ɵd */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FocusTrap", function() { return FocusTrap; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FocusTrapDirective", function() { return FocusTrapDirective; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FocusTrapModule", function() { return FocusTrapModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵa", function() { return FocusTrapFactory; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵb", function() { return InteractivityChecker; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵc", function() { return Platform; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵd", function() { return FocusTrapManager; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ "ofXK");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs/operators */ "kU1M");
+
+
+
+
+/**
+ * @license
+ * Copyright Google LLC All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/** Injectable that ensures only the most recently enabled FocusTrap is active. */
+
+class FocusTrapManager {
+    constructor() {
+        // A stack of the FocusTraps on the page. Only the FocusTrap at the
+        // top of the stack is active.
+        this._focusTrapStack = [];
+    }
+    /**
+     * Disables the FocusTrap at the top of the stack, and then pushes
+     * the new FocusTrap onto the stack.
+     */
+    register(focusTrap) {
+        // Dedupe focusTraps that register multiple times.
+        this._focusTrapStack = this._focusTrapStack.filter((ft) => ft !== focusTrap);
+        let stack = this._focusTrapStack;
+        if (stack.length) {
+            stack[stack.length - 1]._disable();
+        }
+        stack.push(focusTrap);
+        focusTrap._enable();
+    }
+    /**
+     * Removes the FocusTrap from the stack, and activates the
+     * FocusTrap that is the new top of the stack.
+     */
+    deregister(focusTrap) {
+        focusTrap._disable();
+        const stack = this._focusTrapStack;
+        const i = stack.indexOf(focusTrap);
+        if (i !== -1) {
+            stack.splice(i, 1);
+            if (stack.length) {
+                stack[stack.length - 1]._enable();
+            }
+        }
+    }
+}
+FocusTrapManager.ɵfac = function FocusTrapManager_Factory(t) { return new (t || FocusTrapManager)(); };
+FocusTrapManager.ɵprov = Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"])({ factory: function FocusTrapManager_Factory() { return new FocusTrapManager(); }, token: FocusTrapManager, providedIn: "root" });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](FocusTrapManager, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"],
+        args: [{ providedIn: 'root' }]
+    }], function () { return []; }, null); })();
+
+/**
+ * @license
+ * Copyright Google LLC All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+// Whether the current platform supports the V8 Break Iterator. The V8 check
+// is necessary to detect all Blink based browsers.
+let hasV8BreakIterator;
+// We need a try/catch around the reference to `Intl`, because accessing it in some cases can
+// cause IE to throw. These cases are tied to particular versions of Windows and can happen if
+// the consumer is providing a polyfilled `Map`. See:
+// https://github.com/Microsoft/ChakraCore/issues/3189
+// https://github.com/angular/components/issues/15687
+try {
+    hasV8BreakIterator = (typeof Intl !== 'undefined' && Intl.v8BreakIterator);
+}
+catch (_a) {
+    hasV8BreakIterator = false;
+}
+/**
+ * Service to detect the current platform by comparing the userAgent strings and
+ * checking browser-specific global properties.
+ */
+class Platform {
+    constructor(_platformId) {
+        this._platformId = _platformId;
+        // We want to use the Angular platform check because if the Document is shimmed
+        // without the navigator, the following checks will fail. This is preferred because
+        // sometimes the Document may be shimmed without the user's knowledge or intention
+        /** Whether the Angular application is being rendered in the browser. */
+        this.isBrowser = this._platformId ?
+            Object(_angular_common__WEBPACK_IMPORTED_MODULE_1__["isPlatformBrowser"])(this._platformId) : typeof document === 'object' && !!document;
+        /** Whether the current browser is Microsoft Edge. */
+        this.EDGE = this.isBrowser && /(edge)/i.test(navigator.userAgent);
+        /** Whether the current rendering engine is Microsoft Trident. */
+        this.TRIDENT = this.isBrowser && /(msie|trident)/i.test(navigator.userAgent);
+        // EdgeHTML and Trident mock Blink specific things and need to be excluded from this check.
+        /** Whether the current rendering engine is Blink. */
+        this.BLINK = this.isBrowser && (!!(window.chrome || hasV8BreakIterator) &&
+            typeof CSS !== 'undefined' && !this.EDGE && !this.TRIDENT);
+        // Webkit is part of the userAgent in EdgeHTML, Blink and Trident. Therefore we need to
+        // ensure that Webkit runs standalone and is not used as another engine's base.
+        /** Whether the current rendering engine is WebKit. */
+        this.WEBKIT = this.isBrowser &&
+            /AppleWebKit/i.test(navigator.userAgent) && !this.BLINK && !this.EDGE && !this.TRIDENT;
+        /** Whether the current platform is Apple iOS. */
+        this.IOS = this.isBrowser && /iPad|iPhone|iPod/.test(navigator.userAgent) &&
+            !('MSStream' in window);
+        // It's difficult to detect the plain Gecko engine, because most of the browsers identify
+        // them self as Gecko-like browsers and modify the userAgent's according to that.
+        // Since we only cover one explicit Firefox case, we can simply check for Firefox
+        // instead of having an unstable check for Gecko.
+        /** Whether the current browser is Firefox. */
+        this.FIREFOX = this.isBrowser && /(firefox|minefield)/i.test(navigator.userAgent);
+        /** Whether the current platform is Android. */
+        // Trident on mobile adds the android platform to the userAgent to trick detections.
+        this.ANDROID = this.isBrowser && /android/i.test(navigator.userAgent) && !this.TRIDENT;
+        // Safari browsers will include the Safari keyword in their userAgent. Some browsers may fake
+        // this and just place the Safari keyword in the userAgent. To be more safe about Safari every
+        // Safari browser should also use Webkit as its layout engine.
+        /** Whether the current browser is Safari. */
+        this.SAFARI = this.isBrowser && /safari/i.test(navigator.userAgent) && this.WEBKIT;
+    }
+}
+Platform.ɵfac = function Platform_Factory(t) { return new (t || Platform)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["PLATFORM_ID"])); };
+Platform.ɵprov = Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"])({ factory: function Platform_Factory() { return new Platform(Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"])(_angular_core__WEBPACK_IMPORTED_MODULE_0__["PLATFORM_ID"])); }, token: Platform, providedIn: "root" });
+Platform.ctorParameters = () => [
+    { type: Object, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"], args: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["PLATFORM_ID"],] }] }
+];
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](Platform, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"],
+        args: [{ providedIn: 'root' }]
+    }], function () { return [{ type: Object, decorators: [{
+                type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"],
+                args: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["PLATFORM_ID"]]
+            }] }]; }, null); })();
+
+/**
+ * @license
+ * Copyright Google LLC All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * Configuration for the isFocusable method.
+ */
+class IsFocusableConfig {
+    constructor() {
+        /**
+         * Whether to count an element as focusable even if it is not currently visible.
+         */
+        this.ignoreVisibility = false;
+    }
+}
+// The InteractivityChecker leans heavily on the ally.js accessibility utilities.
+// Methods like `isTabbable` are only covering specific edge-cases for the browsers which are
+// supported.
+/**
+ * Utility for checking the interactivity of an element, such as whether is is focusable or
+ * tabbable.
+ */
+class InteractivityChecker {
+    constructor(_platform) {
+        this._platform = _platform;
+    }
+    /**
+     * Gets whether an element is disabled.
+     *
+     * @param element Element to be checked.
+     * @returns Whether the element is disabled.
+     */
+    isDisabled(element) {
+        // This does not capture some cases, such as a non-form control with a disabled attribute or
+        // a form control inside of a disabled form, but should capture the most common cases.
+        return element.hasAttribute('disabled');
+    }
+    /**
+     * Gets whether an element is visible for the purposes of interactivity.
+     *
+     * This will capture states like `display: none` and `visibility: hidden`, but not things like
+     * being clipped by an `overflow: hidden` parent or being outside the viewport.
+     *
+     * @returns Whether the element is visible.
+     */
+    isVisible(element) {
+        return hasGeometry(element) && getComputedStyle(element).visibility === 'visible';
+    }
+    /**
+     * Gets whether an element can be reached via Tab key.
+     * Assumes that the element has already been checked with isFocusable.
+     *
+     * @param element Element to be checked.
+     * @returns Whether the element is tabbable.
+     */
+    isTabbable(element) {
+        // Nothing is tabbable on the server 😎
+        if (!this._platform.isBrowser) {
+            return false;
+        }
+        const frameElement = getFrameElement(getWindow(element));
+        if (frameElement) {
+            // Frame elements inherit their tabindex onto all child elements.
+            if (getTabIndexValue(frameElement) === -1) {
+                return false;
+            }
+            // Browsers disable tabbing to an element inside of an invisible frame.
+            if (!this.isVisible(frameElement)) {
+                return false;
+            }
+        }
+        let nodeName = element.nodeName.toLowerCase();
+        let tabIndexValue = getTabIndexValue(element);
+        if (element.hasAttribute('contenteditable')) {
+            return tabIndexValue !== -1;
+        }
+        if (nodeName === 'iframe' || nodeName === 'object') {
+            // The frame or object's content may be tabbable depending on the content, but it's
+            // not possibly to reliably detect the content of the frames. We always consider such
+            // elements as non-tabbable.
+            return false;
+        }
+        // In iOS, the browser only considers some specific elements as tabbable.
+        if (this._platform.WEBKIT && this._platform.IOS && !isPotentiallyTabbableIOS(element)) {
+            return false;
+        }
+        if (nodeName === 'audio') {
+            // Audio elements without controls enabled are never tabbable, regardless
+            // of the tabindex attribute explicitly being set.
+            if (!element.hasAttribute('controls')) {
+                return false;
+            }
+            // Audio elements with controls are by default tabbable unless the
+            // tabindex attribute is set to `-1` explicitly.
+            return tabIndexValue !== -1;
+        }
+        if (nodeName === 'video') {
+            // For all video elements, if the tabindex attribute is set to `-1`, the video
+            // is not tabbable. Note: We cannot rely on the default `HTMLElement.tabIndex`
+            // property as that one is set to `-1` in Chrome, Edge and Safari v13.1. The
+            // tabindex attribute is the source of truth here.
+            if (tabIndexValue === -1) {
+                return false;
+            }
+            // If the tabindex is explicitly set, and not `-1` (as per check before), the
+            // video element is always tabbable (regardless of whether it has controls or not).
+            if (tabIndexValue !== null) {
+                return true;
+            }
+            // Otherwise (when no explicit tabindex is set), a video is only tabbable if it
+            // has controls enabled. Firefox is special as videos are always tabbable regardless
+            // of whether there are controls or not.
+            return this._platform.FIREFOX || element.hasAttribute('controls');
+        }
+        return element.tabIndex >= 0;
+    }
+    /**
+     * Gets whether an element can be focused by the user.
+     *
+     * @param element Element to be checked.
+     * @param config The config object with options to customize this method's behavior
+     * @returns Whether the element is focusable.
+     */
+    isFocusable(element, config) {
+        // Perform checks in order of left to most expensive.
+        // Again, naive approach that does not capture many edge cases and browser quirks.
+        return isPotentiallyFocusable(element) && !this.isDisabled(element) &&
+            ((config === null || config === void 0 ? void 0 : config.ignoreVisibility) || this.isVisible(element));
+    }
+}
+InteractivityChecker.ɵfac = function InteractivityChecker_Factory(t) { return new (t || InteractivityChecker)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](Platform)); };
+InteractivityChecker.ɵprov = Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"])({ factory: function InteractivityChecker_Factory() { return new InteractivityChecker(Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"])(Platform)); }, token: InteractivityChecker, providedIn: "root" });
+InteractivityChecker.ctorParameters = () => [
+    { type: Platform }
+];
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](InteractivityChecker, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"],
+        args: [{ providedIn: 'root' }]
+    }], function () { return [{ type: Platform }]; }, null); })();
+/**
+ * Returns the frame element from a window object. Since browsers like MS Edge throw errors if
+ * the frameElement property is being accessed from a different host address, this property
+ * should be accessed carefully.
+ */
+function getFrameElement(window) {
+    try {
+        return window.frameElement;
+    }
+    catch (_a) {
+        return null;
+    }
+}
+/** Checks whether the specified element has any geometry / rectangles. */
+function hasGeometry(element) {
+    // Use logic from jQuery to check for an invisible element.
+    // See https://github.com/jquery/jquery/blob/master/src/css/hiddenVisibleSelectors.js#L12
+    return !!(element.offsetWidth || element.offsetHeight ||
+        (typeof element.getClientRects === 'function' && element.getClientRects().length));
+}
+/** Gets whether an element's  */
+function isNativeFormElement(element) {
+    let nodeName = element.nodeName.toLowerCase();
+    return nodeName === 'input' ||
+        nodeName === 'select' ||
+        nodeName === 'button' ||
+        nodeName === 'textarea';
+}
+/** Gets whether an element is an `<input type="hidden">`. */
+function isHiddenInput(element) {
+    return isInputElement(element) && element.type == 'hidden';
+}
+/** Gets whether an element is an anchor that has an href attribute. */
+function isAnchorWithHref(element) {
+    return isAnchorElement(element) && element.hasAttribute('href');
+}
+/** Gets whether an element is an input element. */
+function isInputElement(element) {
+    return element.nodeName.toLowerCase() == 'input';
+}
+/** Gets whether an element is an anchor element. */
+function isAnchorElement(element) {
+    return element.nodeName.toLowerCase() == 'a';
+}
+/** Gets whether an element has a valid tabindex. */
+function hasValidTabIndex(element) {
+    if (!element.hasAttribute('tabindex') || element.tabIndex === undefined) {
+        return false;
+    }
+    let tabIndex = element.getAttribute('tabindex');
+    // IE11 parses tabindex="" as the value "-32768"
+    if (tabIndex == '-32768') {
+        return false;
+    }
+    return !!(tabIndex && !isNaN(parseInt(tabIndex, 10)));
+}
+/**
+ * Returns the parsed tabindex from the element attributes instead of returning the
+ * evaluated tabindex from the browsers defaults.
+ */
+function getTabIndexValue(element) {
+    if (!hasValidTabIndex(element)) {
+        return null;
+    }
+    // See browser issue in Gecko https://bugzilla.mozilla.org/show_bug.cgi?id=1128054
+    const tabIndex = parseInt(element.getAttribute('tabindex') || '', 10);
+    return isNaN(tabIndex) ? -1 : tabIndex;
+}
+/** Checks whether the specified element is potentially tabbable on iOS */
+function isPotentiallyTabbableIOS(element) {
+    let nodeName = element.nodeName.toLowerCase();
+    let inputType = nodeName === 'input' && element.type;
+    return inputType === 'text'
+        || inputType === 'password'
+        || nodeName === 'select'
+        || nodeName === 'textarea';
+}
+/**
+ * Gets whether an element is potentially focusable without taking current visible/disabled state
+ * into account.
+ */
+function isPotentiallyFocusable(element) {
+    // Inputs are potentially focusable *unless* they're type="hidden".
+    if (isHiddenInput(element)) {
+        return false;
+    }
+    return isNativeFormElement(element) ||
+        isAnchorWithHref(element) ||
+        element.hasAttribute('contenteditable') ||
+        hasValidTabIndex(element);
+}
+/** Gets the parent window of a DOM node with regards of being inside of an iframe. */
+function getWindow(node) {
+    // ownerDocument is null if `node` itself *is* a document.
+    return node.ownerDocument && node.ownerDocument.defaultView || window;
+}
+
+/**
+ * @license
+ * Copyright Google LLC All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/** Coerces a data-bound value (typically a string) to a boolean. */
+function coerceBooleanProperty(value) {
+    return value != null && `${value}` !== 'false';
+}
+
+/**
+ * @license
+ * Copyright Google LLC All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * Class that allows for trapping focus within a DOM element.
+ *
+ * This class currently uses a relatively simple approach to focus trapping.
+ * It assumes that the tab order is the same as DOM order, which is not necessarily true.
+ * Things like `tabIndex > 0`, flex `order`, and shadow roots can cause the two to misalign.
+ *
+ * @deprecated Use `ConfigurableFocusTrap` instead.
+ * @breaking-change for 11.0.0 Remove this class.
+ */
+class FocusTrap {
+    constructor(_element, _checker, _ngZone, _document, deferAnchors = false) {
+        this._element = _element;
+        this._checker = _checker;
+        this._ngZone = _ngZone;
+        this._document = _document;
+        this._hasAttached = false;
+        // Event listeners for the anchors. Need to be regular functions so that we can unbind them later.
+        this.startAnchorListener = () => this.focusLastTabbableElement();
+        this.endAnchorListener = () => this.focusFirstTabbableElement();
+        this._enabled = true;
+        if (!deferAnchors) {
+            this.attachAnchors();
+        }
+    }
+    /** Whether the focus trap is active. */
+    get enabled() {
+        return this._enabled;
+    }
+    set enabled(value) {
+        this._enabled = value;
+        if (this._startAnchor && this._endAnchor) {
+            this._toggleAnchorTabIndex(value, this._startAnchor);
+            this._toggleAnchorTabIndex(value, this._endAnchor);
+        }
+    }
+    /** Destroys the focus trap by cleaning up the anchors. */
+    destroy() {
+        const startAnchor = this._startAnchor;
+        const endAnchor = this._endAnchor;
+        if (startAnchor) {
+            startAnchor.removeEventListener('focus', this.startAnchorListener);
+            if (startAnchor.parentNode) {
+                startAnchor.parentNode.removeChild(startAnchor);
+            }
+        }
+        if (endAnchor) {
+            endAnchor.removeEventListener('focus', this.endAnchorListener);
+            if (endAnchor.parentNode) {
+                endAnchor.parentNode.removeChild(endAnchor);
+            }
+        }
+        this._startAnchor = this._endAnchor = null;
+        this._hasAttached = false;
+    }
+    /**
+     * Inserts the anchors into the DOM. This is usually done automatically
+     * in the constructor, but can be deferred for cases like directives with `*ngIf`.
+     * @returns Whether the focus trap managed to attach successfuly. This may not be the case
+     * if the target element isn't currently in the DOM.
+     */
+    attachAnchors() {
+        // If we're not on the browser, there can be no focus to trap.
+        if (this._hasAttached) {
+            return true;
+        }
+        this._ngZone.runOutsideAngular(() => {
+            if (!this._startAnchor) {
+                this._startAnchor = this._createAnchor();
+                this._startAnchor.addEventListener('focus', this.startAnchorListener);
+            }
+            if (!this._endAnchor) {
+                this._endAnchor = this._createAnchor();
+                this._endAnchor.addEventListener('focus', this.endAnchorListener);
+            }
+        });
+        if (this._element.parentNode) {
+            this._element.parentNode.insertBefore(this._startAnchor, this._element);
+            this._element.parentNode.insertBefore(this._endAnchor, this._element.nextSibling);
+            this._hasAttached = true;
+        }
+        return this._hasAttached;
+    }
+    /**
+     * Waits for the zone to stabilize, then either focuses the first element that the
+     * user specified, or the first tabbable element.
+     * @returns Returns a promise that resolves with a boolean, depending
+     * on whether focus was moved successfully.
+     */
+    focusInitialElementWhenReady() {
+        return new Promise(resolve => {
+            this._executeOnStable(() => resolve(this.focusInitialElement()));
+        });
+    }
+    /**
+     * Waits for the zone to stabilize, then focuses
+     * the first tabbable element within the focus trap region.
+     * @returns Returns a promise that resolves with a boolean, depending
+     * on whether focus was moved successfully.
+     */
+    focusFirstTabbableElementWhenReady() {
+        return new Promise(resolve => {
+            this._executeOnStable(() => resolve(this.focusFirstTabbableElement()));
+        });
+    }
+    /**
+     * Waits for the zone to stabilize, then focuses
+     * the last tabbable element within the focus trap region.
+     * @returns Returns a promise that resolves with a boolean, depending
+     * on whether focus was moved successfully.
+     */
+    focusLastTabbableElementWhenReady() {
+        return new Promise(resolve => {
+            this._executeOnStable(() => resolve(this.focusLastTabbableElement()));
+        });
+    }
+    /**
+     * Get the specified boundary element of the trapped region.
+     * @param bound The boundary to get (start or end of trapped region).
+     * @returns The boundary element.
+     */
+    _getRegionBoundary(bound) {
+        // Contains the deprecated version of selector, for temporary backwards comparability.
+        let markers = this._element.querySelectorAll(`[cdk-focus-region-${bound}], ` +
+            `[cdkFocusRegion${bound}], ` +
+            `[cdk-focus-${bound}]`);
+        for (let i = 0; i < markers.length; i++) {
+            // @breaking-change 8.0.0
+            if (markers[i].hasAttribute(`cdk-focus-${bound}`)) {
+                console.warn(`Found use of deprecated attribute 'cdk-focus-${bound}', ` +
+                    `use 'cdkFocusRegion${bound}' instead. The deprecated ` +
+                    `attribute will be removed in 8.0.0.`, markers[i]);
+            }
+            else if (markers[i].hasAttribute(`cdk-focus-region-${bound}`)) {
+                console.warn(`Found use of deprecated attribute 'cdk-focus-region-${bound}', ` +
+                    `use 'cdkFocusRegion${bound}' instead. The deprecated attribute ` +
+                    `will be removed in 8.0.0.`, markers[i]);
+            }
+        }
+        if (bound == 'start') {
+            return markers.length ? markers[0] : this._getFirstTabbableElement(this._element);
+        }
+        return markers.length ?
+            markers[markers.length - 1] : this._getLastTabbableElement(this._element);
+    }
+    /**
+     * Focuses the element that should be focused when the focus trap is initialized.
+     * @returns Whether focus was moved successfully.
+     */
+    focusInitialElement() {
+        // Contains the deprecated version of selector, for temporary backwards comparability.
+        const redirectToElement = this._element.querySelector(`[cdk-focus-initial], ` +
+            `[cdkFocusInitial]`);
+        if (redirectToElement) {
+            // @breaking-change 8.0.0
+            if (redirectToElement.hasAttribute(`cdk-focus-initial`)) {
+                console.warn(`Found use of deprecated attribute 'cdk-focus-initial', ` +
+                    `use 'cdkFocusInitial' instead. The deprecated attribute ` +
+                    `will be removed in 8.0.0`, redirectToElement);
+            }
+            // Warn the consumer if the element they've pointed to
+            // isn't focusable, when not in production mode.
+            if (!this._checker.isFocusable(redirectToElement)) {
+                const focusableChild = this._getFirstTabbableElement(redirectToElement);
+                focusableChild === null || focusableChild === void 0 ? void 0 : focusableChild.focus();
+                return !!focusableChild;
+            }
+            redirectToElement.focus();
+            return true;
+        }
+        return this.focusFirstTabbableElement();
+    }
+    /**
+     * Focuses the first tabbable element within the focus trap region.
+     * @returns Whether focus was moved successfully.
+     */
+    focusFirstTabbableElement() {
+        const redirectToElement = this._getRegionBoundary('start');
+        if (redirectToElement) {
+            redirectToElement.focus();
+        }
+        return !!redirectToElement;
+    }
+    /**
+     * Focuses the last tabbable element within the focus trap region.
+     * @returns Whether focus was moved successfully.
+     */
+    focusLastTabbableElement() {
+        const redirectToElement = this._getRegionBoundary('end');
+        if (redirectToElement) {
+            redirectToElement.focus();
+        }
+        return !!redirectToElement;
+    }
+    /**
+     * Checks whether the focus trap has successfully been attached.
+     */
+    hasAttached() {
+        return this._hasAttached;
+    }
+    /** Get the first tabbable element from a DOM subtree (inclusive). */
+    _getFirstTabbableElement(root) {
+        if (this._checker.isFocusable(root) && this._checker.isTabbable(root)) {
+            return root;
+        }
+        // Iterate in DOM order. Note that IE doesn't have `children` for SVG so we fall
+        // back to `childNodes` which includes text nodes, comments etc.
+        let children = root.children || root.childNodes;
+        for (let i = 0; i < children.length; i++) {
+            let tabbableChild = children[i].nodeType === this._document.ELEMENT_NODE ?
+                this._getFirstTabbableElement(children[i]) :
+                null;
+            if (tabbableChild) {
+                return tabbableChild;
+            }
+        }
+        return null;
+    }
+    /** Get the last tabbable element from a DOM subtree (inclusive). */
+    _getLastTabbableElement(root) {
+        if (this._checker.isFocusable(root) && this._checker.isTabbable(root)) {
+            return root;
+        }
+        // Iterate in reverse DOM order.
+        let children = root.children || root.childNodes;
+        for (let i = children.length - 1; i >= 0; i--) {
+            let tabbableChild = children[i].nodeType === this._document.ELEMENT_NODE ?
+                this._getLastTabbableElement(children[i]) :
+                null;
+            if (tabbableChild) {
+                return tabbableChild;
+            }
+        }
+        return null;
+    }
+    /** Creates an anchor element. */
+    _createAnchor() {
+        const anchor = this._document.createElement('div');
+        this._toggleAnchorTabIndex(this._enabled, anchor);
+        anchor.classList.add('cdk-visually-hidden');
+        anchor.classList.add('cdk-focus-trap-anchor');
+        anchor.setAttribute('aria-hidden', 'true');
+        return anchor;
+    }
+    /**
+     * Toggles the `tabindex` of an anchor, based on the enabled state of the focus trap.
+     * @param isEnabled Whether the focus trap is enabled.
+     * @param anchor Anchor on which to toggle the tabindex.
+     */
+    _toggleAnchorTabIndex(isEnabled, anchor) {
+        // Remove the tabindex completely, rather than setting it to -1, because if the
+        // element has a tabindex, the user might still hit it when navigating with the arrow keys.
+        isEnabled ? anchor.setAttribute('tabindex', '0') : anchor.removeAttribute('tabindex');
+    }
+    /**
+     * Toggles the`tabindex` of both anchors to either trap Tab focus or allow it to escape.
+     * @param enabled: Whether the anchors should trap Tab.
+     */
+    toggleAnchors(enabled) {
+        if (this._startAnchor && this._endAnchor) {
+            this._toggleAnchorTabIndex(enabled, this._startAnchor);
+            this._toggleAnchorTabIndex(enabled, this._endAnchor);
+        }
+    }
+    /** Executes a function when the zone is stable. */
+    _executeOnStable(fn) {
+        if (this._ngZone.isStable) {
+            fn();
+        }
+        else {
+            this._ngZone.onStable.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["take"])(1)).subscribe(fn);
+        }
+    }
+}
+/**
+ * Factory that allows easy instantiation of focus traps.
+ * @deprecated Use `ConfigurableFocusTrapFactory` instead.
+ * @breaking-change for 11.0.0 Remove this class.
+ */
+class FocusTrapFactory {
+    constructor(_checker, _ngZone, _document) {
+        this._checker = _checker;
+        this._ngZone = _ngZone;
+        this._document = _document;
+    }
+    /**
+     * Creates a focus-trapped region around the given element.
+     * @param element The element around which focus will be trapped.
+     * @param deferCaptureElements Defers the creation of focus-capturing elements to be done
+     *     manually by the user.
+     * @returns The created focus trap instance.
+     */
+    create(element, deferCaptureElements = false) {
+        return new FocusTrap(element, this._checker, this._ngZone, this._document, deferCaptureElements);
+    }
+}
+FocusTrapFactory.ɵfac = function FocusTrapFactory_Factory(t) { return new (t || FocusTrapFactory)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](InteractivityChecker), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_common__WEBPACK_IMPORTED_MODULE_1__["DOCUMENT"])); };
+FocusTrapFactory.ɵprov = Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"])({ factory: function FocusTrapFactory_Factory() { return new FocusTrapFactory(Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"])(InteractivityChecker), Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"])(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"]), Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"])(_angular_common__WEBPACK_IMPORTED_MODULE_1__["DOCUMENT"])); }, token: FocusTrapFactory, providedIn: "root" });
+FocusTrapFactory.ctorParameters = () => [
+    { type: InteractivityChecker },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"] },
+    { type: undefined, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"], args: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["DOCUMENT"],] }] }
+];
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](FocusTrapFactory, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"],
+        args: [{ providedIn: 'root' }]
+    }], function () { return [{ type: InteractivityChecker }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"] }, { type: undefined, decorators: [{
+                type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"],
+                args: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["DOCUMENT"]]
+            }] }]; }, null); })();
+/** Directive for trapping focus within a region. */
+class FocusTrapDirective {
+    constructor(_elementRef, _focusTrapFactory, _document) {
+        this._elementRef = _elementRef;
+        this._focusTrapFactory = _focusTrapFactory;
+        /** Previously focused element to restore focus to upon destroy when using autoCapture. */
+        this._previouslyFocusedElement = null;
+        this._autoCapture = false;
+        this._document = _document;
+        this.focusTrap = this._focusTrapFactory.create(this._elementRef.nativeElement, true);
+    }
+    /** Whether the focus trap is active. */
+    get enabled() {
+        return this.focusTrap.enabled;
+    }
+    set enabled(value) {
+        this.focusTrap.enabled = coerceBooleanProperty(value);
+    }
+    /**
+     * Whether the directive should automatically move focus into the trapped region upon
+     * initialization and return focus to the previous activeElement upon destruction.
+     */
+    get autoCapture() {
+        return this._autoCapture;
+    }
+    set autoCapture(value) {
+        this._autoCapture = coerceBooleanProperty(value);
+    }
+    ngOnDestroy() {
+        this.focusTrap.destroy();
+        // If we stored a previously focused element when using autoCapture, return focus to that
+        // element now that the trapped region is being destroyed.
+        if (this._previouslyFocusedElement) {
+            this._previouslyFocusedElement.focus();
+            this._previouslyFocusedElement = null;
+        }
+    }
+    ngAfterContentInit() {
+        this.focusTrap.attachAnchors();
+        if (this.autoCapture) {
+            this._captureFocus();
+        }
+    }
+    ngDoCheck() {
+        if (!this.focusTrap.hasAttached()) {
+            this.focusTrap.attachAnchors();
+        }
+    }
+    ngOnChanges(changes) {
+        const autoCaptureChange = changes['autoCapture'];
+        if (autoCaptureChange && !autoCaptureChange.firstChange && this.autoCapture &&
+            this.focusTrap.hasAttached()) {
+            this._captureFocus();
+        }
+    }
+    _captureFocus() {
+        this._previouslyFocusedElement = this._document.activeElement;
+        this.focusTrap.focusInitialElementWhenReady();
+    }
+}
+FocusTrapDirective.ɵfac = function FocusTrapDirective_Factory(t) { return new (t || FocusTrapDirective)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](FocusTrapFactory), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_common__WEBPACK_IMPORTED_MODULE_1__["DOCUMENT"])); };
+FocusTrapDirective.ɵdir = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineDirective"]({ type: FocusTrapDirective, selectors: [["", "focusTrap", ""]], inputs: { enabled: ["cdkTrapFocus", "enabled"], autoCapture: ["cdkTrapFocusAutoCapture", "autoCapture"] }, exportAs: ["focusTrap"], features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵNgOnChangesFeature"]] });
+FocusTrapDirective.ctorParameters = () => [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] },
+    { type: FocusTrapFactory },
+    { type: undefined, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"], args: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["DOCUMENT"],] }] }
+];
+FocusTrapDirective.propDecorators = {
+    enabled: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"], args: ['cdkTrapFocus',] }],
+    autoCapture: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"], args: ['cdkTrapFocusAutoCapture',] }]
+};
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](FocusTrapDirective, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"],
+        args: [{
+                selector: '[focusTrap]',
+                exportAs: 'focusTrap'
+            }]
+    }], function () { return [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] }, { type: FocusTrapFactory }, { type: undefined, decorators: [{
+                type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"],
+                args: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["DOCUMENT"]]
+            }] }]; }, { enabled: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"],
+            args: ['cdkTrapFocus']
+        }], autoCapture: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"],
+            args: ['cdkTrapFocusAutoCapture']
+        }] }); })();
+
+class FocusTrapModule {
+    static forRoot() {
+        return {
+            ngModule: FocusTrapModule,
+            providers: [
+                FocusTrapManager,
+                Platform,
+                InteractivityChecker
+            ]
+        };
+    }
+}
+FocusTrapModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineNgModule"]({ type: FocusTrapModule });
+FocusTrapModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjector"]({ factory: function FocusTrapModule_Factory(t) { return new (t || FocusTrapModule)(); }, imports: [[_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"]]] });
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsetNgModuleScope"](FocusTrapModule, { declarations: function () { return [FocusTrapDirective]; }, imports: function () { return [_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"]]; }, exports: function () { return [FocusTrapDirective]; } }); })();
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](FocusTrapModule, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
+        args: [{
+                imports: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"]],
+                declarations: [FocusTrapDirective],
+                exports: [FocusTrapDirective]
+            }]
+    }], null, null); })();
+
+/**
+ * Generated bundle index. Do not edit.
+ */
+
+
+
+//# sourceMappingURL=ngx-bootstrap-focus-trap.js.map
+
+/***/ }),
+
 /***/ "WyKG":
 /*!******************************************************************!*\
   !*** ./node_modules/rxjs/_esm2015/internal/util/toSubscriber.js ***!
@@ -26249,6 +28118,1107 @@ function toSubscriber(nextOrObserver, error, complete) {
     return new _Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"](nextOrObserver, error, complete);
 }
 //# sourceMappingURL=toSubscriber.js.map
+
+/***/ }),
+
+/***/ "WyaX":
+/*!***************************************************************************************************!*\
+  !*** ./node_modules/ngx-bootstrap/__ivy_ngcc__/positioning/fesm2015/ngx-bootstrap-positioning.js ***!
+  \***************************************************************************************************/
+/*! exports provided: PlacementForBs5, Positioning, PositioningService, checkMargins, positionElements */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PlacementForBs5", function() { return PlacementForBs5; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Positioning", function() { return Positioning; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PositioningService", function() { return PositioningService; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "checkMargins", function() { return checkMargins; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "positionElements", function() { return positionElements; });
+/* harmony import */ var ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ngx-bootstrap/utils */ "lUod");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "fXoL");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ "ofXK");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs */ "qCKp");
+
+
+
+
+
+
+var MapPlacementInToRL;
+(function (MapPlacementInToRL) {
+    MapPlacementInToRL["top"] = "top";
+    MapPlacementInToRL["bottom"] = "bottom";
+    MapPlacementInToRL["left"] = "left";
+    MapPlacementInToRL["right"] = "right";
+    MapPlacementInToRL["auto"] = "auto";
+    MapPlacementInToRL["end"] = "right";
+    MapPlacementInToRL["start"] = "left";
+    MapPlacementInToRL["top left"] = "top left";
+    MapPlacementInToRL["top right"] = "top right";
+    MapPlacementInToRL["right top"] = "right top";
+    MapPlacementInToRL["right bottom"] = "right bottom";
+    MapPlacementInToRL["bottom right"] = "bottom right";
+    MapPlacementInToRL["bottom left"] = "bottom left";
+    MapPlacementInToRL["left bottom"] = "left bottom";
+    MapPlacementInToRL["left top"] = "left top";
+    MapPlacementInToRL["top start"] = "top left";
+    MapPlacementInToRL["top end"] = "top right";
+    MapPlacementInToRL["end top"] = "right top";
+    MapPlacementInToRL["end bottom"] = "right bottom";
+    MapPlacementInToRL["bottom end"] = "bottom right";
+    MapPlacementInToRL["bottom start"] = "bottom left";
+    MapPlacementInToRL["start bottom"] = "start bottom";
+    MapPlacementInToRL["start top"] = "left top";
+})(MapPlacementInToRL || (MapPlacementInToRL = {}));
+var PlacementForBs5;
+(function (PlacementForBs5) {
+    PlacementForBs5["top"] = "top";
+    PlacementForBs5["bottom"] = "bottom";
+    PlacementForBs5["left"] = "start";
+    PlacementForBs5["right"] = "end";
+    PlacementForBs5["auto"] = "auto";
+    PlacementForBs5["end"] = "end";
+    PlacementForBs5["start"] = "start";
+    PlacementForBs5["top left"] = "top start";
+    PlacementForBs5["top right"] = "top end";
+    PlacementForBs5["right top"] = "end top";
+    PlacementForBs5["right bottom"] = "end bottom";
+    PlacementForBs5["bottom right"] = "bottom end";
+    PlacementForBs5["bottom left"] = "bottom start";
+    PlacementForBs5["left bottom"] = "start bottom";
+    PlacementForBs5["left top"] = "start top";
+    PlacementForBs5["top start"] = "top start";
+    PlacementForBs5["top end"] = "top end";
+    PlacementForBs5["end top"] = "end top";
+    PlacementForBs5["end bottom"] = "end bottom";
+    PlacementForBs5["bottom end"] = "bottom end";
+    PlacementForBs5["bottom start"] = "bottom start";
+    PlacementForBs5["start bottom"] = "start bottom";
+    PlacementForBs5["start top"] = "start top";
+})(PlacementForBs5 || (PlacementForBs5 = {}));
+
+function getStyleComputedProperty(element, property) {
+    if (element.nodeType !== 1) {
+        return [];
+    }
+    // NOTE: 1 DOM access here
+    const window = element.ownerDocument.defaultView;
+    const css = window === null || window === void 0 ? void 0 : window.getComputedStyle(element, null);
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    // @ts-ignore
+    return property ? css && css[property] : css;
+}
+
+const isBrowser = typeof window !== 'undefined' && typeof document !== 'undefined';
+
+/**
+ * Determines if the browser is Internet Explorer
+ */
+// todo: valorkin fix and drop IE support :evil:
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const isIE11 = isBrowser && !!(window.MSInputMethodContext && document.documentMode);
+const isIE10 = isBrowser && !!(window.MSInputMethodContext && /MSIE 10/.test(navigator.userAgent));
+function isIE(version) {
+    if (version === 11) {
+        return isIE11;
+    }
+    if (version === 10) {
+        return isIE10;
+    }
+    return isIE11 || isIE10;
+}
+
+/**
+ * Returns the offset parent of the given element
+ */
+function getOffsetParent(element) {
+    if (!element) {
+        return document.documentElement;
+    }
+    const noOffsetParent = isIE(10) ? document.body : null;
+    // NOTE: 1 DOM access here
+    let offsetParent = element === null || element === void 0 ? void 0 : element.offsetParent;
+    // Skip hidden elements which don't have an offsetParent
+    let sibling = void 0;
+    while (offsetParent === noOffsetParent
+        && element.nextElementSibling
+        && sibling !== element.nextElementSibling) {
+        // todo: valorkin fix
+        sibling = element.nextElementSibling;
+        offsetParent = sibling.offsetParent;
+    }
+    const nodeName = offsetParent && offsetParent.nodeName;
+    if (!nodeName || nodeName === 'BODY' || nodeName === 'HTML') {
+        return sibling ? sibling.ownerDocument.documentElement : document.documentElement;
+    }
+    // .offsetParent will return the closest TH, TD or TABLE in case
+    if (offsetParent &&
+        ['TH', 'TD', 'TABLE'].indexOf(offsetParent.nodeName) !== -1 &&
+        getStyleComputedProperty(offsetParent, 'position') === 'static') {
+        return getOffsetParent(offsetParent);
+    }
+    return offsetParent;
+}
+
+// todo: valorkin fix
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function isOffsetContainer(element) {
+    const { nodeName } = element;
+    if (nodeName === 'BODY') {
+        return false;
+    }
+    return (nodeName === 'HTML' || getOffsetParent(element.firstElementChild) === element);
+}
+
+/**
+ * Finds the root node (document, shadowDOM root) of the given element
+ */
+function getRoot(node) {
+    if (node.parentNode !== null) {
+        return getRoot(node.parentNode);
+    }
+    return node;
+}
+
+/**
+ * Finds the offset parent common to the two provided nodes
+ */
+function findCommonOffsetParent(element1, element2) {
+    // This check is needed to avoid errors in case one of the elements isn't defined for any reason
+    if (!element1 || !element1.nodeType || !element2 || !element2.nodeType) {
+        return document.documentElement;
+    }
+    // Here we make sure to give as "start" the element that comes first in the DOM
+    const order = element1.compareDocumentPosition(element2) & Node.DOCUMENT_POSITION_FOLLOWING;
+    const start = order ? element1 : element2;
+    const end = order ? element2 : element1;
+    // Get common ancestor container
+    const range = document.createRange();
+    range.setStart(start, 0);
+    range.setEnd(end, 0);
+    // todo: valorkin fix
+    const commonAncestorContainer = range.commonAncestorContainer;
+    // Both nodes are inside #document
+    if ((element1 !== commonAncestorContainer &&
+        element2 !== commonAncestorContainer) ||
+        start.contains(end)) {
+        if (isOffsetContainer(commonAncestorContainer)) {
+            return commonAncestorContainer;
+        }
+        return getOffsetParent(commonAncestorContainer);
+    }
+    // one of the nodes is inside shadowDOM, find which one
+    const element1root = getRoot(element1);
+    if (element1root.host) {
+        return findCommonOffsetParent(element1root.host, element2);
+    }
+    else {
+        return findCommonOffsetParent(element1, getRoot(element2).host);
+    }
+}
+
+/**
+ * Finds the first parent of an element that has a transformed property defined
+ */
+function getFixedPositionOffsetParent(element) {
+    // This check is needed to avoid errors in case one of the elements isn't defined for any reason
+    if (!element || !element.parentElement || isIE()) {
+        return document.documentElement;
+    }
+    let el = element.parentElement;
+    while ((el === null || el === void 0 ? void 0 : el.parentElement) && getStyleComputedProperty(el, 'transform') === 'none') {
+        el = el.parentElement;
+    }
+    return el || document.documentElement;
+}
+
+/**
+ * Helper to detect borders of a given element
+ */
+function getBordersSize(styles, axis) {
+    const sideA = axis === 'x' ? 'Left' : 'Top';
+    const sideB = sideA === 'Left' ? 'Right' : 'Bottom';
+    return (parseFloat(styles[`border${sideA}Width`]) +
+        parseFloat(styles[`border${sideB}Width`]));
+}
+
+function getSize(axis, body, html, computedStyle) {
+    const _body = body;
+    const _html = html;
+    const _computedStyle = computedStyle;
+    return Math.max(_body[`offset${axis}`], _body[`scroll${axis}`], _html[`client${axis}`], _html[`offset${axis}`], _html[`scroll${axis}`], isIE(10)
+        ? (parseInt(_html[`offset${axis}`], 10) +
+            parseInt(_computedStyle[`margin${axis === 'Height' ? 'Top' : 'Left'}`], 10) +
+            parseInt(_computedStyle[`margin${axis === 'Height' ? 'Bottom' : 'Right'}`], 10))
+        : 0);
+}
+function getWindowSizes(document) {
+    const body = document.body;
+    const html = document.documentElement;
+    const computedStyle = isIE(10) ? getComputedStyle(html) : void 0;
+    return {
+        height: getSize('Height', body, html, computedStyle),
+        width: getSize('Width', body, html, computedStyle)
+    };
+}
+
+/**
+ * Gets the scroll value of the given element in the given side (top and left)
+ */
+function getScroll(element, side = 'top') {
+    const upperSide = side === 'top' ? 'scrollTop' : 'scrollLeft';
+    const nodeName = element.nodeName;
+    if (nodeName === 'BODY' || nodeName === 'HTML') {
+        const html = element.ownerDocument.documentElement;
+        const scrollingElement = element.ownerDocument.scrollingElement || html;
+        return scrollingElement[upperSide];
+    }
+    return element[upperSide];
+}
+
+function getClientRect(offsets) {
+    return Object.assign(Object.assign({}, offsets), { right: (offsets.left || 0) + offsets.width, bottom: (offsets.top || 0) + offsets.height });
+}
+
+/**
+ * Tells if a given input is a number
+ */
+function isNumeric(n) {
+    return n !== '' && !isNaN(parseFloat(n)) && isFinite(Number(n));
+}
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function isNumber(value) {
+    return typeof value === 'number' || Object.prototype.toString.call(value) === '[object Number]';
+}
+
+/**
+ * Get bounding client rect of given element
+ */
+function getBoundingClientRect(element) {
+    const rect = element.getBoundingClientRect();
+    // IE10 10 FIX: Please, don't ask, the element isn't
+    // considered in DOM in some circumstances...
+    // This isn't reproducible in IE10 compatibility mode of IE11
+    try {
+        if (isIE(10)) {
+            const scrollTop = getScroll(element, 'top');
+            const scrollLeft = getScroll(element, 'left');
+            if (rect && isNumber(rect.top) && isNumber(rect.left) && isNumber(rect.bottom) && isNumber(rect.right)) {
+                rect.top += scrollTop;
+                rect.left += scrollLeft;
+                rect.bottom += scrollTop;
+                rect.right += scrollLeft;
+            }
+        }
+    }
+    catch (e) {
+        return rect;
+    }
+    if (!(rect && isNumber(rect.top) && isNumber(rect.left) && isNumber(rect.bottom) && isNumber(rect.right))) {
+        return rect;
+    }
+    const result = {
+        left: rect.left,
+        top: rect.top,
+        width: rect.right - rect.left,
+        height: rect.bottom - rect.top
+    };
+    // subtract scrollbar size from sizes
+    const sizes = element.nodeName === 'HTML' ? getWindowSizes(element.ownerDocument) : undefined;
+    const width = (sizes === null || sizes === void 0 ? void 0 : sizes.width) || element.clientWidth
+        || isNumber(rect.right) && isNumber(result.left) && rect.right - result.left || 0;
+    const height = (sizes === null || sizes === void 0 ? void 0 : sizes.height) || element.clientHeight
+        || isNumber(rect.bottom) && isNumber(result.top) && rect.bottom - result.top || 0;
+    let horizScrollbar = element.offsetWidth - width;
+    let vertScrollbar = element.offsetHeight - height;
+    // if an hypothetical scrollbar is detected, we must be sure it's not a `border`
+    // we make this check conditional for performance reasons
+    if (horizScrollbar || vertScrollbar) {
+        const styles = getStyleComputedProperty(element);
+        horizScrollbar -= getBordersSize(styles, 'x');
+        vertScrollbar -= getBordersSize(styles, 'y');
+        result.width -= horizScrollbar;
+        result.height -= vertScrollbar;
+    }
+    return getClientRect(result);
+}
+
+/**
+ * Returns the parentNode or the host of the element
+ */
+// todo: valorkin fix
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function getParentNode(element) {
+    if (element.nodeName === 'HTML') {
+        return element;
+    }
+    return element.parentNode || element.host;
+}
+
+/**
+ * Returns the scrolling parent of the given element
+ */
+// todo: valorkin fix
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function getScrollParent(element) {
+    // Return body, `getScroll` will take care to get the correct `scrollTop` from it
+    if (!element) {
+        return document.body;
+    }
+    switch (element.nodeName) {
+        case 'HTML':
+        case 'BODY':
+            return element.ownerDocument.body;
+        case '#document':
+            return element.body;
+        default:
+    }
+    // Firefox want us to check `-x` and `-y` variations as well
+    const { overflow, overflowX, overflowY } = getStyleComputedProperty(element);
+    if (/(auto|scroll|overlay)/.test(String(overflow) + String(overflowY) + String(overflowX))) {
+        return element;
+    }
+    return getScrollParent(getParentNode(element));
+}
+
+/**
+ * Sum or subtract the element scroll values (left and top) from a given rect object
+ */
+function includeScroll(rect, element, subtract = false) {
+    const scrollTop = getScroll(element, 'top');
+    const scrollLeft = getScroll(element, 'left');
+    const modifier = subtract ? -1 : 1;
+    if (isNumber(rect.top)) {
+        rect.top += scrollTop * modifier;
+    }
+    if (isNumber(rect.bottom)) {
+        rect.bottom += scrollTop * modifier;
+    }
+    if (isNumber(rect.left)) {
+        rect.left += scrollLeft * modifier;
+    }
+    if (isNumber(rect.right)) {
+        rect.right += scrollLeft * modifier;
+    }
+    return rect;
+}
+
+function getOffsetRectRelativeToArbitraryNode(children, parent, fixedPosition = false) {
+    var _a, _b, _c, _d, _e, _f;
+    const isIE10 = isIE(10);
+    const isHTML = parent.nodeName === 'HTML';
+    const childrenRect = getBoundingClientRect(children);
+    const parentRect = getBoundingClientRect(parent);
+    const scrollParent = getScrollParent(children);
+    const styles = getStyleComputedProperty(parent);
+    const borderTopWidth = parseFloat(styles.borderTopWidth);
+    const borderLeftWidth = parseFloat(styles.borderLeftWidth);
+    // In cases where the parent is fixed, we must ignore negative scroll in offset calc
+    if (fixedPosition && isHTML) {
+        parentRect.top = Math.max((_a = parentRect.top) !== null && _a !== void 0 ? _a : 0, 0);
+        parentRect.left = Math.max((_b = parentRect.left) !== null && _b !== void 0 ? _b : 0, 0);
+    }
+    let offsets = getClientRect({
+        top: ((_c = childrenRect.top) !== null && _c !== void 0 ? _c : 0) - ((_d = parentRect.top) !== null && _d !== void 0 ? _d : 0) - borderTopWidth,
+        left: ((_e = childrenRect.left) !== null && _e !== void 0 ? _e : 0) - ((_f = parentRect.left) !== null && _f !== void 0 ? _f : 0) - borderLeftWidth,
+        width: childrenRect.width,
+        height: childrenRect.height
+    });
+    offsets.marginTop = 0;
+    offsets.marginLeft = 0;
+    // Subtract margins of documentElement in case it's being used as parent
+    // we do this only on HTML because it's the only element that behaves
+    // differently when margins are applied to it. The margins are included in
+    // the box of the documentElement, in the other cases not.
+    if (!isIE10 && isHTML) {
+        const marginTop = parseFloat(styles.marginTop);
+        const marginLeft = parseFloat(styles.marginLeft);
+        if (isNumber(offsets.top)) {
+            offsets.top -= borderTopWidth - marginTop;
+        }
+        if (isNumber(offsets.bottom)) {
+            offsets.bottom -= borderTopWidth - marginTop;
+        }
+        if (isNumber(offsets.left)) {
+            offsets.left -= borderLeftWidth - marginLeft;
+        }
+        if (isNumber(offsets.right)) {
+            offsets.right -= borderLeftWidth - marginLeft;
+        }
+        // Attach marginTop and marginLeft because in some circumstances we may need them
+        offsets.marginTop = marginTop;
+        offsets.marginLeft = marginLeft;
+    }
+    if (isIE10 && !fixedPosition
+        ? parent.contains(scrollParent)
+        : parent === scrollParent && scrollParent.nodeName !== 'BODY') {
+        offsets = includeScroll(offsets, parent);
+    }
+    return offsets;
+}
+
+function getViewportOffsetRectRelativeToArtbitraryNode(element, excludeScroll = false) {
+    const html = element.ownerDocument.documentElement;
+    const relativeOffset = getOffsetRectRelativeToArbitraryNode(element, html);
+    const width = Math.max(html.clientWidth, window.innerWidth || 0);
+    const height = Math.max(html.clientHeight, window.innerHeight || 0);
+    const scrollTop = !excludeScroll ? getScroll(html) : 0;
+    const scrollLeft = !excludeScroll ? getScroll(html, 'left') : 0;
+    const offset = {
+        top: scrollTop - Number(relativeOffset === null || relativeOffset === void 0 ? void 0 : relativeOffset.top) + Number(relativeOffset === null || relativeOffset === void 0 ? void 0 : relativeOffset.marginTop),
+        left: scrollLeft - Number(relativeOffset === null || relativeOffset === void 0 ? void 0 : relativeOffset.left) + Number(relativeOffset === null || relativeOffset === void 0 ? void 0 : relativeOffset.marginLeft),
+        width,
+        height
+    };
+    return getClientRect(offset);
+}
+
+/**
+ * Check if the given element is fixed or is inside a fixed parent
+ */
+function isFixed(element) {
+    const nodeName = element.nodeName;
+    if (nodeName === 'BODY' || nodeName === 'HTML') {
+        return false;
+    }
+    if (getStyleComputedProperty(element, 'position') === 'fixed') {
+        return true;
+    }
+    return isFixed(getParentNode(element));
+}
+
+function getBoundaries(target, host, padding = 0, boundariesElement, fixedPosition = false) {
+    // NOTE: 1 DOM access here
+    let boundaries = { top: 0, left: 0 };
+    const offsetParent = fixedPosition ? getFixedPositionOffsetParent(target) : findCommonOffsetParent(target, host);
+    // Handle viewport case
+    if (boundariesElement === 'viewport') {
+        boundaries = getViewportOffsetRectRelativeToArtbitraryNode(offsetParent, fixedPosition);
+    }
+    else {
+        // Handle other cases based on DOM element used as boundaries
+        let boundariesNode;
+        if (boundariesElement === 'scrollParent') {
+            boundariesNode = getScrollParent(getParentNode(host));
+            if (boundariesNode.nodeName === 'BODY') {
+                boundariesNode = target.ownerDocument.documentElement;
+            }
+        }
+        else if (boundariesElement === 'window') {
+            boundariesNode = target.ownerDocument.documentElement;
+        }
+        else {
+            boundariesNode = boundariesElement;
+        }
+        const offsets = getOffsetRectRelativeToArbitraryNode(boundariesNode, offsetParent, fixedPosition);
+        // In case of HTML, we need a different computation
+        if (offsets && boundariesNode.nodeName === 'HTML' && !isFixed(offsetParent)) {
+            const { height, width } = getWindowSizes(target.ownerDocument);
+            if (isNumber(boundaries.top) && isNumber(offsets.top) && isNumber(offsets.marginTop)) {
+                boundaries.top += offsets.top - offsets.marginTop;
+            }
+            if (isNumber(boundaries.top)) {
+                boundaries.bottom = Number(height) + Number(offsets.top);
+            }
+            if (isNumber(boundaries.left) && isNumber(offsets.left) && isNumber(offsets.marginLeft)) {
+                boundaries.left += offsets.left - offsets.marginLeft;
+            }
+            if (isNumber(boundaries.top)) {
+                boundaries.right = Number(width) + Number(offsets.left);
+            }
+        }
+        else if (offsets) {
+            // for all the other DOM elements, this one is good
+            boundaries = offsets;
+        }
+    }
+    // Add paddings
+    if (isNumber(boundaries.left)) {
+        boundaries.left += padding;
+    }
+    if (isNumber(boundaries.top)) {
+        boundaries.top += padding;
+    }
+    if (isNumber(boundaries.right)) {
+        boundaries.right -= padding;
+    }
+    if (isNumber(boundaries.bottom)) {
+        boundaries.bottom -= padding;
+    }
+    return boundaries;
+}
+
+/**
+ * Utility used to transform the `auto` placement to the placement with more
+ * available space.
+ */
+function getArea({ width, height }) {
+    return width * height;
+}
+function computeAutoPlacement(placement, refRect, target, host, allowedPositions = ['top', 'bottom', 'right', 'left'], boundariesElement = 'viewport', padding = 0) {
+    var _a, _b, _c, _d;
+    if (placement.indexOf('auto') === -1) {
+        return placement;
+    }
+    const boundaries = getBoundaries(target, host, padding, boundariesElement);
+    const rects = {
+        top: {
+            width: (_a = boundaries.width) !== null && _a !== void 0 ? _a : 0,
+            height: refRect.top && boundaries.top ? refRect.top - boundaries.top : 0
+        },
+        right: {
+            width: boundaries.right && refRect.right ? boundaries.right - refRect.right : 0,
+            height: (_b = boundaries.height) !== null && _b !== void 0 ? _b : 0
+        },
+        bottom: {
+            width: (_c = boundaries.width) !== null && _c !== void 0 ? _c : 0,
+            height: boundaries.bottom && refRect.bottom ? boundaries.bottom - refRect.bottom : 0
+        },
+        left: {
+            width: refRect.left && boundaries.left ? refRect.left - boundaries.left : 0,
+            height: (_d = boundaries.height) !== null && _d !== void 0 ? _d : 0
+        }
+    };
+    const sortedAreas = Object.keys(rects)
+        .map((key) => (Object.assign(Object.assign({ key }, rects[key]), { area: getArea(rects[key]) })))
+        .sort((a, b) => b.area - a.area);
+    let filteredAreas = sortedAreas.filter(({ width, height }) => {
+        return width >= target.clientWidth
+            && height >= target.clientHeight;
+    });
+    filteredAreas = filteredAreas.filter((position) => {
+        return allowedPositions
+            .some((allowedPosition) => {
+            return allowedPosition === position.key;
+        });
+    });
+    const computedPlacement = filteredAreas.length > 0
+        ? filteredAreas[0].key
+        : sortedAreas[0].key;
+    const variation = placement.split(' ')[1];
+    // for tooltip on auto position
+    target.className = target.className.replace(/bs-tooltip-auto/g, `bs-tooltip-${Object(ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_0__["getBsVer"])().isBs5 ? PlacementForBs5[computedPlacement] : computedPlacement}`);
+    return computedPlacement + (variation ? `-${variation}` : '');
+}
+
+function getOffsets(data) {
+    var _a, _b, _c, _d;
+    return {
+        width: data.offsets.target.width,
+        height: data.offsets.target.height,
+        left: Math.floor((_a = data.offsets.target.left) !== null && _a !== void 0 ? _a : 0),
+        top: Math.round((_b = data.offsets.target.top) !== null && _b !== void 0 ? _b : 0),
+        bottom: Math.round((_c = data.offsets.target.bottom) !== null && _c !== void 0 ? _c : 0),
+        right: Math.floor((_d = data.offsets.target.right) !== null && _d !== void 0 ? _d : 0)
+    };
+}
+
+/**
+ * Get the opposite placement of the given one
+ */
+function getOppositePlacement(placement) {
+    const hash = { left: 'right', right: 'left', bottom: 'top', top: 'bottom' };
+    return placement.replace(/left|right|bottom|top/g, matched => hash[matched]);
+}
+
+/**
+ * Get the opposite placement variation of the given one
+ */
+function getOppositeVariation(variation) {
+    if (variation === 'right') {
+        return 'left';
+    }
+    else if (variation === 'left') {
+        return 'right';
+    }
+    return variation;
+}
+
+const parse = (value, def = 0) => value ? parseFloat(value) : def;
+const ɵ0 = parse;
+function getOuterSizes(element) {
+    const window = element.ownerDocument.defaultView;
+    const styles = window === null || window === void 0 ? void 0 : window.getComputedStyle(element);
+    const x = parse(styles === null || styles === void 0 ? void 0 : styles.marginTop) + parse(styles === null || styles === void 0 ? void 0 : styles.marginBottom);
+    const y = parse(styles === null || styles === void 0 ? void 0 : styles.marginLeft) + parse(styles === null || styles === void 0 ? void 0 : styles.marginRight);
+    return {
+        width: Number(element.offsetWidth) + y,
+        height: Number(element.offsetHeight) + x
+    };
+}
+
+/**
+ * Get offsets to the reference element
+ */
+function getReferenceOffsets(target, host, fixedPosition) {
+    const commonOffsetParent = fixedPosition
+        ? getFixedPositionOffsetParent(target)
+        : findCommonOffsetParent(target, host);
+    return getOffsetRectRelativeToArbitraryNode(host, commonOffsetParent, fixedPosition);
+}
+
+/**
+ * Get offsets to the target
+ */
+function getTargetOffsets(target, hostOffsets, position) {
+    var _a, _b, _c;
+    const placement = position.split(' ')[0];
+    // Get target node sizes
+    const targetRect = getOuterSizes(target);
+    // Add position, width and height to our offsets object
+    const targetOffsets = {
+        width: targetRect.width,
+        height: targetRect.height
+    };
+    // depending by the target placement we have to compute its offsets slightly differently
+    const isHoriz = ['right', 'left'].indexOf(placement) !== -1;
+    const mainSide = isHoriz ? 'top' : 'left';
+    const secondarySide = isHoriz ? 'left' : 'top';
+    const measurement = isHoriz ? 'height' : 'width';
+    const secondaryMeasurement = !isHoriz ? 'height' : 'width';
+    targetOffsets[mainSide] =
+        ((_a = hostOffsets[mainSide]) !== null && _a !== void 0 ? _a : 0) +
+            hostOffsets[measurement] / 2 -
+            targetRect[measurement] / 2;
+    targetOffsets[secondarySide] = placement === secondarySide
+        ? ((_b = hostOffsets[secondarySide]) !== null && _b !== void 0 ? _b : 0) - targetRect[secondaryMeasurement]
+        : (_c = hostOffsets[getOppositePlacement(secondarySide)]) !== null && _c !== void 0 ? _c : 0;
+    return targetOffsets;
+}
+
+function isModifierEnabled(options, modifierName) {
+    var _a;
+    return !!((_a = options.modifiers[modifierName]) === null || _a === void 0 ? void 0 : _a.enabled);
+}
+
+const availablePositions = {
+    top: ['top', 'top start', 'top end'],
+    bottom: ['bottom', 'bottom start', 'bottom end'],
+    start: ['start', 'start top', 'start bottom'],
+    end: ['end', 'end top', 'end bottom']
+};
+function checkPopoverMargin(placement, checkPosition) {
+    if (!Object(ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_0__["getBsVer"])().isBs5) {
+        return false;
+    }
+    return availablePositions[checkPosition].includes(placement);
+}
+function checkMargins(placement) {
+    if (!Object(ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_0__["getBsVer"])().isBs5) {
+        return '';
+    }
+    if (checkPopoverMargin(placement, 'end')) {
+        return 'ms-2';
+    }
+    if (checkPopoverMargin(placement, 'start')) {
+        return 'me-2';
+    }
+    if (checkPopoverMargin(placement, 'top')) {
+        return 'mb-2';
+    }
+    if (checkPopoverMargin(placement, 'bottom')) {
+        return 'mt-2';
+    }
+    return '';
+}
+
+function updateContainerClass(data, renderer) {
+    const target = data.instance.target;
+    let containerClass = target.className;
+    const dataPlacement = Object(ngx_bootstrap_utils__WEBPACK_IMPORTED_MODULE_0__["getBsVer"])().isBs5 ? PlacementForBs5[data.placement] : data.placement;
+    if (data.placementAuto) {
+        containerClass = containerClass.replace(/bs-popover-auto/g, `bs-popover-${dataPlacement}`);
+        containerClass = containerClass.replace(/ms-2|me-2|mb-2|mt-2/g, '');
+        containerClass = containerClass.replace(/bs-tooltip-auto/g, `bs-tooltip-${dataPlacement}`);
+        containerClass = containerClass.replace(/\sauto/g, ` ${dataPlacement}`);
+        if (containerClass.indexOf('popover') !== -1) {
+            containerClass = containerClass + ' ' + checkMargins(dataPlacement);
+        }
+        if (containerClass.indexOf('popover') !== -1 && containerClass.indexOf('popover-auto') === -1) {
+            containerClass += ' popover-auto';
+        }
+        if (containerClass.indexOf('tooltip') !== -1 && containerClass.indexOf('tooltip-auto') === -1) {
+            containerClass += ' tooltip-auto';
+        }
+    }
+    containerClass = containerClass.replace(/left|right|top|bottom|end|start/g, `${dataPlacement.split(' ')[0]}`);
+    if (renderer) {
+        renderer.setAttribute(target, 'class', containerClass);
+        return;
+    }
+    target.className = containerClass;
+}
+
+function setStyles(element, styles, renderer) {
+    if (!element || !styles) {
+        return;
+    }
+    Object.keys(styles).forEach((prop) => {
+        let unit = '';
+        // add unit if the value is numeric and is one of the following
+        if (['width', 'height', 'top', 'right', 'bottom', 'left'].indexOf(prop) !== -1 &&
+            isNumeric(styles[prop])) {
+            unit = 'px';
+        }
+        if (renderer) {
+            renderer.setStyle(element, prop, `${String(styles[prop])}${unit}`);
+            return;
+        }
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        element.style[prop] = String(styles[prop]) + unit;
+    });
+}
+
+function arrow(data) {
+    var _a, _b, _c, _d, _e, _f;
+    let targetOffsets = data.offsets.target;
+    // if arrowElement is a string, suppose it's a CSS selector
+    const arrowElement = data.instance.target.querySelector('.arrow');
+    // if arrowElement is not found, don't run the modifier
+    if (!arrowElement) {
+        return data;
+    }
+    const isVertical = ['left', 'right'].indexOf(data.placement.split(' ')[0]) !== -1;
+    const len = isVertical ? 'height' : 'width';
+    const sideCapitalized = isVertical ? 'Top' : 'Left';
+    const side = sideCapitalized.toLowerCase();
+    const altSide = isVertical ? 'left' : 'top';
+    const opSide = isVertical ? 'bottom' : 'right';
+    const arrowElementSize = getOuterSizes(arrowElement)[len];
+    const placementVariation = data.placement.split(' ')[1];
+    // top/left side
+    if (((_a = data.offsets.host[opSide]) !== null && _a !== void 0 ? _a : 0) - arrowElementSize < ((_b = targetOffsets[side]) !== null && _b !== void 0 ? _b : 0)) {
+        (targetOffsets)[side] -=
+            ((_c = targetOffsets[side]) !== null && _c !== void 0 ? _c : 0) - (((_d = data.offsets.host[opSide]) !== null && _d !== void 0 ? _d : 0) - arrowElementSize);
+    }
+    // bottom/right side
+    if (Number((data).offsets.host[side]) + Number(arrowElementSize) > ((_e = targetOffsets[opSide]) !== null && _e !== void 0 ? _e : 0)) {
+        (targetOffsets)[side] +=
+            Number((data).offsets.host[side]) + Number(arrowElementSize) - Number((targetOffsets)[opSide]);
+    }
+    targetOffsets = getClientRect(targetOffsets);
+    // Compute the sideValue using the updated target offsets
+    // take target margin in account because we don't have this info available
+    const css = getStyleComputedProperty(data.instance.target);
+    const targetMarginSide = parseFloat(css[`margin${sideCapitalized}`]) || 0;
+    const targetBorderSide = parseFloat(css[`border${sideCapitalized}Width`]) || 0;
+    // compute center of the target
+    let center;
+    if (!placementVariation) {
+        center = Number((data).offsets.host[side]) + Number(data.offsets.host[len] / 2 - arrowElementSize / 2);
+    }
+    else {
+        const targetBorderRadius = parseFloat(css.borderRadius) || 0;
+        const targetSideArrowOffset = Number(targetMarginSide + targetBorderSide + targetBorderRadius);
+        center = side === placementVariation ?
+            Number((data).offsets.host[side]) + targetSideArrowOffset :
+            Number((data).offsets.host[side]) + Number(data.offsets.host[len] - targetSideArrowOffset);
+    }
+    let sideValue = center - ((_f = targetOffsets[side]) !== null && _f !== void 0 ? _f : 0) - targetMarginSide - targetBorderSide;
+    // prevent arrowElement from being placed not contiguously to its target
+    sideValue = Math.max(Math.min(targetOffsets[len] - (arrowElementSize + 5), sideValue), 0);
+    data.offsets.arrow = {
+        [side]: Math.round(sideValue),
+        [altSide]: '' // make sure to unset any eventual altSide value from the DOM node
+    };
+    data.instance.arrow = arrowElement;
+    return data;
+}
+
+function flip(data) {
+    data.offsets.target = getClientRect(data.offsets.target);
+    if (!isModifierEnabled(data.options, 'flip')) {
+        data.offsets.target = Object.assign(Object.assign({}, data.offsets.target), getTargetOffsets(data.instance.target, data.offsets.host, data.placement));
+        return data;
+    }
+    const boundaries = getBoundaries(data.instance.target, data.instance.host, 0, // padding
+    'viewport', false // positionFixed
+    );
+    let placement = data.placement.split(' ')[0];
+    let variation = data.placement.split(' ')[1] || '';
+    const offsetsHost = data.offsets.host;
+    const target = data.instance.target;
+    const host = data.instance.host;
+    const adaptivePosition = computeAutoPlacement('auto', offsetsHost, target, host, data.options.allowedPositions);
+    const flipOrder = [placement, adaptivePosition];
+    flipOrder.forEach((step, index) => {
+        var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q, _r;
+        if (placement !== step || flipOrder.length === index + 1) {
+            return;
+        }
+        placement = data.placement.split(' ')[0];
+        // using floor because the host offsets may contain decimals we are not going to consider here
+        const overlapsRef = (placement === 'left' &&
+            Math.floor((_a = data.offsets.target.right) !== null && _a !== void 0 ? _a : 0) > Math.floor((_b = data.offsets.host.left) !== null && _b !== void 0 ? _b : 0)) ||
+            (placement === 'right' &&
+                Math.floor((_c = data.offsets.target.left) !== null && _c !== void 0 ? _c : 0) < Math.floor((_d = data.offsets.host.right) !== null && _d !== void 0 ? _d : 0)) ||
+            (placement === 'top' &&
+                Math.floor((_e = data.offsets.target.bottom) !== null && _e !== void 0 ? _e : 0) > Math.floor((_f = data.offsets.host.top) !== null && _f !== void 0 ? _f : 0)) ||
+            (placement === 'bottom' &&
+                Math.floor((_g = data.offsets.target.top) !== null && _g !== void 0 ? _g : 0) < Math.floor((_h = data.offsets.host.bottom) !== null && _h !== void 0 ? _h : 0));
+        const overflowsLeft = Math.floor((_j = data.offsets.target.left) !== null && _j !== void 0 ? _j : 0) < Math.floor((_k = boundaries.left) !== null && _k !== void 0 ? _k : 0);
+        const overflowsRight = Math.floor((_l = data.offsets.target.right) !== null && _l !== void 0 ? _l : 0) > Math.floor((_m = boundaries.right) !== null && _m !== void 0 ? _m : 0);
+        const overflowsTop = Math.floor((_o = data.offsets.target.top) !== null && _o !== void 0 ? _o : 0) < Math.floor((_p = boundaries.top) !== null && _p !== void 0 ? _p : 0);
+        const overflowsBottom = Math.floor((_q = data.offsets.target.bottom) !== null && _q !== void 0 ? _q : 0) > Math.floor((_r = boundaries.bottom) !== null && _r !== void 0 ? _r : 0);
+        const overflowsBoundaries = (placement === 'left' && overflowsLeft) ||
+            (placement === 'right' && overflowsRight) ||
+            (placement === 'top' && overflowsTop) ||
+            (placement === 'bottom' && overflowsBottom);
+        // flip the variation if required
+        const isVertical = ['top', 'bottom'].indexOf(placement) !== -1;
+        const flippedVariation = ((isVertical && variation === 'left' && overflowsLeft) ||
+            (isVertical && variation === 'right' && overflowsRight) ||
+            (!isVertical && variation === 'left' && overflowsTop) ||
+            (!isVertical && variation === 'right' && overflowsBottom));
+        if (overlapsRef || overflowsBoundaries || flippedVariation) {
+            if (overlapsRef || overflowsBoundaries) {
+                placement = flipOrder[index + 1];
+            }
+            if (flippedVariation) {
+                variation = getOppositeVariation(variation);
+            }
+            data.placement = placement + (variation ? ` ${variation}` : '');
+            data.offsets.target = Object.assign(Object.assign({}, data.offsets.target), getTargetOffsets(data.instance.target, data.offsets.host, data.placement));
+        }
+    });
+    return data;
+}
+
+function initData(targetElement, hostElement, position, options) {
+    if (!targetElement || !hostElement) {
+        return;
+    }
+    const hostElPosition = getReferenceOffsets(targetElement, hostElement);
+    if (!position.match(/^(auto)*\s*(left|right|top|bottom|start|end)*$/)
+        && !position.match(/^(left|right|top|bottom|start|end)*(?: (left|right|top|bottom|start|end))*$/)) {
+        position = 'auto';
+    }
+    const placementAuto = !!position.match(/auto/g);
+    // support old placements 'auto left|right|top|bottom'
+    let placement = position.match(/auto\s(left|right|top|bottom|start|end)/)
+        ? position.split(' ')[1] || 'auto'
+        : position;
+    // Normalize placements that have identical main placement and variation ("right right" => "right").
+    const matches = placement.match(/^(left|right|top|bottom|start|end)* ?(?!\1)(left|right|top|bottom|start|end)?/);
+    if (matches) {
+        placement = matches[1] + (matches[2] ? ` ${matches[2]}` : '');
+    }
+    // "left right", "top bottom" etc. placements also considered incorrect.
+    if (['left right', 'right left', 'top bottom', 'bottom top'].indexOf(placement) !== -1) {
+        placement = 'auto';
+    }
+    placement = computeAutoPlacement(placement, hostElPosition, targetElement, hostElement, options ? options.allowedPositions : undefined);
+    const targetOffset = getTargetOffsets(targetElement, hostElPosition, placement);
+    return {
+        options: options || { modifiers: {} },
+        instance: {
+            target: targetElement,
+            host: hostElement,
+            arrow: void 0
+        },
+        offsets: {
+            target: targetOffset,
+            host: hostElPosition,
+            arrow: void 0
+        },
+        positionFixed: false,
+        placement,
+        placementAuto
+    };
+}
+
+function preventOverflow(data) {
+    var _a;
+    if (!isModifierEnabled(data.options, 'preventOverflow')) {
+        return data;
+    }
+    // NOTE: DOM access here
+    // resets the target Offsets's position so that the document size can be calculated excluding
+    // the size of the targetOffsets element itself
+    const transformProp = 'transform';
+    const targetStyles = data.instance.target.style; // assignment to help minification
+    const { top, left, [transformProp]: transform } = targetStyles;
+    targetStyles.top = '';
+    targetStyles.left = '';
+    targetStyles[transformProp] = '';
+    const boundaries = getBoundaries(data.instance.target, data.instance.host, 0, // padding
+    ((_a = data.options.modifiers.preventOverflow) === null || _a === void 0 ? void 0 : _a.boundariesElement) || 'scrollParent', false // positionFixed
+    );
+    // NOTE: DOM access here
+    // restores the original style properties after the offsets have been computed
+    targetStyles.top = top;
+    targetStyles.left = left;
+    targetStyles[transformProp] = transform;
+    const order = ['left', 'right', 'top', 'bottom'];
+    const check = {
+        primary(placement) {
+            var _a, _b, _c, _d;
+            let value = data.offsets.target[placement];
+            // options.escapeWithReference
+            if (((_a = data.offsets.target[placement]) !== null && _a !== void 0 ? _a : 0) < ((_b = boundaries[placement]) !== null && _b !== void 0 ? _b : 0)) {
+                value = Math.max((_c = data.offsets.target[placement]) !== null && _c !== void 0 ? _c : 0, (_d = boundaries[placement]) !== null && _d !== void 0 ? _d : 0);
+            }
+            return { [placement]: value };
+        },
+        secondary(placement) {
+            var _a, _b, _c, _d, _e, _f, _g, _h;
+            const mainSide = placement === 'right' ? 'left' : 'top';
+            let value = data.offsets.target[mainSide];
+            // escapeWithReference
+            if (((_a = data.offsets.target[placement]) !== null && _a !== void 0 ? _a : 0) < ((_b = boundaries[placement]) !== null && _b !== void 0 ? _b : 0) && placement !== 'right') {
+                value = Math.min((_c = data.offsets.target[mainSide]) !== null && _c !== void 0 ? _c : 0, ((_d = boundaries[placement]) !== null && _d !== void 0 ? _d : 0) - data.offsets.target.height);
+            }
+            if (((_e = data.offsets.target[placement]) !== null && _e !== void 0 ? _e : 0) > ((_f = boundaries[placement]) !== null && _f !== void 0 ? _f : 0) && placement === 'right') {
+                value = Math.min((_g = data.offsets.target[mainSide]) !== null && _g !== void 0 ? _g : 0, ((_h = boundaries[placement]) !== null && _h !== void 0 ? _h : 0) - data.offsets.target.width);
+            }
+            return { [mainSide]: value };
+        }
+    };
+    order.forEach((placement) => {
+        const side = ['left', 'top', 'start'].indexOf(placement) !== -1 ? check['primary'] : check['secondary'];
+        data.offsets.target = Object.assign(Object.assign({}, data.offsets.target), side(placement));
+    });
+    return data;
+}
+
+function shift(data) {
+    var _a;
+    const placement = data.placement;
+    const basePlacement = placement.split(' ')[0];
+    const shiftVariation = placement.split(' ')[1];
+    if (shiftVariation) {
+        const { host, target } = data.offsets;
+        const isVertical = ['bottom', 'top'].indexOf(basePlacement) !== -1;
+        const side = isVertical ? 'left' : 'top';
+        const measurement = isVertical ? 'width' : 'height';
+        const shiftOffsets = {
+            start: { [side]: host[side] },
+            end: {
+                [side]: ((_a = host[side]) !== null && _a !== void 0 ? _a : 0) + host[measurement] - target[measurement]
+            }
+        };
+        data.offsets.target = Object.assign(Object.assign({}, target), {
+            [side]: (side === shiftVariation ? shiftOffsets.start[side] : shiftOffsets.end[side])
+        });
+    }
+    return data;
+}
+
+class Positioning {
+    position(hostElement, targetElement /*, round = true*/) {
+        return this.offset(hostElement, targetElement /*, false*/);
+    }
+    offset(hostElement, targetElement /*, round = true*/) {
+        return getReferenceOffsets(targetElement, hostElement);
+    }
+    positionElements(hostElement, targetElement, position, appendToBody, options) {
+        const chainOfModifiers = [flip, shift, preventOverflow, arrow];
+        const _position = MapPlacementInToRL[position];
+        const data = initData(targetElement, hostElement, _position, options);
+        if (!data) {
+            return;
+        }
+        return chainOfModifiers.reduce((modifiedData, modifier) => modifier(modifiedData), data);
+    }
+}
+const positionService = new Positioning();
+function positionElements(hostElement, targetElement, placement, appendToBody, options, renderer) {
+    const data = positionService.positionElements(hostElement, targetElement, placement, appendToBody, options);
+    if (!data) {
+        return;
+    }
+    const offsets = getOffsets(data);
+    setStyles(targetElement, {
+        'will-change': 'transform',
+        top: '0px',
+        left: '0px',
+        transform: `translate3d(${offsets.left}px, ${offsets.top}px, 0px)`
+    }, renderer);
+    if (data.instance.arrow) {
+        setStyles(data.instance.arrow, data.offsets.arrow, renderer);
+    }
+    updateContainerClass(data, renderer);
+}
+
+class PositioningService {
+    constructor(ngZone, rendererFactory, platformId) {
+        this.update$$ = new rxjs__WEBPACK_IMPORTED_MODULE_3__["Subject"]();
+        this.positionElements = new Map();
+        this.isDisabled = false;
+        if (Object(_angular_common__WEBPACK_IMPORTED_MODULE_2__["isPlatformBrowser"])(platformId)) {
+            ngZone.runOutsideAngular(() => {
+                this.triggerEvent$ = Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["merge"])(Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["fromEvent"])(window, 'scroll', { passive: true }), Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["fromEvent"])(window, 'resize', { passive: true }), Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["of"])(0, rxjs__WEBPACK_IMPORTED_MODULE_3__["animationFrameScheduler"]), this.update$$);
+                this.triggerEvent$.subscribe(() => {
+                    if (this.isDisabled) {
+                        return;
+                    }
+                    this.positionElements
+                        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+                        .forEach((positionElement) => {
+                        positionElements(_getHtmlElement(positionElement.target), _getHtmlElement(positionElement.element), positionElement.attachment, positionElement.appendToBody, this.options, rendererFactory.createRenderer(null, null));
+                    });
+                });
+            });
+        }
+    }
+    position(options) {
+        this.addPositionElement(options);
+    }
+    get event$() {
+        return this.triggerEvent$;
+    }
+    disable() {
+        this.isDisabled = true;
+    }
+    enable() {
+        this.isDisabled = false;
+    }
+    addPositionElement(options) {
+        this.positionElements.set(_getHtmlElement(options.element), options);
+    }
+    calcPosition() {
+        this.update$$.next();
+    }
+    deletePositionElement(elRef) {
+        this.positionElements.delete(_getHtmlElement(elRef));
+    }
+    setOptions(options) {
+        this.options = options;
+    }
+}
+PositioningService.ɵfac = function PositioningService_Factory(t) { return new (t || PositioningService)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵinject"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgZone"]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵinject"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["RendererFactory2"]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵinject"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["PLATFORM_ID"])); };
+PositioningService.ɵprov = Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjectable"])({ factory: function PositioningService_Factory() { return new PositioningService(Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵinject"])(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgZone"]), Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵinject"])(_angular_core__WEBPACK_IMPORTED_MODULE_1__["RendererFactory2"]), Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵinject"])(_angular_core__WEBPACK_IMPORTED_MODULE_1__["PLATFORM_ID"])); }, token: PositioningService, providedIn: "root" });
+PositioningService.ctorParameters = () => [
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgZone"] },
+    { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["RendererFactory2"] },
+    { type: Number, decorators: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"], args: [_angular_core__WEBPACK_IMPORTED_MODULE_1__["PLATFORM_ID"],] }] }
+];
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](PositioningService, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"],
+        args: [{ providedIn: 'root' }]
+    }], function () { return [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgZone"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["RendererFactory2"] }, { type: Number, decorators: [{
+                type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"],
+                args: [_angular_core__WEBPACK_IMPORTED_MODULE_1__["PLATFORM_ID"]]
+            }] }]; }, null); })();
+function _getHtmlElement(element) {
+    // it means that we got a selector
+    if (typeof element === 'string') {
+        return document.querySelector(element);
+    }
+    if (element instanceof _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]) {
+        return element.nativeElement;
+    }
+    return element !== null && element !== void 0 ? element : null;
+}
+
+/**
+ * Generated bundle index. Do not edit.
+ */
+
+
+
+//# sourceMappingURL=ngx-bootstrap-positioning.js.map
 
 /***/ }),
 
@@ -28144,7 +31114,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! rxjs */ "qCKp");
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs/operators */ "kU1M");
 /**
- * @license Angular v11.0.5
+ * @license Angular v11.0.9
  * (c) 2010-2020 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -30584,8 +33554,9 @@ function callHooks(currentView, arr, initPhase, currentNodeIndex) {
         (currentView[PREORDER_HOOK_FLAGS] & 65535 /* IndexOfTheNextPreOrderHookMaskMask */) :
         0;
     const nodeIndexLimit = currentNodeIndex != null ? currentNodeIndex : -1;
+    const max = arr.length - 1; // Stop the loop at length - 1, because we look for the hook at i + 1
     let lastNodeIndexFound = 0;
-    for (let i = startIndex; i < arr.length; i++) {
+    for (let i = startIndex; i < max; i++) {
         const hook = arr[i + 1];
         if (typeof hook === 'number') {
             lastNodeIndexFound = arr[i];
@@ -30622,8 +33593,7 @@ function callHook(currentView, initPhase, arr, i) {
     const directive = currentView[directiveIndex];
     if (isInitHook) {
         const indexWithintInitPhase = currentView[FLAGS] >> 11 /* IndexWithinInitPhaseShift */;
-        // The init phase state must be always checked here as it may have been recursively
-        // updated
+        // The init phase state must be always checked here as it may have been recursively updated.
         if (indexWithintInitPhase <
             (currentView[PREORDER_HOOK_FLAGS] >> 16 /* NumberOfInitHooksCalledShift */) &&
             (currentView[FLAGS] & 3 /* InitPhaseStateMask */) === initPhase) {
@@ -33122,6 +36092,9 @@ function injectArgs(types) {
                 else if (meta instanceof Self || meta.ngMetadataName === 'Self' || meta === Self) {
                     flags |= InjectFlags.Self;
                 }
+                else if (meta instanceof Host || meta.ngMetadataName === 'Host' || meta === Host) {
+                    flags |= InjectFlags.Host;
+                }
                 else if (meta instanceof Inject || meta === Inject) {
                     type = meta.token;
                 }
@@ -33416,13 +36389,17 @@ function bypassSanitizationTrustResourceUrl(trustedResourceUrl) {
  * Fallback: InertDocument strategy
  */
 function getInertBodyHelper(defaultDoc) {
-    return isDOMParserAvailable() ? new DOMParserHelper() : new InertDocumentHelper(defaultDoc);
+    const inertDocumentHelper = new InertDocumentHelper(defaultDoc);
+    return isDOMParserAvailable() ? new DOMParserHelper(inertDocumentHelper) : inertDocumentHelper;
 }
 /**
  * Uses DOMParser to create and fill an inert body element.
  * This is the default strategy used in browsers that support it.
  */
 class DOMParserHelper {
+    constructor(inertDocumentHelper) {
+        this.inertDocumentHelper = inertDocumentHelper;
+    }
     getInertBodyElement(html) {
         // We add these extra elements to ensure that the rest of the content is parsed as expected
         // e.g. leading whitespace is maintained and tags like `<meta>` do not get hoisted to the
@@ -33433,6 +36410,12 @@ class DOMParserHelper {
             const body = new window.DOMParser()
                 .parseFromString(trustedHTMLFromString(html), 'text/html')
                 .body;
+            if (body === null) {
+                // In some browsers (e.g. Mozilla/5.0 iPad AppleWebKit Mobile) the `body` property only
+                // becomes available in the following tick of the JS engine. In that case we fall back to
+                // the `inertDocumentHelper` instead.
+                return this.inertDocumentHelper.getInertBodyElement(html);
+            }
             body.removeChild(body.firstChild);
             return body;
         }
@@ -35266,12 +38249,12 @@ function processCleanups(tView, lView) {
                 tCleanup[i].call(context);
             }
         }
-        if (lCleanup !== null) {
-            for (let i = lastLCleanupIndex + 1; i < lCleanup.length; i++) {
-                const instanceCleanupFn = lCleanup[i];
-                ngDevMode && assertFunction(instanceCleanupFn, 'Expecting instance cleanup function.');
-                instanceCleanupFn();
-            }
+    }
+    if (lCleanup !== null) {
+        for (let i = lastLCleanupIndex + 1; i < lCleanup.length; i++) {
+            const instanceCleanupFn = lCleanup[i];
+            ngDevMode && assertFunction(instanceCleanupFn, 'Expecting instance cleanup function.');
+            instanceCleanupFn();
         }
         lView[CLEANUP] = null;
     }
@@ -37672,19 +40655,19 @@ function locateHostElement(renderer, elementOrSelector, encapsulation) {
  * is `null` and the function is store in `LView` (rather than it `TView`).
  */
 function storeCleanupWithContext(tView, lView, context, cleanupFn) {
-    const lCleanup = getLCleanup(lView);
+    const lCleanup = getOrCreateLViewCleanup(lView);
     if (context === null) {
         // If context is null that this is instance specific callback. These callbacks can only be
         // inserted after template shared instances. For this reason in ngDevMode we freeze the TView.
         if (ngDevMode) {
-            Object.freeze(getTViewCleanup(tView));
+            Object.freeze(getOrCreateTViewCleanup(tView));
         }
         lCleanup.push(cleanupFn);
     }
     else {
         lCleanup.push(context);
         if (tView.firstCreatePass) {
-            getTViewCleanup(tView).push(cleanupFn, lCleanup.length - 1);
+            getOrCreateTViewCleanup(tView).push(cleanupFn, lCleanup.length - 1);
         }
     }
 }
@@ -38762,11 +41745,11 @@ function storePropertyBindingMetadata(tData, tNode, propertyName, bindingIndex, 
     }
 }
 const CLEAN_PROMISE = _CLEAN_PROMISE;
-function getLCleanup(view) {
+function getOrCreateLViewCleanup(view) {
     // top level variables should not be exported for performance reasons (PERF_NOTES.md)
     return view[CLEANUP] || (view[CLEANUP] = ngDevMode ? new LCleanup() : []);
 }
-function getTViewCleanup(tView) {
+function getOrCreateTViewCleanup(tView) {
     return tView.cleanup || (tView.cleanup = ngDevMode ? new TCleanup() : []);
 }
 /**
@@ -43024,11 +46007,11 @@ function findExistingListener(tView, lView, eventName, tNodeIdx) {
 function listenerInternal(tView, lView, renderer, tNode, eventName, listenerFn, useCapture = false, eventTargetResolver) {
     const isTNodeDirectiveHost = isDirectiveHost(tNode);
     const firstCreatePass = tView.firstCreatePass;
-    const tCleanup = firstCreatePass && getTViewCleanup(tView);
+    const tCleanup = firstCreatePass && getOrCreateTViewCleanup(tView);
     // When the ɵɵlistener instruction was generated and is executed we know that there is either a
     // native listener or a directive output on this element. As such we we know that we will have to
     // register a listener and store its cleanup function on LView.
-    const lCleanup = getLCleanup(lView);
+    const lCleanup = getOrCreateLViewCleanup(lView);
     ngDevMode && assertTNodeType(tNode, 3 /* AnyRNode */ | 12 /* AnyContainer */);
     let processOutputs = true;
     // add native event listener - applicable to elements only
@@ -49293,7 +52276,7 @@ class Version {
 /**
  * @publicApi
  */
-const VERSION = new Version('11.0.5');
+const VERSION = new Version('11.0.9');
 
 /**
  * @license
@@ -50453,7 +53436,7 @@ class ViewRef {
         this._lView = _lView;
         this._cdRefInjectingView = _cdRefInjectingView;
         this._appRef = null;
-        this._viewContainerRef = null;
+        this._attachedToViewContainer = false;
     }
     get rootNodes() {
         const lView = this._lView;
@@ -50470,12 +53453,19 @@ class ViewRef {
         if (this._appRef) {
             this._appRef.detachView(this);
         }
-        else if (this._viewContainerRef) {
-            const index = this._viewContainerRef.indexOf(this);
-            if (index > -1) {
-                this._viewContainerRef.detach(index);
+        else if (this._attachedToViewContainer) {
+            const parent = this._lView[PARENT];
+            if (isLContainer(parent)) {
+                const viewRefs = parent[VIEW_REFS];
+                const index = viewRefs ? viewRefs.indexOf(this) : -1;
+                if (index > -1) {
+                    ngDevMode &&
+                        assertEqual(index, parent.indexOf(this._lView) - CONTAINER_HEADER_OFFSET, 'An attached view should be in the same position within its container as its ViewRef in the VIEW_REFS array.');
+                    detachView(parent, index);
+                    removeFromArray(viewRefs, index);
+                }
             }
-            this._viewContainerRef = null;
+            this._attachedToViewContainer = false;
         }
         destroyLView(this._lView[TVIEW], this._lView);
     }
@@ -50667,18 +53657,18 @@ class ViewRef {
     checkNoChanges() {
         checkNoChangesInternal(this._lView[TVIEW], this._lView, this.context);
     }
-    attachToViewContainerRef(vcRef) {
+    attachToViewContainerRef() {
         if (this._appRef) {
             throw new Error('This view is already attached directly to the ApplicationRef!');
         }
-        this._viewContainerRef = vcRef;
+        this._attachedToViewContainer = true;
     }
     detachFromAppRef() {
         this._appRef = null;
         renderDetachView(this._lView[TVIEW], this._lView);
     }
     attachToAppRef(appRef) {
-        if (this._viewContainerRef) {
+        if (this._attachedToViewContainer) {
             throw new Error('This view is already attached to a ViewContainer!');
         }
         this._appRef = appRef;
@@ -51059,7 +54049,7 @@ const R3ViewContainerRef = class ViewContainerRef extends VE_ViewContainerRef {
         if (parentRNode !== null) {
             addViewToContainer(tView, lContainer[T_HOST], renderer, lView, parentRNode, beforeNode);
         }
-        viewRef.attachToViewContainerRef(this);
+        viewRef.attachToViewContainerRef();
         addToArray(getOrCreateViewRefs(lContainer), adjustedIdx, viewRef);
         return viewRef;
     }
@@ -56900,7 +59890,7 @@ function createPlatform(injector) {
 }
 /**
  * Creates a factory for a platform. Can be used to provide or override `Providers` specific to
- * your applciation's runtime needs, such as `PLATFORM_INITIALIZER` and `PLATFORM_ID`.
+ * your application's runtime needs, such as `PLATFORM_INITIALIZER` and `PLATFORM_ID`.
  * @param parentPlatformFactory Another platform factory to modify. Allows you to compose factories
  * to build up configurations that might be required by different libraries or parts of the
  * application.
@@ -61305,7 +64295,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ɵgetDOM", function() { return _angular_common__WEBPACK_IMPORTED_MODULE_0__["ɵgetDOM"]; });
 
 /**
- * @license Angular v11.0.5
+ * @license Angular v11.0.9
  * (c) 2010-2020 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -63446,7 +66436,7 @@ function elementMatches(n, selector) {
 /**
  * @publicApi
  */
-const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["Version"]('11.0.5');
+const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["Version"]('11.0.9');
 
 /**
  * @license
@@ -64262,6 +67252,586 @@ class MapSubscriber extends _Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber
 
 /***/ }),
 
+/***/ "lUod":
+/*!***************************************************************************************!*\
+  !*** ./node_modules/ngx-bootstrap/__ivy_ngcc__/utils/fesm2015/ngx-bootstrap-utils.js ***!
+  \***************************************************************************************/
+/*! exports provided: BsVerions, LinkedList, OnChange, Trigger, Utils, currentBsVersion, document, getBsVer, isBs3, listenToTriggers, listenToTriggersV2, parseTriggers, registerEscClick, registerOutsideClick, setTheme, warnOnce, window, ɵa, ɵb */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BsVerions", function() { return BsVerions; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LinkedList", function() { return LinkedList; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "OnChange", function() { return OnChange; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Trigger", function() { return Trigger; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Utils", function() { return Utils; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "currentBsVersion", function() { return currentBsVersion; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "document", function() { return document; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getBsVer", function() { return getBsVer; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "isBs3", function() { return isBs3; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "listenToTriggers", function() { return listenToTriggers; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "listenToTriggersV2", function() { return listenToTriggersV2; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "parseTriggers", function() { return parseTriggers; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "registerEscClick", function() { return registerEscClick; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "registerOutsideClick", function() { return registerOutsideClick; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "setTheme", function() { return setTheme; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "warnOnce", function() { return warnOnce; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "window", function() { return win; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵa", function() { return isBs4; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵb", function() { return isBs5; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+
+
+/**
+ * @copyright Valor Software
+ * @copyright Angular ng-bootstrap team
+ */
+class Trigger {
+    constructor(open, close) {
+        this.open = open;
+        this.close = close || open;
+    }
+    isManual() {
+        return this.open === 'manual' || this.close === 'manual';
+    }
+}
+
+const DEFAULT_ALIASES = {
+    hover: ['mouseover', 'mouseout'],
+    focus: ['focusin', 'focusout']
+};
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function parseTriggers(triggers, aliases = DEFAULT_ALIASES) {
+    const trimmedTriggers = (triggers || '').trim();
+    if (trimmedTriggers.length === 0) {
+        return [];
+    }
+    const parsedTriggers = trimmedTriggers
+        .split(/\s+/)
+        .map((trigger) => trigger.split(':'))
+        .map((triggerPair) => {
+        const alias = aliases[triggerPair[0]] || triggerPair;
+        return new Trigger(alias[0], alias[1]);
+    });
+    const manualTriggers = parsedTriggers.filter((triggerPair) => triggerPair.isManual());
+    if (manualTriggers.length > 1) {
+        throw new Error('Triggers parse error: only one manual trigger is allowed');
+    }
+    if (manualTriggers.length === 1 && parsedTriggers.length > 1) {
+        throw new Error('Triggers parse error: manual trigger can\'t be mixed with other triggers');
+    }
+    return parsedTriggers;
+}
+function listenToTriggers(renderer, 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+target, triggers, showFn, hideFn, toggleFn) {
+    const parsedTriggers = parseTriggers(triggers);
+    const listeners = [];
+    if (parsedTriggers.length === 1 && parsedTriggers[0].isManual()) {
+        return Function.prototype;
+    }
+    parsedTriggers.forEach((trigger) => {
+        if (trigger.open === trigger.close) {
+            listeners.push(renderer.listen(target, trigger.open, toggleFn));
+            return;
+        }
+        listeners.push(renderer.listen(target, trigger.open, showFn));
+        if (trigger.close) {
+            listeners.push(renderer.listen(target, trigger.close, hideFn));
+        }
+    });
+    return () => {
+        listeners.forEach((unsubscribeFn) => unsubscribeFn());
+    };
+}
+function listenToTriggersV2(renderer, options) {
+    const parsedTriggers = parseTriggers(options.triggers);
+    const target = options.target;
+    // do nothing
+    if (parsedTriggers.length === 1 && parsedTriggers[0].isManual()) {
+        return Function.prototype;
+    }
+    // all listeners
+    const listeners = [];
+    // lazy listeners registration
+    const _registerHide = [];
+    const registerHide = () => {
+        // add hide listeners to unregister array
+        _registerHide.forEach((fn) => listeners.push(fn()));
+        // register hide events only once
+        _registerHide.length = 0;
+    };
+    // register open\close\toggle listeners
+    parsedTriggers.forEach((trigger) => {
+        const useToggle = trigger.open === trigger.close;
+        const showFn = useToggle ? options.toggle : options.show;
+        if (!useToggle && trigger.close && options.hide) {
+            const _hide = renderer.listen(target, trigger.close, options.hide);
+            _registerHide.push(() => _hide);
+        }
+        if (showFn) {
+            listeners.push(renderer.listen(target, trigger.open, () => showFn(registerHide)));
+        }
+    });
+    return () => {
+        listeners.forEach((unsubscribeFn) => unsubscribeFn());
+    };
+}
+function registerOutsideClick(renderer, options) {
+    if (!options.outsideClick) {
+        return Function.prototype;
+    }
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    return renderer.listen('document', 'click', (event) => {
+        if (options.target && options.target.contains(event.target)) {
+            return;
+        }
+        if (options.targets &&
+            options.targets.some(target => target.contains(event.target))) {
+            return;
+        }
+        if (options.hide) {
+            options.hide();
+        }
+    });
+}
+function registerEscClick(renderer, options) {
+    if (!options.outsideEsc) {
+        return Function.prototype;
+    }
+    return renderer.listen('document', 'keyup.esc', (event) => {
+        if (options.target && options.target.contains(event.target)) {
+            return;
+        }
+        if (options.targets &&
+            options.targets.some(target => target.contains(event.target))) {
+            return;
+        }
+        if (options.hide) {
+            options.hide();
+        }
+    });
+}
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * JS version of browser APIs. This library can only run in the browser.
+ */
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const win = (typeof window !== 'undefined' && window) || {};
+const document = win.document;
+const location = win.location;
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const gc = win.gc ? () => win.gc() : () => null;
+const performance = win.performance ? win.performance : null;
+const Event = win.Event;
+const MouseEvent = win.MouseEvent;
+const KeyboardEvent = win.KeyboardEvent;
+const EventTarget = win.EventTarget;
+const History = win.History;
+const Location = win.Location;
+const EventListener = win.EventListener;
+
+var BsVerions;
+(function (BsVerions) {
+    BsVerions["isBs3"] = "bs3";
+    BsVerions["isBs4"] = "bs4";
+    BsVerions["isBs5"] = "bs5";
+})(BsVerions || (BsVerions = {}));
+let guessedVersion;
+function _guessBsVersion() {
+    if (typeof win.document === 'undefined') {
+        return 'bs4';
+    }
+    const spanEl = win.document.createElement('span');
+    spanEl.innerText = 'testing bs version';
+    spanEl.classList.add('d-none');
+    spanEl.classList.add('visually-hidden');
+    win.document.head.appendChild(spanEl);
+    const rect = spanEl.getBoundingClientRect();
+    const overflowStyle = win.getComputedStyle(spanEl).overflow;
+    win.document.head.removeChild(spanEl);
+    if (!rect || (rect && rect.top !== 0)) {
+        return 'bs3';
+    }
+    if (overflowStyle && overflowStyle === 'hidden') {
+        return 'bs5';
+    }
+    return 'bs4';
+}
+function setTheme(theme) {
+    guessedVersion = theme;
+}
+// todo: in ngx-bootstrap, bs4 will became a default one
+function isBs3() {
+    if (typeof win === 'undefined') {
+        return true;
+    }
+    if (typeof win.__theme === 'undefined') {
+        if (guessedVersion) {
+            return guessedVersion === 'bs3';
+        }
+        guessedVersion = _guessBsVersion();
+        return guessedVersion === 'bs3';
+    }
+    return win.__theme === 'bs3';
+}
+function isBs4() {
+    if (isBs3())
+        return false;
+    if (guessedVersion)
+        return guessedVersion === 'bs4';
+    guessedVersion = _guessBsVersion();
+    return guessedVersion === 'bs4';
+}
+function isBs5() {
+    if (isBs3() || isBs4())
+        return false;
+    if (guessedVersion)
+        return guessedVersion === 'bs5';
+    guessedVersion = _guessBsVersion();
+    return guessedVersion === 'bs5';
+}
+function getBsVer() {
+    return {
+        isBs3: isBs3(),
+        isBs4: isBs4(),
+        isBs5: isBs5()
+    };
+}
+function currentBsVersion() {
+    const bsVer = getBsVer();
+    const resVersion = Object.keys(bsVer).find(key => bsVer[key]);
+    return BsVerions[resVersion];
+}
+
+class LinkedList {
+    constructor() {
+        this.length = 0;
+        this.asArray = [];
+        // Array methods overriding END
+    }
+    get(position) {
+        if (this.length === 0 || position < 0 || position >= this.length) {
+            return void 0;
+        }
+        let current = this.head;
+        for (let index = 0; index < position; index++) {
+            current = current === null || current === void 0 ? void 0 : current.next;
+        }
+        return current === null || current === void 0 ? void 0 : current.value;
+    }
+    add(value, position = this.length) {
+        if (position < 0 || position > this.length) {
+            throw new Error('Position is out of the list');
+        }
+        const node = {
+            value,
+            next: undefined,
+            previous: undefined
+        };
+        if (this.length === 0) {
+            this.head = node;
+            this.tail = node;
+            this.current = node;
+        }
+        else {
+            if (position === 0 && this.head) {
+                // first node
+                node.next = this.head;
+                this.head.previous = node;
+                this.head = node;
+            }
+            else if (position === this.length && this.tail) {
+                // last node
+                this.tail.next = node;
+                node.previous = this.tail;
+                this.tail = node;
+            }
+            else {
+                // node in middle
+                const currentPreviousNode = this.getNode(position - 1);
+                const currentNextNode = currentPreviousNode === null || currentPreviousNode === void 0 ? void 0 : currentPreviousNode.next;
+                if (currentPreviousNode && currentNextNode) {
+                    currentPreviousNode.next = node;
+                    currentNextNode.previous = node;
+                    node.previous = currentPreviousNode;
+                    node.next = currentNextNode;
+                }
+            }
+        }
+        this.length++;
+        this.createInternalArrayRepresentation();
+    }
+    remove(position = 0) {
+        var _a;
+        if (this.length === 0 || position < 0 || position >= this.length) {
+            throw new Error('Position is out of the list');
+        }
+        if (position === 0 && this.head) {
+            // first node
+            this.head = this.head.next;
+            if (this.head) {
+                // there is no second node
+                this.head.previous = undefined;
+            }
+            else {
+                // there is no second node
+                this.tail = undefined;
+            }
+        }
+        else if (position === this.length - 1 && ((_a = this.tail) === null || _a === void 0 ? void 0 : _a.previous)) {
+            // last node
+            this.tail = this.tail.previous;
+            this.tail.next = undefined;
+        }
+        else {
+            // middle node
+            const removedNode = this.getNode(position);
+            if ((removedNode === null || removedNode === void 0 ? void 0 : removedNode.next) && removedNode.previous) {
+                removedNode.next.previous = removedNode.previous;
+                removedNode.previous.next = removedNode.next;
+            }
+        }
+        this.length--;
+        this.createInternalArrayRepresentation();
+    }
+    set(position, value) {
+        if (this.length === 0 || position < 0 || position >= this.length) {
+            throw new Error('Position is out of the list');
+        }
+        const node = this.getNode(position);
+        if (node) {
+            node.value = value;
+            this.createInternalArrayRepresentation();
+        }
+    }
+    toArray() {
+        return this.asArray;
+    }
+    findAll(fn) {
+        let current = this.head;
+        const result = [];
+        if (!current) {
+            return result;
+        }
+        for (let index = 0; index < this.length; index++) {
+            if (!current) {
+                return result;
+            }
+            if (fn(current.value, index)) {
+                result.push({ index, value: current.value });
+            }
+            current = current.next;
+        }
+        return result;
+    }
+    // Array methods overriding start
+    push(...args) {
+        args.forEach((arg) => {
+            this.add(arg);
+        });
+        return this.length;
+    }
+    pop() {
+        if (this.length === 0) {
+            return;
+        }
+        const last = this.tail;
+        this.remove(this.length - 1);
+        return last === null || last === void 0 ? void 0 : last.value;
+    }
+    unshift(...args) {
+        args.reverse();
+        args.forEach((arg) => {
+            this.add(arg, 0);
+        });
+        return this.length;
+    }
+    shift() {
+        var _a;
+        if (this.length === 0) {
+            return undefined;
+        }
+        const lastItem = (_a = this.head) === null || _a === void 0 ? void 0 : _a.value;
+        this.remove();
+        return lastItem;
+    }
+    forEach(fn) {
+        let current = this.head;
+        for (let index = 0; index < this.length; index++) {
+            if (!current) {
+                return;
+            }
+            fn(current.value, index);
+            current = current.next;
+        }
+    }
+    indexOf(value) {
+        let current = this.head;
+        let position = -1;
+        for (let index = 0; index < this.length; index++) {
+            if (!current) {
+                return position;
+            }
+            if (current.value === value) {
+                position = index;
+                break;
+            }
+            current = current.next;
+        }
+        return position;
+    }
+    some(fn) {
+        let current = this.head;
+        let result = false;
+        while (current && !result) {
+            if (fn(current.value)) {
+                result = true;
+                break;
+            }
+            current = current.next;
+        }
+        return result;
+    }
+    every(fn) {
+        let current = this.head;
+        let result = true;
+        while (current && result) {
+            if (!fn(current.value)) {
+                result = false;
+            }
+            current = current.next;
+        }
+        return result;
+    }
+    toString() {
+        return '[Linked List]';
+    }
+    find(fn) {
+        let current = this.head;
+        for (let index = 0; index < this.length; index++) {
+            if (!current) {
+                return;
+            }
+            if (fn(current.value, index)) {
+                return current.value;
+            }
+            current = current.next;
+        }
+    }
+    findIndex(fn) {
+        let current = this.head;
+        for (let index = 0; index < this.length; index++) {
+            if (!current) {
+                return -1;
+            }
+            if (fn(current.value, index)) {
+                return index;
+            }
+            current = current.next;
+        }
+        return -1;
+    }
+    getNode(position) {
+        if (this.length === 0 || position < 0 || position >= this.length) {
+            throw new Error('Position is out of the list');
+        }
+        let current = this.head;
+        for (let index = 0; index < position; index++) {
+            current = current === null || current === void 0 ? void 0 : current.next;
+        }
+        return current;
+    }
+    createInternalArrayRepresentation() {
+        const outArray = [];
+        let current = this.head;
+        while (current) {
+            outArray.push(current.value);
+            current = current.next;
+        }
+        this.asArray = outArray;
+    }
+}
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function OnChange() {
+    const sufix = 'Change';
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    return function OnChangeHandler(target, propertyKey) {
+        const _key = ` __${propertyKey}Value`;
+        Object.defineProperty(target, propertyKey, {
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
+            get() {
+                return this[_key];
+            },
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
+            set(value) {
+                const prevValue = this[_key];
+                this[_key] = value;
+                if (prevValue !== value && this[propertyKey + sufix]) {
+                    this[propertyKey + sufix].emit(value);
+                }
+            }
+        });
+    };
+}
+
+class Utils {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    static reflow(element) {
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        ((bs) => bs)(element.offsetHeight);
+    }
+    // source: https://github.com/jquery/jquery/blob/master/src/css/var/getStyles.js
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    static getStyles(elem) {
+        // Support: IE <=11 only, Firefox <=30 (#15098, #14150)
+        // IE throws on elements created in popups
+        // FF meanwhile throws on frame elements through "defaultView.getComputedStyle"
+        let view = elem.ownerDocument.defaultView;
+        if (!view || !view.opener) {
+            view = win;
+        }
+        return view.getComputedStyle(elem);
+    }
+    static stackOverflowConfig() {
+        const bsVer = currentBsVersion();
+        return {
+            crossorigin: bsVer !== 'bs3' ? "anonymous" : undefined,
+            integrity: bsVer === 'bs5' ? 'sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We' : bsVer === 'bs4' ? 'sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2' : undefined,
+            cdnLink: bsVer === 'bs5' ? 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css' : bsVer === 'bs4' ? 'https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css' : 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css',
+        };
+    }
+}
+
+const _messagesHash = {};
+const _hideMsg = typeof console === 'undefined' || !('warn' in console);
+function warnOnce(msg) {
+    if (!Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["isDevMode"])() || _hideMsg || msg in _messagesHash) {
+        return;
+    }
+    _messagesHash[msg] = true;
+    console.warn(msg);
+}
+
+/**
+ * Generated bundle index. Do not edit.
+ */
+
+
+
+//# sourceMappingURL=ngx-bootstrap-utils.js.map
+
+/***/ }),
+
 /***/ "lpKW":
 /*!**********************************************************************!*\
   !*** ./node_modules/rxjs/_esm2015/internal/operators/windowCount.js ***!
@@ -64734,7 +68304,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵsetRootDomAdapter", function() { return setRootDomAdapter; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
 /**
- * @license Angular v11.0.5
+ * @license Angular v11.0.9
  * (c) 2010-2020 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -69965,7 +73535,7 @@ function isPlatformWorkerUi(platformId) {
 /**
  * @publicApi
  */
-const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["Version"]('11.0.5');
+const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["Version"]('11.0.9');
 
 /**
  * @license
@@ -69987,16 +73557,15 @@ class ViewportScroller {
 ViewportScroller.ɵprov = Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"])({
     token: ViewportScroller,
     providedIn: 'root',
-    factory: () => new BrowserViewportScroller(Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"])(DOCUMENT), window, Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"])(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ErrorHandler"]))
+    factory: () => new BrowserViewportScroller(Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"])(DOCUMENT), window)
 });
 /**
  * Manages the scroll position for a browser window.
  */
 class BrowserViewportScroller {
-    constructor(document, window, errorHandler) {
+    constructor(document, window) {
         this.document = document;
         this.window = window;
-        this.errorHandler = errorHandler;
         this.offset = () => [0, 0];
     }
     /**
@@ -70035,16 +73604,32 @@ class BrowserViewportScroller {
         }
     }
     /**
-     * Scrolls to an anchor element.
-     * @param anchor The ID of the anchor element.
+     * Scrolls to an element and attempts to focus the element.
+     *
+     * Note that the function name here is misleading in that the target string may be an ID for a
+     * non-anchor element.
+     *
+     * @param target The ID of an element or name of the anchor.
+     *
+     * @see https://html.spec.whatwg.org/#the-indicated-part-of-the-document
+     * @see https://html.spec.whatwg.org/#scroll-to-fragid
      */
-    scrollToAnchor(anchor) {
-        if (this.supportsScrolling()) {
-            const elSelected = this.document.getElementById(anchor) || this.document.getElementsByName(anchor)[0];
-            if (elSelected) {
-                this.scrollToElement(elSelected);
-            }
+    scrollToAnchor(target) {
+        var _a;
+        if (!this.supportsScrolling()) {
+            return;
         }
+        // TODO(atscott): The correct behavior for `getElementsByName` would be to also verify that the
+        // element is an anchor. However, this could be considered a breaking change and should be
+        // done in a major version.
+        const elSelected = (_a = this.document.getElementById(target)) !== null && _a !== void 0 ? _a : this.document.getElementsByName(target)[0];
+        if (elSelected === undefined) {
+            return;
+        }
+        this.scrollToElement(elSelected);
+        // After scrolling to the element, the spec dictates that we follow the focus steps for the
+        // target. Rather than following the robust steps, simply attempt focus.
+        this.attemptFocus(elSelected);
     }
     /**
      * Disables automatic scroll restoration provided by the browser.
@@ -70057,12 +73642,32 @@ class BrowserViewportScroller {
             }
         }
     }
+    /**
+     * Scrolls to an element using the native offset and the specified offset set on this scroller.
+     *
+     * The offset can be used when we know that there is a floating header and scrolling naively to an
+     * element (ex: `scrollIntoView`) leaves the element hidden behind the floating header.
+     */
     scrollToElement(el) {
         const rect = el.getBoundingClientRect();
         const left = rect.left + this.window.pageXOffset;
         const top = rect.top + this.window.pageYOffset;
         const offset = this.offset();
         this.window.scrollTo(left - offset[0], top - offset[1]);
+    }
+    /**
+     * Calls `focus` on the `focusTarget` and returns `true` if the element was focused successfully.
+     *
+     * If `false`, further steps may be necessary to determine a valid substitute to be focused
+     * instead.
+     *
+     * @see https://html.spec.whatwg.org/#get-the-focusable-area
+     * @see https://developer.mozilla.org/en-US/docs/Web/API/HTMLOrForeignElement/focus
+     * @see https://html.spec.whatwg.org/#focusable-area
+     */
+    attemptFocus(focusTarget) {
+        focusTarget.focus();
+        return this.document.activeElement === focusTarget;
     }
     /**
      * We only support scroll restoration when we can get a hold of window.
@@ -71285,7 +74890,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_animations__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/animations */ "R0Ic");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "fXoL");
 /**
- * @license Angular v11.0.5
+ * @license Angular v11.0.9
  * (c) 2010-2020 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -76079,7 +79684,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs/operators */ "kU1M");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "ofXK");
 /**
- * @license Angular v11.0.5
+ * @license Angular v11.0.9
  * (c) 2010-2020 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -78389,7 +81994,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ "qCKp");
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs/operators */ "kU1M");
 /**
- * @license Angular v11.0.5
+ * @license Angular v11.0.9
  * (c) 2010-2020 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -78962,28 +82567,6 @@ function forEach(map, callback) {
             callback(map[prop], prop);
         }
     }
-}
-function waitForMap(obj, fn) {
-    if (Object.keys(obj).length === 0) {
-        return Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["of"])({});
-    }
-    const waitHead = [];
-    const waitTail = [];
-    const res = {};
-    forEach(obj, (a, k) => {
-        const mapped = fn(k, a).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])((r) => res[k] = r));
-        if (k === PRIMARY_OUTLET) {
-            waitHead.push(mapped);
-        }
-        else {
-            waitTail.push(mapped);
-        }
-    });
-    // Closure compiler has problem with using spread operator here. So we use "Array.concat".
-    // Note that we also need to cast the new promise because TypeScript cannot infer the type
-    // when calling the "of" function through "Function.apply"
-    return rxjs__WEBPACK_IMPORTED_MODULE_2__["of"].apply(null, waitHead.concat(waitTail))
-        .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["concatAll"])(), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["last"])(), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(() => res));
 }
 function wrapIntoObservable(value) {
     if (Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵisObservable"])(value)) {
@@ -79872,7 +83455,25 @@ class ActivatedRouteSnapshot {
     constructor(
     /** The URL segments matched by this route */
     url, 
-    /** The matrix parameters scoped to this route */
+    /**
+     *  The matrix parameters scoped to this route.
+     *
+     *  You can compute all params (or data) in the router state or to get params outside
+     *  of an activated component by traversing the `RouterState` tree as in the following
+     *  example:
+     *  ```
+     *  collectRouteParams(router: Router) {
+     *    let params = {};
+     *    let stack: ActivatedRouteSnapshot[] = [router.routerState.snapshot.root];
+     *    while (stack.length > 0) {
+     *      const route = stack.pop()!;
+     *      params = {...params, ...route.params};
+     *      stack.push(...route.children);
+     *    }
+     *    return params;
+     *  }
+     *  ```
+     */
     params, 
     /** The query parameters shared by all the routes */
     queryParams, 
@@ -80456,16 +84057,18 @@ class ActivateRoutes {
     }
     deactivateRouteAndOutlet(route, parentContexts) {
         const context = parentContexts.getContext(route.value.outlet);
-        if (context) {
-            const children = nodeChildrenAsMap(route);
-            const contexts = route.value.component ? context.children : parentContexts;
-            forEach(children, (v, k) => this.deactivateRouteAndItsChildren(v, contexts));
-            if (context.outlet) {
-                // Destroy the component
-                context.outlet.deactivate();
-                // Destroy the contexts for all the outlets that were in the component
-                context.children.onOutletDeactivated();
-            }
+        // The context could be `null` if we are on a componentless route but there may still be
+        // children that need deactivating.
+        const contexts = context && route.value.component ? context.children : parentContexts;
+        const children = nodeChildrenAsMap(route);
+        for (const childOutlet of Object.keys(children)) {
+            this.deactivateRouteAndItsChildren(children[childOutlet], contexts);
+        }
+        if (context && context.outlet) {
+            // Destroy the component
+            context.outlet.deactivate();
+            // Destroy the contexts for all the outlets that were in the component
+            context.children.onOutletDeactivated();
         }
     }
     activateChildRoutes(futureNode, currNode, contexts) {
@@ -80613,7 +84216,7 @@ function isCanDeactivate(guard) {
 const INITIAL_VALUE = Symbol('INITIAL_VALUE');
 function prioritizedGuardValue() {
     return Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["switchMap"])(obs => {
-        return Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["combineLatest"])(...obs.map(o => o.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["take"])(1), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["startWith"])(INITIAL_VALUE))))
+        return Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["combineLatest"])(obs.map(o => o.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["take"])(1), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["startWith"])(INITIAL_VALUE))))
             .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["scan"])((acc, list) => {
             let isPending = false;
             return list.reduce((innerAcc, val, i) => {
@@ -80770,22 +84373,159 @@ function standardizeConfig(r) {
     }
     return c;
 }
-/** Returns of `Map` of outlet names to the `Route`s for that outlet. */
-function groupRoutesByOutlet(routes) {
-    return routes.reduce((map, route) => {
-        const routeOutlet = getOutlet(route);
-        if (map.has(routeOutlet)) {
-            map.get(routeOutlet).push(route);
-        }
-        else {
-            map.set(routeOutlet, [route]);
-        }
-        return map;
-    }, new Map());
-}
 /** Returns the `route.outlet` or PRIMARY_OUTLET if none exists. */
 function getOutlet(route) {
     return route.outlet || PRIMARY_OUTLET;
+}
+/**
+ * Sorts the `routes` such that the ones with an outlet matching `outletName` come first.
+ * The order of the configs is otherwise preserved.
+ */
+function sortByMatchingOutlets(routes, outletName) {
+    const sortedConfig = routes.filter(r => getOutlet(r) === outletName);
+    sortedConfig.push(...routes.filter(r => getOutlet(r) !== outletName));
+    return sortedConfig;
+}
+
+/**
+ * @license
+ * Copyright Google LLC All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+const noMatch = {
+    matched: false,
+    consumedSegments: [],
+    lastChild: 0,
+    parameters: {},
+    positionalParamSegments: {}
+};
+function match(segmentGroup, route, segments) {
+    var _a;
+    if (route.path === '') {
+        if (route.pathMatch === 'full' && (segmentGroup.hasChildren() || segments.length > 0)) {
+            return Object.assign({}, noMatch);
+        }
+        return {
+            matched: true,
+            consumedSegments: [],
+            lastChild: 0,
+            parameters: {},
+            positionalParamSegments: {}
+        };
+    }
+    const matcher = route.matcher || defaultUrlMatcher;
+    const res = matcher(segments, segmentGroup, route);
+    if (!res)
+        return Object.assign({}, noMatch);
+    const posParams = {};
+    forEach(res.posParams, (v, k) => {
+        posParams[k] = v.path;
+    });
+    const parameters = res.consumed.length > 0 ? Object.assign(Object.assign({}, posParams), res.consumed[res.consumed.length - 1].parameters) :
+        posParams;
+    return {
+        matched: true,
+        consumedSegments: res.consumed,
+        lastChild: res.consumed.length,
+        // TODO(atscott): investigate combining parameters and positionalParamSegments
+        parameters,
+        positionalParamSegments: (_a = res.posParams) !== null && _a !== void 0 ? _a : {}
+    };
+}
+function split(segmentGroup, consumedSegments, slicedSegments, config, relativeLinkResolution = 'corrected') {
+    if (slicedSegments.length > 0 &&
+        containsEmptyPathMatchesWithNamedOutlets(segmentGroup, slicedSegments, config)) {
+        const s = new UrlSegmentGroup(consumedSegments, createChildrenForEmptyPaths(segmentGroup, consumedSegments, config, new UrlSegmentGroup(slicedSegments, segmentGroup.children)));
+        s._sourceSegment = segmentGroup;
+        s._segmentIndexShift = consumedSegments.length;
+        return { segmentGroup: s, slicedSegments: [] };
+    }
+    if (slicedSegments.length === 0 &&
+        containsEmptyPathMatches(segmentGroup, slicedSegments, config)) {
+        const s = new UrlSegmentGroup(segmentGroup.segments, addEmptyPathsToChildrenIfNeeded(segmentGroup, consumedSegments, slicedSegments, config, segmentGroup.children, relativeLinkResolution));
+        s._sourceSegment = segmentGroup;
+        s._segmentIndexShift = consumedSegments.length;
+        return { segmentGroup: s, slicedSegments };
+    }
+    const s = new UrlSegmentGroup(segmentGroup.segments, segmentGroup.children);
+    s._sourceSegment = segmentGroup;
+    s._segmentIndexShift = consumedSegments.length;
+    return { segmentGroup: s, slicedSegments };
+}
+function addEmptyPathsToChildrenIfNeeded(segmentGroup, consumedSegments, slicedSegments, routes, children, relativeLinkResolution) {
+    const res = {};
+    for (const r of routes) {
+        if (emptyPathMatch(segmentGroup, slicedSegments, r) && !children[getOutlet(r)]) {
+            const s = new UrlSegmentGroup([], {});
+            s._sourceSegment = segmentGroup;
+            if (relativeLinkResolution === 'legacy') {
+                s._segmentIndexShift = segmentGroup.segments.length;
+            }
+            else {
+                s._segmentIndexShift = consumedSegments.length;
+            }
+            res[getOutlet(r)] = s;
+        }
+    }
+    return Object.assign(Object.assign({}, children), res);
+}
+function createChildrenForEmptyPaths(segmentGroup, consumedSegments, routes, primarySegment) {
+    const res = {};
+    res[PRIMARY_OUTLET] = primarySegment;
+    primarySegment._sourceSegment = segmentGroup;
+    primarySegment._segmentIndexShift = consumedSegments.length;
+    for (const r of routes) {
+        if (r.path === '' && getOutlet(r) !== PRIMARY_OUTLET) {
+            const s = new UrlSegmentGroup([], {});
+            s._sourceSegment = segmentGroup;
+            s._segmentIndexShift = consumedSegments.length;
+            res[getOutlet(r)] = s;
+        }
+    }
+    return res;
+}
+function containsEmptyPathMatchesWithNamedOutlets(segmentGroup, slicedSegments, routes) {
+    return routes.some(r => emptyPathMatch(segmentGroup, slicedSegments, r) && getOutlet(r) !== PRIMARY_OUTLET);
+}
+function containsEmptyPathMatches(segmentGroup, slicedSegments, routes) {
+    return routes.some(r => emptyPathMatch(segmentGroup, slicedSegments, r));
+}
+function emptyPathMatch(segmentGroup, slicedSegments, r) {
+    if ((segmentGroup.hasChildren() || slicedSegments.length > 0) && r.pathMatch === 'full') {
+        return false;
+    }
+    return r.path === '';
+}
+/**
+ * Determines if `route` is a path match for the `rawSegment`, `segments`, and `outlet` without
+ * verifying that its children are a full match for the remainder of the `rawSegment` children as
+ * well.
+ */
+function isImmediateMatch(route, rawSegment, segments, outlet) {
+    // We allow matches to empty paths when the outlets differ so we can match a url like `/(b:b)` to
+    // a config like
+    // * `{path: '', children: [{path: 'b', outlet: 'b'}]}`
+    // or even
+    // * `{path: '', outlet: 'a', children: [{path: 'b', outlet: 'b'}]`
+    //
+    // The exception here is when the segment outlet is for the primary outlet. This would
+    // result in a match inside the named outlet because all children there are written as primary
+    // outlets. So we need to prevent child named outlet matches in a url like `/b` in a config like
+    // * `{path: '', outlet: 'x' children: [{path: 'b'}]}`
+    // This should only match if the url is `/(x:b)`.
+    if (getOutlet(route) !== outlet &&
+        (outlet === PRIMARY_OUTLET || !emptyPathMatch(rawSegment, segments, route))) {
+        return false;
+    }
+    if (route.path === '**') {
+        return true;
+    }
+    return match(rawSegment, route, segments).matched;
+}
+function noLeftoversInUrl(segmentGroup, segments, outlet) {
+    return segments.length === 0 && !segmentGroup.children[outlet];
 }
 
 /**
@@ -80805,7 +84545,7 @@ class AbsoluteRedirect {
         this.urlTree = urlTree;
     }
 }
-function noMatch(segmentGroup) {
+function noMatch$1(segmentGroup) {
     return new rxjs__WEBPACK_IMPORTED_MODULE_2__["Observable"]((obs) => obs.error(new NoMatch(segmentGroup)));
 }
 function absoluteRedirect(newTree) {
@@ -80835,8 +84575,18 @@ class ApplyRedirects {
         this.ngModule = moduleInjector.get(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModuleRef"]);
     }
     apply() {
-        const expanded$ = this.expandSegmentGroup(this.ngModule, this.config, this.urlTree.root, PRIMARY_OUTLET);
-        const urlTrees$ = expanded$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])((rootSegmentGroup) => this.createUrlTree(rootSegmentGroup, this.urlTree.queryParams, this.urlTree.fragment)));
+        const splitGroup = split(this.urlTree.root, [], [], this.config).segmentGroup;
+        // TODO(atscott): creating a new segment removes the _sourceSegment _segmentIndexShift, which is
+        // only necessary to prevent failures in tests which assert exact object matches. The `split` is
+        // now shared between `applyRedirects` and `recognize` but only the `recognize` step needs these
+        // properties. Before the implementations were merged, the `applyRedirects` would not assign
+        // them. We should be able to remove this logic as a "breaking change" but should do some more
+        // investigation into the failures first.
+        const rootSegmentGroup = new UrlSegmentGroup(splitGroup.segments, splitGroup.children);
+        const expanded$ = this.expandSegmentGroup(this.ngModule, this.config, rootSegmentGroup, PRIMARY_OUTLET);
+        const urlTrees$ = expanded$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])((rootSegmentGroup) => {
+            return this.createUrlTree(squashSegmentGroup(rootSegmentGroup), this.urlTree.queryParams, this.urlTree.fragment);
+        }));
         return urlTrees$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["catchError"])((e) => {
             if (e instanceof AbsoluteRedirect) {
                 // after an absolute redirect we do not apply any more redirects!
@@ -80852,7 +84602,9 @@ class ApplyRedirects {
     }
     match(tree) {
         const expanded$ = this.expandSegmentGroup(this.ngModule, this.config, tree.root, PRIMARY_OUTLET);
-        const mapped$ = expanded$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])((rootSegmentGroup) => this.createUrlTree(rootSegmentGroup, tree.queryParams, tree.fragment)));
+        const mapped$ = expanded$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])((rootSegmentGroup) => {
+            return this.createUrlTree(squashSegmentGroup(rootSegmentGroup), tree.queryParams, tree.fragment);
+        }));
         return mapped$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["catchError"])((e) => {
             if (e instanceof NoMatch) {
                 throw this.noMatchError(e);
@@ -80878,62 +84630,61 @@ class ApplyRedirects {
     }
     // Recursively expand segment groups for all the child outlets
     expandChildren(ngModule, routes, segmentGroup) {
-        return waitForMap(segmentGroup.children, (childOutlet, child) => this.expandSegmentGroup(ngModule, routes, child, childOutlet));
+        // Expand outlets one at a time, starting with the primary outlet. We need to do it this way
+        // because an absolute redirect from the primary outlet takes precedence.
+        const childOutlets = [];
+        for (const child of Object.keys(segmentGroup.children)) {
+            if (child === 'primary') {
+                childOutlets.unshift(child);
+            }
+            else {
+                childOutlets.push(child);
+            }
+        }
+        return Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["from"])(childOutlets)
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["concatMap"])(childOutlet => {
+            const child = segmentGroup.children[childOutlet];
+            // Sort the routes so routes with outlets that match the the segment appear
+            // first, followed by routes for other outlets, which might match if they have an
+            // empty path.
+            const sortedRoutes = sortByMatchingOutlets(routes, childOutlet);
+            return this.expandSegmentGroup(ngModule, sortedRoutes, child, childOutlet)
+                .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(s => ({ segment: s, outlet: childOutlet })));
+        }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["scan"])((children, expandedChild) => {
+            children[expandedChild.outlet] = expandedChild.segment;
+            return children;
+        }, {}), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["last"])());
     }
     expandSegment(ngModule, segmentGroup, routes, segments, outlet, allowRedirects) {
-        // We need to expand each outlet group independently to ensure that we not only load modules
-        // for routes matching the given `outlet`, but also those which will be activated because
-        // their path is empty string. This can result in multiple outlets being activated at once.
-        const routesByOutlet = groupRoutesByOutlet(routes);
-        if (!routesByOutlet.has(outlet)) {
-            routesByOutlet.set(outlet, []);
-        }
-        const expandRoutes = (routes) => {
-            return Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["from"])(routes).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["concatMap"])((r) => {
-                const expanded$ = this.expandSegmentAgainstRoute(ngModule, segmentGroup, routes, r, segments, outlet, allowRedirects);
-                return expanded$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["catchError"])(e => {
-                    if (e instanceof NoMatch) {
-                        return Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["of"])(null);
-                    }
-                    throw e;
-                }));
-            }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["first"])((s) => s !== null), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["catchError"])(e => {
-                if (e instanceof rxjs__WEBPACK_IMPORTED_MODULE_2__["EmptyError"] || e.name === 'EmptyError') {
-                    if (this.noLeftoversInUrl(segmentGroup, segments, outlet)) {
-                        return Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["of"])(new UrlSegmentGroup([], {}));
-                    }
-                    throw new NoMatch(segmentGroup);
+        return Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["from"])(routes).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["concatMap"])((r) => {
+            const expanded$ = this.expandSegmentAgainstRoute(ngModule, segmentGroup, routes, r, segments, outlet, allowRedirects);
+            return expanded$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["catchError"])((e) => {
+                if (e instanceof NoMatch) {
+                    return Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["of"])(null);
                 }
                 throw e;
             }));
-        };
-        const expansions = Array.from(routesByOutlet.entries()).map(([routeOutlet, routes]) => {
-            const expanded = expandRoutes(routes);
-            // Map all results from outlets we aren't activating to `null` so they can be ignored later
-            return routeOutlet === outlet ? expanded :
-                expanded.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(() => null), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["catchError"])(() => Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["of"])(null)));
-        });
-        return Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["from"])(expansions)
-            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["combineAll"])(), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["first"])(), 
-        // Return only the expansion for the route outlet we are trying to activate.
-        Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(results => results.find(result => result !== null)));
-    }
-    noLeftoversInUrl(segmentGroup, segments, outlet) {
-        return segments.length === 0 && !segmentGroup.children[outlet];
+        }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["first"])((s) => !!s), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["catchError"])((e, _) => {
+            if (e instanceof rxjs__WEBPACK_IMPORTED_MODULE_2__["EmptyError"] || e.name === 'EmptyError') {
+                if (noLeftoversInUrl(segmentGroup, segments, outlet)) {
+                    return Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["of"])(new UrlSegmentGroup([], {}));
+                }
+                throw new NoMatch(segmentGroup);
+            }
+            throw e;
+        }));
     }
     expandSegmentAgainstRoute(ngModule, segmentGroup, routes, route, paths, outlet, allowRedirects) {
-        // Empty string segments are special because multiple outlets can match a single path, i.e.
-        // `[{path: '', component: B}, {path: '', loadChildren: () => {}, outlet: "about"}]`
-        if (getOutlet(route) !== outlet && route.path !== '') {
-            return noMatch(segmentGroup);
+        if (!isImmediateMatch(route, segmentGroup, paths, outlet)) {
+            return noMatch$1(segmentGroup);
         }
         if (route.redirectTo === undefined) {
-            return this.matchSegmentAgainstRoute(ngModule, segmentGroup, route, paths);
+            return this.matchSegmentAgainstRoute(ngModule, segmentGroup, route, paths, outlet);
         }
         if (allowRedirects && this.allowRedirects) {
             return this.expandSegmentAgainstRouteUsingRedirect(ngModule, segmentGroup, routes, route, paths, outlet);
         }
-        return noMatch(segmentGroup);
+        return noMatch$1(segmentGroup);
     }
     expandSegmentAgainstRouteUsingRedirect(ngModule, segmentGroup, routes, route, segments, outlet) {
         if (route.path === '**') {
@@ -80954,7 +84705,7 @@ class ApplyRedirects {
     expandRegularSegmentAgainstRouteUsingRedirect(ngModule, segmentGroup, routes, route, segments, outlet) {
         const { matched, consumedSegments, lastChild, positionalParamSegments } = match(segmentGroup, route, segments);
         if (!matched)
-            return noMatch(segmentGroup);
+            return noMatch$1(segmentGroup);
         const newTree = this.applyRedirectCommands(consumedSegments, route.redirectTo, positionalParamSegments);
         if (route.redirectTo.startsWith('/')) {
             return absoluteRedirect(newTree);
@@ -80963,7 +84714,7 @@ class ApplyRedirects {
             return this.expandSegment(ngModule, segmentGroup, routes, newSegments.concat(segments.slice(lastChild)), outlet, false);
         }));
     }
-    matchSegmentAgainstRoute(ngModule, rawSegmentGroup, route, segments) {
+    matchSegmentAgainstRoute(ngModule, rawSegmentGroup, route, segments, outlet) {
         if (route.path === '**') {
             if (route.loadChildren) {
                 return this.configLoader.load(ngModule.injector, route)
@@ -80976,13 +84727,15 @@ class ApplyRedirects {
         }
         const { matched, consumedSegments, lastChild } = match(rawSegmentGroup, route, segments);
         if (!matched)
-            return noMatch(rawSegmentGroup);
+            return noMatch$1(rawSegmentGroup);
         const rawSlicedSegments = segments.slice(lastChild);
         const childConfig$ = this.getChildConfig(ngModule, route, segments);
         return childConfig$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["mergeMap"])((routerConfig) => {
             const childModule = routerConfig.module;
             const childConfig = routerConfig.routes;
-            const { segmentGroup, slicedSegments } = split(rawSegmentGroup, consumedSegments, rawSlicedSegments, childConfig);
+            const { segmentGroup: splitSegmentGroup, slicedSegments } = split(rawSegmentGroup, consumedSegments, rawSlicedSegments, childConfig);
+            // See comment on the other call to `split` about why this is necessary.
+            const segmentGroup = new UrlSegmentGroup(splitSegmentGroup.segments, splitSegmentGroup.children);
             if (slicedSegments.length === 0 && segmentGroup.hasChildren()) {
                 const expanded$ = this.expandChildren(childModule, childConfig, segmentGroup);
                 return expanded$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])((children) => new UrlSegmentGroup(consumedSegments, children)));
@@ -80990,7 +84743,8 @@ class ApplyRedirects {
             if (childConfig.length === 0 && slicedSegments.length === 0) {
                 return Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["of"])(new UrlSegmentGroup(consumedSegments, {}));
             }
-            const expanded$ = this.expandSegment(childModule, segmentGroup, childConfig, slicedSegments, PRIMARY_OUTLET, true);
+            const matchedOnOutlet = getOutlet(route) === outlet;
+            const expanded$ = this.expandSegment(childModule, segmentGroup, childConfig, slicedSegments, matchedOnOutlet ? PRIMARY_OUTLET : outlet, true);
             return expanded$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])((cs) => new UrlSegmentGroup(consumedSegments.concat(cs.segments), cs.children)));
         }));
     }
@@ -81110,43 +84864,14 @@ class ApplyRedirects {
         return redirectToUrlSegment;
     }
 }
-function match(segmentGroup, route, segments) {
-    if (route.path === '') {
-        if ((route.pathMatch === 'full') && (segmentGroup.hasChildren() || segments.length > 0)) {
-            return { matched: false, consumedSegments: [], lastChild: 0, positionalParamSegments: {} };
-        }
-        return { matched: true, consumedSegments: [], lastChild: 0, positionalParamSegments: {} };
-    }
-    const matcher = route.matcher || defaultUrlMatcher;
-    const res = matcher(segments, segmentGroup, route);
-    if (!res) {
-        return {
-            matched: false,
-            consumedSegments: [],
-            lastChild: 0,
-            positionalParamSegments: {},
-        };
-    }
-    return {
-        matched: true,
-        consumedSegments: res.consumed,
-        lastChild: res.consumed.length,
-        positionalParamSegments: res.posParams,
-    };
-}
-function split(segmentGroup, consumedSegments, slicedSegments, config) {
-    if (slicedSegments.length > 0 &&
-        containsEmptyPathRedirectsWithNamedOutlets(segmentGroup, slicedSegments, config)) {
-        const s = new UrlSegmentGroup(consumedSegments, createChildrenForEmptySegments(config, new UrlSegmentGroup(slicedSegments, segmentGroup.children)));
-        return { segmentGroup: mergeTrivialChildren(s), slicedSegments: [] };
-    }
-    if (slicedSegments.length === 0 &&
-        containsEmptyPathRedirects(segmentGroup, slicedSegments, config)) {
-        const s = new UrlSegmentGroup(segmentGroup.segments, addEmptySegmentsToChildrenIfNeeded(segmentGroup, slicedSegments, config, segmentGroup.children));
-        return { segmentGroup: mergeTrivialChildren(s), slicedSegments };
-    }
-    return { segmentGroup, slicedSegments };
-}
+/**
+ * When possible, merges the primary outlet child into the parent `UrlSegmentGroup`.
+ *
+ * When a segment group has only one child which is a primary outlet, merges that child into the
+ * parent. That is, the child segment group's segments are merged into the `s` and the child's
+ * children become the children of `s`. Think of this like a 'squash', merging the child segment
+ * group into the parent.
+ */
 function mergeTrivialChildren(s) {
     if (s.numberOfChildren === 1 && s.children[PRIMARY_OUTLET]) {
         const c = s.children[PRIMARY_OUTLET];
@@ -81154,36 +84879,23 @@ function mergeTrivialChildren(s) {
     }
     return s;
 }
-function addEmptySegmentsToChildrenIfNeeded(segmentGroup, slicedSegments, routes, children) {
-    const res = {};
-    for (const r of routes) {
-        if (isEmptyPathRedirect(segmentGroup, slicedSegments, r) && !children[getOutlet(r)]) {
-            res[getOutlet(r)] = new UrlSegmentGroup([], {});
+/**
+ * Recursively merges primary segment children into their parents and also drops empty children
+ * (those which have no segments and no children themselves). The latter prevents serializing a
+ * group into something like `/a(aux:)`, where `aux` is an empty child segment.
+ */
+function squashSegmentGroup(segmentGroup) {
+    const newChildren = {};
+    for (const childOutlet of Object.keys(segmentGroup.children)) {
+        const child = segmentGroup.children[childOutlet];
+        const childCandidate = squashSegmentGroup(child);
+        // don't add empty children
+        if (childCandidate.segments.length > 0 || childCandidate.hasChildren()) {
+            newChildren[childOutlet] = childCandidate;
         }
     }
-    return Object.assign(Object.assign({}, children), res);
-}
-function createChildrenForEmptySegments(routes, primarySegmentGroup) {
-    const res = {};
-    res[PRIMARY_OUTLET] = primarySegmentGroup;
-    for (const r of routes) {
-        if (r.path === '' && getOutlet(r) !== PRIMARY_OUTLET) {
-            res[getOutlet(r)] = new UrlSegmentGroup([], {});
-        }
-    }
-    return res;
-}
-function containsEmptyPathRedirectsWithNamedOutlets(segmentGroup, segments, routes) {
-    return routes.some(r => isEmptyPathRedirect(segmentGroup, segments, r) && getOutlet(r) !== PRIMARY_OUTLET);
-}
-function containsEmptyPathRedirects(segmentGroup, segments, routes) {
-    return routes.some(r => isEmptyPathRedirect(segmentGroup, segments, r));
-}
-function isEmptyPathRedirect(segmentGroup, segments, r) {
-    if ((segmentGroup.hasChildren() || segments.length > 0) && r.pathMatch === 'full') {
-        return false;
-    }
-    return r.path === '' && r.redirectTo !== undefined;
+    const s = new UrlSegmentGroup(segmentGroup.segments, newChildren);
+    return mergeTrivialChildren(s);
 }
 
 /**
@@ -81194,10 +84906,8 @@ function isEmptyPathRedirect(segmentGroup, segments, r) {
  * found in the LICENSE file at https://angular.io/license
  */
 function applyRedirects$1(moduleInjector, configLoader, urlSerializer, config) {
-    return function (source) {
-        return source.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["switchMap"])(t => applyRedirects(moduleInjector, configLoader, urlSerializer, t.extractedUrl, config)
-            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(urlAfterRedirects => (Object.assign(Object.assign({}, t), { urlAfterRedirects }))))));
-    };
+    return Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["switchMap"])(t => applyRedirects(moduleInjector, configLoader, urlSerializer, t.extractedUrl, config)
+        .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(urlAfterRedirects => (Object.assign(Object.assign({}, t), { urlAfterRedirects })))));
 }
 
 /**
@@ -81358,20 +85068,18 @@ function deactivateRouteAndItsChildren(route, context, checks) {
  * found in the LICENSE file at https://angular.io/license
  */
 function checkGuards(moduleInjector, forwardEvent) {
-    return function (source) {
-        return source.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["mergeMap"])(t => {
-            const { targetSnapshot, currentSnapshot, guards: { canActivateChecks, canDeactivateChecks } } = t;
-            if (canDeactivateChecks.length === 0 && canActivateChecks.length === 0) {
-                return Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["of"])(Object.assign(Object.assign({}, t), { guardsResult: true }));
-            }
-            return runCanDeactivateChecks(canDeactivateChecks, targetSnapshot, currentSnapshot, moduleInjector)
-                .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["mergeMap"])(canDeactivate => {
-                return canDeactivate && isBoolean(canDeactivate) ?
-                    runCanActivateChecks(targetSnapshot, canActivateChecks, moduleInjector, forwardEvent) :
-                    Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["of"])(canDeactivate);
-            }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(guardsResult => (Object.assign(Object.assign({}, t), { guardsResult }))));
-        }));
-    };
+    return Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["mergeMap"])(t => {
+        const { targetSnapshot, currentSnapshot, guards: { canActivateChecks, canDeactivateChecks } } = t;
+        if (canDeactivateChecks.length === 0 && canActivateChecks.length === 0) {
+            return Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["of"])(Object.assign(Object.assign({}, t), { guardsResult: true }));
+        }
+        return runCanDeactivateChecks(canDeactivateChecks, targetSnapshot, currentSnapshot, moduleInjector)
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["mergeMap"])(canDeactivate => {
+            return canDeactivate && isBoolean(canDeactivate) ?
+                runCanActivateChecks(targetSnapshot, canActivateChecks, moduleInjector, forwardEvent) :
+                Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["of"])(canDeactivate);
+        }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(guardsResult => (Object.assign(Object.assign({}, t), { guardsResult }))));
+    });
 }
 function runCanDeactivateChecks(checks, futureRSS, currRSS, moduleInjector) {
     return Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["from"])(checks).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["mergeMap"])(check => runCanDeactivate(check.component, check.route, currRSS, futureRSS, moduleInjector)), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["first"])(result => {
@@ -81380,15 +85088,7 @@ function runCanDeactivateChecks(checks, futureRSS, currRSS, moduleInjector) {
 }
 function runCanActivateChecks(futureSnapshot, checks, moduleInjector, forwardEvent) {
     return Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["from"])(checks).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["concatMap"])((check) => {
-        return Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["from"])([
-            fireChildActivationStart(check.route.parent, forwardEvent),
-            fireActivationStart(check.route, forwardEvent),
-            runCanActivateChild(futureSnapshot, check.path, moduleInjector),
-            runCanActivate(futureSnapshot, check.route, moduleInjector)
-        ])
-            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["concatAll"])(), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["first"])(result => {
-            return result !== true;
-        }, true));
+        return Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["concat"])(fireChildActivationStart(check.route.parent, forwardEvent), fireActivationStart(check.route, forwardEvent), runCanActivateChild(futureSnapshot, check.path, moduleInjector), runCanActivate(futureSnapshot, check.route, moduleInjector));
     }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["first"])(result => {
         return result !== true;
     }, true));
@@ -81500,9 +85200,26 @@ function runCanDeactivate(component, currARS, currRSS, futureRSS, moduleInjector
  */
 class NoMatch$1 {
 }
+function newObservableError(e) {
+    // TODO(atscott): This pattern is used throughout the router code and can be `throwError` instead.
+    return new rxjs__WEBPACK_IMPORTED_MODULE_2__["Observable"]((obs) => obs.error(e));
+}
 function recognize(rootComponentType, config, urlTree, url, paramsInheritanceStrategy = 'emptyOnly', relativeLinkResolution = 'legacy') {
-    return new Recognizer(rootComponentType, config, urlTree, url, paramsInheritanceStrategy, relativeLinkResolution)
-        .recognize();
+    try {
+        const result = new Recognizer(rootComponentType, config, urlTree, url, paramsInheritanceStrategy, relativeLinkResolution)
+            .recognize();
+        if (result === null) {
+            return newObservableError(new NoMatch$1());
+        }
+        else {
+            return Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["of"])(result);
+        }
+    }
+    catch (e) {
+        // Catch the potential error from recognize due to duplicate outlet matches and return as an
+        // `Observable` error instead.
+        return newObservableError(e);
+    }
 }
 class Recognizer {
     constructor(rootComponentType, config, urlTree, url, paramsInheritanceStrategy, relativeLinkResolution) {
@@ -81514,18 +85231,19 @@ class Recognizer {
         this.relativeLinkResolution = relativeLinkResolution;
     }
     recognize() {
-        try {
-            const rootSegmentGroup = split$1(this.urlTree.root, [], [], this.config, this.relativeLinkResolution).segmentGroup;
-            const children = this.processSegmentGroup(this.config, rootSegmentGroup, PRIMARY_OUTLET);
-            const root = new ActivatedRouteSnapshot([], Object.freeze({}), Object.freeze(Object.assign({}, this.urlTree.queryParams)), this.urlTree.fragment, {}, PRIMARY_OUTLET, this.rootComponentType, null, this.urlTree.root, -1, {});
-            const rootNode = new TreeNode(root, children);
-            const routeState = new RouterStateSnapshot(this.url, rootNode);
-            this.inheritParamsAndData(routeState._root);
-            return Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["of"])(routeState);
+        const rootSegmentGroup = split(this.urlTree.root, [], [], this.config.filter(c => c.redirectTo === undefined), this.relativeLinkResolution)
+            .segmentGroup;
+        const children = this.processSegmentGroup(this.config, rootSegmentGroup, PRIMARY_OUTLET);
+        if (children === null) {
+            return null;
         }
-        catch (e) {
-            return new rxjs__WEBPACK_IMPORTED_MODULE_2__["Observable"]((obs) => obs.error(e));
-        }
+        // Use Object.freeze to prevent readers of the Router state from modifying it outside of a
+        // navigation, resulting in the router being out of sync with the browser.
+        const root = new ActivatedRouteSnapshot([], Object.freeze({}), Object.freeze(Object.assign({}, this.urlTree.queryParams)), this.urlTree.fragment, {}, PRIMARY_OUTLET, this.rootComponentType, null, this.urlTree.root, -1, {});
+        const rootNode = new TreeNode(root, children);
+        const routeState = new RouterStateSnapshot(this.url, rootNode);
+        this.inheritParamsAndData(routeState._root);
+        return routeState;
     }
     inheritParamsAndData(routeNode) {
         const route = routeNode.value;
@@ -81540,58 +85258,101 @@ class Recognizer {
         }
         return this.processSegment(config, segmentGroup, segmentGroup.segments, outlet);
     }
+    /**
+     * Matches every child outlet in the `segmentGroup` to a `Route` in the config. Returns `null` if
+     * we cannot find a match for _any_ of the children.
+     *
+     * @param config - The `Routes` to match against
+     * @param segmentGroup - The `UrlSegmentGroup` whose children need to be matched against the
+     *     config.
+     */
     processChildren(config, segmentGroup) {
-        const children = mapChildrenIntoArray(segmentGroup, (child, childOutlet) => this.processSegmentGroup(config, child, childOutlet));
-        checkOutletNameUniqueness(children);
-        sortActivatedRouteSnapshots(children);
-        return children;
+        const children = [];
+        for (const childOutlet of Object.keys(segmentGroup.children)) {
+            const child = segmentGroup.children[childOutlet];
+            // Sort the config so that routes with outlets that match the one being activated appear
+            // first, followed by routes for other outlets, which might match if they have an empty path.
+            const sortedConfig = sortByMatchingOutlets(config, childOutlet);
+            const outletChildren = this.processSegmentGroup(sortedConfig, child, childOutlet);
+            if (outletChildren === null) {
+                // Configs must match all segment children so because we did not find a match for this
+                // outlet, return `null`.
+                return null;
+            }
+            children.push(...outletChildren);
+        }
+        // Because we may have matched two outlets to the same empty path segment, we can have multiple
+        // activated results for the same outlet. We should merge the children of these results so the
+        // final return value is only one `TreeNode` per outlet.
+        const mergedChildren = mergeEmptyPathMatches(children);
+        if (typeof ngDevMode === 'undefined' || ngDevMode) {
+            // This should really never happen - we are only taking the first match for each outlet and
+            // merge the empty path matches.
+            checkOutletNameUniqueness(mergedChildren);
+        }
+        sortActivatedRouteSnapshots(mergedChildren);
+        return mergedChildren;
     }
     processSegment(config, segmentGroup, segments, outlet) {
         for (const r of config) {
-            try {
-                return this.processSegmentAgainstRoute(r, segmentGroup, segments, outlet);
-            }
-            catch (e) {
-                if (!(e instanceof NoMatch$1))
-                    throw e;
+            const children = this.processSegmentAgainstRoute(r, segmentGroup, segments, outlet);
+            if (children !== null) {
+                return children;
             }
         }
-        if (this.noLeftoversInUrl(segmentGroup, segments, outlet)) {
+        if (noLeftoversInUrl(segmentGroup, segments, outlet)) {
             return [];
         }
-        throw new NoMatch$1();
-    }
-    noLeftoversInUrl(segmentGroup, segments, outlet) {
-        return segments.length === 0 && !segmentGroup.children[outlet];
+        return null;
     }
     processSegmentAgainstRoute(route, rawSegment, segments, outlet) {
-        if (route.redirectTo)
-            throw new NoMatch$1();
-        if ((route.outlet || PRIMARY_OUTLET) !== outlet)
-            throw new NoMatch$1();
+        if (route.redirectTo || !isImmediateMatch(route, rawSegment, segments, outlet))
+            return null;
         let snapshot;
         let consumedSegments = [];
         let rawSlicedSegments = [];
         if (route.path === '**') {
             const params = segments.length > 0 ? last(segments).parameters : {};
-            snapshot = new ActivatedRouteSnapshot(segments, params, Object.freeze(Object.assign({}, this.urlTree.queryParams)), this.urlTree.fragment, getData(route), outlet, route.component, route, getSourceSegmentGroup(rawSegment), getPathIndexShift(rawSegment) + segments.length, getResolve(route));
+            snapshot = new ActivatedRouteSnapshot(segments, params, Object.freeze(Object.assign({}, this.urlTree.queryParams)), this.urlTree.fragment, getData(route), getOutlet(route), route.component, route, getSourceSegmentGroup(rawSegment), getPathIndexShift(rawSegment) + segments.length, getResolve(route));
         }
         else {
-            const result = match$1(rawSegment, route, segments);
+            const result = match(rawSegment, route, segments);
+            if (!result.matched) {
+                return null;
+            }
             consumedSegments = result.consumedSegments;
             rawSlicedSegments = segments.slice(result.lastChild);
-            snapshot = new ActivatedRouteSnapshot(consumedSegments, result.parameters, Object.freeze(Object.assign({}, this.urlTree.queryParams)), this.urlTree.fragment, getData(route), outlet, route.component, route, getSourceSegmentGroup(rawSegment), getPathIndexShift(rawSegment) + consumedSegments.length, getResolve(route));
+            snapshot = new ActivatedRouteSnapshot(consumedSegments, result.parameters, Object.freeze(Object.assign({}, this.urlTree.queryParams)), this.urlTree.fragment, getData(route), getOutlet(route), route.component, route, getSourceSegmentGroup(rawSegment), getPathIndexShift(rawSegment) + consumedSegments.length, getResolve(route));
         }
         const childConfig = getChildConfig(route);
-        const { segmentGroup, slicedSegments } = split$1(rawSegment, consumedSegments, rawSlicedSegments, childConfig, this.relativeLinkResolution);
+        const { segmentGroup, slicedSegments } = split(rawSegment, consumedSegments, rawSlicedSegments, 
+        // Filter out routes with redirectTo because we are trying to create activated route
+        // snapshots and don't handle redirects here. That should have been done in
+        // `applyRedirects`.
+        childConfig.filter(c => c.redirectTo === undefined), this.relativeLinkResolution);
         if (slicedSegments.length === 0 && segmentGroup.hasChildren()) {
             const children = this.processChildren(childConfig, segmentGroup);
+            if (children === null) {
+                return null;
+            }
             return [new TreeNode(snapshot, children)];
         }
         if (childConfig.length === 0 && slicedSegments.length === 0) {
             return [new TreeNode(snapshot, [])];
         }
-        const children = this.processSegment(childConfig, segmentGroup, slicedSegments, PRIMARY_OUTLET);
+        const matchedOnOutlet = getOutlet(route) === outlet;
+        // If we matched a config due to empty path match on a different outlet, we need to continue
+        // passing the current outlet for the segment rather than switch to PRIMARY.
+        // Note that we switch to primary when we have a match because outlet configs look like this:
+        // {path: 'a', outlet: 'a', children: [
+        //  {path: 'b', component: B},
+        //  {path: 'c', component: C},
+        // ]}
+        // Notice that the children of the named outlet are configured with the primary outlet
+        const children = this.processSegment(childConfig, segmentGroup, slicedSegments, matchedOnOutlet ? PRIMARY_OUTLET : outlet);
+        if (children === null) {
+            return null;
+        }
         return [new TreeNode(snapshot, children)];
     }
 }
@@ -81613,24 +85374,31 @@ function getChildConfig(route) {
     }
     return [];
 }
-function match$1(segmentGroup, route, segments) {
-    if (route.path === '') {
-        if (route.pathMatch === 'full' && (segmentGroup.hasChildren() || segments.length > 0)) {
-            throw new NoMatch$1();
+function hasEmptyPathConfig(node) {
+    const config = node.value.routeConfig;
+    return config && config.path === '' && config.redirectTo === undefined;
+}
+/**
+ * Finds `TreeNode`s with matching empty path route configs and merges them into `TreeNode` with the
+ * children from each duplicate. This is necessary because different outlets can match a single
+ * empty path route config and the results need to then be merged.
+ */
+function mergeEmptyPathMatches(nodes) {
+    const result = [];
+    for (const node of nodes) {
+        if (!hasEmptyPathConfig(node)) {
+            result.push(node);
+            continue;
         }
-        return { consumedSegments: [], lastChild: 0, parameters: {} };
+        const duplicateEmptyPathNode = result.find(resultNode => node.value.routeConfig === resultNode.value.routeConfig);
+        if (duplicateEmptyPathNode !== undefined) {
+            duplicateEmptyPathNode.children.push(...node.children);
+        }
+        else {
+            result.push(node);
+        }
     }
-    const matcher = route.matcher || defaultUrlMatcher;
-    const res = matcher(segments, segmentGroup, route);
-    if (!res)
-        throw new NoMatch$1();
-    const posParams = {};
-    forEach(res.posParams, (v, k) => {
-        posParams[k] = v.path;
-    });
-    const parameters = res.consumed.length > 0 ? Object.assign(Object.assign({}, posParams), res.consumed[res.consumed.length - 1].parameters) :
-        posParams;
-    return { consumedSegments: res.consumed, lastChild: res.consumed.length, parameters };
+    return result;
 }
 function checkOutletNameUniqueness(nodes) {
     const names = {};
@@ -81660,70 +85428,6 @@ function getPathIndexShift(segmentGroup) {
     }
     return res - 1;
 }
-function split$1(segmentGroup, consumedSegments, slicedSegments, config, relativeLinkResolution) {
-    if (slicedSegments.length > 0 &&
-        containsEmptyPathMatchesWithNamedOutlets(segmentGroup, slicedSegments, config)) {
-        const s = new UrlSegmentGroup(consumedSegments, createChildrenForEmptyPaths(segmentGroup, consumedSegments, config, new UrlSegmentGroup(slicedSegments, segmentGroup.children)));
-        s._sourceSegment = segmentGroup;
-        s._segmentIndexShift = consumedSegments.length;
-        return { segmentGroup: s, slicedSegments: [] };
-    }
-    if (slicedSegments.length === 0 &&
-        containsEmptyPathMatches(segmentGroup, slicedSegments, config)) {
-        const s = new UrlSegmentGroup(segmentGroup.segments, addEmptyPathsToChildrenIfNeeded(segmentGroup, consumedSegments, slicedSegments, config, segmentGroup.children, relativeLinkResolution));
-        s._sourceSegment = segmentGroup;
-        s._segmentIndexShift = consumedSegments.length;
-        return { segmentGroup: s, slicedSegments };
-    }
-    const s = new UrlSegmentGroup(segmentGroup.segments, segmentGroup.children);
-    s._sourceSegment = segmentGroup;
-    s._segmentIndexShift = consumedSegments.length;
-    return { segmentGroup: s, slicedSegments };
-}
-function addEmptyPathsToChildrenIfNeeded(segmentGroup, consumedSegments, slicedSegments, routes, children, relativeLinkResolution) {
-    const res = {};
-    for (const r of routes) {
-        if (emptyPathMatch(segmentGroup, slicedSegments, r) && !children[getOutlet(r)]) {
-            const s = new UrlSegmentGroup([], {});
-            s._sourceSegment = segmentGroup;
-            if (relativeLinkResolution === 'legacy') {
-                s._segmentIndexShift = segmentGroup.segments.length;
-            }
-            else {
-                s._segmentIndexShift = consumedSegments.length;
-            }
-            res[getOutlet(r)] = s;
-        }
-    }
-    return Object.assign(Object.assign({}, children), res);
-}
-function createChildrenForEmptyPaths(segmentGroup, consumedSegments, routes, primarySegment) {
-    const res = {};
-    res[PRIMARY_OUTLET] = primarySegment;
-    primarySegment._sourceSegment = segmentGroup;
-    primarySegment._segmentIndexShift = consumedSegments.length;
-    for (const r of routes) {
-        if (r.path === '' && getOutlet(r) !== PRIMARY_OUTLET) {
-            const s = new UrlSegmentGroup([], {});
-            s._sourceSegment = segmentGroup;
-            s._segmentIndexShift = consumedSegments.length;
-            res[getOutlet(r)] = s;
-        }
-    }
-    return res;
-}
-function containsEmptyPathMatchesWithNamedOutlets(segmentGroup, slicedSegments, routes) {
-    return routes.some(r => emptyPathMatch(segmentGroup, slicedSegments, r) && getOutlet(r) !== PRIMARY_OUTLET);
-}
-function containsEmptyPathMatches(segmentGroup, slicedSegments, routes) {
-    return routes.some(r => emptyPathMatch(segmentGroup, slicedSegments, r));
-}
-function emptyPathMatch(segmentGroup, slicedSegments, r) {
-    if ((segmentGroup.hasChildren() || slicedSegments.length > 0) && r.pathMatch === 'full') {
-        return false;
-    }
-    return r.path === '' && r.redirectTo === undefined;
-}
 function getData(route) {
     return route.data || {};
 }
@@ -81739,10 +85443,8 @@ function getResolve(route) {
  * found in the LICENSE file at https://angular.io/license
  */
 function recognize$1(rootComponentType, config, serializer, paramsInheritanceStrategy, relativeLinkResolution) {
-    return function (source) {
-        return source.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["mergeMap"])(t => recognize(rootComponentType, config, t.urlAfterRedirects, serializer(t.urlAfterRedirects), paramsInheritanceStrategy, relativeLinkResolution)
-            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(targetSnapshot => (Object.assign(Object.assign({}, t), { targetSnapshot }))))));
-    };
+    return Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["mergeMap"])(t => recognize(rootComponentType, config, t.urlAfterRedirects, serializer(t.urlAfterRedirects), paramsInheritanceStrategy, relativeLinkResolution)
+        .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(targetSnapshot => (Object.assign(Object.assign({}, t), { targetSnapshot })))));
 }
 
 /**
@@ -81753,17 +85455,15 @@ function recognize$1(rootComponentType, config, serializer, paramsInheritanceStr
  * found in the LICENSE file at https://angular.io/license
  */
 function resolveData(paramsInheritanceStrategy, moduleInjector) {
-    return function (source) {
-        return source.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["mergeMap"])(t => {
-            const { targetSnapshot, guards: { canActivateChecks } } = t;
-            if (!canActivateChecks.length) {
-                return Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["of"])(t);
-            }
-            let canActivateChecksResolved = 0;
-            return Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["from"])(canActivateChecks)
-                .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["concatMap"])(check => runResolve(check.route, targetSnapshot, paramsInheritanceStrategy, moduleInjector)), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["tap"])(() => canActivateChecksResolved++), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["takeLast"])(1), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["mergeMap"])(_ => canActivateChecksResolved === canActivateChecks.length ? Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["of"])(t) : rxjs__WEBPACK_IMPORTED_MODULE_2__["EMPTY"]));
-        }));
-    };
+    return Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["mergeMap"])(t => {
+        const { targetSnapshot, guards: { canActivateChecks } } = t;
+        if (!canActivateChecks.length) {
+            return Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["of"])(t);
+        }
+        let canActivateChecksResolved = 0;
+        return Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["from"])(canActivateChecks)
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["concatMap"])(check => runResolve(check.route, targetSnapshot, paramsInheritanceStrategy, moduleInjector)), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["tap"])(() => canActivateChecksResolved++), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["takeLast"])(1), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["mergeMap"])(_ => canActivateChecksResolved === canActivateChecks.length ? Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["of"])(t) : rxjs__WEBPACK_IMPORTED_MODULE_2__["EMPTY"]));
+    });
 }
 function runResolve(futureARS, futureRSS, paramsInheritanceStrategy, moduleInjector) {
     const resolve = futureARS._resolve;
@@ -81812,15 +85512,13 @@ function getResolver(injectionToken, futureARS, futureRSS, moduleInjector) {
  * it will wait before continuing with the original value.
  */
 function switchTap(next) {
-    return function (source) {
-        return source.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["switchMap"])(v => {
-            const nextResult = next(v);
-            if (nextResult) {
-                return Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["from"])(nextResult).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(() => v));
-            }
-            return Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["from"])([v]);
-        }));
-    };
+    return Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["switchMap"])(v => {
+        const nextResult = next(v);
+        if (nextResult) {
+            return Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["from"])(nextResult).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(() => v));
+        }
+        return Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["of"])(v);
+    });
 }
 
 /**
@@ -82165,7 +85863,7 @@ class Router {
         this.ngModule = injector.get(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModuleRef"]);
         this.console = injector.get(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵConsole"]);
         const ngZone = injector.get(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgZone"]);
-        this.isNgZoneEnabled = ngZone instanceof _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgZone"];
+        this.isNgZoneEnabled = ngZone instanceof _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgZone"] && _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgZone"].isInAngularZone();
         this.resetConfig(config);
         this.currentUrlTree = createEmptyUrlTree();
         this.rawUrlTree = this.currentUrlTree;
@@ -82230,11 +85928,10 @@ class Router {
                         if (transition !== this.transitions.getValue()) {
                             return rxjs__WEBPACK_IMPORTED_MODULE_2__["EMPTY"];
                         }
-                        return [t];
+                        // This delay is required to match old behavior that forced
+                        // navigation to always be async
+                        return Promise.resolve(t);
                     }), 
-                    // This delay is required to match old behavior that forced navigation
-                    // to always be async
-                    Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["switchMap"])(t => Promise.resolve(t)), 
                     // ApplyRedirects
                     applyRedirects$1(this.ngModule.injector, this.configLoader, this.urlSerializer, this.config), 
                     // Update the currentNavigation
@@ -82251,9 +85948,7 @@ class Router {
                             }
                             this.browserUrlTree = t.urlAfterRedirects;
                         }
-                    }), 
-                    // Fire RoutesRecognized
-                    Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["tap"])(t => {
+                        // Fire RoutesRecognized
                         const routesRecognized = new RoutesRecognized(t.id, this.serializeUrl(t.extractedUrl), this.serializeUrl(t.urlAfterRedirects), t.targetSnapshot);
                         eventsSubject.next(routesRecognized);
                     }));
@@ -82305,7 +86000,6 @@ class Router {
                     error.url = t.guardsResult;
                     throw error;
                 }
-            }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["tap"])(t => {
                 const guardsEnd = new GuardsCheckEnd(t.id, this.serializeUrl(t.extractedUrl), this.serializeUrl(t.urlAfterRedirects), t.targetSnapshot, !!t.guardsResult);
                 this.triggerEvent(guardsEnd);
             }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["filter"])(t => {
@@ -82394,7 +86088,7 @@ class Router {
                     // navigation completes, there will be nothing in
                     // history.state.navigationId. This can cause sync problems with AngularJS
                     // sync code which looks for a value here in order to determine whether or
-                    // not to handle a given popstate event or to leave it to the Angualr
+                    // not to handle a given popstate event or to leave it to the Angular
                     // router.
                     this.resetUrlToCurrentUrlTree();
                     const navCancel = new NavigationCancel(t.id, this.serializeUrl(t.extractedUrl), `Navigation ID ${t.id} is not equal to the current navigation id ${this.navigationId}`);
@@ -82438,7 +86132,7 @@ class Router {
                                 skipLocationChange: t.extras.skipLocationChange,
                                 replaceUrl: this.urlUpdateStrategy === 'eager'
                             };
-                            return this.scheduleNavigation(mergedTree, 'imperative', null, extras, { resolve: t.resolve, reject: t.reject, promise: t.promise });
+                            this.scheduleNavigation(mergedTree, 'imperative', null, extras, { resolve: t.resolve, reject: t.reject, promise: t.promise });
                         }, 0);
                     }
                     /* All other errors should reset to the router's internal URL reference to
@@ -83315,9 +87009,7 @@ class RouterLinkActive {
     /** @nodoc */
     ngAfterContentInit() {
         // `of(null)` is used to force subscribe body to execute once immediately (like `startWith`).
-        Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["from"])([this.links.changes, this.linksWithHrefs.changes, Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["of"])(null)])
-            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["mergeAll"])())
-            .subscribe(_ => {
+        Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["of"])(this.links.changes, this.linksWithHrefs.changes, Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["of"])(null)).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["mergeAll"])()).subscribe(_ => {
             this.update();
             this.subscribeToEachLinkOnChanges();
         });
@@ -84195,7 +87887,7 @@ function provideRouterInitializer() {
 /**
  * @publicApi
  */
-const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["Version"]('11.0.5');
+const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["Version"]('11.0.9');
 
 /**
  * @license
@@ -87900,7 +91592,14 @@ function innerSubscribe(result, innerSubscriber) {
     if (result instanceof _Observable__WEBPACK_IMPORTED_MODULE_1__["Observable"]) {
         return result.subscribe(innerSubscriber);
     }
-    return Object(_util_subscribeTo__WEBPACK_IMPORTED_MODULE_2__["subscribeTo"])(result)(innerSubscriber);
+    let subscription;
+    try {
+        subscription = Object(_util_subscribeTo__WEBPACK_IMPORTED_MODULE_2__["subscribeTo"])(result)(innerSubscriber);
+    }
+    catch (error) {
+        innerSubscriber.error(error);
+    }
+    return subscription;
 }
 //# sourceMappingURL=innerSubscribe.js.map
 

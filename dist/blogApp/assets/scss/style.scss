@@ -31,3 +31,9 @@ File: scss
 @import "icons/font-awesome/css/font-awesome.min.css";
 
 @import "icons/themify-icons/themify-icons.css";
+
+
+@import 'config/variables';
+@import 'base/base';
+@import 'components/card';
+@import 'components/breakpoints';
