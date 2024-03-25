@@ -3,29 +3,26 @@ html {
 }
 
 .banner-innerpage {
-    background-size: cover; /* ili druge odgovarajuće vrijednosti */
-    height: 65vh; /* Dodajte ovu liniju kako biste osigurali punu visinu */
+    background-size: cover;
+    height: 65vh;
   }
 
- 
-  
   .footer4 {
     font-size: 16px;
-    line-height: 1.5; /* Postavite željenu veličinu fonta */
+    line-height: 1.5; 
   }
   
 
   .round-social a i {
-    font-size: 24px; /* Postavite željenu veličinu fonta za ikone */
+    font-size: 24px; 
   }
 
   .round-social {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px; /* Opciono: Postavite željeni razmak između ikona */
+    gap: 10px; 
     margin-bottom: 20px; 
-    /* Postavite željeni razmak ispod društvenih ikona */
   }
   
   .round-social .link {
@@ -41,10 +38,9 @@ html {
   }
  
   
-  
   .footer4 p {
     margin-bottom: 10px;
-    font-size: 16px;  /* Postavite željeni razmak ispod paragrafa */
+    font-size: 16px; 
   }
 
   .titlecontact{
@@ -56,10 +52,9 @@ html {
 
   @media screen and (max-width: 767px) {
     .title {
-      font-size: 30px; /* Prilagodite veličinu naslova prema potrebi */
+      font-size: 30px; 
     }
   
-    /* Dodatni stilovi za centriranje naslova */
     .static-slider-head .container {
       position: static;
       transform: none;
@@ -106,20 +101,18 @@ label {
 .btn {
   background: linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%);
   margin-top: 10px;
-  padding: 10px 20px; /* Dodajte padding kako bi dugme imalo određenu veličinu */
-  border: none; /* Uklonite ivice dugmeta */
-  color: white; /* Boja teksta */
-  font-weight: bold; /* Debljina teksta */
-  cursor: pointer; /* Promenite kursor u pokazivač */
-  transition: background 0.3s; /* Dodajte tranziciju za postepenu promenu boje pozadine */
+  padding: 10px 20px; 
+  border: none; 
+  color: white; 
+  font-weight: bold;
+  cursor: pointer; 
+  transition: background 0.3s;
 }
 
-/* Promena boje pozadine i teksta kada se miš pređe preko dugmeta */
 .btn:hover {
   background: linear-gradient(to right, #2cb99b 0%, #1cb8cc 100%);
 }
 
-/* Promena boje pozadine kada je dugme kliknuto */
 .btn:active {
   background: linear-gradient(to right, #1a8f6f 0%, #0f7d8b 100%);
 
@@ -135,11 +128,10 @@ text-align: center !important;
 margin-top: 30px!important;
 }
 
-/* Prilagođavanje veličine mape za manje ekrane */
 @media only screen and (max-width: 600px) {
   #gmap_canvas {
     width: 100%;
-    height: 360px; /* Podesite željenu visinu za manje ekrane */
+    height: 360px;
   }
 }
 
@@ -151,6 +143,6 @@ margin-top: 30px!important;
 
 @media (min-width: 1200px) {
   .col-md-4 h4 {
-    word-wrap: normal; /* Spriječava prelazak riječi na novi red na velikim ekranima */
+    word-wrap: normal;
   }
 }
