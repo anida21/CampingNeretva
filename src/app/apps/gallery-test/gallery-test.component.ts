@@ -35,7 +35,7 @@ export class GalleryTestComponent implements OnInit {
       imageAlt: '6'
     },
     {
-      imageSrc: 'assets/images/innerpage/campraft.JPG',
+      imageSrc: 'assets/images/innerpage/campraft.webp',
       imageAlt: '6'
     },
     {
@@ -55,7 +55,7 @@ export class GalleryTestComponent implements OnInit {
       imageAlt: '10'
     },
     {
-      imageSrc: 'assets/images/innerpage/places.jpg',
+      imageSrc: 'assets/images/innerpage/places.webp',
       imageAlt: '11'
     },
     {
@@ -84,16 +84,16 @@ export class GalleryTestComponent implements OnInit {
       imageAlt: '12'
     },
     {
-      imageSrc: 'assets/images/innerpage/ulaz.jpg',
+      imageSrc: 'assets/images/innerpage/ulaz.webp',
       imageAlt: '12'
     },
     {
-      imageSrc: 'assets/images/innerpage/place.jpg',
+      imageSrc: 'assets/images/innerpage/place.webp',
       imageAlt: '12'
     }
     ,
     {
-      imageSrc: 'assets/images/innerpage/car.jpg',
+      imageSrc: 'assets/images/innerpage/car.webp',
       imageAlt: '12'
     },
     {
@@ -101,15 +101,15 @@ export class GalleryTestComponent implements OnInit {
       imageAlt: '12'
     },
     {
-      imageSrc: 'assets/images/innerpage/dronedrone.jpg',
+      imageSrc: 'assets/images/innerpage/dronedrone.webp',
       imageAlt: '12'
     },
     {
-      imageSrc: 'assets/images/innerpage/drone2.jpg',
+      imageSrc: 'assets/images/innerpage/drone2.webp',
       imageAlt: '12'
     },
     {
-      imageSrc: 'assets/images/innerpage/car2.jpg',
+      imageSrc: 'assets/images/innerpage/car2.webp',
       imageAlt: '12'
     },
     {

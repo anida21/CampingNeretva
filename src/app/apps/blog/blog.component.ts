@@ -177,22 +177,20 @@ blogs: any;
 
   //ZA SLIDER
   items: SliderItem[] = [
-    { imageSrc: 'assets/images/innerpage/drone2.jpg', design: '', title: 'CampingNeretva', description: '' },
+    { imageSrc: 'assets/images/innerpage/drone2.webp', design: '', title: 'CampingNeretva', description: '' },
     { imageSrc: 'assets/images/innerpage/camparking.jpg', design: '', title: 'Our camp', description: '' },
     { imageSrc: 'assets/images/innerpage/mostar.jpg', design: '', title: 'Visit Old Bridge', description: '' },
     { imageSrc: 'assets/images/innerpage/rafting.jpg', design: '', title: 'Come with us on raft tours', description: '' },
-    { imageSrc: 'assets/images/innerpage/motor.jpg', design: '', title: 'Explore cross motorcycle tours', description: '' },
+    { imageSrc: 'assets/images/innerpage/motor.webp', design: '', title: 'Explore cross motorcycle tours', description: '' },
 
   ];
 
   thumbnails: ThumbnailItem[] = [
-    { imageSrc: 'assets/images/innerpage/drone2.jpg', name: '' },
+    { imageSrc: 'assets/images/innerpage/drone2.webp', name: '' },
     { imageSrc: 'assets/images/innerpage/camparking.jpg', name: '' },
     { imageSrc: 'assets/images/innerpage/mostar.jpg', name: '' },
     { imageSrc: 'assets/images/innerpage/rafting.jpg', name: '' },
-    { imageSrc: 'assets/images/innerpage/motor.jpg', name: '' },
-
-
+    { imageSrc: 'assets/images/innerpage/motor.webp', name: '' },
 
     // Repeat for other items
   ];
@@ -237,16 +235,15 @@ blogs: any;
 
   hideImage() {
     this.showImage = false;
-    this.hasScrolled = true; // Postavite hasScrolled na true kada korisnik scroll-a prvi put
+    this.hasScrolled = true; 
   }
 
   @HostListener('window:scroll', [])
-onWindowScroll() {
+  onWindowScroll() {
   const yOffset = window.pageYOffset;
-  const scrollThreshold = 200; // Promijenite ovu vrijednost prema potrebi
+  const scrollThreshold = 200;
   const scrollToTopButton = document.querySelector('.bt-top2');
  if (!this.hasScrolled) {
-    // Prikaži sliku samo ako korisnik još nije scroll-ao
     this.showImage = yOffset > scrollThreshold;
   }
   if (scrollToTopButton) {
