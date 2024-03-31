@@ -61,6 +61,7 @@
                 type="text"
                 required
                 name="Email"
+                pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
                 [(ngModel)]="emailForm.formData.Email"
                 #email="ngModel"
                 [ngModelOptions]="{standalone: true}"
@@ -69,6 +70,7 @@
               />
               <div *ngIf="email?.invalid && (email?.dirty || email?.touched)">
                 <div *ngIf="email?.errors?.required" class="error-message">Enter your email</div>
+                <div *ngIf="email?.errors?.pattern" class="error-message">Enter a valid email</div>
               </div>
             </div>
           </div>

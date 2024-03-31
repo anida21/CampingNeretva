@@ -10,7 +10,7 @@ import { EmailService } from 'src/app/reservation/email.service';
 })
 export class BookingComponent 
 {emailForm: EmailForm = {
-  to: 'didamujezin@gmail.com',
+  to: 'neretvac@gmail.com, adistrebovic@gmail.com',
   formData: {
     Name: '',
     PhoneNumber: '',
@@ -30,15 +30,6 @@ missingFields: boolean = false;
 constructor(private emailService: EmailService,
   private router: Router) {}
 
-  
-dateError: boolean = false;
-formSubmitted: boolean = false;
-
-
-submitForm(): void {
-  this.formSubmitted = true;
-  this.sendReservationEmail(); // Ovdje možete pozvati funkciju koja šalje email
-}
   sendReservationEmail() {
     this.emailService.sendEmail(this.emailForm).subscribe(
       response => {
@@ -57,6 +48,8 @@ updateTypeOfCamping(event: any): void {
   this.emailForm.formData.TypeOfCamping = event.target.value;
 }
 
+
+dateError: boolean = false;
 
   checkDates() {
     const checkInDate = new Date(this.emailForm.formData.CheckIn);

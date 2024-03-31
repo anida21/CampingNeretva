@@ -34,7 +34,7 @@ constructor(private emailService: EmailService,
 
 
   emailForm: EmailForm = {
-    to: 'didamujezin@gmail.com',
+    to: 'neretvac@gmail.com, adistrebovic@gmail.com',
     formData: {
       Name: '',
       PhoneNumber: '',
