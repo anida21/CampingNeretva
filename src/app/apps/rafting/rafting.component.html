@@ -1,0 +1,190 @@
+<div class="static-slider-head" style="position: relative; height: 60vh; overflow: hidden;">
+    <video autoplay muted loop playsinline preload="metadata" poster="assets/videos/poster11.png"
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 1;">
+
+    <source src="https://res.cloudinary.com/dnbvsijgs/video/upload/q_auto,f_auto,w_1280/fa2syxnjzjrc9dlegcjj.mp4" media="(min-width: 768px)">
+    <source src="https://res.cloudinary.com/dnbvsijgs/video/upload/q_auto,f_auto,w_640/fa2syxnjzjrc9dlegcjj.mp4" media="(max-width: 767px)">
+    
+    Your browser does not support the video tag.
+</video>
+
+
+    <div class="container"
+        style="position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); width: 100%; z-index: 2;">
+        <div class="row justify-content-center">
+            <div class="col-lg-9 col-md-6 align-self-center text-center no-trans">
+                
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row justify-content-center">
+    <!-- Column -->
+    <div class="col-md-8 no-trans text-center"
+        style="background-color: #f8f9fa; padding: 60px; margin-bottom: 0px; margin-top:60px">
+
+        <h2 class="subtitle op-4" style="font-family: Kanit, sans-serif;">
+            Dive into Excitement: Book Your Rafting Trip Today!
+        </h2>
+    </div>
+</div>
+
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4 py-12">
+    <!-- Kartica sa rafting ponudom -->
+    <div *ngFor="let offer of offers" class="rounded-lg border border-gray-300 shadow-lg hover:shadow-2xl transition duration-300 ease-in-out">
+      <!-- Slika ponude -->
+      <img [src]="offer.image" alt="Rafting Adventure" class="w-full h-48 object-cover rounded-t-lg">
+      
+      <!-- Detalji ponude -->
+      <div class="p-6">
+        <h1 class="text-1xl font-semibold text-gray-800">{{ offer.title }}</h1>
+        <p class="text-sm text-gray-600 mt-2">
+          <i class="fas fa-calendar-alt mr-2"></i>{{ offer.availability }}
+        </p>
+        <p class="text-sm text-gray-600">
+          <i class="fas fa-clock mr-2"></i>{{ offer.duration }}
+        </p>
+      </div>
+      
+      <!-- Cijena i dugme -->
+      <div class="bg-gray-100 p-4 flex justify-between items-center rounded-b-lg">
+        <p class="text-lg font-semibold text-gray-800">{{ offer.price }}</p>
+        <!-- Dugme za više informacija -->
+        <a [routerLink]="[offer.link]" 
+        class="mt-4 block text-center text-white py-2 px-4 rounded-md font-semibold 
+               transition duration-200 hover:opacity-90"
+        style="background: linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%);">
+        Details
+     </a>
+
+      </div>
+    </div>
+  </div>
+  
+
+<div class="row justify-content-center">
+    <!-- Column -->
+    <div class="col-md-8 no-trans text-center"
+        style="background-color: #f8f9fa; padding: 60px; margin-bottom: 0px; margin-top:60px">
+
+        <h2 class="subtitle op-4" style="font-family: Kanit, sans-serif;">
+            GALLERY
+        </h2>
+    </div>
+</div>
+
+<div class="gallery-lightbox-container" style="margin-top: 0px;">
+    <div class="gallery">
+        <div *ngFor="let item of galleryData; let i=index" class="gallery-img">
+            <img *ngIf="item.type === 'image'" (click)="onPreviewImage(i)" [src]="item.src" [alt]="item.alt">
+            <video *ngIf="item.type === 'video'" (click)="onPreviewImage(i)" [src]="item.src" controls></video>
+        
+        </div>
+    </div>
+    <div *ngIf="showMask" class="lightbox" @animation2>
+        <span *ngIf="showCount" class="count">
+            {{currentIndex + 1}}/{{totalImageCount}}
+        </span>
+        <button *ngIf="previewImage || previewVideo" class="close-btn" (click)="onClosePreview()">
+            <i class="far fa-times"></i>
+        </button>
+        <button *ngIf="controls" class="btn-lightbox-carousel btn-prev" (click)="prev()">
+            <i class="fas fa-arrow-circle-left icon-lightbox-carousel icon-prev"></i>
+        </button>
+        <button *ngIf="controls" class="btn-lightbox-carousel btn-next" (click)="next()">
+            <i class="fas fa-arrow-circle-right icon-lightbox-carousel icon-next"></i>
+        </button>
+
+        <div *ngIf="previewImage || previewVideo" [@animation]="{value: 'visible'}" (@animation.done)="onAnimationEnd($event)"
+            class="lightbox-img">
+            <img *ngIf="currentLightboxItem.type === 'image'" [src]="currentLightboxItem.src" [alt]="currentLightboxItem.alt">
+            <video *ngIf="currentLightboxItem.type === 'video'" [src]="currentLightboxItem.src" controls autoplay></video>
+        
+        </div>
+    </div>
+</div>
+<div class="footer4 b-t spacer" style="background: linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%);color: #ffffff;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-12 text-md-left">
+
+                <div class="round-social light mb-3">
+
+                    <a href="https://www.facebook.com/p/Camping-Neretva-100063102887726/" class="link"><i
+                            class="fab fa-facebook"></i></a>
+                    <a href="https://www.youtube.com/@campingneretva6577" class="link"><i
+                            class="fab fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/campingneretva/?hl=en" class="link"><i
+                            class="fab fa-instagram"></i></a>
+                </div>
+                <h6 class="mb-3" style="font-family: Kanit, sans-serif;color: #ffffff;">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <a href="https://www.google.com/maps?q=43.3645,17.8159" target="_blank"
+                        style="color: #ffffff; font-family: Kanit, sans-serif;">
+                        SJEVERNI LOGOR, Mostar 88000, Bosnia & Herzegovina
+                    </a>
+                </h6>
+                <h6 class="mb-3" style="font-family: Kanit, sans-serif;color: #ffffff;">
+                    <i class="fas fa-phone"></i> +387 61 808 564
+                </h6>
+                <h6 class="mb-3" style="font-family: Kanit, sans-serif; color: #ffffff;">
+                    <i class="fas fa-envelope"></i> campingneretva&#64;gmail.com
+                </h6>
+                <h6 class="mb-3" style="font-family: Kanit, sans-serif;color: #ffffff;">
+                    <i class="far fa-clock"></i> Mon-Sun: 08:00 AM - 10:00 PM
+                </h6>
+                <div class="row mt-3">
+                    <div class="col-md-12">
+                        <div>
+                            <img src="assets/images/innerpage/visa.png" alt="Visa"
+                                style="width: 50px; height: 40px; margin-right: 5px;">
+                            <img src="assets/images/innerpage/mastercard.png" alt="MasterCard"
+                                style="width: 50px; height: 40px; margin-right: 5px;">
+                            <img src="assets/images/innerpage/maestro.png" alt="Maestro"
+                                style="width: 50px; height: 40px; margin-right: 5px;">
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <div class="col-md-6 col-sm-12 text-md-right">
+                <h6 class="mb-3" style="font-family: Kanit, sans-serif;color: #ffffff;">
+                    <i class="fas fa-book"></i>
+                    <a href="/about" class="scroll-link" style="color: #ffffff; font-family: Kanit, sans-serif;"> ABOUT
+                        US</a>
+                </h6>
+
+                <h6 class="mb-3" style="font-family: Kanit, sans-serif;color: #ffffff;">
+                    <i class="fas fa-compass"></i>
+                    <a href="https://tourmkr.com/F159gWEeDm/41003333p&186.15h&77.67t" target="_blank"
+                        style="color: #ffffff;"> 360° VIEW</a>
+                </h6>
+                <h6 class="mb-3" style="font-family: Kanit, sans-serif;color: #ffffff;">
+                    <i class="fas fa-running"></i>
+                    <a href="/activities" class="scroll-link" style="color: #ffffff; font-family: Kanit, sans-serif;">
+                        ACTIVITIES </a>
+                </h6>
+                <h6 class="mb-3" style="font-family: Kanit, sans-serif;color: #ffffff;">
+                    <i class="fas fa-headset"></i>
+                    <a href="/contact" class="scroll-link" style="color: #ffffff; font-family: Kanit, sans-serif;">
+                        CONTACT US </a>
+                </h6>
+                <h6 class="mb-3" style="font-family: Kanit, sans-serif;color: #ffffff;">
+                    <i class="fas fa-calendar-check"></i>
+                    <a href="/booking" class="scroll-link" style="color: #ffffff; font-family: Kanit, sans-serif;">
+                        RESERVATION </a>
+                </h6>
+                <div class="mt-3 mb-3 copyright">
+                    <a href="/" style="color: #ffffff;" (click)="scrollToTop()">
+                        <img src="assets/images/logos/logo.webp" alt="Camping Neretva Logo"
+                            style="width: 64px; height: 64px; margin-right: 5px; margin-bottom: 5px;" class="img">
+
+                        Camping Neretva</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

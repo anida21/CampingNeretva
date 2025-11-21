@@ -1,0 +1,39 @@
+<div class="main">
+    <div class="static-slider-head"
+        style="background-image: url(assets/images/innerpage/activities.webp); position: relative; height: 60vh;">
+        <div class="container"
+            style="position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); width: 100%;">
+            <div class="row justify-content-center">
+                <div class="col-lg-9 col-md-6 align-self-center text-center no-trans">
+                    <h1 class="titlegallery">RAFTING OFFERS</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div *ngIf="offer" class="offer-details">
+    <h1 class="offer-title">{{ offer.title }}</h1>
+  
+    <div class="offer-image-container">
+      <img [src]="offer.image" alt="Offer Image" class="offer-image">
+    </div>
+  
+    <h2>Osnovne informacije</h2>
+    <p><strong>Dostupnost:</strong> {{ offer.availability }}</p>
+    <p><strong>Trajanje:</strong> {{ offer.duration }}</p>
+    <p><strong>Cijena:</strong> {{ offer.price }}</p>
+    <p><strong>Opis:</strong> {{ offer.details }}</p>
+  
+    <h2>Šta je uključeno</h2>
+    <ul>
+      <li *ngFor="let item of offer.included">{{ item }}</li>
+    </ul>
+  
+    <h2>Plan aktivnosti</h2>
+    <ol>
+      <li *ngFor="let step of offer.activityPlan">{{ step }}</li>
+    </ol>
+  
+    <button routerLink="/" class="back-button">Nazad na ponude</button>
+  </div>
+  

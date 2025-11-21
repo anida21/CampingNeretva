@@ -1,0 +1,26 @@
+.banner-innerpage {
+    background-size: cover;
+    height: 80vh;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .container {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+  }
+  
+  .title {
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 767px) {
+    .m-t-30, .m-b-30 {
+      font-size: 14px; /* Prilagodite veličinu teksta prema potrebi */
+    }
+  }
+  

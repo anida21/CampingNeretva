@@ -1,0 +1,26 @@
+import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+
+
+@Component({
+  selector: 'app-top-content',
+  templateUrl: './top-content.component.html',
+  styleUrls: ['./top-content.component.css']
+})
+export class TopContentComponent implements OnInit {
+
+  imagePath='../assets/images/innerpage/mostar.jpg';
+  imagePath2='../assets/images/innerpage/priceraft.JPG';
+
+  constructor(private router: Router) { }
+
+  ngOnInit(): void {
+  }
+  redirectToLink(): void {
+    window.location.href = 'https://g.co/kgs/1TFBSGE' }
+
+    navigateToRafting() {
+      this.router.navigate(['/rafting']);
+    }
+}
+

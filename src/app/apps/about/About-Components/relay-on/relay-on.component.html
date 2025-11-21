@@ -1,0 +1,41 @@
+<div class="row m-t-40">
+    <!-- Column -->
+    <div class="col-md-3 wrap-feature1-box" *ngFor="let relay of relayOn" [ngClass]="{'col-sm-6': isSmallScreen, 'col-md-3': !isSmallScreen}">
+      <div class="card card-shadow" data-aos="fade-right" data-aos-duration="1200">
+          <div class="card-body p-40 text-center" style="font-family: Kanit, sans-serif">
+            <div class="icon-space display-5">
+              <img [src]="relay.image" alt="Image" class="img-icon" />
+            </div>
+            <h5 class="font-medium"  style="font-family: Kanit, sans-serif">{{relay.field}}</h5>
+            <p class="m-t-20">{{relay.fieldText}}</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-3 wrap-feature1-box" *ngFor="let relay of relayOn1" [ngClass]="{'col-sm-6': isSmallScreen, 'col-md-3': !isSmallScreen}">
+        <div class="card card-shadow" data-aos="fade-right" data-aos-duration="1200">
+          <div class="card-body p-40 text-center" style="font-family: Kanit, sans-serif">
+            <div class="icon-space display-5">
+              <img [src]="relay.image" alt="Image" class="img-icon" />
+            </div>
+            <h5 class="font-medium" style="font-family: Kanit, sans-serif">{{relay.field}}</h5>
+            <p class="m-t-20">{{relay.fieldText}}</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-3 wrap-feature1-box" *ngFor="let relay of relayOn2" [ngClass]="{'col-sm-6': isSmallScreen, 'col-md-3': !isSmallScreen}">
+        <div class="card card-shadow" data-aos="fade-right" data-aos-duration="1200">
+          <div class="card-body p-40 text-center" style="font-family: Kanit, sans-serif">
+            <div class="icon-space display-5">
+              <img [src]="relay.image" alt="Image" class="img-icon" />
+            </div>
+            <h5 class="font-medium" style="font-family: Kanit, sans-serif">{{relay.field}}</h5>
+            <p class="m-t-20">{{relay.fieldText}}</p>
+          </div>
+        </div>
+      </div>
+      
+    
+
+</div>

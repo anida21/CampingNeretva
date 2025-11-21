@@ -1,0 +1,132 @@
+
+  <div class="main">
+    <div class="static-slider-head" style="background-image: url(assets/images/landingpage/nature.webp); position: relative; height: 60vh;">
+      <!-- Promijenjena visina slike na 60vh -->
+      <div class="container" style="position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); width: 100%;">
+        <!-- Stilovi za apsolutno pozicioniranje i centraliziranje -->
+        <!-- Row  -->
+        <div class="row justify-content-center">
+          <!-- Column -->
+          <div class="col-lg-9 col-md-6 align-self-center text-center no-trans">
+            <h1 class="titlegallery">GALLERY</h1>
+          </div>
+          <!-- Column -->
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="row justify-content-center">
+      <!-- Column -->
+      <div class="col-md-8 no-trans text-center" style="background-color: #f8f9fa; padding: 60px; margin-bottom: 0px; margin-top:60px">
+
+    <h5 class="subtitle op-4" style="font-family: Kanit, sans-serif;">
+      Embark on a new adventure with our cutting-edge camping web app! Whether you're a seasoned outdoors enthusiast or a novice camper, our app is designed to elevate your camping experience.
+    </h5>
+    <a
+    href="https://tourmkr.com/F159gWEeDm/41003333p&186.15h&77.67t"
+    class="btn btn-md m-t-30 btn-success-gradiant font-14"
+    target="blank"
+    style="font-family: Kanit, sans-serif;"
+  >360° tour</a>
+    </div>
+    </div>
+<div class="gallery-lightbox-container">
+    <div class="gallery">
+        <div *ngFor="let data of galleryData; let i=index" class="gallery-img">
+            <img (click)="onPreviewImage(i)" [src]="data.imageSrc" [alt]="data.imageAlt">
+        </div>
+    </div>
+    <div *ngIf="showMask" class="lightbox" @animation2>
+        <span *ngIf="showCount" class="count">
+            {{currentIndex + 1}}/{{totalImageCount}}
+        </span>
+        <button *ngIf="previewImage" class="close-btn" (click)="onClosePreview()">
+            <i class="far fa-times"></i>
+        </button>
+        <button *ngIf="controls" class="btn-lightbox-carousel btn-prev" (click)="prev()">
+            <i class="fas fa-arrow-circle-left icon-lightbox-carousel icon-prev"></i>
+        </button>
+        <button *ngIf="controls" class="btn-lightbox-carousel btn-next" (click)="next()">
+            <i class="fas fa-arrow-circle-right icon-lightbox-carousel icon-next"></i>
+        </button>
+
+        <div *ngIf="previewImage" 
+            [@animation]="{value: 'visible'}"
+            (@animation.done)="onAnimationEnd($event)"
+            class="lightbox-img">
+            <img [src]="currentLightboxImage.imageSrc" [alt]="currentLightboxImage.imageAlt">
+        </div>
+    </div>
+</div>
+<div class="footer4 b-t spacer" style="background: linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%);color: #ffffff;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-sm-12 text-md-left">
+       
+        <div class="round-social light mb-3">
+
+          <a href="https://www.facebook.com/p/Camping-Neretva-100063102887726/" class="link"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.youtube.com/@campingneretva6577" class="link"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.instagram.com/campingneretva/?hl=en" class="link"><i class="fab fa-instagram"></i></a>
+        </div>
+        <h6 class="mb-3" style="font-family: Kanit, sans-serif;color: #ffffff;">
+          <i class="fas fa-map-marker-alt"></i>
+          <a href="https://www.google.com/maps?q=43.3645,17.8159" target="_blank" style="color: #ffffff; font-family: Kanit, sans-serif;">
+            SJEVERNI LOGOR, Mostar 88000, Bosnia & Herzegovina
+          </a>
+        </h6>
+        <h6 class="mb-3" style="font-family: Kanit, sans-serif;color: #ffffff;">
+          <i class="fas fa-phone"></i> +387 61 808 564
+        </h6>
+        <h6 class="mb-3"  style="font-family: Kanit, sans-serif; color: #ffffff;">
+          <i class="fas fa-envelope"></i> campingneretva&#64;gmail.com
+        </h6>
+        <h6 class="mb-3" style="font-family: Kanit, sans-serif;color: #ffffff;">
+          <i class="far fa-clock"></i> Mon-Sun: 08:00 AM - 10:00 PM
+        </h6>
+        <div class="row mt-3">
+          <div class="col-md-12">
+            <div>
+              <img src="assets/images/innerpage/visa.png" alt="Visa" style="width: 50px; height: 40px; margin-right: 5px;">
+              <img src="assets/images/innerpage/mastercard.png" alt="MasterCard" style="width: 50px; height: 40px; margin-right: 5px;">
+              <img src="assets/images/innerpage/maestro.png" alt="Maestro" style="width: 50px; height: 40px; margin-right: 5px;">
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+
+      <div class="col-md-6 col-sm-12 text-md-right">
+        <h6 class="mb-3" style="font-family: Kanit, sans-serif;color: #ffffff;">
+          <i class="fas fa-book"></i>
+          <a href="/about" class="scroll-link"  style="color: #ffffff; font-family: Kanit, sans-serif;"> ABOUT US</a>
+        </h6>
+        
+        <h6 class="mb-3" style="font-family: Kanit, sans-serif;color: #ffffff;">
+          <i class="fas fa-compass"></i>
+          <a href="https://tourmkr.com/F159gWEeDm/41003333p&186.15h&77.67t" target="_blank" style="color: #ffffff;"> 360° VIEW</a>
+        </h6>
+        <h6 class="mb-3" style="font-family: Kanit, sans-serif;color: #ffffff;">
+          <i class="fas fa-running"></i>
+          <a href="/activities" class="scroll-link" style="color: #ffffff; font-family: Kanit, sans-serif;"> ACTIVITIES </a>
+        </h6>
+        <h6 class="mb-3" style="font-family: Kanit, sans-serif;color: #ffffff;">
+          <i class="fas fa-headset"></i>
+          <a href="/contact" class="scroll-link" style="color: #ffffff; font-family: Kanit, sans-serif;"> CONTACT US </a>
+        </h6>
+        <h6 class="mb-3" style="font-family: Kanit, sans-serif;color: #ffffff;">
+          <i class="fas fa-calendar-check"></i>
+          <a href="/booking" class="scroll-link" style="color: #ffffff; font-family: Kanit, sans-serif;"> RESERVATION </a>
+        </h6>
+        <div class="mt-3 mb-3 copyright">
+          <a href="/" style="color: #ffffff;" (click)="scrollToTop()">
+            <img src="assets/images/logos/logo.webp" alt="Camping Neretva Logo" style="width: 64px; height: 64px; margin-right: 5px; margin-bottom: 5px;" class="img">
+
+            Camping Neretva</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

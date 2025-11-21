@@ -1,0 +1,302 @@
+<div class="static-slider-head" style="position: relative; height: 60vh; overflow: hidden;">
+    <video autoplay muted loop playsinline preload="metadata"
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 1;">
+        <source src="/assets/videos/raftvideo3.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="container"
+        style="position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); width: 100%; z-index: 2;">
+        <div class="row justify-content-center">
+            <div class="col-lg-9 col-md-6 align-self-center text-center no-trans">
+                
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container mx-auto py-12">
+    <!-- Info and Activity Section in Two Columns -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <!-- Info Section -->
+        <div class="bg-gray-100 p-8 rounded-lg shadow-md">
+            <h2 class="text-3xl font-bold text-gray-800 mb-4">Mostar city tour 8 bridges with BBQ</h2>
+            <p class="text-gray-700 text-lg mb-6">
+                Rafting on the Neretva River offers an exhilarating and scenic adventure through one of the most beautiful landscapes in Bosnia and Herzegovina.
+                This thrilling activity allows you to experience the stunning nature of the Neretva Valley, surrounded by lush greenery, steep cliffs, and crystal-clear waters.
+                The Neretva River is known for its diverse rapids, making it suitable for both beginners and experienced adventurers.
+                Whether you're looking for a calm, scenic float or an adrenaline-pumping ride, the Neretva provides a range of rapids to suit all levels of rafting enthusiasts.
+            </p>
+
+            <div class="flex flex-col space-y-4">
+                <div class="flex items-center space-x-2 text-gray-700">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Mostar, BiH</span>
+                </div>
+                <div class="flex items-center space-x-2 text-gray-700">
+                    <i class="fas fa-hourglass-half"></i>
+                    <span>5 hours (including transport and changing time)</span>
+                </div>
+                <div class="flex items-center space-x-2 text-gray-700">
+                    <i class="fas fa-euro-sign"></i>
+                    <span>€45</span>
+                </div>
+                <div>
+                    <span class="text-gray-700 font-semibold">Included:</span>
+                    <ul class="list-disc pl-6 text-gray-700 mt-2">
+                        <li><i class="fas fa-users"></i> Professional tour guides</li>
+                        <li><i class="fas fa-bus"></i> Organized transport for activities included in the arrangement</li>
+                        <li><i class="fas fa-umbrella-beach"></i> Complete travel organization</li>
+                        <li><i class="fas fa-utensils"></i> Traditional homemade meal at the end of the adventure</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Activity Section -->
+        <div class="bg-white p-8 rounded-lg shadow-md">
+            <h2 class="text-3xl font-bold text-gray-800 mb-4">Activity Plan</h2>
+            <div class="space-y-6">
+                <div class="border-l-4 border-blue-500 pl-4">
+                    <h3 class="font-semibold text-lg text-gray-800">09:00h - 10:00h</h3>
+                    <p class="text-gray-700">Gathering at camp</p>
+                </div>
+                <div class="border-l-4 border-blue-500 pl-4">
+                    <p class="text-gray-700">Welcome drink to start the adventure</p>
+                </div>
+                <div class="border-l-4 border-blue-500 pl-4">
+                    <p class="text-gray-700">Distribution of rafting gear (including mandatory safety vests, helmets, wetsuits, and specialized rafting shoes)</p>
+                </div>
+                <div class="border-l-4 border-blue-500 pl-4">
+                    <p class="text-gray-700">Safety briefing led by our experienced guide, covering all important instructions and behavior during rafting</p>
+                </div>
+                <div class="border-l-4 border-blue-500 pl-4">
+                    <p class="text-gray-700">Departure for rafting from the camp — in the next few hours, we’ll paddle through the most beautiful and exciting part of the Neretva River.</p>
+                </div>
+                <div class="border-l-4 border-blue-500 pl-4">
+                    <p class="text-gray-700">Breaks at stunning spots for swimming and taking amazing photos.</p>
+                </div>
+                <div class="border-l-4 border-blue-500 pl-4">
+                    <p class="text-gray-700">After 15 km of thrilling rafting, return to the camp by van (showers and changing cabins are available on-site).</p>
+                </div>
+                <div class="border-l-4 border-blue-500 pl-4">
+                    <p class="text-gray-700">To finish the adventure, a homemade meal awaits — a taste of tradition that leaves no one indifferent.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="signin-signup">
+    <form action="" class="sign-in-form" method="POST">
+        <h2 class="title2" style="font-family: Kanit, sans-serif; text-align: center">Secure your spot now for an
+            unforgettable experience – fill out the reservation form below.</h2>
+
+        <div class="input-field">
+            <label for="name">Name:</label>
+            <input type="text" required="" value="" name="Name" [(ngModel)]="emailForm.formData.Name" #name="ngModel"
+                [ngModelOptions]="{standalone: true}" id="name" class="ng-touched">
+            <div *ngIf="name?.invalid && (name?.dirty || name?.touched)">
+                <div *ngIf="name?.errors?.required" class="error-message">Enter your name</div>
+            </div>
+        </div>
+        <div class="input-field">
+            <label for="phoneNumber">Phone:</label>
+            <input type="text" required pattern="(\+[0-9]+)|([0-9]+)" name="PhoneNumber"
+                [(ngModel)]="emailForm.formData.PhoneNumber" #phoneNumber="ngModel"
+                [ngModelOptions]="{standalone: true}" id="phoneNumber" class="ng-touched">
+            <div *ngIf="phoneNumber?.invalid && (phoneNumber?.dirty || phoneNumber?.touched)">
+                <div *ngIf="phoneNumber?.errors?.required" class="error-message">Enter phone number</div>
+                <div *ngIf="phoneNumber?.errors?.pattern" class="error-message">Enter a valid phone number</div>
+            </div>
+        </div>
+
+        <div class="input-field">
+            <label for="email">Email:</label>
+            <input type="email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" name="Email"
+                [(ngModel)]="emailForm.formData.Email" #email="ngModel" [ngModelOptions]="{standalone: true}" id="email"
+                class="ng-touched">
+            <div *ngIf="email?.invalid && (email?.dirty || email?.touched)">
+                <div *ngIf="email?.errors?.required" class="error-message">Enter your email</div>
+                <div *ngIf="email?.errors?.pattern" class="error-message">Enter a valid email</div>
+            </div>
+
+        </div>
+
+
+        <div class="input-field">
+            <label for="numberOfGuests">Number of person:</label>
+            <input type="text" required name="NumberOfGuests" [(ngModel)]="emailForm.formData.NumberOfGuests"
+                [ngModelOptions]="{standalone: true}" #numberOfGuests="ngModel" id="numberOfGuests" class="ng-touched"
+                pattern="\d+">
+            <!-- Dodajte pattern atribut sa regularnim izrazom \d+ koji proverava da li je unesen broj -->
+            <div *ngIf="numberOfGuests?.invalid && (numberOfGuests?.dirty || numberOfGuests?.touched)">
+                <div *ngIf="numberOfGuests?.errors?.required" class="error-message">Enter number of guests</div>
+                <div *ngIf="numberOfGuests?.errors?.pattern" class="error-message">Enter a valid number</div>
+                <!-- Dodajte poruku o grešci za neispravan unos -->
+            </div>
+        </div>
+        <div class="input-field">
+            <label for="checkIn">Date:</label>
+            <input type="date" required id="checkIn" name="checkIn" [(ngModel)]="emailForm.formData.CheckIn"
+                [ngModelOptions]="{standalone: true}" (ngModelChange)="checkDates()" #checkIn="ngModel"
+                placeholder="Check In" class="ng-touched">
+            <div *ngIf="checkIn?.invalid && (checkIn?.dirty || checkIn?.touched)">
+                <div *ngIf="checkIn?.errors?.required" class="error-message">Enter check in date</div>
+            </div>
+            <div *ngIf="dateError" class="error-message">Check In date cannot be after Check Out date</div>
+        </div>
+        <div class="input-field">
+            <label for="typeOfRafting">Type of Rafting:</label>
+            <select id="typeOfRafting" name="TypeOfRafting"
+              class="styled-select w-full rounded border border-stroke bg-white px-5 py-3 text-base text-black outline-none focus:border-primary"
+              [(ngModel)]="emailForm.formData.TypeOfRafting">
+              <option value="Basic Mostar city tour 8 bridges">Basic Mostar city tour 8 bridges</option>
+              <option value="Mostar city tour 8 bridges + BBQ">Mostar city tour 8 bridges + BBQ</option>
+              <option value="Mostar city tour 8 bridges + BBQ + sleeping">Mostar city tour 8 bridges + BBQ + sleeping</option>
+            </select>
+          </div>
+        <div class="input-message">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" [(ngModel)]="emailForm.formData.Message"
+                class="custom-textarea"></textarea>
+        </div>
+
+        <input type="submit" value="SUBMIT" class="btn" (click)="sendReservationEmail()"
+            [disabled]="isSubmitDisabled()">
+        <div *ngIf="(name?.invalid && (name?.dirty || name?.touched))
+     || (email?.invalid && (email?.dirty || email?.touched))
+     || (phoneNumber?.invalid && (phoneNumber?.dirty || phoneNumber?.touched))
+     
+     || (numberOfGuests?.invalid && (numberOfGuests?.dirty || numberOfGuests?.touched))">
+            <div *ngIf="(name?.errors?.required)
+         || (email?.errors?.required)
+         || (phoneNumber?.errors?.required)
+         || (numberOfGuests?.errors?.required) " class="error-message">
+                Please fill in the required fields</div>
+        </div>
+    </form>
+</div>
+
+<div class="container mx-auto py-12">
+    <!-- Naslov sekcije -->
+    <div class="text-center bg-gray-100 p-6 rounded-lg shadow-md">
+        <h2 class="text-3xl font-bold text-gray-800 font-kanit">Discover Our Other Offers</h2>
+    </div>
+
+    <!-- Kartice -->
+    <div class="mt-8 flex flex-wrap justify-center gap-6">
+        <div class="relative w-80 md:w-96 bg-white rounded-lg overflow-hidden shadow-lg transform transition duration-300 hover:scale-105 flex flex-col">
+            <img src="assets/images/innerpage/bridge.png" alt="Rafting tour" class="w-full h-56 object-cover" />
+            <div class="absolute inset-0 bg-black bg-opacity-30 transition duration-300 hover:bg-opacity-50"></div>
+            <div class="p-5 relative z-10 flex flex-col flex-grow">
+                <h2 class="text-lg font-semibold text-white">Basic Mostar city tour 8 bridges</h2>
+                <div class="mt-auto">
+                    <a href="/rafting-detail" class="inline-block text-white px-4 py-2 rounded-md shadow hover:opacity-80 transition"
+                       style="background: linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%)">
+                        Details
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="relative w-80 md:w-96 bg-white rounded-lg overflow-hidden shadow-lg transform transition duration-300 hover:scale-105 flex flex-col">
+            <img src="assets/images/innerpage/wooden1.png" alt="Rafting tour" class="w-full h-56 object-cover" />
+            <div class="absolute inset-0 bg-black bg-opacity-30 transition duration-300 hover:bg-opacity-50"></div>
+            <div class="p-5 relative z-10 flex flex-col flex-grow">
+                <h2 class="text-lg font-semibold text-white">Mostar city tour 8 bridges with BBQ and sleeping in unique wooden cabin</h2>
+                <div class="mt-auto">
+                    <a href="/rafting-bbq-sleep-detail" class="inline-block text-white px-4 py-2 rounded-md shadow hover:opacity-80 transition"
+                       style="background: linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%)">
+                        Details
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="footer4 b-t spacer" style="background: linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%);color: #ffffff;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-12 text-md-left">
+
+                <div class="round-social light mb-3">
+
+                    <a href="https://www.facebook.com/p/Camping-Neretva-100063102887726/" class="link"><i
+                            class="fab fa-facebook"></i></a>
+                    <a href="https://www.youtube.com/@campingneretva6577" class="link"><i
+                            class="fab fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/campingneretva/?hl=en" class="link"><i
+                            class="fab fa-instagram"></i></a>
+                </div>
+                <h6 class="mb-3" style="font-family: Kanit, sans-serif;color: #ffffff;">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <a href="https://www.google.com/maps?q=43.3645,17.8159" target="_blank"
+                        style="color: #ffffff; font-family: Kanit, sans-serif;">
+                        SJEVERNI LOGOR, Mostar 88000, Bosnia & Herzegovina
+                    </a>
+                </h6>
+                <h6 class="mb-3" style="font-family: Kanit, sans-serif;color: #ffffff;">
+                    <i class="fas fa-phone"></i> +387 61 808 564
+                </h6>
+                <h6 class="mb-3" style="font-family: Kanit, sans-serif; color: #ffffff;">
+                    <i class="fas fa-envelope"></i> campingneretva&#64;gmail.com
+                </h6>
+                <h6 class="mb-3" style="font-family: Kanit, sans-serif;color: #ffffff;">
+                    <i class="far fa-clock"></i> Mon-Sun: 08:00 AM - 10:00 PM
+                </h6>
+                <div class="row mt-3">
+                    <div class="col-md-12">
+                        <div>
+                            <img src="assets/images/innerpage/visa.png" alt="Visa"
+                                style="width: 50px; height: 40px; margin-right: 5px;">
+                            <img src="assets/images/innerpage/mastercard.png" alt="MasterCard"
+                                style="width: 50px; height: 40px; margin-right: 5px;">
+                            <img src="assets/images/innerpage/maestro.png" alt="Maestro"
+                                style="width: 50px; height: 40px; margin-right: 5px;">
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <div class="col-md-6 col-sm-12 text-md-right">
+                <h6 class="mb-3" style="font-family: Kanit, sans-serif;color: #ffffff;">
+                    <i class="fas fa-book"></i>
+                    <a href="/about" class="scroll-link" style="color: #ffffff; font-family: Kanit, sans-serif;"> ABOUT
+                        US</a>
+                </h6>
+
+                <h6 class="mb-3" style="font-family: Kanit, sans-serif;color: #ffffff;">
+                    <i class="fas fa-compass"></i>
+                    <a href="https://tourmkr.com/F159gWEeDm/41003333p&186.15h&77.67t" target="_blank"
+                        style="color: #ffffff;"> 360° VIEW</a>
+                </h6>
+                <h6 class="mb-3" style="font-family: Kanit, sans-serif;color: #ffffff;">
+                    <i class="fas fa-running"></i>
+                    <a href="/activities" class="scroll-link" style="color: #ffffff; font-family: Kanit, sans-serif;">
+                        ACTIVITIES </a>
+                </h6>
+                <h6 class="mb-3" style="font-family: Kanit, sans-serif;color: #ffffff;">
+                    <i class="fas fa-headset"></i>
+                    <a href="/contact" class="scroll-link" style="color: #ffffff; font-family: Kanit, sans-serif;">
+                        CONTACT US </a>
+                </h6>
+                <h6 class="mb-3" style="font-family: Kanit, sans-serif;color: #ffffff;">
+                    <i class="fas fa-calendar-check"></i>
+                    <a href="/booking" class="scroll-link" style="color: #ffffff; font-family: Kanit, sans-serif;">
+                        RESERVATION </a>
+                </h6>
+                <div class="mt-3 mb-3 copyright">
+                    <a href="/" style="color: #ffffff;" (click)="scrollToTop()">
+                        <img src="assets/images/logos/logo.webp" alt="Camping Neretva Logo"
+                            style="width: 64px; height: 64px; margin-right: 5px; margin-bottom: 5px;" class="img">
+
+                        Camping Neretva</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

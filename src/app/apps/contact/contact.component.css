@@ -1,0 +1,148 @@
+html {
+  background: #ebf0ed;
+}
+
+.banner-innerpage {
+    background-size: cover;
+    height: 65vh;
+  }
+
+  .footer4 {
+    font-size: 16px;
+    line-height: 1.5; 
+  }
+  
+
+  .round-social a i {
+    font-size: 24px; 
+  }
+
+  .round-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+    margin-bottom: 20px; 
+  }
+  
+  .round-social .link {
+    display: grid;
+    align-items: center;
+  }
+  
+
+  .row2{
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+ 
+  
+  .footer4 p {
+    margin-bottom: 10px;
+    font-size: 16px; 
+  }
+
+  .titlecontact{
+    font-family: "Kanit", sans-serif!important;
+    color: white!important;
+    
+  }
+  
+
+  @media screen and (max-width: 767px) {
+    .title {
+      font-size: 30px; 
+    }
+  
+    .static-slider-head .container {
+      position: static;
+      transform: none;
+      text-align: center;
+    }
+    .text-md-right{
+      text-align: center !important;
+      margin-top: 30px!important;
+      }
+  }
+
+  input {
+    /*border-radius: 10px;*/
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    /*border: 2px solid black !important;*/
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #bbb;
+
+}
+
+.custom-textarea {
+  /*border: 2px solid black !important;
+  border-radius: 10px!important;*/
+  width: 100%; 
+  height: 150px; 
+  background: none;
+  border: none;
+  outline: none;
+  border: 1px solid #bbb;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  font-size: 20px;
+  margin-top: 0.5rem;
+}
+.btn {
+  background: linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%);
+  margin-top: 10px;
+  padding: 10px 20px; 
+  border: none; 
+  color: white; 
+  font-weight: bold;
+  cursor: pointer; 
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: linear-gradient(to right, #2cb99b 0%, #1cb8cc 100%);
+}
+
+.btn:active {
+  background: linear-gradient(to right, #1a8f6f 0%, #0f7d8b 100%);
+
+}
+
+.btn:not(:active) {
+  background: linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%);
+}
+
+
+.text-md-right{
+text-align: center !important;
+margin-top: 30px!important;
+}
+
+@media only screen and (max-width: 600px) {
+  #gmap_canvas {
+    width: 100%;
+    height: 360px;
+  }
+}
+
+
+
+.error-message{
+  color: #ca0000!important;
+}
+
+@media (min-width: 1200px) {
+  .col-md-4 h4 {
+    word-wrap: normal;
+  }
+}

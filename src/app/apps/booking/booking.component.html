@@ -1,0 +1,175 @@
+<div class="main">
+  <div class="static-slider-head"
+    style="background-image: url(assets/images/innerpage/reservation.jpg); position: relative; height: 60vh;">
+    <!-- Promijenjena visina slike na 60vh -->
+    <div class="container" style="position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); width: 100%;">
+      <!-- Stilovi za apsolutno pozicioniranje i centraliziranje -->
+      <!-- Row  -->
+      <div class="row justify-content-center">
+        <!-- Column -->
+        <div class="col-lg-9 col-md-4 align-self-center text-center no-trans">
+          <h1 class="titlebooking">RESERVATION</h1>
+        </div>
+        <!-- Column -->
+      </div>
+    </div>
+  </div>
+  <div class="main2">
+    <div class="container2">
+      <div class="row">
+
+        <div class="col-md-6 col-sm-12 text-md-right">
+          <!-- Slika i sadržaj s desne strane -->
+          <div class="panel right-panel">
+            <div class="content">
+              <h2 class="title2" style="font-family: Kanit, sans-serif; text-align: center; margin-top: 30px;">Camping
+                site reservation</h2>
+              <img src="assets/images/landingpage/pricess.png" alt="Image 3" class="img-fluid rounded-image">
+              <!-- Dodajte dodatni sadržaj prema potrebi -->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12 text-md-left">
+          <div class="signin-signup">
+            <form action="" class="sign-in-form" method="POST">
+              <h2 class="title2" style="font-family: Kanit, sans-serif; text-align: center">Secure your spot now for an
+                unforgettable experience – fill out the reservation form below.</h2>
+
+              <div class="input-field">
+                <label for="name">Name:</label>
+                <input type="text" required="" value="" name="Name" [(ngModel)]="emailForm.formData.Name"
+                  #name="ngModel" [ngModelOptions]="{standalone: true}" id="name" class="ng-touched">
+                <div *ngIf="name?.invalid && (name?.dirty || name?.touched)">
+                  <div *ngIf="name?.errors?.required" class="error-message">Enter your name</div>
+                </div>
+              </div>
+              <div class="input-field">
+                <label for="phoneNumber">Phone:</label>
+                <input type="text" required pattern="(\+[0-9]+)|([0-9]+)" name="PhoneNumber"
+                  [(ngModel)]="emailForm.formData.PhoneNumber" #phoneNumber="ngModel"
+                  [ngModelOptions]="{standalone: true}" id="phoneNumber" class="ng-touched">
+                <div *ngIf="phoneNumber?.invalid && (phoneNumber?.dirty || phoneNumber?.touched)">
+                  <div *ngIf="phoneNumber?.errors?.required" class="error-message">Enter phone number</div>
+                  <div *ngIf="phoneNumber?.errors?.pattern" class="error-message">Enter a valid phone number</div>
+                </div>
+              </div>
+
+              <div class="input-field">
+                <label for="email">Email:</label>
+                <input type="email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" name="Email"
+                  [(ngModel)]="emailForm.formData.Email" #email="ngModel" [ngModelOptions]="{standalone: true}"
+                  id="email" class="ng-touched">
+                <div *ngIf="email?.invalid && (email?.dirty || email?.touched)">
+                  <div *ngIf="email?.errors?.required" class="error-message">Enter your email</div>
+                  <div *ngIf="email?.errors?.pattern" class="error-message">Enter a valid email</div>
+                </div>
+
+              </div>
+              <div class="input-field">
+                <label for="typeOfVehicle">Type of vehicle:</label>
+                <input type="text" required name="typeOfVehicle" [(ngModel)]="emailForm.formData.TypeOfVehicle"
+                  #typeOfVehicle="ngModel" [ngModelOptions]="{standalone: true}" id="typeOfVehicle" class="ng-touched">
+                <div *ngIf="typeOfVehicle?.invalid && (typeOfVehicle?.dirty || typeOfVehicle?.touched)">
+                  <div *ngIf="typeOfVehicle?.errors?.required" class="error-message">Enter your type of vehicle</div>
+                </div>
+              </div>
+
+              <div class="input-field">
+                <label for="numberOfGuests">Number of guests:</label>
+                <input type="text" required name="NumberOfGuests" [(ngModel)]="emailForm.formData.NumberOfGuests"
+                  [ngModelOptions]="{standalone: true}" #numberOfGuests="ngModel" id="numberOfGuests" class="ng-touched"
+                  pattern="\d+">
+                <!-- Dodajte pattern atribut sa regularnim izrazom \d+ koji proverava da li je unesen broj -->
+                <div *ngIf="numberOfGuests?.invalid && (numberOfGuests?.dirty || numberOfGuests?.touched)">
+                  <div *ngIf="numberOfGuests?.errors?.required" class="error-message">Enter number of guests</div>
+                  <div *ngIf="numberOfGuests?.errors?.pattern" class="error-message">Enter a valid number</div>
+                  <!-- Dodajte poruku o grešci za neispravan unos -->
+                </div>
+              </div>
+              <div class="input-field">
+                <label for="checkIn">Check In:</label>
+                <input type="date" required id="checkIn" name="checkIn" [(ngModel)]="emailForm.formData.CheckIn"
+                  [ngModelOptions]="{standalone: true}" (ngModelChange)="checkDates()" #checkIn="ngModel"
+                  placeholder="Check In" class="ng-touched">
+                <div *ngIf="checkIn?.invalid && (checkIn?.dirty || checkIn?.touched)">
+                  <div *ngIf="checkIn?.errors?.required" class="error-message">Enter check in date</div>
+                </div>
+                <div *ngIf="dateError" class="error-message">Check In date cannot be after Check Out date</div>
+              </div>
+              <div class="input-field">
+                <label for="checkOut">Check Out:</label>
+                <input type="date" required id="checkOut" name="checkOut" [(ngModel)]="emailForm.formData.CheckOut"
+                  [ngModelOptions]="{standalone: true}" (ngModelChange)="checkDates()" placeholder="Check Out"
+                  class="ng-touched" #checkOut="ngModel">
+                <div *ngIf="checkOut?.invalid && (checkOut?.dirty || checkOut?.touched)">
+                  <div *ngIf="checkOut?.errors?.required" class="error-message">Enter check out date</div>
+                </div>
+              </div>
+              <div class="input-field">
+                <label for="additional">Additional</label>
+                <div class="mb-4">
+
+
+                  <div class="custom-control custom-checkbox mb-2.5 last:mb-0">
+                    <input id="fid_preview_checkboxes_option_2ED14DD9-4A0E-4FCD-BB4A-37759E6CC047"
+                      class="custom-control-input fb-builder-checkbox sr-only"
+                      name="option_checkboxes_option_2ED14DD9-4A0E-4FCD-BB4A-37759E6CC047" type="checkbox"
+                      value="place_holder_option_1" [(ngModel)]="emailForm.formData.CheckBox1" /><label
+                      class="custom-control-label relative flex cursor-pointer text-base text-black"
+                      for="fid_preview_checkboxes_option_2ED14DD9-4A0E-4FCD-BB4A-37759E6CC047"><span
+                        class="absolute left-0 top-0 flex h-full w-full items-center justify-center rounded opacity-0"></span>
+                      Pets</label>
+                  </div>
+                  <div class="custom-control custom-checkbox mb-2.5 last:mb-0">
+                    <input id="fid_preview_checkboxes_option_456E49C0-0296-40D6-9392-891ED69A2B04"
+                      class="custom-control-input fb-builder-checkbox sr-only"
+                      name="option_checkboxes_option_456E49C0-0296-40D6-9392-891ED69A2B04" type="checkbox"
+                      value="place_holder_option_2" [(ngModel)]="emailForm.formData.CheckBox2" /><label
+                      class="custom-control-label relative flex cursor-pointer text-base text-black"
+                      for="fid_preview_checkboxes_option_456E49C0-0296-40D6-9392-891ED69A2B04"><span
+                        class="absolute left-0 top-0 flex h-full w-full items-center justify-center rounded opacity-0"></span>Electricity</label>
+                  </div>
+                </div>
+              </div>
+              <div class="input-field">
+                <label for="typeOfCamping">Type of Camping:</label>
+                <select id="typeOfCamping" name="TypeOfCamping"
+                  class="styled-select w-full rounded border border-stroke bg-white px-5 py-3 text-base text-black outline-none focus:border-primary"
+                  [(ngModel)]="emailForm.formData.TypeOfCamping">
+                  <option value="motohome">Motohome</option>
+                  <option value="van">Van</option>
+                  <option value="caravan">Caravan</option>
+                  <option value="tent">Tent</option>
+                  <option value="tent-car">Tent-Car</option>
+                  <option value="bungalow">Bungalow</option>
+                </select>
+              </div>
+              <div class="input-message">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" [(ngModel)]="emailForm.formData.Message"
+                  class="custom-textarea"></textarea>
+              </div>
+
+              <input type="submit" value="SUBMIT" class="btn" (click)="sendReservationEmail()"
+                [disabled]="isSubmitDisabled()">
+              <div *ngIf="(name?.invalid && (name?.dirty || name?.touched))
+             || (email?.invalid && (email?.dirty || email?.touched))
+             || (phoneNumber?.invalid && (phoneNumber?.dirty || phoneNumber?.touched))
+             || (typeOfVehicle?.invalid && (typeOfVehicle?.dirty || typeOfVehicle?.touched))
+             || (numberOfGuests?.invalid && (numberOfGuests?.dirty || numberOfGuests?.touched))">
+                <div *ngIf="(name?.errors?.required)
+                 || (email?.errors?.required)
+                 || (phoneNumber?.errors?.required)
+                 || (typeOfVehicle?.errors?.required)
+                 || (numberOfGuests?.errors?.required) " class="error-message">
+                  Please fill in the required fields</div>
+              </div>
+            </form>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <app-footer></app-footer>

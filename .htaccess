@@ -1,0 +1,23 @@
+# Omogući rewrite engine
+RewriteEngine On
+
+# Ako traženi resurs (fajl ili folder) postoji, koristi ga direktno
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -f [OR]
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -d
+RewriteRule ^ - [L]
+
+# Ako je traženi fajl i ne postoji, pošalji 404
+RewriteCond %{REQUEST_URI} ^(\/[a-z_\-\s0-9\.]+)+\.[a-zA-Z]{2,4}$
+RewriteRule ^ - [L,R=404]
+
+# Sve ostalo prepusti Angularu (SPA)
+RewriteRule ^ /index.html
+
+# Dodaj HTTP zaglavlja za MP4 fajlove
+<IfModule mod_headers.c>
+  <FilesMatch "\.(mp4)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+    Header set Access-Control-Allow-Origin "*"
+    Header set Accept-Ranges "bytes"
+  </FilesMatch>
+</IfModule>

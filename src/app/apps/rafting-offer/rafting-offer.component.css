@@ -1,0 +1,146 @@
+.offers-container { 
+    display: flex;
+    flex-direction: column; /* Postavlja kartice jednu ispod druge */
+    gap: 20px;
+    padding: 20px;
+    align-items: center; /* Centriranje u sredini stranice */
+}
+
+.offer-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%; /* Kartice sada zauzimaju veći prostor */
+    max-width: 900px; /* Ograničenje širine na velikim ekranima */
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    background: white;
+}
+
+/* Povećavamo sliku */
+.offer-image {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+/* Tekst u sredini */
+.offer-info {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.offer-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.offer-duration {
+    font-size: 1.2rem;
+    color: gray;
+    margin-top: 5px;
+}
+
+/* Cijena i dugme u desnom kutu */
+.offer-price-btn {
+    text-align: right;
+}
+
+.offer-price {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #28a745;
+    margin-bottom: 10px;
+}
+
+
+.vertical-line {
+    width: 1px;
+    height: 50px;  /* Podesi visinu linije prema potrebi */
+    background-color: #000;  /* Boja linije, možeš promeniti */
+    margin: 0 15px;  /* Razmak od naslova i ostalih elemenata */
+}
+.details-button {
+    display: inline-block;
+    padding: 10px 14px;
+    background:  linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%);
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.details-button:hover {
+    background-color: #218838;
+}
+
+/* Mobilna verzija */
+@media (max-width: 767px) {
+    .offer-card {
+        flex-direction: column;
+        width: 90%; /* Malo šira na manjim ekranima */
+        text-align: center;
+        padding: 15px;
+    }
+
+    .offer-image {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 10px;
+    }
+
+    .offer-price-btn {
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+.footer4{
+    margin-left: 0px;
+}
+
+.scroll-link {
+    scroll-behavior: smooth;
+  }
+  
+  .round-social .link {
+    display: grid;
+    align-items: center;
+  }
+
+  .round-social {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px; /* Opciono: Postavite željeni razmak između ikona */
+    margin-bottom: 20px; 
+    /* Postavite željeni razmak ispod društvenih ikona */
+  }
+
+  @media (max-width: 767px) {
+    .round-social {
+        display: inline-flex; /* Postavite da elementi idu jedan ispod drugoga na manjim ekranima */
+        align-items: center; /* Centriranje po vertikali */
+    }
+}
+
+img{
+    display: inline;
+}
+
+@media only screen and (max-width: 767px) {
+  
+    .text-md-right {
+      margin-top: 50px!important;
+    }
+}
+
+.titlegallery {
+    font-family: "Kanit", sans-serif !important;
+    color: white !important;
+}
